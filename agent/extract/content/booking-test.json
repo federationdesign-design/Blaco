@@ -20,6 +20,7 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "[abc-single calendar=1]",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]

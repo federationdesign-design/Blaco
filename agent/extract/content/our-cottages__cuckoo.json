@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our Cottages</h5> <h1><span>Cuckoo</span></h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -114,6 +117,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h2>Perfect for families</h2> <div><span><span>Cuckoo</span> is an idyllic place for a holiday in the country, and perfect for families with young children. Set in our beautiful courtyard, <span>Cuckoo</span> sleeps 4 and has been sensitively renovated to make to most of its original charm. With features such as exposed beams and original windows that offer fantastic views over the farm. The accommodation is bright, airy and extremely comfortable. Please note this property is accessed up a set of steps.&nbsp;</span></div> <p>&nbsp;</p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +131,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Large sitting area</li> <li>Master Bedroom <span>super king</span> bed,</li> <li>with en-suite shower over bath</li> <li>Bed 2 – twin beds</li> <li>Patio area</li> <li><span>No pets&nbsp;</span></li> </ul>",
+                  "sansHeadings": {
+                    "h4": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -255,6 +264,10 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h2": "700",
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -292,6 +305,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>What you Get</h6> <h2>Amenities</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -524,6 +540,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -655,6 +674,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

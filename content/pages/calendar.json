@@ -30,6 +30,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "Contact Us",
+                  "titleSans": false,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

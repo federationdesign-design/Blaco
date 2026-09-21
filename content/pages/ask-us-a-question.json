@@ -17,6 +17,7 @@
                   "type": "form",
                   "variant": "full",
                   "title": "Ask us a Question",
+                  "titleSans": false,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

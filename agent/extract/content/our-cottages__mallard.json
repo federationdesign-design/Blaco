@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our Cottages</h5> <h1><span>Old Cart Shed C&nbsp;</span></h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -114,6 +117,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h2>Perfect for couples</h2> <p><span>It’s all about flexibility and comfort in these cottages with zip lock beds in the bedrooms and easy recliner chairs in the living room. Step out your french doors onto a generous sunny patio and enjoy a relaxing stay with us.&nbsp;</span></p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +131,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Large sitting area</li> <li>Master Bedroom with&nbsp;Superking or Twin</li> <li><span>with en-suite shower over bath</span></li> <li><span>Patio area</span></li> <li><span>No pets&nbsp;</span></li> </ul>",
+                  "sansHeadings": {
+                    "h4": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -309,6 +318,10 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h2": "700",
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -346,6 +359,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>What you Get</h6> <h2>Amenities</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -578,6 +594,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -709,6 +728,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

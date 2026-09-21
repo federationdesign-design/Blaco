@@ -20,6 +20,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h2>Cottage&nbsp;<span>Availability</span></h2> <p><span>Our Cottages do become booked at short notice so if you have some dates in mind, please contact us on the form to find out the&nbsp;<span>availability and our best prices.</span></span></p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -37,6 +40,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "Contact Us",
+                  "titleSans": false,
                   "fields": [
                     {
                       "tag": "input",

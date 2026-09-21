@@ -72,3 +72,12 @@ Approved by Steve, 2026-09-21.
 
 1. **Image enlargement.** Images may be enlarged up to 1.25× anywhere (`TOLERANCE` in `agent/scripts/image-fit.mjs`). Beyond that they fall back to natural size. `agent/CHECKPOINT-5.md` keeps the table of undersized images, updated for this limit, so larger originals can be supplied later.
 2. **Reading measure.** On text-heavy pages only (the policy pages, the accessibility statement, the modern slavery page, and the FAQ and testimonial detail pages), the text column is limited to a comfortable measure of around 75 characters. The limit is in `ch`, so it scales with the type and stays about 75 characters at every width. Page layout, backgrounds and images stay full width. This is the one exception to the no-cap rule in the Checkpoint 4 liquid layout decision.
+
+## Component match to live
+
+Approved by Steve, 2026-09-21. This corrects two earlier instructions ("semibold", and "headings stay Baskervville"): the live site is the reference for fonts and weights.
+
+1. **Headings.** Every heading that live sets in Raleway uses Raleway here too, read per module from the live CSS. This includes the cottage card titles, Local Interests titles, "We have availability", the home slide heading, the cottage "Features" heading, the contact form titles and the "From the A1..." subheadings. Baskervville remains the body font and the font of every heading live sets in Baskervville.
+2. **Weights** follow live. The amenity and Near by labels are Raleway bold.
+3. **Counter numbers** stay green (live's light grey fails contrast).
+4. **Hero and contact icons** stay green.

@@ -107,7 +107,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
+                  "html": "<h4 data-font=\"sans\">Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
                 }
               ]
             }
@@ -184,7 +184,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -523,6 +523,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",
@@ -607,7 +608,7 @@
     "features": [
       {
         "type": "text",
-        "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
+        "html": "<h4 data-font=\"sans\">Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
       }
     ],
     "gallery": [
@@ -673,7 +674,7 @@
                 "modules": [
                   {
                     "type": "text",
-                    "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                    "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                   }
                 ]
               },
@@ -1012,6 +1013,7 @@
                     "type": "form",
                     "variant": "quick",
                     "title": "",
+                    "titleSans": true,
                     "fields": [
                       {
                         "name": "et_pb_contact_name_0",

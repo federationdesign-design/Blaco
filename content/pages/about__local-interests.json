@@ -71,7 +71,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Idle Valley Nature Reserve, Retford</h3> <p>Just located just a couple of miles south of Blaco Hill, this spectacular wetland site covers an area of 450 hectares following the River Idle northwards. The size of 600 football pitches, it is one of the largest sites for nature conservation in the East Midlands.</p>"
+                  "html": "<h3 data-font=\"sans\">Idle Valley Nature Reserve, Retford</h3> <p>Just located just a couple of miles south of Blaco Hill, this spectacular wetland site covers an area of 450 hectares following the River Idle northwards. The size of 600 football pitches, it is one of the largest sites for nature conservation in the East Midlands.</p>"
                 }
               ]
             },
@@ -90,7 +90,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3> Sundown adventure Land</h3> <p>Sundown Adventureland is a theme park in Nottinghamshire, on the Yorkshire border, designed for the under 10’s. It’s a great value, fun family day out.</p>"
+                  "html": "<h3 data-font=\"sans\"> Sundown adventure Land</h3> <p>Sundown Adventureland is a theme park in Nottinghamshire, on the Yorkshire border, designed for the under 10’s. It’s a great value, fun family day out.</p>"
                 }
               ]
             },
@@ -109,7 +109,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Yorkshire Wildlife Park, Doncaster</h3> <p>Yorkshire Wildlife Park is South Yorkshire’s newest attraction. Situated just outside Doncaster, the park occupies 70 acres of a 260 acre site, offering a unique view into the world of animals including lions, tigers, leopards, girraffes and baboons.</p>"
+                  "html": "<h3 data-font=\"sans\">Yorkshire Wildlife Park, Doncaster</h3> <p>Yorkshire Wildlife Park is South Yorkshire’s newest attraction. Situated just outside Doncaster, the park occupies 70 acres of a 260 acre site, offering a unique view into the world of animals including lions, tigers, leopards, girraffes and baboons.</p>"
                 }
               ]
             }
@@ -132,7 +132,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Bawtry Paintball and Laser Fields</h3> <p>Europe’s Largest Paintball and outdoor Laser Combat Centre.Voted Britain’s Best Paintball Venue – 5 years running. Bawtry Paintball is a family run outdoor experience spanning across 352 acres of woodland.</p>"
+                  "html": "<h3 data-font=\"sans\">Bawtry Paintball and Laser Fields</h3> <p>Europe’s Largest Paintball and outdoor Laser Combat Centre.Voted Britain’s Best Paintball Venue – 5 years running. Bawtry Paintball is a family run outdoor experience spanning across 352 acres of woodland.</p>"
                 }
               ]
             },
@@ -151,7 +151,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Doncaster Racecourse </h3> <p>Racedays at Town Moor have been drawing appreciative crowds for centuries and Doncaster has long been regarded as one of the finest racecourses in Europe and the best place for horse racing in Yorkshire. Each year 35 meetings are held at Doncaster Racecourse.</p>"
+                  "html": "<h3 data-font=\"sans\">Doncaster Racecourse </h3> <p>Racedays at Town Moor have been drawing appreciative crowds for centuries and Doncaster has long been regarded as one of the finest racecourses in Europe and the best place for horse racing in Yorkshire. Each year 35 meetings are held at Doncaster Racecourse.</p>"
                 }
               ]
             },
@@ -170,7 +170,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Hatfield Outdoor Activity Centre</h3> <p>Located on the outskirts of Doncaster, Hatfield Outdoor Activity Centre is a fantastic facility for outdoor enthusiastics and novices alike. Set against an idyllic woodland backdrop, the activity centre offers a range of water-based and land-based activities for all ages and abilities.</p>"
+                  "html": "<h3 data-font=\"sans\">Hatfield Outdoor Activity Centre</h3> <p>Located on the outskirts of Doncaster, Hatfield Outdoor Activity Centre is a fantastic facility for outdoor enthusiastics and novices alike. Set against an idyllic woodland backdrop, the activity centre offers a range of water-based and land-based activities for all ages and abilities.</p>"
                 }
               ]
             }
@@ -193,7 +193,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Sherwood Forest visitors centre</h3> <p>Home of Robin Hood and the Major Oak</p>"
+                  "html": "<h3 data-font=\"sans\">Sherwood Forest visitors centre</h3> <p>Home of Robin Hood and the Major Oak</p>"
                 }
               ]
             },
@@ -212,7 +212,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Bawtry Golf Club</h3> <p>Rated as one of the best all season golf courses in Yorkshire, Bawtry Golf and Country Club is a ‘must play’ course for all golfers who want to combine challenging golf with a friendly and welcoming 19th!</p>"
+                  "html": "<h3 data-font=\"sans\">Bawtry Golf Club</h3> <p>Rated as one of the best all season golf courses in Yorkshire, Bawtry Golf and Country Club is a ‘must play’ course for all golfers who want to combine challenging golf with a friendly and welcoming 19th!</p>"
                 }
               ]
             },
@@ -231,7 +231,7 @@
                 },
                 {
                   "type": "text",
-                  "html": "<h3>Doncaster Dome &amp; Superbowl</h3> <p>Doncaster Dome &amp; Doncaster Superbowl is one of the region’s premier sports, leisure &amp; entertainment destinations, with over 50 activities including the hottest Tenpin bowling centre, a seven pooled water world, and the Uk’s only split level ice rink. With fantastic facilities in a family friendly environment its a great day out. </p>"
+                  "html": "<h3 data-font=\"sans\">Doncaster Dome &amp; Superbowl</h3> <p>Doncaster Dome &amp; Doncaster Superbowl is one of the region’s premier sports, leisure &amp; entertainment destinations, with over 50 activities including the hottest Tenpin bowling centre, a seven pooled water world, and the Uk’s only split level ice rink. With fantastic facilities in a family friendly environment its a great day out. </p>"
                 }
               ]
             }
@@ -258,7 +258,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -335,6 +335,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

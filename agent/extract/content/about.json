@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>ABout</h5> <h1>Blaco Hill Farm Cottages</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -114,6 +117,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h6>about</h6> <h2>Blaco Hill Cottages</h2> <p>We are a family run business, offering a selection of 12 self catering properties on our working farm on the North Nottinghamshire, South Yorkshire border.&nbsp;From converted courtyard barns to old pigstys and stables each property is unique in character. Our selection of self-catering accommodation is fully equipped with everything that you will need during your stay.</p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -131,6 +137,7 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<p>Blaco Hill Farm was acquired by the Lee Family in the 1950’s and we are now in the 4th Generation. Originally farming both arable and livestock the farm saw herds of Lincoln Red cows and flocks of Poll Dorset sheep in its fields along with Pigs and Turkeys. We now have a succler herd of Hereford cows, with calves in April and May, that can be seen on fields around the lakes throughout the summer or tucked up in cosy straw barns during the colder winter months.</p> <p>&nbsp;</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -142,6 +149,7 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<p>We now farm a large area of arable crops that include potatoes, carrots, sugarbeet, maize and cereals that you will find in many popular brands in the supermarkets.</p> <p>The cottages were developed in the early 2000s when the farm needed more space due to the ever increasing size of machinery and relocated to buildings on another part of the farm. The cottages have been sympathetically converted to retain many of the original windows and beams giving them a cosy rustic feel.</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -310,6 +318,10 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>Have a Question?</h6> <h2>Policies &amp; F.A.Q.</h2>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -511,6 +523,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h2>About Your Stay</h2> <p>We welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p> <p>&nbsp;</p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -620,6 +635,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

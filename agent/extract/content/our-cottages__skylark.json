@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our Cottages</h5> <h1><span>Skylark</span></h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -114,6 +117,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h2>Perfect for Couples</h2> <p><span>Set in the corner of our pretty courtyard, Skylarkoffers spacious modern living. With a mezzanine bedroom ensuite and large glass frontage the cottage is bright and airy. Being a stone’s throw from the Games Room Skylark is perfect for couples looking to settle the score!&nbsp;</span></p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +131,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom <span>kingsize</span> bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li><span>Pets accepted</span></li> </ul>",
+                  "sansHeadings": {
+                    "h4": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -255,6 +264,10 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h2": "700",
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -292,6 +305,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>What you Get</h6> <h2>Amenities</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -524,6 +540,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -655,6 +674,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

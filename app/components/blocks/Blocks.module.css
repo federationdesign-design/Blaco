@@ -304,6 +304,13 @@
   margin-top: var(--space-m);
 }
 
+/* Headings the live CSS sets in Raleway (marked by build-content.mjs). */
+.prose [data-font='sans'],
+.sliderTitle[data-font='sans'],
+.formTitle[data-font='sans'] {
+  font-family: var(--font-sans);
+}
+
 .prose p[data-kicker] + * {
   margin-top: var(--space-2xs);
 }
@@ -481,12 +488,12 @@
   text-decoration: none;
 }
 
-/* Labels that are Raleway on the live site (read per module from the live CSS:
-   amenity items and contact details). Headings stay Baskervville. */
+/* Labels that are Raleway bold on the live site (read per module from the
+   live CSS: amenity items and contact details). */
 .blurb[data-font='sans'] .blurbTitle {
   color: var(--colour-heading);
   font-family: var(--font-sans);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 /* Amenities: live filled lime circle with a white tick. */
@@ -545,7 +552,7 @@
 .toggle[data-font='sans'] .toggleTitle {
   color: var(--colour-ink);
   font-family: var(--font-sans);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .toggleTitle::-webkit-details-marker {

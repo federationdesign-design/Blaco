@@ -128,6 +128,19 @@ const clean = (html, url) => {
   return root.html().replace(/&nbsp;/g, ' ').replace(/ /g, ' ').replace(/\s+/g, ' ').replace(/<br>\s*<\/li>/g, '</li>').trim();
 };
 
+// Component match to live, decision 1: headings the live CSS sets in Raleway get
+// data-font="sans". Kickers (small headings above a larger one) are already
+// Raleway through their own style. Live sets every one of these at weight 700,
+// which is the default heading weight here.
+const markSans = (html, tags = {}) => {
+  const names = Object.keys(tags);
+  if (!names.length) return html;
+  for (const [tag, weight] of Object.entries(tags)) if (weight !== '700') problems.push(`unexpected live weight ${weight} on Raleway ${tag}`);
+  const $ = cheerio.load(`<div id="root">${html}</div>`, null, false);
+  $('#root').find(names.join(',')).attr('data-font', 'sans');
+  return $('#root').html();
+};
+
 const applyCopy = (html, url) => {
   let next = swallowFive(html, url);
   for (const [from, to, why] of COPY_FIXES[url] ?? []) {
@@ -159,7 +172,7 @@ const convertModule = (m, url) => {
   const html = (h) => applyCopy(clean(h, url), url);
   switch (m.type) {
     case 'text':
-      return { type: 'text', html: html(m.html) };
+      return { type: 'text', html: markSans(html(m.html), m.sansHeadings) };
     case 'image':
       return { type: 'image', image: img(m.src, m.alt, m.title, url), href: m.href && !m.href.startsWith('/media/') ? fixHref(m.href, url) : null };
     case 'blurb': {
@@ -192,6 +205,7 @@ const convertModule = (m, url) => {
         type: 'form',
         variant: m.fields.some((f) => f.name?.includes('_tel_')) ? 'full' : 'quick',
         title: m.title,
+        titleSans: Boolean(m.titleSans),
         fields: m.fields.map((f) => ({ name: f.name, label: f.label, type: f.tag === 'textarea' ? 'textarea' : f.fieldType === 'email' ? 'email' : f.name.includes('_tel_') ? 'tel' : 'text', required: f.required })),
         submit: m.submit || 'Submit',
         success: FORM_SUCCESS[url] ?? FORM_SUCCESS.default,
@@ -215,7 +229,7 @@ const convertModule = (m, url) => {
       return null;
     case 'fullwidth_slider':
     case 'slider':
-      return { type: 'slider', slides: m.slides.map((s) => ({ title: s.title, html: clean(s.html, url), image: s.background?.image ? img(s.background.image, '', '', url) : null })) };
+      return { type: 'slider', slides: m.slides.map((s) => ({ title: s.title, titleSans: Boolean(s.titleSans), html: clean(s.html, url), image: s.background?.image ? img(s.background.image, '', '', url) : null })) };
     default:
       problems.push(`${url}: unhandled module ${m.type}`);
       return null;

@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our cottages</h5> <h1>For six people</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +128,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h3> Swift - Sleeps 6</h3> <p>Swift offers colourful open plan living with a fully equipped kitchen and large dining table. The spacious master bedroom with ensuite one end and the twin rooms and family bathroom the other flank the main living area. </p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -154,6 +160,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h3> Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -206,6 +215,9 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h6>Discover</h6> <h2>The Cottages</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -278,6 +290,7 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h3>All with Modern Bathrooms &amp; Kitchens</h3> <ul> <li><span>Electric cooker &amp; hotplates</span><br><span></span></li> <li><span>Dishwasher</span><br><span></span></li> <li><span>Microwave</span><br><span></span></li> <li><span>Fridge with icebox or Freezer</span></li> <li><span>Gas Central Heating.</span></li> </ul>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 },
                 {
@@ -342,6 +355,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -422,6 +438,10 @@
                   "type": "text",
                   "id": "et_pb_text_6",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -513,6 +533,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

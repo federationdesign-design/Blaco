@@ -104,7 +104,7 @@
                     "height": 1038,
                     "alt": "Open-plan room under exposed roof beams with a round dining table, a kitchen with oak units and a sitting area with a TV"
                   },
-                  "html": "<h3> Cuckoo – Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
+                  "html": "<h3 data-font=\"sans\"> Cuckoo – Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
                   "href": "/our-cottages/cuckoo",
                   "label": "Read more"
                 }
@@ -121,7 +121,7 @@
                     "height": 1038,
                     "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
                   },
-                  "html": "<h3> Chaffinch – Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
+                  "html": "<h3 data-font=\"sans\"> Chaffinch – Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
                   "href": "/our-cottages/chaffinch-2",
                   "label": "Read more"
                 }
@@ -348,7 +348,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -425,6 +425,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

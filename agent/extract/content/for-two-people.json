@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our cottages</h5> <h1>For two people</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +128,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h3>Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -154,6 +160,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h3>Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -183,6 +192,9 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h3>Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -218,6 +230,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h3>Grey Goose - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -247,6 +262,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h3>Mallard - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -276,6 +294,9 @@
                   "type": "text",
                   "id": "et_pb_text_6",
                   "html": "<h3>Woodcock - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -324,6 +345,9 @@
                   "type": "text",
                   "id": "et_pb_text_7",
                   "html": "<h6>Discover</h6> <h2>The Cottages</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -396,6 +420,7 @@
                   "type": "text",
                   "id": "et_pb_text_8",
                   "html": "<h3>All with Modern Bathrooms &amp; Kitchens</h3> <ul> <li><span>Electric cooker &amp; hotplates</span><br><span></span></li> <li><span>Dishwasher</span><br><span></span></li> <li><span>Microwave</span><br><span></span></li> <li><span>Fridge with icebox or Freezer</span></li> <li><span>Gas Central Heating.</span></li> </ul>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 },
                 {
@@ -460,6 +485,9 @@
                   "type": "text",
                   "id": "et_pb_text_9",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -540,6 +568,10 @@
                   "type": "text",
                   "id": "et_pb_text_10",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -631,6 +663,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

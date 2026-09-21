@@ -95,6 +95,22 @@ const ralewayOn = (css, id, partRe) =>
     return new RegExp(`\\.${id}(?![0-9_])`).test(sel) && partRe.test(sel) && /Raleway/.test(body);
   });
 
+// Heading tags inside a text module that the live CSS sets in Raleway, with the
+// live weight, e.g. { h3: '700' }.
+const ralewayHeadings = (css, id) => {
+  const found = {};
+  if (!id) return found;
+  for (const rule of css.split('}')) {
+    const [sel, body = ''] = rule.split('{');
+    if (!/Raleway/.test(body)) continue;
+    for (const part of sel.split(',')) {
+      const m = part.match(new RegExp(`\\.${id}(?![0-9_])[^,]*?\\b(h[1-6])\\b`));
+      if (m) found[m[1]] = (body.match(/font-weight:\s*(\d+)/) || [])[1] ?? '400';
+    }
+  }
+  return found;
+};
+
 const KNOWN = ['text', 'image', 'blurb', 'button', 'toggle', 'accordion_item', 'testimonial', 'contact_form', 'number_counter', 'social_media_follow', 'map', 'gallery', 'fullwidth_slider', 'slider', 'divider', 'cta', 'fullwidth_header', 'code', 'video'];
 
 const parseModule = ($, el) => {
@@ -104,7 +120,7 @@ const parseModule = ($, el) => {
   const base = { type, id: (cls.match(/\bet_pb_[a-z_]+_\d+\b/) || [''])[0] };
   switch (type) {
     case 'text':
-      return { ...base, html: cleanHtml($, $m.find('.et_pb_text_inner').first()) };
+      return { ...base, html: cleanHtml($, $m.find('.et_pb_text_inner').first()), sansHeadings: ralewayHeadings(CSS, base.id) };
     case 'image': {
       const img = $m.find('img').first();
       const a = $m.find('a').first();
@@ -145,6 +161,7 @@ const parseModule = ($, el) => {
       return {
         ...base,
         title: text($, $m.find('.et_pb_contact_main_title')),
+        titleSans: ralewayOn(CSS, base.id, /main_title/),
         fields: $m.find('input, textarea, select').toArray().filter((f) => !['hidden', 'submit'].includes($(f).attr('type')) && !$(f).attr('name')?.includes('captcha')).map((f) => ({
           tag: f.tagName,
           name: $(f).attr('name'),
@@ -171,7 +188,7 @@ const parseModule = ($, el) => {
       return { ...base, images: $m.find('.et_pb_gallery_item').toArray().map((it) => { const img = $(it).find('img'); return { src: localMedia($(it).find('a').attr('href') || img.attr('src')), alt: img.attr('alt') ?? '', title: text($, $(it).find('.et_pb_gallery_title')), caption: text($, $(it).find('.et_pb_gallery_caption')) }; }) };
     case 'fullwidth_slider':
     case 'slider':
-      return { ...base, slides: $m.find('.et_pb_slide').toArray().map((s) => ({ id: ($(s).attr('class').match(/\bet_pb_slide_\d+\b/) || [''])[0], background: bgFromCss(CSS, ($(s).attr('class').match(/\bet_pb_slide_\d+\b/) || ['x'])[0]), title: text($, $(s).find('.et_pb_slide_title')), html: cleanHtml($, $(s).find('.et_pb_slide_content').first()), button: $(s).find('.et_pb_more_button').length ? { label: text($, $(s).find('.et_pb_more_button')), href: localHref($(s).find('.et_pb_more_button').attr('href')) } : null, image: localMedia($(s).find('.et_pb_slide_image img').attr('src')) })) };
+      return { ...base, slides: $m.find('.et_pb_slide').toArray().map((s) => ({ id: ($(s).attr('class').match(/\bet_pb_slide_\d+\b/) || [''])[0], background: bgFromCss(CSS, ($(s).attr('class').match(/\bet_pb_slide_\d+\b/) || ['x'])[0]), titleSans: ralewayOn(CSS, ($(s).attr('class').match(/\bet_pb_slide_\d+\b/) || ['x'])[0], /slide_title/), title: text($, $(s).find('.et_pb_slide_title')), html: cleanHtml($, $(s).find('.et_pb_slide_content').first()), button: $(s).find('.et_pb_more_button').length ? { label: text($, $(s).find('.et_pb_more_button')), href: localHref($(s).find('.et_pb_more_button').attr('href')) } : null, image: localMedia($(s).find('.et_pb_slide_image img').attr('src')) })) };
     case 'divider':
       return base;
     default:

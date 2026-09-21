@@ -20,6 +20,7 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h1>Checking in &amp; Checkout Process</h1>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -48,6 +49,7 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<p>Self check in is available from 15.00, unless prior arrangements have been agreed otherwise.</p> <p>&nbsp;</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -70,6 +72,7 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<p>On day of departure please vacate your cottage by 10.00am leaving the key in the door.</p> <p>&nbsp;</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -92,6 +95,7 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<p>Everything you need to know is detailed in your correspondence with us upon booking</p> <p>&nbsp;</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -120,6 +124,10 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h2": "700",
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -211,6 +219,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

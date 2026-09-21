@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>our cottages</h5> <h1>Blaco Hill Farm Cottages</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -114,6 +117,7 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<p>Here at Blaco Hill Cottages we aim to provide a relaxing and care-free environment that offers cosy cottages sympathetically restored with everything you need for a stay away from home. We welcome all people to stay at Blaco for whatever the reason you are travelling to this beautiful and peaceful part of the country , be it friends or families gathering, or if you are working in the area we can help.</p>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -150,6 +154,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h3> Swift - Sleeps 6</h3> <p>A large 3 bedroomed cottage on one floor, with kitchen-diner and large family lounge. Master bedroom with ensuite. One family bathroom with corner bath &amp; shower. Private patio through French doors from lounge.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -179,6 +186,9 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h3>Partridge - Sleeps 6</h3> <p><span>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</span></p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -208,6 +218,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h3> Chaffinch - Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -243,6 +256,9 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h3> Swallow - Sleeps 4</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -272,6 +288,9 @@
                   "type": "text",
                   "id": "et_pb_text_6",
                   "html": "<h3> Cuckoo - Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -301,6 +320,9 @@
                   "type": "text",
                   "id": "et_pb_text_7",
                   "html": "<h3> Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -336,6 +358,9 @@
                   "type": "text",
                   "id": "et_pb_text_8",
                   "html": "<h3> Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -365,6 +390,9 @@
                   "type": "text",
                   "id": "et_pb_text_9",
                   "html": "<h3> Mallard - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -394,6 +422,9 @@
                   "type": "text",
                   "id": "et_pb_text_10",
                   "html": "<h3> Greygoose - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -429,6 +460,9 @@
                   "type": "text",
                   "id": "et_pb_text_11",
                   "html": "<h3> Woodcock - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -458,6 +492,9 @@
                   "type": "text",
                   "id": "et_pb_text_12",
                   "html": "<h3> Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -510,6 +547,9 @@
                   "type": "text",
                   "id": "et_pb_text_13",
                   "html": "<h6>Discover</h6> <h2>The Cottages</h2> <p><span>A peaceful retreat of characterful,&nbsp; rustic cosy cottages set on top the hill for panoramic views of the beautiful countryside.&nbsp;</span></p>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -582,6 +622,7 @@
                   "type": "text",
                   "id": "et_pb_text_14",
                   "html": "<h3>All with Modern Bathrooms &amp; Kitchens</h3> <p><span>All our cottages have everything you need to make your stay a comfortable home away from home.&nbsp;</span></p> <ul> <li><span>Electric cooker &amp; hotplates</span><br> <span></span></li> <li><span>Dishwasher</span><br> <span></span></li> <li><span>Microwave</span><br> <span></span></li> <li><span>Fridge with icebox or Freezer</span></li> <li><span>Gas Central Heating.</span></li> </ul>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 },
                 {
@@ -646,6 +687,9 @@
                   "type": "text",
                   "id": "et_pb_text_15",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -726,6 +770,10 @@
                   "type": "text",
                   "id": "et_pb_text_16",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -817,6 +865,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

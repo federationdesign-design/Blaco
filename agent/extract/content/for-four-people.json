@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>Our cottages</h5> <h1>For four people</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -125,6 +128,9 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h3> Swallow – Sleeps 4</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -154,6 +160,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h3> Cuckoo – Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -183,6 +192,9 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h3> Chaffinch – Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
+                  "sansHeadings": {
+                    "h3": "700"
+                  },
                   "hiddenOn": []
                 },
                 {
@@ -231,6 +243,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h6>Discover</h6> <h2>The Cottages</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -303,6 +318,7 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h3>All with Modern Bathrooms &amp; Kitchens</h3> <ul> <li><span>Electric cooker &amp; hotplates</span><br><span></span></li> <li><span>Dishwasher</span><br><span></span></li> <li><span>Microwave</span><br><span></span></li> <li><span>Fridge with icebox or Freezer</span></li> <li><span>Gas Central Heating.</span></li> </ul>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 },
                 {
@@ -367,6 +383,9 @@
                   "type": "text",
                   "id": "et_pb_text_6",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -447,6 +466,10 @@
                   "type": "text",
                   "id": "et_pb_text_7",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -538,6 +561,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "tag": "input",

@@ -52,7 +52,9 @@ export function HeroSlider({ slides }: { slides: Slide[] }) {
         )}
       </ul>
       <div className={styles.sliderText}>
-        <h1 className={styles.sliderTitle}>{first.title}</h1>
+        <h1 className={styles.sliderTitle} data-font={first.titleSans ? 'sans' : undefined}>
+          {first.title}
+        </h1>
         <p className={styles.sliderSub} dangerouslySetInnerHTML={{ __html: first.html }} />
       </div>
       {slides.length > 1 && (

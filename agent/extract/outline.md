@@ -118,7 +118,7 @@ POST: Sample Page | undefined
 ## /  (Blaco Hill Farm Cottages | Holiday Rentals)
 - et_pb_section_0
   - fullwidth
-    - [4_4] slider: [{"id":"et_pb_slide_0","background":{"image":"/media/2021/02/blaco-hill-farm.jpg","gradient":null},"title":"A warm welcome from Victoria and Thomas","html":"<span>Blaco Hill Farm Cottages</span>","button":null,"image":null},{"id":"et_pb_slide_1","background":{"image":"/media/2021/02/IMG_4081-scaled.jpg","gradient":null},"title":"A warm welcome from Victoria and Thomas","html":"<span>Blaco Hill Far
+    - [4_4] slider: [{"id":"et_pb_slide_0","background":{"image":"/media/2021/02/blaco-hill-farm.jpg","gradient":null},"titleSans":true,"title":"A warm welcome from Victoria and Thomas","html":"<span>Blaco Hill Farm Cottages</span>","button":null,"image":null},{"id":"et_pb_slide_1","background":{"image":"/media/2021/02/IMG_4081-scaled.jpg","gradient":null},"titleSans":true,"title":"A warm welcome from Victoria and Th
 - et_pb_section_1
   - et_pb_row_0
     - [1_4] blurb: Nottinghamshire & Yorkshire border | icon:

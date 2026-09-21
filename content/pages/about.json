@@ -209,7 +209,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">Have a Question?</p> <h2>Policies &amp; F.A.Q.</h2>"
+                  "html": "<p data-kicker=\"\">Have a Question?</p> <h2 data-font=\"sans\">Policies &amp; F.A.Q.</h2>"
                 },
                 {
                   "type": "button",
@@ -460,6 +460,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

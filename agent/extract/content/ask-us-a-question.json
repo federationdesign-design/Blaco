@@ -20,6 +20,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "Ask us a Question",
+                  "titleSans": false,
                   "fields": [
                     {
                       "tag": "input",
@@ -86,6 +87,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]

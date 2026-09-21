@@ -104,7 +104,7 @@
                     "height": 1038,
                     "alt": "Kitchen-diner with oak units and a large oak dining table, looking through to the sitting room"
                   },
-                  "html": "<h3> Swift - Sleeps 6</h3> <p>Swift offers colourful open plan living with a fully equipped kitchen and large dining table. The spacious master bedroom with ensuite one end and the twin rooms and family bathroom the other flank the main living area. </p>",
+                  "html": "<h3 data-font=\"sans\"> Swift - Sleeps 6</h3> <p>Swift offers colourful open plan living with a fully equipped kitchen and large dining table. The spacious master bedroom with ensuite one end and the twin rooms and family bathroom the other flank the main living area. </p>",
                   "href": "/our-cottages/swift",
                   "label": "Read more"
                 }
@@ -121,7 +121,7 @@
                     "height": 915,
                     "alt": "Open-plan living room with black leather sofas and armchairs, a yellow rug, a kitchen with oak units and glazed doors to the patio"
                   },
-                  "html": "<h3> Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
+                  "html": "<h3 data-font=\"sans\"> Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
                   "href": "/our-cottages/partridge",
                   "label": "Read more"
                 }
@@ -138,7 +138,7 @@
                     "height": 1032,
                     "alt": "Double bedroom with an oak bed, oak bedside chests with lamps and a checked armchair"
                   },
-                  "html": "<h3> Swallow – Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
+                  "html": "<h3 data-font=\"sans\"> Swallow – Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
                   "href": "/our-cottages/swallow",
                   "label": "Read more"
                 }
@@ -365,7 +365,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -442,6 +442,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

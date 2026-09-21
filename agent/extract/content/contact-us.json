@@ -23,6 +23,9 @@
                   "type": "text",
                   "id": "et_pb_text_0",
                   "html": "<h5>GET IN TOUCH</h5> <h1>Contact Us</h1>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -134,6 +137,7 @@
                   "type": "text",
                   "id": "et_pb_text_1",
                   "html": "<h2>We welcome all people – families, friends, large groups exclusively, workers/contractors, moving house/ longer term lets.</h2>",
+                  "sansHeadings": {},
                   "hiddenOn": []
                 }
               ]
@@ -159,6 +163,7 @@
                   "type": "contact_form",
                   "id": "et_pb_contact_form_0",
                   "title": "Send us a message",
+                  "titleSans": false,
                   "fields": [
                     {
                       "tag": "input",
@@ -222,6 +227,9 @@
                   "type": "text",
                   "id": "et_pb_text_2",
                   "html": "<h6>Information</h6> <h2>Driving Directions</h2>",
+                  "sansHeadings": {
+                    "h6": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -239,6 +247,9 @@
                   "type": "text",
                   "id": "et_pb_text_3",
                   "html": "<h5>From the A1 southbound</h5> <ul> <li>Leave at junction 34, on A614 Bawtry.</li> <li>In Bawtry at the traffic lights turn left for Gainsborough A631.</li> <li>In the village of Eveton take a right turn by The Sun Inn to Mattersey.</li> <li>In the village of Mattersey take the first left past the post office signposted Sutton cum Sound.</li> <li>Follow the road out of the village for half a mile.</li> <li>Blaco Hill Farm Cottages is on the left hand side before the hill.</li> </ul>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -250,6 +261,9 @@
                   "type": "text",
                   "id": "et_pb_text_4",
                   "html": "<h5>From the A1 northbound</h5> <ul> <li>Leave at the junction signed Retford A620 and turn left for Retford.</li> <li>Follow the road for approx 2 miles and take a left turn to Suttom cum Lound.</li> <li>Follow this road over the canal and railway to the crossroads.</li> <li>Go straight on into thevillage of Sutton and pass through.</li> <li>Follow the road for approx 1.5miles, Blaco Hill Farm Cottages is on the right hand side just past the bend over a hill.</li> </ul>",
+                  "sansHeadings": {
+                    "h5": "700"
+                  },
                   "hiddenOn": []
                 }
               ]
@@ -278,6 +292,10 @@
                   "type": "text",
                   "id": "et_pb_text_5",
                   "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "sansHeadings": {
+                    "h6": "700",
+                    "h2": "700"
+                  },
                   "hiddenOn": []
                 }
               ]

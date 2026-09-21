@@ -17,6 +17,7 @@
                   "type": "form",
                   "variant": "full",
                   "title": "Request a booking form",
+                  "titleSans": false,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

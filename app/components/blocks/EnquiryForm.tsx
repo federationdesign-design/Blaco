@@ -64,7 +64,11 @@ export function EnquiryForm({ module }: { module: FormModule }) {
   if (status === 'sent') {
     return (
       <div id="enquiry" className={styles.formStatus} data-state="sent" role="status" tabIndex={-1} ref={statusRef}>
-        {module.title && <h2 className={styles.formTitle}>{module.title}</h2>}
+        {module.title && (
+          <h2 className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
+            {module.title}
+          </h2>
+        )}
         <p>{module.success}</p>
       </div>
     );
@@ -80,7 +84,11 @@ export function EnquiryForm({ module }: { module: FormModule }) {
       noValidate
       onSubmit={onSubmit}
     >
-      {module.title && <h2 className={styles.formTitle}>{module.title}</h2>}
+      {module.title && (
+        <h2 className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
+          {module.title}
+        </h2>
+      )}
       <input type="hidden" name="form" value={module.variant} />
       <input type="hidden" name="page" value={page} />
       <input type="hidden" name="title" value={module.title} />

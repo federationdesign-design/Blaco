@@ -123,7 +123,7 @@
                     "height": 1038,
                     "alt": "Kitchen-diner with oak units and a large oak dining table, looking through to the sitting room"
                   },
-                  "html": "<h3> Swift - Sleeps 6</h3> <p>A large 3 bedroomed cottage on one floor, with kitchen-diner and large family lounge. Master bedroom with ensuite. One family bathroom with corner bath &amp; shower. Private patio through French doors from lounge.</p>",
+                  "html": "<h3 data-font=\"sans\"> Swift - Sleeps 6</h3> <p>A large 3 bedroomed cottage on one floor, with kitchen-diner and large family lounge. Master bedroom with ensuite. One family bathroom with corner bath &amp; shower. Private patio through French doors from lounge.</p>",
                   "href": "/our-cottages/swift",
                   "label": "Read more"
                 }
@@ -140,7 +140,7 @@
                     "height": 915,
                     "alt": "Open-plan living room with black leather sofas and armchairs, a yellow rug, a kitchen with oak units and glazed doors to the patio"
                   },
-                  "html": "<h3>Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
+                  "html": "<h3 data-font=\"sans\">Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
                   "href": "/our-cottages/partridge",
                   "label": "Read more"
                 }
@@ -157,7 +157,7 @@
                     "height": 1038,
                     "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
                   },
-                  "html": "<h3> Chaffinch - Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
+                  "html": "<h3 data-font=\"sans\"> Chaffinch - Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
                   "href": "/our-cottages/chaffinch-2",
                   "label": "Read more"
                 }
@@ -178,7 +178,7 @@
                     "height": 1032,
                     "alt": "Double bedroom with an oak bed, oak bedside chests with lamps and a checked armchair"
                   },
-                  "html": "<h3> Swallow - Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
+                  "html": "<h3 data-font=\"sans\"> Swallow - Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
                   "href": "/our-cottages/swallow",
                   "label": "Read more"
                 }
@@ -195,7 +195,7 @@
                     "height": 1038,
                     "alt": "Open-plan room under exposed roof beams with a round dining table, a kitchen with oak units and a sitting area with a TV"
                   },
-                  "html": "<h3> Cuckoo - Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
+                  "html": "<h3 data-font=\"sans\"> Cuckoo - Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
                   "href": "/our-cottages/cuckoo",
                   "label": "Read more"
                 }
@@ -212,7 +212,7 @@
                     "height": 1035,
                     "alt": "Open-plan living area with a leather sofa, armchair, coffee table and TV, and a kitchen behind a half wall"
                   },
-                  "html": "<h3> Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "html": "<h3 data-font=\"sans\"> Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/nightingale",
                   "label": "Read more"
                 }
@@ -233,7 +233,7 @@
                     "height": 1038,
                     "alt": "Open-plan room with a leather sofa, a round dining table with two chairs and a kitchen with oak units"
                   },
-                  "html": "<h3> Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "html": "<h3 data-font=\"sans\"> Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/skylark",
                   "label": "Read more"
                 }
@@ -250,7 +250,7 @@
                     "height": 628,
                     "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
                   },
-                  "html": "<h3> Mallard - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "html": "<h3 data-font=\"sans\"> Mallard - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/mallard",
                   "label": "Read more"
                 }
@@ -267,7 +267,7 @@
                     "height": 628,
                     "alt": "Twin bedroom with two single beds with green striped covers beneath a painting of a tree-lined path"
                   },
-                  "html": "<h3> Greygoose - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "html": "<h3 data-font=\"sans\"> Greygoose - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/grey-goose",
                   "label": "Read more"
                 }
@@ -288,7 +288,7 @@
                     "height": 628,
                     "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
                   },
-                  "html": "<h3> Woodcock - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "html": "<h3 data-font=\"sans\"> Woodcock - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/woodcock",
                   "label": "Read more"
                 }
@@ -305,7 +305,7 @@
                     "height": 632,
                     "alt": "Sitting room with a leather sofa, armchair, coffee table, TV unit and a chest of drawers with a lamp"
                   },
-                  "html": "<h3> Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
+                  "html": "<h3 data-font=\"sans\"> Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
                   "href": "/our-cottages/wren",
                   "label": "Read more"
                 }
@@ -532,7 +532,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -609,6 +609,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

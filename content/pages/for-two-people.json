@@ -104,7 +104,7 @@
                     "height": 1035,
                     "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
-                  "html": "<h3>Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "html": "<h3 data-font=\"sans\">Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/nightingale",
                   "label": "Read more"
                 }
@@ -121,7 +121,7 @@
                     "height": 1035,
                     "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
-                  "html": "<h3>Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "html": "<h3 data-font=\"sans\">Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/skylark",
                   "label": "Read more"
                 }
@@ -138,7 +138,7 @@
                     "height": 1035,
                     "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
-                  "html": "<h3>Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
+                  "html": "<h3 data-font=\"sans\">Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
                   "href": "/our-cottages/wren",
                   "label": "Read more"
                 }
@@ -159,7 +159,7 @@
                     "height": 628,
                     "alt": "Twin bedroom with two single beds with green striped covers beneath a painting of a tree-lined path"
                   },
-                  "html": "<h3>Grey Goose - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "html": "<h3 data-font=\"sans\">Grey Goose - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/grey-goose",
                   "label": "Read more"
                 }
@@ -176,7 +176,7 @@
                     "height": 628,
                     "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
                   },
-                  "html": "<h3>Mallard - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "html": "<h3 data-font=\"sans\">Mallard - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/mallard",
                   "label": "Read more"
                 }
@@ -193,7 +193,7 @@
                     "height": 628,
                     "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
                   },
-                  "html": "<h3>Woodcock - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
+                  "html": "<h3 data-font=\"sans\">Woodcock - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/woodcock",
                   "label": "Read more"
                 }
@@ -420,7 +420,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
                 }
               ]
             },
@@ -497,6 +497,7 @@
                   "type": "form",
                   "variant": "quick",
                   "title": "",
+                  "titleSans": true,
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",
