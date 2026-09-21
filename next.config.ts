@@ -5,6 +5,8 @@ import type { NextConfig } from 'next';
 const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
+    // Liquid layout: widths up to 2800px screens (and 3840 for high density).
+    deviceSizes: [640, 750, 828, 1080, 1200, 1440, 1920, 2048, 2560, 2800, 3840],
   },
   async redirects() {
     return [

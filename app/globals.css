@@ -33,13 +33,15 @@
      else inherits it. */
   --font-sans: var(--font-raleway), Helvetica, Arial, sans-serif;
 
-  /* Liquid type scale, 390px to 1440px */
-  --step--1: clamp(0.875rem, 0.84rem + 0.15vw, 0.95rem);
-  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
-  --step-1: clamp(1.2rem, 1.11rem + 0.38vw, 1.45rem);
-  --step-2: clamp(1.44rem, 1.26rem + 0.75vw, 1.95rem);
-  --step-3: clamp(1.73rem, 1.41rem + 1.3vw, 2.6rem);
-  --step-4: clamp(2.07rem, 1.65rem + 1.75vw, 3.125rem);
+  /* Liquid type scale. Each step grows linearly from 390px to 1440px; above
+     1440px the root font size grows with the viewport (see html below), so
+     type, spacing and gutters keep scaling in proportion to 2800px and beyond. */
+  --step--1: clamp(0.875rem, 0.8471rem + 0.1143vw, 0.95rem);
+  --step-0: clamp(1rem, 0.9536rem + 0.1905vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.107rem + 0.381vw, 1.45rem);
+  --step-2: clamp(1.44rem, 1.251rem + 0.7771vw, 1.95rem);
+  --step-3: clamp(1.73rem, 1.407rem + 1.326vw, 2.6rem);
+  --step-4: clamp(2.07rem, 1.678rem + 1.608vw, 3.125rem);
 
   --leading-tight: 1.2;
   --leading-body: 1.7;
@@ -50,13 +52,11 @@
   --space-xs: 0.75rem;
   --space-s: 1rem;
   --space-m: 1.5rem;
-  --space-l: clamp(2rem, 1.6rem + 1.6vw, 3rem);
-  --space-xl: clamp(3rem, 2.3rem + 2.8vw, 4.5rem);
+  --space-l: clamp(2rem, 1.629rem + 1.524vw, 3rem);
+  --space-xl: clamp(3rem, 2.443rem + 2.286vw, 4.5rem);
 
   /* Layout */
-  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
-  --content-max: 80rem;
-  --measure: 68ch;
+  --gutter: clamp(1rem, 0.4429rem + 2.286vw, 2.5rem);
   --header-height: 4rem;
   --touch-target: 44px;
   --radius: 0;
@@ -82,6 +82,9 @@ html[data-menu-open] {
 }
 
 html {
+  /* Liquid above 1440px: 1.1111vw is 16px at 1440px and 31px at 2800px. Below
+     1440px the visitor's default font size (normally 16px) applies. */
+  font-size: max(100%, 1.1111vw);
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   scroll-padding-top: calc(var(--header-height) + var(--space-s));
@@ -180,6 +183,78 @@ textarea {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
+}
+
+/*
+  Liquid layout, decision 5: never enlarge an image beyond its original pixels.
+  app/lib/image-fit.ts marks an image with data-fit-from (a viewport width) when
+  it would otherwise be enlarged from that width on. From there a cropped or
+  background image is shown at its natural size, centred, instead of being
+  scaled up; a content image in the flow keeps its natural width.
+*/
+img[data-fit-from][data-img='figure'],
+img[data-fit-from][data-img='map'] {
+  width: auto;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+img[data-img][data-fit-from='0'] {
+  object-fit: none;
+}
+
+@media (min-width: 768px) {
+  img[data-img][data-fit-from='768'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  img[data-img][data-fit-from='1024'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  img[data-img][data-fit-from='1280'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1440px) {
+  img[data-img][data-fit-from='1440'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1600px) {
+  img[data-img][data-fit-from='1600'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  img[data-img][data-fit-from='1920'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 2240px) {
+  img[data-img][data-fit-from='2240'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 2560px) {
+  img[data-img][data-fit-from='2560'] {
+    object-fit: none;
+  }
+}
+
+@media (min-width: 2800px) {
+  img[data-img][data-fit-from='2800'] {
+    object-fit: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

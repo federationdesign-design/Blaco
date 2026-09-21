@@ -47,3 +47,21 @@ Approved by Steve, 2026-09-21, with these changes.
 4. **Cancellation FAQ.** Replace the ungrammatical sentence with "Depending on how close to your arrival date you cancel, you may lose your deposit."
 5. **Alt text.** View each image and write alt text describing what it actually shows. Never derive it from file names.
 6. **Green bands.** Keep the dark wash under white text on the green bands.
+
+## Checkpoint 4
+
+Approved by Steve, 2026-09-21.
+
+1. **Modern slavery page** keeps the name "Modern Slavery Statement".
+2. **About page FAQs** stay as they are (the parking toggle and the four newer FAQs are not changed or added).
+
+### Liquid, full-width layout
+
+This overrides every max-width rule in `BRIEF.md` and earlier decisions.
+
+1. No page container, section or text block is capped at any width. (The build had no 1100px cap; the caps removed were the 80rem content container, the 68ch text measure, 48rem forms, the 40ch footer strapline, the 30rem footer rule and the 45rem cookie panel.)
+2. Side gutters scale with the viewport using `clamp()`, not fixed pixels.
+3. Type keeps scaling with viewport width all the way to 2800px and does not stop growing at 1440px.
+4. Images, galleries, hero slides and cards scale up with the width, and every `next/image` `sizes` attribute serves files large enough for large screens.
+5. An image whose original is smaller than its display size at 2800px is never stretched into blur. Such images are listed with their original sizes in `agent/CHECKPOINT-5.md` so Steve can supply larger versions.
+6. Column counts per breakpoint stay as they are; cards grow rather than multiply.

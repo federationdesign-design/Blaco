@@ -3,6 +3,7 @@ import styles from './CottageTemplate.module.css';
 import blocks from '../blocks/Blocks.module.css';
 import { BackgroundImage, ButtonLink, Highlights, ModuleView, Sections } from '../blocks/Sections';
 import { RichText } from '../blocks/RichText';
+import { fitProps } from '../../lib/image-fit';
 import type { Cottage } from '../../lib/content';
 
 // Cottage pages lead on mobile with the essentials (brief 5.10): name, rooms and
@@ -50,7 +51,8 @@ export function CottageTemplate({ cottage }: { cottage: Cottage }) {
                 alt={cottage.map.alt}
                 width={cottage.map.width}
                 height={cottage.map.height}
-                sizes="(min-width: 1280px) 1200px, 100vw"
+                sizes="100vw"
+                {...fitProps('map', cottage.map.src)}
               />
             </figure>
           )}

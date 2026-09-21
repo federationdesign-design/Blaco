@@ -8,8 +8,6 @@
     'description'
     'gallery';
   gap: var(--space-l);
-  max-width: var(--content-max);
-  margin-inline: auto;
   padding: var(--space-l) var(--gutter) var(--space-xl);
 }
 

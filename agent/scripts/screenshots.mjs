@@ -13,6 +13,7 @@ const out = join(repo, 'agent', 'screenshots');
 await mkdir(out, { recursive: true });
 
 const index = JSON.parse(await readFile(join(repo, 'content', 'index.json'), 'utf8'));
+const MEDIA = JSON.parse(await readFile(join(repo, 'content', 'media.json'), 'utf8'));
 
 // One representative page per template, plus pages Steve asked to see.
 const SHOTS = [
@@ -63,11 +64,29 @@ const settle = async (page) => {
 
 // Layout checks on every page.
 for (const { url } of index) {
-  for (const width of [360, 390, 1280, 2800]) {
+  for (const width of [360, 390, 1280, 1920, 2800]) {
     const { page, context, status } = await open(width, url);
     if (status !== 200) problems.push(`${url} returned ${status}`);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     if (overflow > 0) problems.push(`${url}: horizontal overflow of ${overflow}px at ${width}px`);
+    // Liquid layout, decision 5: no image may render larger than its original.
+    if (width >= 1280) {
+      const stretched = await page.evaluate((media) =>
+        [...document.querySelectorAll('img[data-img]')]
+          .map((img) => {
+            const raw = img.getAttribute('src') || '';
+            const src = raw.startsWith('/_next/image') ? decodeURIComponent(new URL(raw, location.href).searchParams.get('url')) : raw;
+            const nat = media[src];
+            const r = img.getBoundingClientRect();
+            if (!nat || r.width < 1) return null;
+            const fit = getComputedStyle(img).objectFit;
+            const scale = fit === 'none' ? 1 : fit === 'cover' ? Math.max(r.width / nat.width, r.height / nat.height) : r.width / nat.width;
+            return scale > 1.02 ? `${img.dataset.img} ${src} x${scale.toFixed(2)}` : null;
+          })
+          .filter(Boolean),
+      MEDIA);
+      stretched.forEach((s) => problems.push(`${url}: image enlarged at ${width}px: ${s}`));
+    }
     if (width === 390 || width === 1280) {
       const small = await page.evaluate(() =>
         [...document.querySelectorAll('a, button, summary, input, textarea')]
@@ -85,10 +104,10 @@ for (const { url } of index) {
 }
 
 for (const [name, url] of SHOTS) {
-  for (const width of [390, 1280]) {
-    const { page, context } = await open(width, url, width === 390 ? 844 : 900);
+  for (const width of [390, 1280, 2800]) {
+    const { page, context } = await open(width, url, width === 390 ? 844 : width === 2800 ? 1600 : 900);
     await settle(page);
-    await page.screenshot({ path: join(out, `${name}-${width}.jpg`), fullPage: true, type: 'jpeg', quality: 80 });
+    await page.screenshot({ path: join(out, `${name}-${width}.jpg`), fullPage: true, type: 'jpeg', quality: width === 2800 ? 70 : 80 });
     await context.close();
   }
 }

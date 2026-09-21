@@ -7,6 +7,7 @@ import { Gallery } from './Gallery';
 import { HeroSlider } from './HeroSlider';
 import { EnquiryForm } from './EnquiryForm';
 import { PostList } from './PostList';
+import { columnSizes, fitProps } from '../../lib/image-fit';
 import type { Background, BlurbModule, ButtonModule, Column, Module, Row, Section } from '../../lib/content';
 
 // Renders the sections of a ported page. Each section kind has its own
@@ -33,6 +34,7 @@ export function BackgroundImage({ background, priority }: { background: Backgrou
       fill
       sizes="100vw"
       priority={priority}
+      {...fitProps('background', background.image.src)}
     />
   );
 }
@@ -141,7 +143,7 @@ function ColumnView({ column, postsCategory }: { column: Column; postsCategory?:
   return (
     <div className={styles.column} data-size={column.size}>
       {column.modules.map((module, i) => (
-        <ModuleView key={i} module={module} postsCategory={postsCategory} />
+        <ModuleView key={i} module={module} postsCategory={postsCategory} columnSize={column.size} />
       ))}
     </div>
   );
@@ -155,7 +157,15 @@ export function ButtonLink({ module }: { module: ButtonModule }) {
   );
 }
 
-export function ModuleView({ module, postsCategory }: { module: Module; postsCategory?: 'faq' | 'testimonial' }) {
+export function ModuleView({
+  module,
+  postsCategory,
+  columnSize,
+}: {
+  module: Module;
+  postsCategory?: 'faq' | 'testimonial';
+  columnSize?: string;
+}) {
   switch (module.type) {
     case 'text':
       return <RichText html={module.html} />;
@@ -170,7 +180,8 @@ export function ModuleView({ module, postsCategory }: { module: Module; postsCat
           alt={module.image.alt}
           width={module.image.width}
           height={module.image.height}
-          sizes="(min-width: 1024px) 50vw, 100vw"
+          sizes={columnSizes(columnSize)}
+          {...fitProps('figure', module.image.src)}
         />
       );
       return module.href ? (
@@ -212,6 +223,8 @@ export function ModuleView({ module, postsCategory }: { module: Module; postsCat
                 alt=""
                 width={60}
                 height={60}
+                sizes="(min-width: 1440px) 3.4vw, 48px"
+                {...fitProps('portrait', module.portrait.src)}
               />
             )}
             <span>{module.author}</span>
@@ -252,7 +265,8 @@ export function ModuleView({ module, postsCategory }: { module: Module; postsCat
                 alt={module.image.alt}
                 width={module.image.width}
                 height={module.image.height}
-                sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                sizes="(min-width: 1024px) 34vw, (min-width: 768px) 50vw, 100vw"
+                {...fitProps('card', module.image.src)}
               />
             </figure>
           )}
