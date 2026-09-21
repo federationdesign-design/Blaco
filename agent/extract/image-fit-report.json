@@ -1,10 +1,10 @@
 [
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/10/wren-exterior.jpg",
     "natural": "1000 x 700",
-    "fitFrom": 1152,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 2.8,
     "neededOriginal": "2800 x 1960",
@@ -26,11 +26,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/08/blaco-hill-farm.jpg",
     "natural": "1024 x 768",
-    "fitFrom": 1280,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 2.73,
     "neededOriginal": "2796 x 2097",
@@ -39,11 +39,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2025/05/Partridge-new-image.jpg",
     "natural": "1512 x 915",
-    "fitFrom": 1760,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.85,
     "neededOriginal": "2798 x 1693",
@@ -208,11 +208,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/08/main-image-test.jpg",
     "natural": "1800 x 885",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1381",
@@ -221,11 +221,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/TOWELS.jpg",
     "natural": "1800 x 1200",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1872",
@@ -234,11 +234,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/table-football.jpg",
     "natural": "1800 x 1200",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1872",
@@ -247,11 +247,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/08/family.jpg",
     "natural": "1800 x 1200",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1872",
@@ -260,11 +260,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/swallow-master.jpg",
     "natural": "1800 x 1032",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1610",
@@ -293,11 +293,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/Chaffinch-lounge.jpg",
     "natural": "1800 x 1038",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1620",
@@ -306,11 +306,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/Cuckoo-lounge-flipped.jpg",
     "natural": "1800 x 1038",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1620",
@@ -319,11 +319,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/Pheasant-etc.jpg",
     "natural": "1800 x 1078",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1682",
@@ -334,11 +334,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/nightingale.jpg",
     "natural": "1800 x 1035",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1615",
@@ -347,11 +347,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/10/skylark-main-1.jpg",
     "natural": "1800 x 1038",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1620",
@@ -360,11 +360,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/swift-kitchen.jpg",
     "natural": "1800 x 1038",
-    "fitFrom": 2240,
-    "exempt": false,
+    "fitFrom": null,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.56,
     "neededOriginal": "2808 x 1620",
@@ -619,11 +619,11 @@
     ]
   },
   {
-    "role": "background",
+    "role": "hero",
     "src": "/media/2020/09/a-lion-cub-panthera-leo-lies-on-the-ground-and-loo-L9RVWV8-scaled-1.jpg",
     "natural": "2560 x 1707",
     "fitFrom": null,
-    "exempt": false,
+    "exempt": true,
     "boxAt2800": "2800 x 933",
     "enlargementAt2800": 1.09,
     "neededOriginal": "2791 x 1861",

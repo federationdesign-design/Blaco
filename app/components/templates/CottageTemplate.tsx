@@ -14,7 +14,7 @@ export function CottageTemplate({ cottage }: { cottage: Cottage }) {
     <div data-template="cottage">
       <section className={blocks.hero}>
         <div className={blocks.heroMedia} data-overlay={cottage.background?.overlay}>
-          <BackgroundImage background={cottage.background} priority />
+          <BackgroundImage background={cottage.background} priority role="hero" />
           <div className={blocks.heroInner}>
             <RichText html={cottage.heading} />
           </div>

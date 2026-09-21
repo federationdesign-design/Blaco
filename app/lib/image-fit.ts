@@ -6,13 +6,14 @@
 // true size), and above that width globals.css shows it at natural size.
 import FIT from '../../content/image-fit.json';
 
-export type ImageRole = 'background' | 'slider' | 'gallery' | 'card' | 'figure' | 'map' | 'portrait';
+export type ImageRole = 'hero' | 'background' | 'slider' | 'gallery' | 'card' | 'figure' | 'map' | 'portrait';
 
 type FitProps = { 'data-img': ImageRole; 'data-fit-from'?: number; unoptimized?: boolean };
 
-// Home page decision 1: hero slides always cover the full width, so they are
-// exempt from the natural-size fallback and may be enlarged beyond 1.25x.
-const EXEMPT: ImageRole[] = ['slider'];
+// Home page decisions 1 and 3: home hero slides and every page hero always
+// cover the full width, so they are exempt from the natural-size fallback and
+// may be enlarged beyond 1.25x.
+const EXEMPT: ImageRole[] = ['slider', 'hero'];
 
 export function fitProps(role: ImageRole, src: string): FitProps {
   if (EXEMPT.includes(role)) return { 'data-img': role };

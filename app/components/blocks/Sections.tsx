@@ -46,7 +46,7 @@ function SectionView({ section, postsCategory, priority }: { section: Section; p
     return (
       <section className={styles.hero}>
         <div className={styles.heroMedia} data-overlay={section.background?.overlay}>
-          <BackgroundImage background={section.background} priority={priority} />
+          <BackgroundImage background={section.background} priority={priority} role="hero" />
           <div className={styles.heroInner}>
             <Rows rows={[headingRow]} />
           </div>

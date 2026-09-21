@@ -72,8 +72,9 @@ for (const { url } of index) {
     // No image may render more than 1.25x its original (Checkpoint 5 decision 1).
     if (width >= 1280) {
       const stretched = await page.evaluate((media) =>
-        // Hero slides are exempt: they always fill the width (home page decision 1).
-        [...document.querySelectorAll('img[data-img]:not([data-img="slider"])')]
+        // Home slides and page heroes are exempt: they always fill the width
+        // (home page decisions 1 and 3).
+        [...document.querySelectorAll('img[data-img]:not([data-img="slider"]):not([data-img="hero"])')]
           .map((img) => {
             const raw = img.getAttribute('src') || '';
             const src = raw.startsWith('/_next/image') ? decodeURIComponent(new URL(raw, location.href).searchParams.get('url')) : raw;
