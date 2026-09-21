@@ -202,12 +202,17 @@
   text-transform: uppercase;
 }
 
+/* Live's large second line: body Baskervville (inherited), regular weight,
+   77px at 1440px in brand green with Divi's soft shadow. Here 36px at 390px
+   (two lines on phones) rising to 77px at 1440px, then growing with the root
+   size above 1440px. Live's 2.1 line height is tightened so it wraps cleanly. */
 .sliderSub {
-  font-family: var(--font-sans);
-  font-size: var(--step-0);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  color: var(--colour-green);
+  font-size: clamp(2.25rem, 1.2982rem + 3.9048vw, 4.8125rem);
+  font-weight: 400;
+  line-height: 1.15;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  text-wrap: balance;
 }
 
 .sliderDots {
