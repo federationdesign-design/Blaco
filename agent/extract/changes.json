@@ -1,0 +1,226 @@
+[
+  {
+    "url": "/about",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/about/faq",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/about/games-room",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/about/local-interests",
+    "what": "\"Request a booking\" button has no link on live; linked to /booking-request-form"
+  },
+  {
+    "url": "/about/local-interests",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/about/testimonials",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/checking-in-checkout-process",
+    "what": "\"Request a booking\" button has no link on live; linked to /booking-request-form"
+  },
+  {
+    "url": "/checking-in-checkout-process",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/contact-us",
+    "what": "\"Check Availability\" button has no link on live; linked to /calendar"
+  },
+  {
+    "url": "/cookies",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/disclaimer",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/for-four-people",
+    "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/for-four-people",
+    "what": "Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2"
+  },
+  {
+    "url": "/for-four-people",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/for-six-people",
+    "what": "Card image linked to /our-cottages/swallow on live; now links to /our-cottages/swift like its button"
+  },
+  {
+    "url": "/for-six-people",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/for-two-people",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/",
+    "what": "Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2"
+  },
+  {
+    "url": "/",
+    "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages",
+    "what": "Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2"
+  },
+  {
+    "url": "/our-cottages",
+    "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/our-cottages",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/chaffinch-2",
+    "what": "Per-cottage map cottage-map-cottage5.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/chaffinch-2",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/cuckoo",
+    "what": "Per-cottage map cottage-map-cottage4.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/cuckoo",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/grey-goose",
+    "what": "Per-cottage map cottage-map-shedD.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/grey-goose",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/mallard",
+    "what": "Per-cottage map cottage-map-shedC.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/mallard",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/nightingale",
+    "what": "Per-cottage map cottage-map-cottage8.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/nightingale",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/partridge",
+    "what": "Per-cottage map cottage-map-shedB.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/partridge",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/skylark",
+    "what": "Per-cottage map cottage-map-cottage7.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/skylark",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/swallow",
+    "what": "Per-cottage map cottage-map-cottage3.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/swallow",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/swift",
+    "what": "Per-cottage map cottage-map-cottage1.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/swift",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/woodcock",
+    "what": "Per-cottage map cottage-map-shedE.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/woodcock",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/our-cottages/wren",
+    "what": "Per-cottage map cottage-map-cottage2.jpg replaced by the 2026 site map (decision 4)"
+  },
+  {
+    "url": "/our-cottages/wren",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/privacy-policy-2",
+    "what": "Copy fix: \"enquiries@blacohillcottages.co.uk\" to \"victoria@blacohillcottages.co.uk\" (decision 6)"
+  },
+  {
+    "url": "/privacy-policy-2",
+    "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/what-internet-speeds-can-i-expect",
+    "what": "Copy fix: \"around the nations average\" to \"around the national average\" (decision 6)"
+  },
+  {
+    "url": "/what-internet-speeds-can-i-expect",
+    "what": "Copy fix: \"It will supports streaming\" to \"It will support streaming\" (decision 6)"
+  },
+  {
+    "url": "/what-is-your-cancellation-policy",
+    "what": "Copy fix: \"<p>f you need to cancel\" to \"<p>If you need to cancel\" (decision 6)"
+  },
+  {
+    "url": "/what-is-your-cancellation-policy",
+    "what": "Copy fix: \"spending on the time between the cancelation\" to \"Depending on the time between the cancellation\" (decision 6)"
+  },
+  {
+    "url": "/what-is-your-cancellation-policy",
+    "what": "Copy fix: \"result in yoru deposit\" to \"result in your deposit\" (decision 6)"
+  },
+  {
+    "url": "/for-four-people",
+    "what": "Swallow card moved to /for-six-people (decision 5)"
+  },
+  {
+    "url": "/for-six-people",
+    "what": "Swallow card added from /for-four-people, showing Sleeps 5 (decision 5)"
+  },
+  {
+    "url": "/accessibility-statement",
+    "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/about/faq",
+    "what": "Lists the 16 FAQs only. The live Divi blog module also listed the first 4 testimonials."
+  }
+]

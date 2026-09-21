@@ -1,0 +1,12 @@
+{
+  "url": "/do-you-have-wifi",
+  "template": "post",
+  "title": "Do you have wifi?",
+  "absoluteTitle": null,
+  "post": {
+    "title": "Do you have wifi?",
+    "date": "Sep 21, 2020",
+    "category": "faq",
+    "html": "<p>Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside. </p>"
+  }
+}

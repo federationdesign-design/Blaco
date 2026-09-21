@@ -1,0 +1,148 @@
+{
+  "url": "/disclaimer",
+  "template": "policy",
+  "title": "Disclaimer",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h1>Disclaimer</h1> <p>Blaco Hill Farm Cottages is providing this site on an “as is” basis and makes no representations or warranties of any kind with respect to this site or its contents and disclaims all such representations and warranties. In addition, Blaco Hill Farm Cottages makes no representations or warranties about the accuracy, completeness or suitability for any purpose of the information and related graphics published in this site. The information contained in this site may contain technical inaccuracies or typographical errors. All liability of Blaco Hill Farm Cottages howsoever arising for any such inaccuracies or errors is expressly excluded to the fullest extent permitted by law.</p> <p>Neither Blaco Hill Farm Cottages nor any of its partners, employees or other representatives will be liable for loss or damage arising out of or in connection with the use of this site. This is a comprehensive limitation of liability that applies to all damages of any kind, including (without limitation) compensatory, direct, indirect or consequential damages, loss of data, income or profit, loss of or damage to property and claims of third parties.</p> <p>Notwithstanding the foregoing, none of the exclusions and limitations in the clause are intended to limit any rights you may have as a consumer under local law or other statutory rights which may not be excluded nor in any way to exclude or limit Blaco Hill Farm Cottages liability to you for death or personal injury resulting from our negligence or that of our employees or agents.</p> <p>Information available via hypertext link from blacohillcottages.co.uk is made available without responsibility on the part of Blaco Hill Farm Cottages. Blaco Hill Farm Cottages disclaims all responsibility and liability (including for negligence) in relation to information on or accessible from blacohillcottages.co.uk</p> <p><strong>The use of your information</strong><br>You agree that we may collect, store and use information about you in accordance with our privacy policy.</p> <p><strong>Access</strong><br>We reserve the right in our sole discretion to deny users access to our site or any part of our site without notice and to decline to provide the service to any user that is in breach of these terms and conditions of use.</p> <p><strong>Links to other sites</strong><br>Certain links, including hypertext links, in our site will take you outside our site. Links are provided for your convenience and inclusion of any link does not imply endorsement or approval by us of the linked site, its operator or its content. We are not responsible for the content of any website outside our site.</p> <p><strong>Variations</strong><br>We reserve the right at any time without notice to revise the content of our website (including the services offered by us) and these terms and conditions. Any changes to these terms and conditions will be posted on our site and by continuing to use our site following any such change you will signify that you agree to be bound by the revised terms and conditions of use.</p> <p><strong>Applicable law and jurisdiction</strong><br>These terms and conditions shall be governed by and interpreted in accordance with English law and subject to the exclusive jurisdiction of English courts.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+          "width": 1920,
+          "height": 1441,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "07718 762 845",
+                  "icon": "phone",
+                  "image": null,
+                  "href": "tel:+447718762845",
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "icon": "mail",
+                  "image": null,
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

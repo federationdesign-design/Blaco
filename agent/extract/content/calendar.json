@@ -1,0 +1,80 @@
+{
+  "url": "/calendar",
+  "title": "Cottage Availability | Blaco Hill Farm Cottages",
+  "h1": "",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h2>Cottage&nbsp;<span>Availability</span></h2> <p><span>Our Cottages do become booked at short notice so if you have some dates in mind, please contact us on the form to find out the&nbsp;<span>availability and our best prices.</span></span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "Contact Us",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

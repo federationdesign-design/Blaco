@@ -1,0 +1,151 @@
+{
+  "url": "/ask-us-a-question",
+  "title": "Ask us a question | Blaco Hill Farm Cottages",
+  "h1": "",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "Ask us a Question",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_tel_0",
+                      "type": "text",
+                      "label": "Telephone",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_2",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+        "gradient": "linear-gradient(335deg,#00a86b 16%,rgba(47,58,68,0.68) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_0",
+                  "author": "Kate Bull",
+                  "meta": "",
+                  "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                  "portrait": "/media/2020/08/photo.jpg.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_1",
+                  "author": "Alex Smith",
+                  "meta": "",
+                  "html": "<p><span>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_2",
+                  "author": "Rebecca P",
+                  "meta": "",
+                  "html": "<p><span>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_3",
+                  "author": "Burl Brown",
+                  "meta": "",
+                  "html": "<p><span>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

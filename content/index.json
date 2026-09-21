@@ -1,0 +1,350 @@
+[
+  {
+    "url": "/",
+    "file": "home",
+    "template": "home",
+    "title": "Blaco Hill Farm Cottages | Holiday Rentals"
+  },
+  {
+    "url": "/about",
+    "file": "about",
+    "template": "general",
+    "title": "About"
+  },
+  {
+    "url": "/about/faq",
+    "file": "about__faq",
+    "template": "faq-index",
+    "title": "FAQ"
+  },
+  {
+    "url": "/about/games-room",
+    "file": "about__games-room",
+    "template": "general",
+    "title": "Games Room"
+  },
+  {
+    "url": "/about/local-interests",
+    "file": "about__local-interests",
+    "template": "general",
+    "title": "Local Interests"
+  },
+  {
+    "url": "/about/testimonials",
+    "file": "about__testimonials",
+    "template": "testimonial-index",
+    "title": "Testimonials"
+  },
+  {
+    "url": "/accessibility-statement",
+    "file": "accessibility-statement",
+    "template": "accessibility",
+    "title": "Accessibility Statement"
+  },
+  {
+    "url": "/amazing-family-get-together",
+    "file": "amazing-family-get-together",
+    "template": "post",
+    "title": "Amazing family get together – Charris-ment"
+  },
+  {
+    "url": "/are-longer-term-lets-available",
+    "file": "are-longer-term-lets-available",
+    "template": "post",
+    "title": "Are longer-term lets available?"
+  },
+  {
+    "url": "/are-these-holiday-lets-suitable-for-families",
+    "file": "are-these-holiday-lets-suitable-for-families",
+    "template": "post",
+    "title": "Are these holiday lets suitable for families?"
+  },
+  {
+    "url": "/are-towels-and-linen-provided",
+    "file": "are-towels-and-linen-provided",
+    "template": "post",
+    "title": "Are towels and linen provided?"
+  },
+  {
+    "url": "/are-your-cottages-child-friendly",
+    "file": "are-your-cottages-child-friendly",
+    "template": "post",
+    "title": "Are your cottages child friendly?"
+  },
+  {
+    "url": "/ask-us-a-question",
+    "file": "ask-us-a-question",
+    "template": "contact",
+    "title": "Ask us a question"
+  },
+  {
+    "url": "/booking-request-form",
+    "file": "booking-request-form",
+    "template": "contact",
+    "title": "Booking request form"
+  },
+  {
+    "url": "/brilliant-place-to-stay",
+    "file": "brilliant-place-to-stay",
+    "template": "post",
+    "title": "Brilliant place to stay! – dollyface99"
+  },
+  {
+    "url": "/calendar",
+    "file": "calendar",
+    "template": "contact",
+    "title": "Cottage Availability"
+  },
+  {
+    "url": "/checking-in-checkout-process",
+    "file": "checking-in-checkout-process",
+    "template": "general",
+    "title": "Checking in & Checkout Process"
+  },
+  {
+    "url": "/contact-us",
+    "file": "contact-us",
+    "template": "contact",
+    "title": "Contact us"
+  },
+  {
+    "url": "/cookies",
+    "file": "cookies",
+    "template": "policy",
+    "title": "Cookies"
+  },
+  {
+    "url": "/disclaimer",
+    "file": "disclaimer",
+    "template": "policy",
+    "title": "Disclaimer"
+  },
+  {
+    "url": "/do-i-need-travel-insurance",
+    "file": "do-i-need-travel-insurance",
+    "template": "post",
+    "title": "Do I need travel insurance?"
+  },
+  {
+    "url": "/do-you-accept-pets",
+    "file": "do-you-accept-pets",
+    "template": "post",
+    "title": "Do you accept pets?"
+  },
+  {
+    "url": "/do-you-have-any-laundry-facilities-we-can-use",
+    "file": "do-you-have-any-laundry-facilities-we-can-use",
+    "template": "post",
+    "title": "Do you have any laundry facilities we can use?"
+  },
+  {
+    "url": "/do-you-have-wifi",
+    "file": "do-you-have-wifi",
+    "template": "post",
+    "title": "Do you have wifi?"
+  },
+  {
+    "url": "/excellent-and-great-location",
+    "file": "excellent-and-great-location",
+    "template": "post",
+    "title": "Excellent and great location – Mrs G Dundee"
+  },
+  {
+    "url": "/family-weekend-away",
+    "file": "family-weekend-away",
+    "template": "post",
+    "title": "Family weekend away – Deborah W"
+  },
+  {
+    "url": "/fantastic-girls-weekend",
+    "file": "fantastic-girls-weekend",
+    "template": "post",
+    "title": "Fantastic girls weekend – Pho3nix1705"
+  },
+  {
+    "url": "/for-four-people",
+    "file": "for-four-people",
+    "template": "listing",
+    "title": "For four people"
+  },
+  {
+    "url": "/for-six-people",
+    "file": "for-six-people",
+    "template": "listing",
+    "title": "For six people"
+  },
+  {
+    "url": "/for-two-people",
+    "file": "for-two-people",
+    "template": "listing",
+    "title": "For two people"
+  },
+  {
+    "url": "/highly-recommended",
+    "file": "highly-recommended",
+    "template": "post",
+    "title": "Highly recommended! – Burl Brown"
+  },
+  {
+    "url": "/how-do-i-pay",
+    "file": "how-do-i-pay",
+    "template": "post",
+    "title": "How do I pay?"
+  },
+  {
+    "url": "/i-am-disabled-are-your-properties-suitable-for-me",
+    "file": "i-am-disabled-are-your-properties-suitable-for-me",
+    "template": "post",
+    "title": "I am disabled. Are your properties suitable for me?"
+  },
+  {
+    "url": "/our-cottages",
+    "file": "our-cottages",
+    "template": "listing",
+    "title": "Our Cottages"
+  },
+  {
+    "url": "/our-cottages/chaffinch-2",
+    "file": "our-cottages__chaffinch-2",
+    "template": "cottage",
+    "title": "Chaffinch"
+  },
+  {
+    "url": "/our-cottages/cuckoo",
+    "file": "our-cottages__cuckoo",
+    "template": "cottage",
+    "title": "Cuckoo"
+  },
+  {
+    "url": "/our-cottages/grey-goose",
+    "file": "our-cottages__grey-goose",
+    "template": "cottage",
+    "title": "Greygoose"
+  },
+  {
+    "url": "/our-cottages/mallard",
+    "file": "our-cottages__mallard",
+    "template": "cottage",
+    "title": "Mallard"
+  },
+  {
+    "url": "/our-cottages/nightingale",
+    "file": "our-cottages__nightingale",
+    "template": "cottage",
+    "title": "Nightingale"
+  },
+  {
+    "url": "/our-cottages/partridge",
+    "file": "our-cottages__partridge",
+    "template": "cottage",
+    "title": "Partridge"
+  },
+  {
+    "url": "/our-cottages/skylark",
+    "file": "our-cottages__skylark",
+    "template": "cottage",
+    "title": "Skylark"
+  },
+  {
+    "url": "/our-cottages/swallow",
+    "file": "our-cottages__swallow",
+    "template": "cottage",
+    "title": "Swallow"
+  },
+  {
+    "url": "/our-cottages/swift",
+    "file": "our-cottages__swift",
+    "template": "cottage",
+    "title": "Swift"
+  },
+  {
+    "url": "/our-cottages/woodcock",
+    "file": "our-cottages__woodcock",
+    "template": "cottage",
+    "title": "Woodcock"
+  },
+  {
+    "url": "/our-cottages/wren",
+    "file": "our-cottages__wren",
+    "template": "cottage",
+    "title": "Wren"
+  },
+  {
+    "url": "/perfect-countryside-retreat",
+    "file": "perfect-countryside-retreat",
+    "template": "post",
+    "title": "Perfect countryside retreat – Alex Smith"
+  },
+  {
+    "url": "/perfect-highly-recommended",
+    "file": "perfect-highly-recommended",
+    "template": "post",
+    "title": "Perfect-highly recommended! – dollyface99"
+  },
+  {
+    "url": "/privacy-policy-2",
+    "file": "privacy-policy-2",
+    "template": "policy",
+    "title": "Privacy Policy"
+  },
+  {
+    "url": "/very-good-value-for-money",
+    "file": "very-good-value-for-money",
+    "template": "post",
+    "title": "Very good value for money – Pip W"
+  },
+  {
+    "url": "/weekend-away-rebecca-p",
+    "file": "weekend-away-rebecca-p",
+    "template": "post",
+    "title": "Weekend away – Rebecca P"
+  },
+  {
+    "url": "/what-internet-speeds-can-i-expect",
+    "file": "what-internet-speeds-can-i-expect",
+    "template": "post",
+    "title": "What internet speeds can I expect?"
+  },
+  {
+    "url": "/what-is-your-cancellation-policy",
+    "file": "what-is-your-cancellation-policy",
+    "template": "post",
+    "title": "What is your cancellation policy?"
+  },
+  {
+    "url": "/what-length-of-stays-do-you-offer",
+    "file": "what-length-of-stays-do-you-offer",
+    "template": "post",
+    "title": "What length of stays do you offer?"
+  },
+  {
+    "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "file": "what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "template": "post",
+    "title": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?"
+  },
+  {
+    "url": "/where-should-i-park",
+    "file": "where-should-i-park",
+    "template": "post",
+    "title": "Where should I park?"
+  },
+  {
+    "url": "/will-i-receive-a-refund-if-i-cancel",
+    "file": "will-i-receive-a-refund-if-i-cancel",
+    "template": "post",
+    "title": "Will I receive a refund if I cancel?"
+  },
+  {
+    "url": "/wonderful",
+    "file": "wonderful",
+    "template": "post",
+    "title": "Wonderful – Lorraine D"
+  },
+  {
+    "url": "/wonderful-country-views-in-cosy-newly-converted-barns",
+    "file": "wonderful-country-views-in-cosy-newly-converted-barns",
+    "template": "post",
+    "title": "Wonderful country views in cosy newly converted barns – Sue and John"
+  }
+]

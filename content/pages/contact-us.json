@@ -1,0 +1,247 @@
+{
+  "url": "/contact-us",
+  "template": "contact",
+  "title": "Contact us",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "hero",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/blaco-hill-farm.jpg",
+          "width": 1024,
+          "height": 768,
+          "alt": ""
+        },
+        "overlay": "light"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">GET IN TOUCH</p> <h1>Contact Us</h1>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Nottinghamshire & Yorkshire border",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Eleven Unique Cottages",
+                  "icon": "house",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Each accommodates between 2 - 6 people",
+                  "icon": "people",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Check Availability",
+                  "href": "/calendar"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "map",
+                  "title": "Blacohill Farm Cottage",
+                  "lat": 53.384067496569,
+                  "lng": -0.95432686190186
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h2>We welcome all people – families, friends, large groups exclusively, workers/contractors, moving house/ longer term lets.</h2>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "full",
+                  "title": "Send us a message",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_tel_0",
+                      "label": "Telephone",
+                      "type": "tel",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Information</p> <h2>Driving Directions</h2>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h5>From the A1 southbound</h5> <ul> <li>Leave at junction 34, on A614 Bawtry.</li> <li>In Bawtry at the traffic lights turn left for Gainsborough A631.</li> <li>In the village of Eveton take a right turn by The Sun Inn to Mattersey.</li> <li>In the village of Mattersey take the first left past the post office signposted Sutton cum Sound.</li> <li>Follow the road out of the village for half a mile.</li> <li>Blaco Hill Farm Cottages is on the left hand side before the hill.</li> </ul>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h5>From the A1 northbound</h5> <ul> <li>Leave at the junction signed Retford A620 and turn left for Retford.</li> <li>Follow the road for approx 2 miles and take a left turn to Suttom cum Lound.</li> <li>Follow this road over the canal and railway to the crossroads.</li> <li>Go straight on into thevillage of Sutton and pass through.</li> <li>Follow the road for approx 1.5miles, Blaco Hill Farm Cottages is on the right hand side just past the bend over a hill.</li> </ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+          "width": 1920,
+          "height": 1441,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

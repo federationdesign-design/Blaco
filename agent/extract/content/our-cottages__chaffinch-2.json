@@ -1,0 +1,692 @@
+{
+  "url": "/our-cottages/chaffinch-2",
+  "title": "Chaffinch | Blaco Hill Farm Cottages",
+  "h1": "Chaffinch",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": {
+        "image": "/media/2020/09/Chaffinch-lounge.jpg",
+        "gradient": "radial-gradient(circle at top left,rgba(255,255,255,0.89) 30%,rgba(255,255,255,0) 80%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h5>Our Cottages&nbsp;</h5> <h1>Chaffinch</h1>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_0",
+                  "title": "Kitchen, Dining Room & Large Sitting Room",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_1",
+                  "title": "Master & twin bedroom",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_2",
+                  "title": "Sleeps four people",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_0",
+                  "label": "Check Availability",
+                  "href": "/calendar",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_1",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "3_5",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_1",
+                  "html": "<h2>Perfect for families</h2> <p><span>Set over two floors Chaffinch is well equipped with all modern conveniences offering a superb ‘home from home’ stay. With a large porch, open plan living area and being a stone’s throw from the games room Chaffinch&nbsp;is the perfect choice for families with young children. Upstairs is full of rustic charm with all the exposed beams and also offers some fantastic views across the countryside.</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "2_5",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_2",
+                  "html": "<h4>Features</h4> <ul> <li>Kitchen dining room</li> <li>Large sitting room</li> <li>Master Bedroom <span>kingsize</span> bed,</li> <li>with en-suite shower over bath</li> <li>Bedroom 2 – twin beds,</li> <li>with en-suite shower</li> <li><span>Pets accepted</span></li> </ul>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_3",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_0",
+                  "src": "/media/2020/09/Chaffinch-master.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-master",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2020/09/Chaffinch-master.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_1",
+                  "src": "/media/2020/09/Chaffinch-kitchen2.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-kitchen2",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2020/09/Chaffinch-kitchen2.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_2",
+                  "src": "/media/2020/09/Chaffinch-twin.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-twin",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2020/09/Chaffinch-twin.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_3",
+                  "src": "/media/2020/09/Chaffinch-dining.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-dining",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2020/09/Chaffinch-dining.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_4",
+                  "src": "/media/2023/09/cottage-map-cottage5.jpg",
+                  "alt": "",
+                  "title": "cottage-map-cottage5",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2023/09/cottage-map-cottage5.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_5",
+                  "src": "/media/2020/09/Chaffinch-lounge.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-lounge",
+                  "width": null,
+                  "height": null,
+                  "href": "/media/2020/09/Chaffinch-lounge.jpg",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_3",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/bed-and-breakfast-15.jpg",
+        "gradient": "linear-gradient(150deg,#00a86b 25%,rgba(38,46,53,0) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_4",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_3",
+                  "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_1",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_5",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_5",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_4",
+                  "html": "<h6>What you Get</h6> <h2>Amenities</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_6",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_3",
+                  "title": "Electric cooker & hotplates",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_4",
+                  "title": "Fridge with icebox or Freezer",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_5",
+                  "title": "Patio Furniture",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_7",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_6",
+                  "title": "Dishwasher",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_7",
+                  "title": "Smart Television",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_8",
+                  "title": "Shared BBQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_8",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_9",
+                  "title": "Microwave",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_10",
+                  "title": "Childrens play area",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_11",
+                  "title": "Gas Central Heating",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_9",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_12",
+                  "title": "Laundry room",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_13",
+                  "title": "Large carpark",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_7",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+        "gradient": "linear-gradient(335deg,#00a86b 16%,rgba(47,58,68,0.68) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_10",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_5",
+                  "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_11",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_0",
+                  "author": "Kate Bull",
+                  "meta": "",
+                  "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                  "portrait": "/media/2020/08/photo.jpg.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_1",
+                  "author": "Alex Smith",
+                  "meta": "",
+                  "html": "<p><span>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_2",
+                  "author": "Rebecca P",
+                  "meta": "",
+                  "html": "<p><span>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_3",
+                  "author": "Burl Brown",
+                  "meta": "",
+                  "html": "<p><span>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_9",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_12",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_14",
+                  "title": "07718 762 845",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_15",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_16",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_13",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "social_media_follow",
+                  "id": "et_pb_social_media_follow_0",
+                  "links": [
+                    {
+                      "href": "#",
+                      "label": "Follow on Facebook"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

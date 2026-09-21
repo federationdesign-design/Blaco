@@ -1,0 +1,62 @@
+{
+  "url": "/calendar",
+  "template": "contact",
+  "title": "Cottage Availability",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h2>Cottage Availability</h2> <p>Our Cottages do become booked at short notice so if you have some dates in mind, please contact us on the form to find out the availability and our best prices.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "Contact Us",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

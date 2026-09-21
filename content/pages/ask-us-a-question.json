@@ -1,0 +1,140 @@
+{
+  "url": "/ask-us-a-question",
+  "template": "contact",
+  "title": "Ask us a question",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "full",
+                  "title": "Ask us a Question",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_tel_0",
+                      "label": "Telephone",
+                      "type": "tel",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reviews",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+          "width": 2560,
+          "height": 1707,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Reviews</p> <h2>Guest Reviews</h2>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "author": "Kate Bull",
+                  "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                  "portrait": {
+                    "src": "/media/2020/08/photo.jpg.png",
+                    "width": 120,
+                    "height": 120,
+                    "alt": ""
+                  }
+                },
+                {
+                  "type": "testimonial",
+                  "author": "Alex Smith",
+                  "html": "<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                    "width": 244,
+                    "height": 250,
+                    "alt": ""
+                  }
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "author": "Rebecca P",
+                  "html": "<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                    "width": 244,
+                    "height": 246,
+                    "alt": ""
+                  }
+                },
+                {
+                  "type": "testimonial",
+                  "author": "Burl Brown",
+                  "html": "<p>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                    "width": 246,
+                    "height": 244,
+                    "alt": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

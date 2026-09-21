@@ -1,0 +1,190 @@
+{
+  "url": "/cookies",
+  "title": "Cookies | Blaco Hill Farm Cottages",
+  "h1": "Cookies Policy",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h1>Cookies Policy</h1> <p>Our website uses cookies.</p> <p>Cookies are small text files that are placed on your computer or device when you visit our website</p>  <p>We’ve listed the cookies we use below with details about the type of cookie they are, why we use them, and if applicable how long they last.</p>  <p>Our website uses both session cookies and persistent cookies.</p> <p><strong>Session cookies</strong> enable any information you have entered to be remembered when you move from page to page within our website, but are deleted when you close your browser or after a short time.</p> <p><strong>Persistent cookies</strong> allow our website to remember your preferences and settings when you visit our website in the future; they expire after a set period of time.</p>  <p>Our site uses first party cookies (i.e. they are set by our website) and third party cookies (i.e. they are set by one of our service providers).</p>  <p>We do not share any information that can be used to identify you personally with these third parties.</p>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_2",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/bed-and-breakfast-15.jpg",
+        "gradient": "linear-gradient(150deg,#00a86b 25%,rgba(38,46,53,0) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_1",
+                  "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_0",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_4",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_0",
+                  "title": "07718 762 845",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_1",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_2",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_3",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "social_media_follow",
+                  "id": "et_pb_social_media_follow_0",
+                  "links": [
+                    {
+                      "href": "#",
+                      "label": "Follow on Facebook"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

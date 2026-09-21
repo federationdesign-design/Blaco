@@ -1,0 +1,12 @@
+{
+  "url": "/how-do-i-pay",
+  "template": "post",
+  "title": "How do I pay?",
+  "absoluteTitle": null,
+  "post": {
+    "title": "How do I pay?",
+    "date": "Sep 21, 2020",
+    "category": "faq",
+    "html": "<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>"
+  }
+}

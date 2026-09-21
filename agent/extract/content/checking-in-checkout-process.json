@@ -1,0 +1,262 @@
+{
+  "url": "/checking-in-checkout-process",
+  "title": "Checking in & Checkout Process | Blaco Hill Farm Cottages",
+  "h1": "Checking in & Checkout Process",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h1>Checking in &amp; Checkout Process</h1>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_0",
+                  "src": "/media/2020/09/arrive.jpg",
+                  "alt": "",
+                  "title": "arrive",
+                  "width": null,
+                  "height": null,
+                  "href": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_1",
+                  "html": "<p>Self check in is available from 15.00, unless prior arrangements have been agreed otherwise.</p> <p>&nbsp;</p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_1",
+                  "src": "/media/2020/09/leave.jpg",
+                  "alt": "",
+                  "title": "leave",
+                  "width": null,
+                  "height": null,
+                  "href": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_2",
+                  "html": "<p>On day of departure please vacate your cottage by 10.00am leaving the key in the door.</p> <p>&nbsp;</p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_2",
+                  "src": "/media/2020/09/literature.jpg",
+                  "alt": "",
+                  "title": "literature",
+                  "width": null,
+                  "height": null,
+                  "href": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_3",
+                  "html": "<p>Everything you need to know is detailed in your correspondence with us upon booking</p> <p>&nbsp;</p>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_1",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/bed-and-breakfast-15.jpg",
+        "gradient": "linear-gradient(150deg,#00a86b 25%,rgba(38,46,53,0) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_4",
+                  "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_0",
+                  "label": "Request a booking",
+                  "href": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_3",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_3",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_0",
+                  "title": "07718 762 845",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_1",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_2",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_4",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "social_media_follow",
+                  "id": "et_pb_social_media_follow_0",
+                  "links": [
+                    {
+                      "href": "#",
+                      "label": "Follow on Facebook"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

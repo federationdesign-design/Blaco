@@ -1,0 +1,364 @@
+{
+  "url": "/about/local-interests",
+  "template": "general",
+  "title": "Local Interests",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "hero",
+      "background": {
+        "image": {
+          "src": "/media/2020/09/a-lion-cub-panthera-leo-lies-on-the-ground-and-loo-L9RVWV8-scaled-1.jpg",
+          "width": 2560,
+          "height": 1707,
+          "alt": ""
+        },
+        "overlay": "light"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Activities</p> <h1>Local Attractions</h1>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h2>Local Places of Interest</h2> <p>There is a wide variety of attractions and places of interest locally. We would be pleased to give you a detailed run down when you get here, once we know what you want to do. Golf for Dad, Water park for the kids. Below is a some of the activities you may enjoy.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/badger.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Badger"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Idle Valley Nature Reserve, Retford</h3> <p>Just located just a couple of miles south of Blaco Hill, this spectacular wetland site covers an area of 450 hectares following the River Idle northwards. The size of 600 football pitches, it is one of the largest sites for nature conservation in the East Midlands.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/Meet-Honey-and-Sunny-at-Sundown-Adventureland-this-Mothers-Day.jpg",
+                    "width": 1200,
+                    "height": 800,
+                    "alt": "Meet Honey and Sunny at Sundown Adventureland this Mothers Day"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3> Sundown adventure Land</h3> <p>Sundown Adventureland is a theme park in Nottinghamshire, on the Yorkshire border, designed for the under 10’s. It’s a great value, fun family day out.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/lion-small.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Lion small"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Yorkshire Wildlife Park, Doncaster</h3> <p>Yorkshire Wildlife Park is South Yorkshire’s newest attraction. Situated just outside Doncaster, the park occupies 70 acres of a 260 acre site, offering a unique view into the world of animals including lions, tigers, leopards, girraffes and baboons.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/paintball.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Paintball"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Bawtry Paintball and Laser Fields</h3> <p>Europe’s Largest Paintball and outdoor Laser Combat Centre.Voted Britain’s Best Paintball Venue – 5 years running. Bawtry Paintball is a family run outdoor experience spanning across 352 acres of woodland.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/horseracing.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Horseracing"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Doncaster Racecourse </h3> <p>Racedays at Town Moor have been drawing appreciative crowds for centuries and Doncaster has long been regarded as one of the finest racecourses in Europe and the best place for horse racing in Yorkshire. Each year 35 meetings are held at Doncaster Racecourse.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/waterpark.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Waterpark"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Hatfield Outdoor Activity Centre</h3> <p>Located on the outskirts of Doncaster, Hatfield Outdoor Activity Centre is a fantastic facility for outdoor enthusiastics and novices alike. Set against an idyllic woodland backdrop, the activity centre offers a range of water-based and land-based activities for all ages and abilities.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/10/archery-target.jpg",
+                    "width": 500,
+                    "height": 333,
+                    "alt": "Archery target"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Sherwood Forest visitors centre</h3> <p>Home of Robin Hood and the Major Oak</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/golf.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Golf"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Bawtry Golf Club</h3> <p>Rated as one of the best all season golf courses in Yorkshire, Bawtry Golf and Country Club is a ‘must play’ course for all golfers who want to combine challenging golf with a friendly and welcoming 19th!</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "image": {
+                    "src": "/media/2020/09/aqua-park.jpg",
+                    "width": 500,
+                    "height": 335,
+                    "alt": "Aqua park"
+                  },
+                  "href": null
+                },
+                {
+                  "type": "text",
+                  "html": "<h3>Doncaster Dome &amp; Superbowl</h3> <p>Doncaster Dome &amp; Doncaster Superbowl is one of the region’s premier sports, leisure &amp; entertainment destinations, with over 50 activities including the hottest Tenpin bowling centre, a seven pooled water world, and the Uk’s only split level ice rink. With fantastic facilities in a family friendly environment its a great day out. </p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+          "width": 1920,
+          "height": 1441,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "07718 762 845",
+                  "icon": "phone",
+                  "image": null,
+                  "href": "tel:+447718762845",
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "victoria@blacohillcottages.co.uk",
+                  "icon": "mail",
+                  "image": null,
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

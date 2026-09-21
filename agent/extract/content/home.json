@@ -1,0 +1,1144 @@
+{
+  "url": "/",
+  "title": "Blaco Hill Farm Cottages | Holiday Rentals",
+  "h1": "",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "fullwidth",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "slider",
+                  "id": "et_pb_fullwidth_slider_0",
+                  "slides": [
+                    {
+                      "id": "et_pb_slide_0",
+                      "background": {
+                        "image": "/media/2021/02/blaco-hill-farm.jpg",
+                        "gradient": null
+                      },
+                      "title": "A warm welcome from Victoria and Thomas",
+                      "html": "<span>Blaco Hill Farm Cottages</span>",
+                      "button": null,
+                      "image": null
+                    },
+                    {
+                      "id": "et_pb_slide_1",
+                      "background": {
+                        "image": "/media/2021/02/IMG_4081-scaled.jpg",
+                        "gradient": null
+                      },
+                      "title": "A warm welcome from Victoria and Thomas",
+                      "html": "<span>Blaco Hill Farm Cottages</span>",
+                      "button": null,
+                      "image": null
+                    },
+                    {
+                      "id": "et_pb_slide_2",
+                      "background": {
+                        "image": "/media/2021/02/IMG_8747-scaled.jpg",
+                        "gradient": null
+                      },
+                      "title": "A warm welcome from Victoria and Thomas",
+                      "html": "<span>Blaco Hill Farm Cottages</span>",
+                      "button": null,
+                      "image": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_1",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_0",
+                  "title": "Nottinghamshire & Yorkshire border",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_1",
+                  "title": "Eleven Unique Cottages",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_2",
+                  "title": "Accommodating between two - six",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_0",
+                  "label": "Check Availability",
+                  "href": "/calendar",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_2",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h2><span>In a rather remote but quite special and scenically spectacular location</span></h2>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_1",
+                  "html": "<p><span>We invite you to share with us the delights of self catering accommodation on the North Nottinghamshire &amp; South Yorkshire border,&nbsp;in the very heart of the Idle River Valley near to the village of Mattersey.</span></p> <p>In an area rich with Outdoor Activities that will be fun for all the family.</p> <p><strong>All cottages have the following facilities;-</strong><br> Electric cooker &amp; hotplates, Dishwasher, Microwave, Fridge with icebox or Freezer, Smart Television, DVD Player, Patio Furniture&nbsp;Shared BBQ, Gas Central Heating. Laundry room with washing machines and drier, ironing facility, Childrens play area&nbsp;Large carpark, with some covered spaces.</p>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_4",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_0",
+                  "src": "/media/2020/09/swift-kitchen-1.jpg",
+                  "alt": "",
+                  "title": "swift-kitchen",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/swift",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_2",
+                  "html": "<h3> Swift - Sleeps 6</h3> <p>A large 3 bedroomed cottage on one floor, with kitchen-diner and large family lounge. Master bedroom with ensuite. One family bathroom with corner bath &amp; shower. Private patio through French doors from lounge.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_1",
+                  "label": "Read more",
+                  "href": "/our-cottages/swift",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_1",
+                  "src": "/media/2025/05/Partridge-new-image.jpg",
+                  "alt": "",
+                  "title": "Partridge-new-image",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/partridge",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_3",
+                  "html": "<h3>Partridge - Sleeps 6</h3> <p><span>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</span></p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_2",
+                  "label": "Read more",
+                  "href": "/our-cottages/partridge",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_2",
+                  "src": "/media/2020/09/Chaffinch-lounge.jpg",
+                  "alt": "",
+                  "title": "Chaffinch-lounge",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/chaffinch",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_4",
+                  "html": "<h3> Chaffinch - Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_3",
+                  "label": "Read more",
+                  "href": "/our-cottages/chaffinch",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_3",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_3",
+                  "src": "/media/2020/09/swallow-master.jpg",
+                  "alt": "",
+                  "title": "swallow-master",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/swallow",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_5",
+                  "html": "<h3> Swallow - Sleeps 4</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_4",
+                  "label": "Read more",
+                  "href": "/our-cottages/swallow",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_4",
+                  "src": "/media/2020/09/Cuckoo-lounge-flipped.jpg",
+                  "alt": "",
+                  "title": "Cuckoo-lounge-flipped",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/cuckoo",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_6",
+                  "html": "<h3> Cuckoo - Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_5",
+                  "label": "Read more",
+                  "href": "/our-cottages/cuckoo",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_5",
+                  "src": "/media/2020/10/Nightingale-living-diner-2.jpg",
+                  "alt": "",
+                  "title": "Nightingale-living-diner-2",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/nightingale",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_7",
+                  "html": "<h3> Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_6",
+                  "label": "Read more",
+                  "href": "/our-cottages/nightingale",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_4",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_6",
+                  "src": "/media/2020/10/skylark-main-1.jpg",
+                  "alt": "",
+                  "title": "skylark-main",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/skylark",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_8",
+                  "html": "<h3> Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_7",
+                  "label": "Read more",
+                  "href": "/our-cottages/skylark",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_7",
+                  "src": "/media/2020/09/Pheasant-master1.jpg",
+                  "alt": "",
+                  "title": "Pheasant-master1",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/mallard",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_9",
+                  "html": "<h3> Mallard - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_8",
+                  "label": "Read more",
+                  "href": "/our-cottages/mallard",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_8",
+                  "src": "/media/2020/09/twin2.jpg",
+                  "alt": "",
+                  "title": "twin2",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/grey-goose",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_10",
+                  "html": "<h3> Greygoose - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_9",
+                  "label": "Read more",
+                  "href": "/our-cottages/grey-goose",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_5",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_9",
+                  "src": "/media/2020/09/Pheasant-twin.jpg",
+                  "alt": "",
+                  "title": "Pheasant-twin",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/woodcock",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_11",
+                  "html": "<h3> Woodcock - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_10",
+                  "label": "Read more",
+                  "href": "/our-cottages/woodcock",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_10",
+                  "src": "/media/2020/10/wren-master.jpg",
+                  "alt": "",
+                  "title": "wren-master",
+                  "width": null,
+                  "height": null,
+                  "href": "/our-cottages/wren",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "text",
+                  "id": "et_pb_text_12",
+                  "html": "<h3> Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "button",
+                  "id": "et_pb_button_11",
+                  "label": "Read more",
+                  "href": "/our-cottages/wren",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_5",
+      "label": null,
+      "background": {
+        "image": "/media/2020/09/landscape-e1600776204814.jpg",
+        "gradient": null
+      },
+      "hiddenOn": [],
+      "rows": []
+    },
+    {
+      "id": "et_pb_section_6",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_6",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_13",
+                  "html": "<h4>Blaco Hill Farm Cottages are situated on a working farm just outside Mattersey, on the Nottinghamshire and South Yorkshire border.</h4> <p>On the farm itself are three lakes, which have a wide variety of bird life both native and visiting species.</p> <p>Adjacent to the farm is the Nottinghamshire Wildlife Trusts Idle Valley nature reserve, which is a site of Special Scientific Interest and has a diverse variety of bird &amp; wildlife.</p> <p>In an area rich with Outdoor Activities that will be fun for all the family. And if the weather is not so good we have a Games Room equipped with a full size snooker table, table tennis and a large comfortable seating area. Please feel free to look around our site.</p> <p>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future.</p> <p><span>We are here for you – to help you plan, organize, and fulfill your dreams of a relaxing, self catering holiday away from all the stresses of everyday life, here in Mattersey.</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "image",
+                  "id": "et_pb_image_11",
+                  "src": "/media/2020/08/blaco-hill-farm.jpg",
+                  "alt": "",
+                  "title": "blaco-hill-farm",
+                  "width": null,
+                  "height": null,
+                  "href": null,
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_7",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "divider",
+                  "id": "et_pb_divider_0",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_7",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_8",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_14",
+                  "html": "<h6>What you Get</h6> <h2>Amenities</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_9",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_3",
+                  "title": "Electric cooker & hotplates",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_4",
+                  "title": "Fridge with icebox or Freezer",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_5",
+                  "title": "Patio Furniture",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_10",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_6",
+                  "title": "Dishwasher",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_7",
+                  "title": "Smart TVs",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_8",
+                  "title": "Shared BBQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_11",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_9",
+                  "title": "Microwave",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_10",
+                  "title": "DVD Player",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_11",
+                  "title": "Gas Central Heating",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_12",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_12",
+                  "title": "Laundry room",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_13",
+                  "title": "Childrens play area",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_14",
+                  "title": "Large carpark",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_9",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+        "gradient": "linear-gradient(335deg,#00a86b 16%,rgba(47,58,68,0.68) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_13",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_15",
+                  "html": "<h6>Reviews</h6> <h2>Guest Reviews</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_14",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_0",
+                  "author": "Kate Bull",
+                  "meta": "",
+                  "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                  "portrait": "/media/2020/08/photo.jpg.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_1",
+                  "author": "Alex Smith",
+                  "meta": "",
+                  "html": "<p><span>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_2",
+                  "author": "Rebecca P",
+                  "meta": "",
+                  "html": "<p><span>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "testimonial",
+                  "id": "et_pb_testimonial_3",
+                  "author": "Burl Brown",
+                  "meta": "",
+                  "html": "<p><span>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</span></p>",
+                  "portrait": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_10",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_15",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_16",
+                  "html": "<h6>What you Get</h6> <h2>Near by…</h2>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_16",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_0",
+                  "title": "Food & Drink",
+                  "html": "The local towns of Bawtry and Retford offer plenty of choice for restaurants and takeaways from Indian, to Chinese to Italian and more. <p>King William Scaftworth – Gastro Pub<br> The Sun Inn Everton – family pub<br> The Bluebell Lound – family pub<br> Torworth Grange – Farmshop &amp; Cafe<br> Cow Shack Scaftworth – Ice cream parlour.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_1",
+                  "title": "Nature & Wildlife",
+                  "html": "<p>Idle Valley Nature Reserve&nbsp;located just a couple of miles south of Blaco Hill, this spectacular wetland site covers an area of 450 hectares following the River Idle northwards. The size of 600 football pitches, it is one of the largest sites for nature conservation in the East Midlands.</p> <p><span>Yorkshire Wildlife Park is South Yorkshire’s newest attraction. Situated just outside Doncaster, the park occupies 70 acres of a 260 acre site, offering a unique view into the world of animals including lions, tigers, leopards, girraffes and baboons.</span></p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_2",
+                  "title": "Arts & Culture",
+                  "html": "<p>With Art Galleries and Museums, there is plenty to of places to visit along with English Heritidge and National Trust Properties</p> <ul> <li>Welbeck Abbey Gallery</li> <li>Bassetlaw Museum Retford</li> <li>Thoresby Park – Military Museum</li> <li>Clumber Park – National Trust</li> <li>Nostell Priory – National Trust</li> <li>Brodsworth Hall And Gardens – English Heritage</li> <li>Cusworth Hall – Museum</li> </ul>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_3",
+                  "title": "Kids / Adventure",
+                  "html": "<p><span>Hatfield Outdoor Activity Centre is a fantastic facility for outdoor enthusiastics and novices alike. &nbsp;</span><span>Set against an idyllic woodland backdrop, the activity centre offers a range of water-based and land-based activities for all ages and abilities.</span></p> <p><span>Bawtry Paintball and Laser Fields Europe’s Largest Paintball and outdoor Laser Combat Centre.Voted Britain’s Best Paintball Venue – 5 years running. Bawtry Paintball is a family run outdoor experience spanning across 352 acres of woodland.</span></p> <p><span>The Doncaster Superbowl is the hottest Tenpin bowling centre around with fantastic facilities in a family friendly environment. The Superbowl features 24 brand new air conditioned lanes with the latest scoring system, mouth-watering food menu as well as a fully licensed modern bar. Not to forget an exciting amusements arcade area. Book online</span></p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_4",
+                  "title": "Day Trips",
+                  "html": "<p>The historic towns of Lincoln and York are 40minutes and 60 minutes away respectfully</p> <p>Yorkshire Sculpture Park in Wakefield is f<span>antastic for families. You can explore and play together in 500 acres of beautiful landscape with contemporary sculpture throughout.</span></p> <p>Cleethropes beach with famous Papa’s fish and chips is just over an hour away.</p>",
+                  "hiddenOn": []
+                },
+                {
+                  "type": "toggle",
+                  "id": "et_pb_toggle_5",
+                  "title": "Golf",
+                  "html": "<p><span>Rated as one of the best all season golf courses in Yorkshire, Bawtry Golf and Country Club is a ‘must play’ course for all golfers who want to combine challenging golf with a friendly and welcoming 19th!</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_11",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/bed-and-breakfast-15.jpg",
+        "gradient": "linear-gradient(150deg,#00a86b 25%,rgba(38,46,53,0) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_17",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_17",
+                  "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_12",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_12",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_18",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_15",
+                  "title": "07718 762 845",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_16",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_17",
+                  "title": "victoria@blacohillcottages.co.uk",
+                  "image": null,
+                  "icon": "",
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_19",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "Contact Us",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "social_media_follow",
+                  "id": "et_pb_social_media_follow_0",
+                  "links": [
+                    {
+                      "href": "#",
+                      "label": "Follow on Facebook"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

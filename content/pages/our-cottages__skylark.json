@@ -1,0 +1,1010 @@
+{
+  "url": "/our-cottages/skylark",
+  "template": "cottage",
+  "title": "Skylark",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "hero",
+      "background": {
+        "image": {
+          "src": "/media/2020/10/skylark-main-1.jpg",
+          "width": 1800,
+          "height": 1038,
+          "alt": ""
+        },
+        "overlay": "light"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Our Cottages</p> <h1>Skylark</h1>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Kitchen Dining Area & Sitting Room",
+                  "icon": "house",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Master bedroom",
+                  "icon": "bed",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Sleeps two people",
+                  "icon": "people",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Check Availability",
+                  "href": "/calendar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "3_5",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h2>Perfect for Couples</h2> <p>Set in the corner of our pretty courtyard, Skylarkoffers spacious modern living. With a mezzanine bedroom ensuite and large glass frontage the cottage is bright and airy. Being a stone’s throw from the Games Room Skylark is perfect for couples looking to settle the score! </p>"
+                }
+              ]
+            },
+            {
+              "size": "2_5",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "src": "/media/2020/10/skylark-exterior.jpg",
+                      "width": 1000,
+                      "height": 700,
+                      "alt": "Skylark exterior"
+                    },
+                    {
+                      "src": "/media/2020/10/skylark-living.jpg",
+                      "width": 1000,
+                      "height": 700,
+                      "alt": "Skylark living"
+                    },
+                    {
+                      "src": "/media/2020/10/skylark-bedroom.jpg",
+                      "width": 1000,
+                      "height": 700,
+                      "alt": "Skylark bedroom"
+                    },
+                    {
+                      "src": "/media/2020/10/skylark-bedroom2.jpg",
+                      "width": 1000,
+                      "height": 700,
+                      "alt": "Skylark bedroom"
+                    },
+                    {
+                      "src": "/maps/cottage-map-2026.jpg",
+                      "width": 3200,
+                      "height": 2669,
+                      "alt": "Blaco Hill Farm Cottages site map"
+                    },
+                    {
+                      "src": "/media/2020/10/skylark-bath.jpg",
+                      "width": 750,
+                      "height": 1000,
+                      "alt": "Skylark bath"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+          "width": 1920,
+          "height": 1441,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "amenities",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">What you Get</p> <h2>Amenities</h2>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Electric cooker & hotplates",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Fridge with icebox or Freezer",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Patio Furniture",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Dishwasher",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Smart Television",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Shared BBQ",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Microwave",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Childrens play area",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Gas Central Heating",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Laundry room",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Large carpark",
+                  "icon": "check",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "reviews",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+          "width": 2560,
+          "height": 1707,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Reviews</p> <h2>Guest Reviews</h2>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "author": "Kate Bull",
+                  "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                  "portrait": {
+                    "src": "/media/2020/08/photo.jpg.png",
+                    "width": 120,
+                    "height": 120,
+                    "alt": ""
+                  }
+                },
+                {
+                  "type": "testimonial",
+                  "author": "Alex Smith",
+                  "html": "<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                    "width": 244,
+                    "height": 250,
+                    "alt": ""
+                  }
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "testimonial",
+                  "author": "Rebecca P",
+                  "html": "<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                    "width": 244,
+                    "height": 246,
+                    "alt": ""
+                  }
+                },
+                {
+                  "type": "testimonial",
+                  "author": "Burl Brown",
+                  "html": "<p>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</p>",
+                  "portrait": {
+                    "src": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                    "width": 246,
+                    "height": 244,
+                    "alt": ""
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "07718 762 845",
+                  "icon": "phone",
+                  "image": null,
+                  "href": "tel:+447718762845",
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "icon": "mail",
+                  "image": null,
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cottage": {
+    "background": {
+      "image": {
+        "src": "/media/2020/10/skylark-main-1.jpg",
+        "width": 1800,
+        "height": 1038,
+        "alt": ""
+      },
+      "overlay": "light"
+    },
+    "heading": "<p data-kicker=\"\">Our Cottages</p> <h1>Skylark</h1>",
+    "highlights": [
+      {
+        "type": "blurb",
+        "title": "Kitchen Dining Area & Sitting Room",
+        "icon": "house",
+        "image": null,
+        "href": null,
+        "html": ""
+      },
+      {
+        "type": "blurb",
+        "title": "Master bedroom",
+        "icon": "bed",
+        "image": null,
+        "href": null,
+        "html": ""
+      },
+      {
+        "type": "blurb",
+        "title": "Sleeps two people",
+        "icon": "people",
+        "image": null,
+        "href": null,
+        "html": ""
+      }
+    ],
+    "action": {
+      "type": "button",
+      "label": "Check Availability",
+      "href": "/calendar"
+    },
+    "description": [
+      {
+        "type": "text",
+        "html": "<h2>Perfect for Couples</h2> <p>Set in the corner of our pretty courtyard, Skylarkoffers spacious modern living. With a mezzanine bedroom ensuite and large glass frontage the cottage is bright and airy. Being a stone’s throw from the Games Room Skylark is perfect for couples looking to settle the score! </p>"
+      }
+    ],
+    "features": [
+      {
+        "type": "text",
+        "html": "<h4>Features</h4> <ul> <li>Kitchen dining area</li> <li>Sitting area</li> <li>Master Bedroom kingsize bed,</li> <li>with en-suite shower</li> <li>Patio area</li> <li>Pets accepted</li> </ul>"
+      }
+    ],
+    "gallery": [
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/2020/10/skylark-exterior.jpg",
+            "width": 1000,
+            "height": 700,
+            "alt": "Skylark exterior"
+          },
+          {
+            "src": "/media/2020/10/skylark-living.jpg",
+            "width": 1000,
+            "height": 700,
+            "alt": "Skylark living"
+          },
+          {
+            "src": "/media/2020/10/skylark-bedroom.jpg",
+            "width": 1000,
+            "height": 700,
+            "alt": "Skylark bedroom"
+          },
+          {
+            "src": "/media/2020/10/skylark-bedroom2.jpg",
+            "width": 1000,
+            "height": 700,
+            "alt": "Skylark bedroom"
+          },
+          {
+            "src": "/media/2020/10/skylark-bath.jpg",
+            "width": 750,
+            "height": 1000,
+            "alt": "Skylark bath"
+          }
+        ]
+      }
+    ],
+    "map": {
+      "src": "/maps/cottage-map-2026.jpg",
+      "width": 3200,
+      "height": 2669,
+      "alt": "Blaco Hill Farm Cottages site map"
+    },
+    "sections": [
+      {
+        "kind": "band",
+        "background": {
+          "image": {
+            "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+            "width": 1920,
+            "height": 1441,
+            "alt": ""
+          },
+          "overlay": "green"
+        },
+        "rows": [
+          {
+            "columns": [
+              {
+                "size": "1_2",
+                "modules": [
+                  {
+                    "type": "text",
+                    "html": "<p data-kicker=\"\">We are open year round</p> <h2>We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                  }
+                ]
+              },
+              {
+                "size": "1_2",
+                "modules": [
+                  {
+                    "type": "button",
+                    "label": "Request a booking",
+                    "href": "/booking-request-form"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "amenities",
+        "background": null,
+        "rows": [
+          {
+            "columns": [
+              {
+                "size": "4_4",
+                "modules": [
+                  {
+                    "type": "text",
+                    "html": "<p data-kicker=\"\">What you Get</p> <h2>Amenities</h2>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Electric cooker & hotplates",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Fridge with icebox or Freezer",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Patio Furniture",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Dishwasher",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Smart Television",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Shared BBQ",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Microwave",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Childrens play area",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Gas Central Heating",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Laundry room",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Large carpark",
+                    "icon": "check",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "reviews",
+        "background": {
+          "image": {
+            "src": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+            "width": 2560,
+            "height": 1707,
+            "alt": ""
+          },
+          "overlay": "green"
+        },
+        "rows": [
+          {
+            "columns": [
+              {
+                "size": "4_4",
+                "modules": [
+                  {
+                    "type": "text",
+                    "html": "<p data-kicker=\"\">Reviews</p> <h2>Guest Reviews</h2>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "size": "1_2",
+                "modules": [
+                  {
+                    "type": "testimonial",
+                    "author": "Kate Bull",
+                    "html": "<p>I have been here many times. This place is for those who like walking, birds and resting in the evenings, maybe using their library. So peaceful there.</p>",
+                    "portrait": {
+                      "src": "/media/2020/08/photo.jpg.png",
+                      "width": 120,
+                      "height": 120,
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "type": "testimonial",
+                    "author": "Alex Smith",
+                    "html": "<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can't fault the cottage as modern, clean and has everything you need.</p>",
+                    "portrait": {
+                      "src": "/media/2020/09/Screenshot-2020-09-16-at-11.48.38.png",
+                      "width": 244,
+                      "height": 250,
+                      "alt": ""
+                    }
+                  }
+                ]
+              },
+              {
+                "size": "1_2",
+                "modules": [
+                  {
+                    "type": "testimonial",
+                    "author": "Rebecca P",
+                    "html": "<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>",
+                    "portrait": {
+                      "src": "/media/2020/09/Screenshot-2020-09-16-at-11.44.01.png",
+                      "width": 244,
+                      "height": 246,
+                      "alt": ""
+                    }
+                  },
+                  {
+                    "type": "testimonial",
+                    "author": "Burl Brown",
+                    "html": "<p>We stayed here whilst visiting family in the area and couldn't have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</p>",
+                    "portrait": {
+                      "src": "/media/2020/09/Screenshot-2020-09-16-at-11.47.14.png",
+                      "width": 246,
+                      "height": 244,
+                      "alt": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "contact",
+        "background": null,
+        "rows": [
+          {
+            "columns": [
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "07718 762 845",
+                    "icon": "phone",
+                    "image": null,
+                    "href": "tel:+447718762845",
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                    "icon": "pin",
+                    "image": null,
+                    "href": null,
+                    "html": ""
+                  }
+                ]
+              },
+              {
+                "size": "1_3",
+                "modules": [
+                  {
+                    "type": "blurb",
+                    "title": "Victoria@blacohillcottages.co.uk",
+                    "icon": "mail",
+                    "image": null,
+                    "href": "mailto:victoria@blacohillcottages.co.uk",
+                    "html": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "columns": [
+              {
+                "size": "4_4",
+                "modules": [
+                  {
+                    "type": "form",
+                    "variant": "quick",
+                    "title": "",
+                    "fields": [
+                      {
+                        "name": "et_pb_contact_name_0",
+                        "label": "Name",
+                        "type": "text",
+                        "required": true
+                      },
+                      {
+                        "name": "et_pb_contact_email_0",
+                        "label": "Email Address",
+                        "type": "email",
+                        "required": true
+                      },
+                      {
+                        "name": "et_pb_contact_message_0",
+                        "label": "Message",
+                        "type": "textarea",
+                        "required": true
+                      }
+                    ],
+                    "submit": "Submit"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

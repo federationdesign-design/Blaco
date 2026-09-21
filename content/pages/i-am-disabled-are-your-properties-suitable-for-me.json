@@ -1,0 +1,12 @@
+{
+  "url": "/i-am-disabled-are-your-properties-suitable-for-me",
+  "template": "post",
+  "title": "I am disabled. Are your properties suitable for me?",
+  "absoluteTitle": null,
+  "post": {
+    "title": "I am disabled. Are your properties suitable for me?",
+    "date": "Sep 4, 2020",
+    "category": "faq",
+    "html": "<p>We do everything we can to accommodate everyone. Please read our <a href=\"/accessibility-statement\">access statement</a> for further details.</p>"
+  }
+}

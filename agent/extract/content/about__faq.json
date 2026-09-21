@@ -1,0 +1,319 @@
+{
+  "url": "/about/faq",
+  "title": "FAQ | Blaco Hill Farm Cottages",
+  "h1": "Questions",
+  "sections": [
+    {
+      "id": "et_pb_section_0",
+      "label": null,
+      "background": {
+        "image": "/media/2020/09/TOWELS.jpg",
+        "gradient": "radial-gradient(circle at top left,rgba(255,255,255,0.89) 30%,rgba(255,255,255,0) 80%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_0",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_0",
+                  "html": "<h5>Frequently Asked</h5> <h1>Questions</h1>",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_1",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_1",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "posts",
+                  "id": "et_pb_blog_0",
+                  "posts": [
+                    {
+                      "title": "Do I need travel insurance?",
+                      "href": "/do-i-need-travel-insurance",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Will I receive a refund if I cancel?",
+                      "href": "/will-i-receive-a-refund-if-i-cancel",
+                      "category": "uncategorized"
+                    },
+                    {
+                      "title": "What is your cancellation policy?",
+                      "href": "/what-is-your-cancellation-policy",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "What internet speeds can I expect?",
+                      "href": "/what-internet-speeds-can-i-expect",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Do you have wifi?",
+                      "href": "/do-you-have-wifi",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Are your cottages child friendly?",
+                      "href": "/are-your-cottages-child-friendly",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Where should I park?",
+                      "href": "/where-should-i-park",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "What length of stays do you offer?",
+                      "href": "/what-length-of-stays-do-you-offer",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "How do I pay?",
+                      "href": "/how-do-i-pay",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?",
+                      "href": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Do you accept pets?",
+                      "href": "/do-you-accept-pets",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Do you have any laundry facilities we can use?",
+                      "href": "/do-you-have-any-laundry-facilities-we-can-use",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "I am disabled. Are your properties suitable for me?",
+                      "href": "/i-am-disabled-are-your-properties-suitable-for-me",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Are towels and linen provided?",
+                      "href": "/are-towels-and-linen-provided",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Are longer-term lets available?",
+                      "href": "/are-longer-term-lets-available",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Are these holiday lets suitable for families?",
+                      "href": "/are-these-holiday-lets-suitable-for-families",
+                      "category": "faq"
+                    },
+                    {
+                      "title": "Weekend away – Rebecca P",
+                      "href": "/weekend-away-rebecca-p",
+                      "category": "testimonial"
+                    },
+                    {
+                      "title": "Fantastic girls weekend – Pho3nix1705",
+                      "href": "/fantastic-girls-weekend",
+                      "category": "testimonial"
+                    },
+                    {
+                      "title": "Family weekend away – Deborah W",
+                      "href": "/family-weekend-away",
+                      "category": "testimonial"
+                    },
+                    {
+                      "title": "Amazing family get together – Charris-ment",
+                      "href": "/amazing-family-get-together",
+                      "category": "testimonial"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_3",
+      "label": null,
+      "background": {
+        "image": "/media/2020/08/bed-and-breakfast-15.jpg",
+        "gradient": "linear-gradient(150deg,#00a86b 25%,rgba(38,46,53,0) 100%)"
+      },
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_2",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "id": "et_pb_text_1",
+                  "html": "<h6>We are open year round</h6> <h2>We have availability&nbsp;</h2> <p><span>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</span></p>",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "id": "et_pb_button_0",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "et_pb_section_5",
+      "label": null,
+      "background": null,
+      "hiddenOn": [],
+      "rows": [
+        {
+          "id": "et_pb_row_3",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_0",
+                  "title": "07718 762 845",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_1",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "id": "et_pb_blurb_2",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "image": null,
+                  "icon": "",
+                  "href": null,
+                  "html": "",
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "et_pb_row_4",
+          "hiddenOn": [],
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "contact_form",
+                  "id": "et_pb_contact_form_0",
+                  "title": "",
+                  "fields": [
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_name_0",
+                      "type": "text",
+                      "label": "Name",
+                      "required": true,
+                      "fieldType": "input"
+                    },
+                    {
+                      "tag": "input",
+                      "name": "et_pb_contact_email_0",
+                      "type": "text",
+                      "label": "Email Address",
+                      "required": true,
+                      "fieldType": "email"
+                    },
+                    {
+                      "tag": "textarea",
+                      "name": "et_pb_contact_message_0",
+                      "type": null,
+                      "label": "Message",
+                      "required": true,
+                      "fieldType": "text"
+                    }
+                  ],
+                  "captcha": false,
+                  "submit": "Submit",
+                  "success": null,
+                  "email": null,
+                  "hiddenOn": []
+                },
+                {
+                  "type": "social_media_follow",
+                  "id": "et_pb_social_media_follow_0",
+                  "links": [
+                    {
+                      "href": "#",
+                      "label": "Follow on Facebook"
+                    }
+                  ],
+                  "hiddenOn": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post": null
+}

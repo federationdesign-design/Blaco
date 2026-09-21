@@ -1,0 +1,469 @@
+{
+  "url": "/about",
+  "template": "general",
+  "title": "About",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "hero",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/main-image-test.jpg",
+          "width": 1800,
+          "height": 885,
+          "alt": ""
+        },
+        "overlay": "light"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">ABout</p> <h1>Blaco Hill Farm Cottages</h1>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Nottinghamshire & Yorkshire border",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Eleven Unique Cottages",
+                  "icon": "house",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Accommodating between two - six",
+                  "icon": "people",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_4",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Check Availability",
+                  "href": "/calendar"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">about</p> <h2>Blaco Hill Cottages</h2> <p>We are a family run business, offering a selection of 12 self catering properties on our working farm on the North Nottinghamshire, South Yorkshire border. From converted courtyard barns to old pigstys and stables each property is unique in character. Our selection of self-catering accommodation is fully equipped with everything that you will need during your stay.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p>Blaco Hill Farm was acquired by the Lee Family in the 1950’s and we are now in the 4th Generation. Originally farming both arable and livestock the farm saw herds of Lincoln Red cows and flocks of Poll Dorset sheep in its fields along with Pigs and Turkeys. We now have a succler herd of Hereford cows, with calves in April and May, that can be seen on fields around the lakes throughout the summer or tucked up in cosy straw barns during the colder winter months.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p>We now farm a large area of arable crops that include potatoes, carrots, sugarbeet, maize and cereals that you will find in many popular brands in the supermarkets.</p> <p>The cottages were developed in the early 2000s when the farm needed more space due to the ever increasing size of machinery and relocated to buildings on another part of the farm. The cottages have been sympathetically converted to retain many of the original windows and beams giving them a cosy rustic feel.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "gallery",
+                  "images": [
+                    {
+                      "src": "/media/2020/08/blaco-hill-farm.jpg",
+                      "width": 1024,
+                      "height": 768,
+                      "alt": "Blaco hill farm"
+                    },
+                    {
+                      "src": "/media/2020/09/the-farm.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "The farm"
+                    },
+                    {
+                      "src": "/media/2020/09/the-lake.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "The lake"
+                    },
+                    {
+                      "src": "/media/2020/09/the-pature.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "The pature"
+                    },
+                    {
+                      "src": "/media/2020/09/the-lake-view.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "The lake view"
+                    },
+                    {
+                      "src": "/media/2020/09/geese.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "Geese"
+                    },
+                    {
+                      "src": "/media/2020/09/explore.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "Explore"
+                    },
+                    {
+                      "src": "/media/2020/09/the-view.jpg",
+                      "width": 1600,
+                      "height": 1200,
+                      "alt": "The view"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-18.jpg",
+          "width": 1920,
+          "height": 1329,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">Have a Question?</p> <h2>Policies &amp; F.A.Q.</h2>"
+                },
+                {
+                  "type": "button",
+                  "label": "Ask A Question",
+                  "href": "/ask-us-a-question"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "toggle",
+                  "title": "Are these holiday lets suitable for families?",
+                  "html": "<p>Yes, we welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "Are longer-term lets available?",
+                  "html": "<p>Yes. Please just ask and we can discuss your needs accordingly.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "Are towels and linen provided?",
+                  "html": "<p>One bath sheet and hand towel is provided for each guest. But please bring your own baby towels. </p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "Do you have parking on site?",
+                  "html": "<p>Yes, there is parking for up to 10 cars on site next to the cottages. If you are bringing more than one car please let us know in advance.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "I am disabled. Are your properties suitable for me?",
+                  "html": "<p>We do everything we can to accommodate everyone. Please read our <a href=\"/accessibility-statement\">access statement</a> for further details.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "Do you have any laundry facilities we can use?",
+                  "html": "<p>There is a communal laundry room which guests are welcome to use. It includes 2 washing machines, a tumble dryer and ironing equipment.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "toggle",
+                  "title": "Do you accept pets?",
+                  "html": "<p>We are happy to accept pets in some of our holiday cottages.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?",
+                  "html": "<p>Cottages are available from 3pm on the day of arrival and we ask that guests vacate by 10am on the day of departure. We can be flexible so please let us know if you have different requirements.</p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "Do you have wifi?",
+                  "html": "Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside."
+                },
+                {
+                  "type": "toggle",
+                  "title": "Are your cottages child friendly?",
+                  "html": "Yes, growing up at Blaco ad now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection of toys and games for all ages."
+                },
+                {
+                  "type": "toggle",
+                  "title": "Where should I park?",
+                  "html": "We have a designated carpark for the cottages with some under cover parking close to all the cottages."
+                },
+                {
+                  "type": "toggle",
+                  "title": "What length of stays do you offer?",
+                  "html": "<p>We are completely flexible with length of stays, from one night to long term lets we can offer accommodation to meet your needs. </p>"
+                },
+                {
+                  "type": "toggle",
+                  "title": "How do I pay?",
+                  "html": "<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Checking in & Checkout Process",
+                  "icon": null,
+                  "image": null,
+                  "href": null,
+                  "html": "<ul> <li>Self check in is available from 15.00, unless prior arrangements have been agreed otherwise.</li> <li>On day of departure please vacate your cottage by 10.00am leaving the key in the door.</li> <li>Everything you need to know is detailed in your correspondence with us upon booking</li> </ul>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Cancellation Policy",
+                  "icon": null,
+                  "image": null,
+                  "href": null,
+                  "html": "<p>Any cancellation for whatever reason, except in instances of a force majeure, should be made in writing via email. On receipt of notice of cancellation, Blaco Hill Farm Cottages will seek to re-let the property for the period of booking.</p> <p>If Blaco Hill Farm Cottages is unable to re-let the property at all then all monies paid by the Client shall be forfeit to Blaco Hill Farm Cottages. Blaco Hill Farm Cottages strongly recommends Clients to take out Cancellation Insurance.</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-25.jpg",
+          "width": 1920,
+          "height": 970,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h2>About Your Stay</h2> <p>We welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "counter",
+                  "number": "1",
+                  "title": "Games Room"
+                }
+              ]
+            },
+            {
+              "size": "1_6",
+              "modules": [
+                {
+                  "type": "counter",
+                  "number": "12",
+                  "title": "Cottages"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "07718 762 845",
+                  "icon": "phone",
+                  "image": null,
+                  "href": "tel:+447718762845",
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "icon": "pin",
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "icon": "mail",
+                  "image": null,
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

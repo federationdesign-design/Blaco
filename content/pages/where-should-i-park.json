@@ -1,0 +1,12 @@
+{
+  "url": "/where-should-i-park",
+  "template": "post",
+  "title": "Where should I park?",
+  "absoluteTitle": null,
+  "post": {
+    "title": "Where should I park?",
+    "date": "Sep 21, 2020",
+    "category": "faq",
+    "html": "<p>We have a designated carpark for the cottages with some under cover parking close to all the cottages. </p>"
+  }
+}

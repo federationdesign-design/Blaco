@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "screenshots": "node agent/scripts/screenshots.mjs"
+    "screenshots": "node agent/scripts/screenshots.mjs",
+    "content": "node agent/scripts/extract-content.mjs && node agent/scripts/build-content.mjs",
+    "parity": "node agent/scripts/parity.mjs && node agent/scripts/url-parity.mjs"
   },
   "dependencies": {
     "next": "16.3.5",
@@ -19,6 +21,8 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cheerio": "^1.2.0",
+    "diff": "^8.0.4",
     "typescript": "^5"
   }
 }
