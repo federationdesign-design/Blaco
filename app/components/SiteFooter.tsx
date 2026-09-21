@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './SiteFooter.module.css';
 import { MailIcon, PhoneIcon } from './Icons';
+import { CookieSettingsLink } from './cookies/CookieBanner';
 import {
   CONTACT,
   copyright,
@@ -13,7 +14,7 @@ import {
   type NavItem,
 } from '../lib/site';
 
-function FooterMenu({ items, label, variant }: { items: NavItem[]; label: string; variant?: 'small' }) {
+function FooterMenu({ items, label, variant, extra }: { items: NavItem[]; label: string; variant?: 'small'; extra?: React.ReactNode }) {
   return (
     <nav aria-label={label}>
       <ul className={variant === 'small' ? `${styles.menu} ${styles.menuSmall}` : styles.menu}>
@@ -24,6 +25,7 @@ function FooterMenu({ items, label, variant }: { items: NavItem[]; label: string
             </Link>
           </li>
         ))}
+        {extra && <li>{extra}</li>}
       </ul>
     </nav>
   );
@@ -64,7 +66,7 @@ export function SiteFooter() {
 
         <FooterMenu items={FOOTER_INFO_NAV} label="Information" />
         <hr className={styles.rule} />
-        <FooterMenu items={FOOTER_LEGAL_NAV} label="Legal" variant="small" />
+        <FooterMenu items={FOOTER_LEGAL_NAV} label="Legal" variant="small" extra={<CookieSettingsLink className={styles.link} />} />
         <hr className={styles.rule} />
 
         <p className={styles.copyright}>{copyright()}</p>

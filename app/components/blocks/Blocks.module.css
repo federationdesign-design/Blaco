@@ -615,7 +615,7 @@
 
 .cardImage {
   display: block;
-  margin-inline: calc(var(--gutter) * -1);
+  margin: 0 calc(var(--gutter) * -1);
 }
 
 .cardImage img {
@@ -700,6 +700,61 @@ textarea.input {
 
 .form .button {
   justify-self: start;
+}
+
+.form .button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+
+.input[aria-invalid='true'] {
+  border: 2px solid var(--colour-error);
+}
+
+.fieldError {
+  color: var(--colour-error);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.formStatus {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  width: 100%;
+  max-width: 48rem;
+  padding: var(--space-s) var(--space-m);
+  border-left: 4px solid var(--colour-green-dark);
+  background: var(--colour-mist);
+  color: var(--colour-heading);
+}
+
+.formStatus[data-state='error'] {
+  grid-column: 1 / -1;
+  border-left-color: var(--colour-error);
+}
+
+.formStatus:focus {
+  outline: none;
+}
+
+.formStatus:focus-visible {
+  outline: var(--focus-ring);
+}
+
+.form,
+.formStatus {
+  scroll-margin-top: calc(var(--header-height) + var(--space-s));
+}
+
+/* Off-screen, not display:none, so simple bots still fill it in. */
+.honeypot {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 /* ---------- post lists ---------- */

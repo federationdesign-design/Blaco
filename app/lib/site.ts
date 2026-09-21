@@ -54,12 +54,13 @@ export const FOOTER_INFO_NAV: NavItem[] = [
   { label: 'Testimonials', href: '/about/testimonials' },
 ];
 
-// Footer: legal menu. Modern slavery is added in Phase 4.
+// Footer: legal menu, plus the modern slavery statement (brief 6).
 export const FOOTER_LEGAL_NAV: NavItem[] = [
   { label: 'Cookies', href: '/cookies' },
   { label: 'Disclaimer', href: '/disclaimer' },
   { label: 'Privacy', href: '/privacy-policy-2' },
   { label: 'Accessibility Statement', href: '/accessibility-statement' },
+  { label: 'Modern Slavery Statement', href: '/modern-slavery' },
 ];
 
 export const FOOTER_STRAPLINE =

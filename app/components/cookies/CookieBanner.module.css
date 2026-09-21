@@ -1,0 +1,243 @@
+/* Cookie banner, ported from the LHM repo and restyled mobile first in the site
+   palette. Accept all and Reject all have equal visual weight, as required:
+   same size and shape, both immediately visible, neither greyed out. */
+
+.overlay {
+  position: fixed;
+  inset: auto 0 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.panel {
+  position: relative;
+  width: 100%;
+  max-height: 85dvh;
+  overflow-y: auto;
+  padding: var(--space-m) var(--gutter) calc(var(--space-m) + env(safe-area-inset-bottom));
+  background: var(--colour-ink);
+  color: var(--colour-white);
+  border-top: 3px solid var(--colour-green);
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, 0.35);
+  pointer-events: auto;
+}
+
+.close {
+  position: absolute;
+  top: var(--space-3xs);
+  right: var(--space-3xs);
+  width: var(--touch-target);
+  height: var(--touch-target);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--colour-white);
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+  padding-bottom: var(--space-m);
+}
+
+.heading {
+  padding-right: var(--touch-target);
+  color: var(--colour-white);
+  font-size: var(--step-1);
+}
+
+.text {
+  font-size: var(--step--1);
+  line-height: 1.55;
+}
+
+.link {
+  color: var(--colour-white);
+  text-underline-offset: 2px;
+}
+
+/* Preferences */
+.prefs {
+  margin-top: var(--space-xs);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.prefRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s);
+  padding-block: var(--space-xs);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.prefInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3xs);
+}
+
+.prefName {
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.prefDesc {
+  font-size: var(--step--1);
+  line-height: 1.4;
+  opacity: 0.8;
+}
+
+.alwaysOn {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0.75;
+}
+
+/* Toggle switch. The label is the tap target, 44px square or larger. */
+.switch {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 3.25rem;
+  min-height: var(--touch-target);
+  cursor: pointer;
+}
+
+.switch input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 1.75rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.25);
+  transition: background 0.2s ease;
+  pointer-events: none;
+}
+
+.slider::before {
+  content: '';
+  position: absolute;
+  top: 0.25rem;
+  left: 0.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: var(--colour-white);
+  transition: transform 0.2s ease;
+}
+
+.switch input:checked + .slider {
+  background: var(--colour-green-dark);
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(1.5rem);
+}
+
+.switch input:focus-visible + .slider {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Actions: full width and equal on phones. */
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.primary,
+.secondary {
+  min-height: var(--touch-target);
+  padding: var(--space-xs) var(--space-m);
+  border: 2px solid var(--colour-white);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primary {
+  background: var(--colour-white);
+  color: var(--colour-ink);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--colour-white);
+}
+
+.manage,
+.settingsLink {
+  min-height: var(--touch-target);
+  padding: 0 var(--space-3xs);
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.manage {
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    padding: var(--space-s);
+  }
+
+  .panel {
+    max-width: 45rem;
+    padding: var(--space-l);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 3px solid var(--colour-green);
+  }
+
+  .actions {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .manage {
+    order: -1;
+    margin-right: auto;
+  }
+}
+
+@media (hover: hover) {
+  .primary:hover {
+    opacity: 0.85;
+  }
+
+  .secondary:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

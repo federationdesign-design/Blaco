@@ -4,6 +4,9 @@ import './globals.css';
 import { SiteHeader } from './components/SiteHeader';
 import { SiteFooter } from './components/SiteFooter';
 import { SITE_NAME } from './lib/site';
+import { CookieConsentProvider } from './components/cookies/CookieConsentProvider';
+import { CookieBanner } from './components/cookies/CookieBanner';
+import { Analytics } from './components/cookies/Analytics';
 
 const baskervville = Baskervville({
   subsets: ['latin', 'latin-ext'],
@@ -43,9 +46,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-GB" className={`${baskervville.variable} ${raleway.variable}`}>
       <body>
-        <SiteHeader />
-        <main id="main">{children}</main>
-        <SiteFooter />
+        <CookieConsentProvider>
+          <SiteHeader />
+          <main id="main">{children}</main>
+          <SiteFooter />
+          <Analytics />
+          <CookieBanner />
+        </CookieConsentProvider>
       </body>
     </html>
   );

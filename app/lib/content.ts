@@ -16,7 +16,7 @@ export type TextModule = { type: 'text'; html: string };
 export type ButtonModule = { type: 'button'; label: string; href: string };
 export type BlurbModule = { type: 'blurb'; title: string; icon: IconName | null; image: Img | null; href: string | null; html: string };
 export type TestimonialModule = { type: 'testimonial'; author: string; html: string; portrait: Img | null };
-export type FormModule = { type: 'form'; variant: 'quick' | 'full'; title: string; fields: FormField[]; submit: string };
+export type FormModule = { type: 'form'; variant: 'quick' | 'full'; title: string; fields: FormField[]; submit: string; success: string };
 export type Slide = { title: string; html: string; image: Img | null };
 
 export type Module =
