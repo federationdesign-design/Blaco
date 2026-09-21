@@ -122,37 +122,37 @@
                       "src": "/media/2025/05/IMG_0222.jpg",
                       "width": 690,
                       "height": 1000,
-                      "alt": "IMG"
+                      "alt": "Paved patio with a grey dining table and six chairs, enclosed by a wooden fence"
                     },
                     {
                       "src": "/media/2025/05/IMG_0227.jpg",
                       "width": 750,
                       "height": 1000,
-                      "alt": "IMG"
+                      "alt": "Open-plan living room under a beamed ceiling with black sofas, a yellow rug, a TV, glazed doors to the patio and a dining area beyond"
                     },
                     {
                       "src": "/media/2025/05/IMG_0225.jpg",
                       "width": 750,
                       "height": 1000,
-                      "alt": "IMG"
+                      "alt": "Twin bedroom with two single beds with white bedding and green cushions"
                     },
                     {
                       "src": "/media/2025/05/IMG_0226.jpg",
                       "width": 750,
                       "height": 1000,
-                      "alt": "IMG"
+                      "alt": "Large bed with white bedding and burgundy cushions beneath a floral picture"
                     },
                     {
                       "src": "/media/2025/05/IMG_0224.jpg",
                       "width": 750,
                       "height": 1000,
-                      "alt": "IMG"
+                      "alt": "Double bed with white bedding and rust-coloured cushions beside a glazed door"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     }
                   ]
                 }
@@ -526,7 +526,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -597,31 +598,31 @@
             "src": "/media/2025/05/IMG_0222.jpg",
             "width": 690,
             "height": 1000,
-            "alt": "IMG"
+            "alt": "Paved patio with a grey dining table and six chairs, enclosed by a wooden fence"
           },
           {
             "src": "/media/2025/05/IMG_0227.jpg",
             "width": 750,
             "height": 1000,
-            "alt": "IMG"
+            "alt": "Open-plan living room under a beamed ceiling with black sofas, a yellow rug, a TV, glazed doors to the patio and a dining area beyond"
           },
           {
             "src": "/media/2025/05/IMG_0225.jpg",
             "width": 750,
             "height": 1000,
-            "alt": "IMG"
+            "alt": "Twin bedroom with two single beds with white bedding and green cushions"
           },
           {
             "src": "/media/2025/05/IMG_0226.jpg",
             "width": 750,
             "height": 1000,
-            "alt": "IMG"
+            "alt": "Large bed with white bedding and burgundy cushions beneath a floral picture"
           },
           {
             "src": "/media/2025/05/IMG_0224.jpg",
             "width": 750,
             "height": 1000,
-            "alt": "IMG"
+            "alt": "Double bed with white bedding and rust-coloured cushions beside a glazed door"
           }
         ]
       }
@@ -630,7 +631,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -997,7 +998,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

@@ -50,7 +50,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "We aim to reply within 24hrs please check your junk mail just in case!"
                 }
               ]
             }

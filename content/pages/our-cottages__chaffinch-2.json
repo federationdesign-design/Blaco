@@ -122,37 +122,37 @@
                       "src": "/media/2020/09/Chaffinch-master.jpg",
                       "width": 1000,
                       "height": 636,
-                      "alt": "Chaffinch master"
+                      "alt": "Double bedroom with a pine bed, leaf-patterned bedding, bedside tables with lamps and a dressing table"
                     },
                     {
                       "src": "/media/2020/09/Chaffinch-kitchen2.jpg",
                       "width": 1000,
                       "height": 636,
-                      "alt": "Chaffinch kitchen"
+                      "alt": "Kitchen with oak units and a black worktop, looking through to a round dining table and leather sofas"
                     },
                     {
                       "src": "/media/2020/09/Chaffinch-twin.jpg",
                       "width": 1000,
                       "height": 636,
-                      "alt": "Chaffinch twin"
+                      "alt": "Twin bedroom with two pine single beds and bedside tables under a beamed ceiling"
                     },
                     {
                       "src": "/media/2020/09/Chaffinch-dining.jpg",
                       "width": 1000,
                       "height": 636,
-                      "alt": "Chaffinch dining"
+                      "alt": "Round dining table and chairs beside a wooden stable door, with the kitchen and back door beyond"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     },
                     {
                       "src": "/media/2020/09/Chaffinch-lounge.jpg",
                       "width": 1800,
                       "height": 1038,
-                      "alt": "Chaffinch lounge"
+                      "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
                     }
                   ]
                 }
@@ -526,7 +526,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -597,31 +598,31 @@
             "src": "/media/2020/09/Chaffinch-master.jpg",
             "width": 1000,
             "height": 636,
-            "alt": "Chaffinch master"
+            "alt": "Double bedroom with a pine bed, leaf-patterned bedding, bedside tables with lamps and a dressing table"
           },
           {
             "src": "/media/2020/09/Chaffinch-kitchen2.jpg",
             "width": 1000,
             "height": 636,
-            "alt": "Chaffinch kitchen"
+            "alt": "Kitchen with oak units and a black worktop, looking through to a round dining table and leather sofas"
           },
           {
             "src": "/media/2020/09/Chaffinch-twin.jpg",
             "width": 1000,
             "height": 636,
-            "alt": "Chaffinch twin"
+            "alt": "Twin bedroom with two pine single beds and bedside tables under a beamed ceiling"
           },
           {
             "src": "/media/2020/09/Chaffinch-dining.jpg",
             "width": 1000,
             "height": 636,
-            "alt": "Chaffinch dining"
+            "alt": "Round dining table and chairs beside a wooden stable door, with the kitchen and back door beyond"
           },
           {
             "src": "/media/2020/09/Chaffinch-lounge.jpg",
             "width": 1800,
             "height": 1038,
-            "alt": "Chaffinch lounge"
+            "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
           }
         ]
       }
@@ -630,7 +631,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -997,7 +998,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

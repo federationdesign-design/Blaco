@@ -36,3 +36,14 @@ Approved by Steve, 2026-09-21.
 5. **Footer** gains the phone number and email address, as `tel:` and `mailto:` links.
 6. **Missing background.** Use `2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` in place of the 404ing `-scaled.jpg`. Include it in the Checkpoint 3 screenshots for review.
 7. **Copyright year** updates automatically.
+
+## Checkpoint 3
+
+Approved by Steve, 2026-09-21, with these changes.
+
+1. **Font stack.** Wherever Baskervville is used, the declaration is exactly `font-family: 'Baskervville', Georgia, "Times New Roman", serif;`.
+2. **DVD.** Remove "DVD Player" from the home page and the accessibility statement as well as the cottage pages.
+3. **About page.** Align its FAQ toggle answers to the current FAQ pages, and change "12 cottages" to eleven.
+4. **Cancellation FAQ.** Replace the ungrammatical sentence with "Depending on how close to your arrival date you cancel, you may lose your deposit."
+5. **Alt text.** View each image and write alt text describing what it actually shows. Never derive it from file names.
+6. **Green bands.** Keep the dark wash under white text on the green bands.

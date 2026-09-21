@@ -99,7 +99,7 @@
                     "src": "/media/2020/09/Cuckoo-lounge-flipped.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Cuckoo lounge flipped"
+                    "alt": "Open-plan room under exposed roof beams with a round dining table, a kitchen with oak units and a sitting area with a TV"
                   },
                   "html": "<h3> Cuckoo – Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
                   "href": "/our-cottages/cuckoo",
@@ -116,7 +116,7 @@
                     "src": "/media/2020/09/Chaffinch-lounge.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Chaffinch lounge"
+                    "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
                   },
                   "html": "<h3> Chaffinch – Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
                   "href": "/our-cottages/chaffinch-2",
@@ -224,7 +224,7 @@
                     "src": "/media/2020/09/Chaffinch-bath.jpg",
                     "width": 805,
                     "height": 1000,
-                    "alt": "Chaffinch bath"
+                    "alt": "Shower room with a curved glass shower cubicle, toilet and basin"
                   },
                   "href": null
                 }
@@ -436,7 +436,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

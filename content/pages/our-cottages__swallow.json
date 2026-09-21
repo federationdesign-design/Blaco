@@ -122,25 +122,25 @@
                       "src": "/media/2020/10/Swallow-twin.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Swallow twin"
+                      "alt": "Twin bedroom with two wooden single beds under a beamed ceiling, with three small pictures on the wall"
                     },
                     {
                       "src": "/media/2020/10/Swallow-bath.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Swallow bath"
+                      "alt": "Bathroom with a corner bath, a folding shower screen and a round mirror"
                     },
                     {
                       "src": "/media/2020/10/Swallow-exterior.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Swallow exterior"
+                      "alt": "Two-storey whitewashed building with a red tiled roof, seen across a gravel yard framed by trees"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     }
                   ]
                 }
@@ -514,7 +514,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -585,19 +586,19 @@
             "src": "/media/2020/10/Swallow-twin.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Swallow twin"
+            "alt": "Twin bedroom with two wooden single beds under a beamed ceiling, with three small pictures on the wall"
           },
           {
             "src": "/media/2020/10/Swallow-bath.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Swallow bath"
+            "alt": "Bathroom with a corner bath, a folding shower screen and a round mirror"
           },
           {
             "src": "/media/2020/10/Swallow-exterior.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Swallow exterior"
+            "alt": "Two-storey whitewashed building with a red tiled roof, seen across a gravel yard framed by trees"
           }
         ]
       }
@@ -606,7 +607,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -973,7 +974,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

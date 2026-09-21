@@ -99,7 +99,7 @@
                     "src": "/media/2020/09/swift-kitchen.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Swift kitchen"
+                    "alt": "Kitchen-diner with oak units and a large oak dining table, looking through to the sitting room"
                   },
                   "html": "<h3> Swift - Sleeps 6</h3> <p>Swift offers colourful open plan living with a fully equipped kitchen and large dining table. The spacious master bedroom with ensuite one end and the twin rooms and family bathroom the other flank the main living area. </p>",
                   "href": "/our-cottages/swift",
@@ -116,7 +116,7 @@
                     "src": "/media/2025/05/Partridge-new-image.jpg",
                     "width": 1512,
                     "height": 915,
-                    "alt": "Partridge new image"
+                    "alt": "Open-plan living room with black leather sofas and armchairs, a yellow rug, a kitchen with oak units and glazed doors to the patio"
                   },
                   "html": "<h3> Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
                   "href": "/our-cottages/partridge",
@@ -133,7 +133,7 @@
                     "src": "/media/2020/09/swallow-master.jpg",
                     "width": 1800,
                     "height": 1032,
-                    "alt": "Swallow master"
+                    "alt": "Double bedroom with an oak bed, oak bedside chests with lamps and a checked armchair"
                   },
                   "html": "<h3> Swallow – Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
                   "href": "/our-cottages/swallow",
@@ -241,7 +241,7 @@
                     "src": "/media/2020/09/Chaffinch-bath.jpg",
                     "width": 805,
                     "height": 1000,
-                    "alt": "Chaffinch bath"
+                    "alt": "Shower room with a curved glass shower cubicle, toilet and basin"
                   },
                   "href": null
                 }
@@ -453,7 +453,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

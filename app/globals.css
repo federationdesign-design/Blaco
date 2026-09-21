@@ -21,13 +21,16 @@
   --colour-mist: #f5f5f5; /* Panel and toggle backgrounds */
   --colour-white: #ffffff;
   --colour-black: #000000;
+  --colour-error: #b3261e; /* Form errors, 6.5:1 on white */
 
   /* Overlays taken from the live section backgrounds */
   --gradient-green-hero: linear-gradient(150deg, var(--colour-green) 25%, rgba(38, 46, 53, 0) 100%);
   --gradient-green-panel: linear-gradient(335deg, var(--colour-green) 16%, rgba(47, 58, 68, 0.68) 100%);
 
-  /* Fonts: loaded with next/font in app/layout.tsx */
-  --font-serif: var(--font-baskervville), Georgia, 'Times New Roman', serif;
+  /* Fonts: loaded with next/font in app/layout.tsx, which registers the family
+     as 'Baskervville'. Baskervville is always declared with the exact stack
+     below (Checkpoint 3 decision 1), on body and headings only; everything
+     else inherits it. */
   --font-sans: var(--font-raleway), Helvetica, Arial, sans-serif;
 
   /* Liquid type scale, 390px to 1440px */
@@ -92,7 +95,7 @@ body {
   overflow-x: clip;
   background: var(--colour-white);
   color: var(--colour-text);
-  font-family: var(--font-serif);
+  font-family: 'Baskervville', Georgia, "Times New Roman", serif;
   font-size: var(--step-0);
   line-height: var(--leading-body);
 }
@@ -109,7 +112,7 @@ h5,
 h6 {
   margin: 0;
   color: var(--colour-heading);
-  font-family: var(--font-serif);
+  font-family: 'Baskervville', Georgia, "Times New Roman", serif;
   font-weight: 700;
   line-height: var(--leading-tight);
   text-wrap: balance;

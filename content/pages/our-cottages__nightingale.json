@@ -122,37 +122,37 @@
                       "src": "/media/2020/10/Nightingale-living.jpg",
                       "width": 1000,
                       "height": 750,
-                      "alt": "Nightingale living"
+                      "alt": "Open-plan living room and kitchen beneath a mezzanine balcony"
                     },
                     {
                       "src": "/media/2020/10/Nightingale-bath.jpg",
                       "width": 1000,
                       "height": 750,
-                      "alt": "Nightingale bath"
+                      "alt": "Shower room with a glass shower enclosure, black and white tiles and a vanity basin"
                     },
                     {
                       "src": "/media/2020/10/Nightingale-living2.jpg",
                       "width": 1000,
                       "height": 750,
-                      "alt": "Nightingale living"
+                      "alt": "Sitting area with a leather sofa, armchair and TV in front of a tall glazed wall with vertical blinds"
                     },
                     {
                       "src": "/media/2020/10/Nightingale-bed2.jpg",
                       "width": 1000,
                       "height": 750,
-                      "alt": "Nightingale bed"
+                      "alt": "Double bed with a dark padded headboard, a yellow cushion and folded blue towels, beside an oak chest of drawers"
                     },
                     {
                       "src": "/media/2020/10/Nightingale-bed.jpg",
                       "width": 1000,
                       "height": 750,
-                      "alt": "Nightingale bed"
+                      "alt": "Mezzanine bedroom with a double bed below a skylight and a wooden balustrade overlooking the room below"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     }
                   ]
                 }
@@ -526,7 +526,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -597,31 +598,31 @@
             "src": "/media/2020/10/Nightingale-living.jpg",
             "width": 1000,
             "height": 750,
-            "alt": "Nightingale living"
+            "alt": "Open-plan living room and kitchen beneath a mezzanine balcony"
           },
           {
             "src": "/media/2020/10/Nightingale-bath.jpg",
             "width": 1000,
             "height": 750,
-            "alt": "Nightingale bath"
+            "alt": "Shower room with a glass shower enclosure, black and white tiles and a vanity basin"
           },
           {
             "src": "/media/2020/10/Nightingale-living2.jpg",
             "width": 1000,
             "height": 750,
-            "alt": "Nightingale living"
+            "alt": "Sitting area with a leather sofa, armchair and TV in front of a tall glazed wall with vertical blinds"
           },
           {
             "src": "/media/2020/10/Nightingale-bed2.jpg",
             "width": 1000,
             "height": 750,
-            "alt": "Nightingale bed"
+            "alt": "Double bed with a dark padded headboard, a yellow cushion and folded blue towels, beside an oak chest of drawers"
           },
           {
             "src": "/media/2020/10/Nightingale-bed.jpg",
             "width": 1000,
             "height": 750,
-            "alt": "Nightingale bed"
+            "alt": "Mezzanine bedroom with a double bed below a skylight and a wooden balustrade overlooking the room below"
           }
         ]
       }
@@ -630,7 +631,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -997,7 +998,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

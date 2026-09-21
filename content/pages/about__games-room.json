@@ -100,25 +100,25 @@
                       "src": "/media/2020/09/games-room-sitting-area.jpg",
                       "width": 1200,
                       "height": 900,
-                      "alt": "Games room sitting area"
+                      "alt": "Seating area in a beamed loft with wicker armchairs and sofas round a coffee table on a rug, and shelves of board games"
                     },
                     {
                       "src": "/media/2020/09/gamesroom-table-tennis.jpg",
                       "width": 1200,
                       "height": 900,
-                      "alt": "Gamesroom table tennis"
+                      "alt": "Games room with a table tennis table and a snooker table in front of an exposed brick wall"
                     },
                     {
                       "src": "/media/2020/09/games-room-tablefootball.jpg",
                       "width": 1200,
                       "height": 900,
-                      "alt": "Games room tablefootball"
+                      "alt": "Table football in a timber-clad room, with a table tennis table through the doorway"
                     },
                     {
                       "src": "/media/2020/09/games-room-library.jpg",
                       "width": 1200,
                       "height": 900,
-                      "alt": "Games room library"
+                      "alt": "Floor-to-ceiling shelves of books beside an exposed brick wall, with an armchair"
                     }
                   ]
                 }
@@ -241,7 +241,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

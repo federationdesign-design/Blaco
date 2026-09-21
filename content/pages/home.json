@@ -23,7 +23,7 @@
                         "src": "/media/2021/02/blaco-hill-farm.jpg",
                         "width": 1024,
                         "height": 768,
-                        "alt": ""
+                        "alt": "Aerial view of Blaco Hill Farm: whitewashed buildings with red pantile roofs around a courtyard garden, with fields beyond"
                       }
                     },
                     {
@@ -33,7 +33,7 @@
                         "src": "/media/2021/02/IMG_4081-scaled.jpg",
                         "width": 2560,
                         "height": 1920,
-                        "alt": ""
+                        "alt": "Sitting area with a leather sofa, armchair and TV beside a tall glazed wall with vertical blinds"
                       }
                     },
                     {
@@ -43,7 +43,7 @@
                         "src": "/media/2021/02/IMG_8747-scaled.jpg",
                         "width": 2560,
                         "height": 1920,
-                        "alt": ""
+                        "alt": "Double bedroom with a pine bed, yellow cushions, leaf-patterned bedding and a dressing table under a beamed ceiling"
                       }
                     }
                   ]
@@ -133,7 +133,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p>We invite you to share with us the delights of self catering accommodation on the North Nottinghamshire &amp; South Yorkshire border, in the very heart of the Idle River Valley near to the village of Mattersey.</p> <p>In an area rich with Outdoor Activities that will be fun for all the family.</p> <p><strong>All cottages have the following facilities;-</strong><br> Electric cooker &amp; hotplates, Dishwasher, Microwave, Fridge with icebox or Freezer, Smart Television, DVD Player, Patio Furniture Shared BBQ, Gas Central Heating. Laundry room with washing machines and drier, ironing facility, Childrens play area Large carpark, with some covered spaces.</p>"
+                  "html": "<p>We invite you to share with us the delights of self catering accommodation on the North Nottinghamshire &amp; South Yorkshire border, in the very heart of the Idle River Valley near to the village of Mattersey.</p> <p>In an area rich with Outdoor Activities that will be fun for all the family.</p> <p><strong>All cottages have the following facilities;-</strong><br> Electric cooker &amp; hotplates, Dishwasher, Microwave, Fridge with icebox or Freezer, Smart Television, Patio Furniture Shared BBQ, Gas Central Heating. Laundry room with washing machines and drier, ironing facility, Childrens play area Large carpark, with some covered spaces.</p>"
                 }
               ]
             }
@@ -156,7 +156,7 @@
                     "src": "/media/2020/09/swift-kitchen-1.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Swift kitchen"
+                    "alt": "Kitchen-diner with oak units and a large oak dining table, looking through to the sitting room"
                   },
                   "html": "<h3> Swift - Sleeps 6</h3> <p>A large 3 bedroomed cottage on one floor, with kitchen-diner and large family lounge. Master bedroom with ensuite. One family bathroom with corner bath &amp; shower. Private patio through French doors from lounge.</p>",
                   "href": "/our-cottages/swift",
@@ -173,7 +173,7 @@
                     "src": "/media/2025/05/Partridge-new-image.jpg",
                     "width": 1512,
                     "height": 915,
-                    "alt": "Partridge new image"
+                    "alt": "Open-plan living room with black leather sofas and armchairs, a yellow rug, a kitchen with oak units and glazed doors to the patio"
                   },
                   "html": "<h3>Partridge - Sleeps 6</h3> <p>The perfect place for a family looking for a quiet rural escape on a working farm. Step into the open-plan living room, with four-seater sofa and two tub chairs, a Smart TV and dining area, all overlooking the lovely green spaces around the farm buildings.</p>",
                   "href": "/our-cottages/partridge",
@@ -190,7 +190,7 @@
                     "src": "/media/2020/09/Chaffinch-lounge.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Chaffinch lounge"
+                    "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an oak sideboard beneath two paintings of poppy fields"
                   },
                   "html": "<h3> Chaffinch - Sleeps 4</h3> <p>This two storey cottage offers cosy open plan family living downstairs, with large porch area. Upstairs you will find a master and twin with characterful beams and high ceilings both ensuite.</p>",
                   "href": "/our-cottages/chaffinch-2",
@@ -211,7 +211,7 @@
                     "src": "/media/2020/09/swallow-master.jpg",
                     "width": 1800,
                     "height": 1032,
-                    "alt": "Swallow master"
+                    "alt": "Double bedroom with an oak bed, oak bedside chests with lamps and a checked armchair"
                   },
                   "html": "<h3> Swallow - Sleeps 5</h3> <p>A spacious 2 bedroomed cottage offers open plan kitchen dining living area with large glass windows giving a bright and airy feel. A huge master bedroom with ensuite corner bath and shower and twin room with ensuite shower.</p>",
                   "href": "/our-cottages/swallow",
@@ -228,7 +228,7 @@
                     "src": "/media/2020/09/Cuckoo-lounge-flipped.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Cuckoo lounge flipped"
+                    "alt": "Open-plan room under exposed roof beams with a round dining table, a kitchen with oak units and a sitting area with a TV"
                   },
                   "html": "<h3> Cuckoo - Sleeps 4</h3> <p>Accessed up stairs this single level cottage offers open plan living with high beamed ceilings and great views across the farm. Both the master and twin are spacious rooms with ensuite bath and showers.</p>",
                   "href": "/our-cottages/cuckoo",
@@ -245,7 +245,7 @@
                     "src": "/media/2020/10/Nightingale-living-diner-2.jpg",
                     "width": 1800,
                     "height": 1035,
-                    "alt": "Nightingale living diner"
+                    "alt": "Open-plan living area with a leather sofa, armchair, coffee table and TV, and a kitchen behind a half wall"
                   },
                   "html": "<h3> Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/nightingale",
@@ -266,7 +266,7 @@
                     "src": "/media/2020/10/skylark-main-1.jpg",
                     "width": 1800,
                     "height": 1038,
-                    "alt": "Skylark main"
+                    "alt": "Open-plan room with a leather sofa, a round dining table with two chairs and a kitchen with oak units"
                   },
                   "html": "<h3> Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/skylark",
@@ -283,7 +283,7 @@
                     "src": "/media/2020/09/Pheasant-master1.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Pheasant master"
+                    "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
                   },
                   "html": "<h3> Mallard - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/mallard",
@@ -300,7 +300,7 @@
                     "src": "/media/2020/09/twin2.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Twin"
+                    "alt": "Twin bedroom with two single beds with green striped covers beneath a painting of a tree-lined path"
                   },
                   "html": "<h3> Greygoose - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/grey-goose",
@@ -321,7 +321,7 @@
                     "src": "/media/2020/09/Pheasant-twin.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Pheasant twin"
+                    "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
                   },
                   "html": "<h3> Woodcock - Sleeps 2</h3> <p>These studio style cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath.</p>",
                   "href": "/our-cottages/woodcock",
@@ -338,7 +338,7 @@
                     "src": "/media/2020/10/wren-master.jpg",
                     "width": 1000,
                     "height": 632,
-                    "alt": "Wren master"
+                    "alt": "Sitting room with a leather sofa, armchair, coffee table, TV unit and a chest of drawers with a lamp"
                   },
                   "html": "<h3> Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
                   "href": "/our-cottages/wren",
@@ -387,7 +387,7 @@
                     "src": "/media/2020/08/blaco-hill-farm.jpg",
                     "width": 1024,
                     "height": 768,
-                    "alt": "Blaco hill farm"
+                    "alt": "Aerial view of Blaco Hill Farm: whitewashed buildings with red pantile roofs around a courtyard garden, with fields beyond"
                   },
                   "href": null
                 }
@@ -512,19 +512,6 @@
                 {
                   "type": "blurb",
                   "title": "Microwave",
-                  "icon": "check",
-                  "image": null,
-                  "href": null,
-                  "html": ""
-                }
-              ]
-            },
-            {
-              "size": "1_3",
-              "modules": [
-                {
-                  "type": "blurb",
-                  "title": "DVD Player",
                   "icon": "check",
                   "image": null,
                   "href": null,
@@ -849,7 +836,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "We aim to reply within 24hrs please check your junk mail just in case!"
                 }
               ]
             }

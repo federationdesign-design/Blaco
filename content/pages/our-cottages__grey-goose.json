@@ -122,55 +122,55 @@
                       "src": "/media/2020/09/Pheasant-kitchen.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant kitchen"
+                      "alt": "Kitchen with oak units, a microwave, gas hob and oven, and a tiled splashback"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-master1.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant master"
+                      "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-twin.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant twin"
+                      "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-dining.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant dining"
+                      "alt": "Studio with a kitchenette, two reclining armchairs and a bed visible through an opening"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-lounge.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant lounge"
+                      "alt": "Sitting area with two black leather reclining chairs with footstools, a side table, an oak cupboard and a TV"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-exterior2.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant exterior"
+                      "alt": "Long single-storey brick building with a red tiled roof and glazed frontage, facing a large lawn with trees behind"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-twin2.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant twin"
+                      "alt": "Twin bedroom with two single beds with green striped covers either side of a bedside cabinet with a lamp"
                     },
                     {
                       "src": "/media/2020/09/Pheasant-lounge2.jpg",
                       "width": 1000,
                       "height": 628,
-                      "alt": "Pheasant lounge"
+                      "alt": "Two black leather recliners, with the bed visible through an opening beside a tall white radiator"
                     }
                   ]
                 }
@@ -544,7 +544,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -615,49 +616,49 @@
             "src": "/media/2020/09/Pheasant-kitchen.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant kitchen"
+            "alt": "Kitchen with oak units, a microwave, gas hob and oven, and a tiled splashback"
           },
           {
             "src": "/media/2020/09/Pheasant-master1.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant master"
+            "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
           },
           {
             "src": "/media/2020/09/Pheasant-twin.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant twin"
+            "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
           },
           {
             "src": "/media/2020/09/Pheasant-dining.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant dining"
+            "alt": "Studio with a kitchenette, two reclining armchairs and a bed visible through an opening"
           },
           {
             "src": "/media/2020/09/Pheasant-lounge.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant lounge"
+            "alt": "Sitting area with two black leather reclining chairs with footstools, a side table, an oak cupboard and a TV"
           },
           {
             "src": "/media/2020/09/Pheasant-exterior2.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant exterior"
+            "alt": "Long single-storey brick building with a red tiled roof and glazed frontage, facing a large lawn with trees behind"
           },
           {
             "src": "/media/2020/09/Pheasant-twin2.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant twin"
+            "alt": "Twin bedroom with two single beds with green striped covers either side of a bedside cabinet with a lamp"
           },
           {
             "src": "/media/2020/09/Pheasant-lounge2.jpg",
             "width": 1000,
             "height": 628,
-            "alt": "Pheasant lounge"
+            "alt": "Two black leather recliners, with the bed visible through an opening beside a tall white radiator"
           }
         ]
       }
@@ -666,7 +667,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -1033,7 +1034,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

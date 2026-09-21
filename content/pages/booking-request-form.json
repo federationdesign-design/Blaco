@@ -43,7 +43,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks! we will get back to you as soon as we can"
                 }
               ]
             }

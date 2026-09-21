@@ -198,6 +198,12 @@
     "title": "I am disabled. Are your properties suitable for me?"
   },
   {
+    "url": "/modern-slavery",
+    "file": "modern-slavery",
+    "template": "general",
+    "title": "Modern Slavery Statement"
+  },
+  {
     "url": "/our-cottages",
     "file": "our-cottages",
     "template": "listing",

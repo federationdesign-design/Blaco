@@ -32,7 +32,7 @@
                     "src": "/media/2020/09/arrive.jpg",
                     "width": 500,
                     "height": 327,
-                    "alt": "Arrive"
+                    "alt": "Woman opening a roof box on top of a white car"
                   },
                   "href": null
                 },
@@ -51,7 +51,7 @@
                     "src": "/media/2020/09/leave.jpg",
                     "width": 500,
                     "height": 333,
-                    "alt": "Leave"
+                    "alt": "Smiling man leaning out of the window of an orange and cream camper van"
                   },
                   "href": null
                 },
@@ -70,7 +70,7 @@
                     "src": "/media/2020/09/literature.jpg",
                     "width": 500,
                     "height": 333,
-                    "alt": "Literature"
+                    "alt": "Reading glasses resting on an open magazine"
                   },
                   "href": null
                 },
@@ -197,7 +197,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

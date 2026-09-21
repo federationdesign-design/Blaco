@@ -122,37 +122,37 @@
                       "src": "/media/2020/10/skylark-exterior.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Skylark exterior"
+                      "alt": "Brick and timber cottage with a glazed frontage behind black railings and shrubs"
                     },
                     {
                       "src": "/media/2020/10/skylark-living.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Skylark living"
+                      "alt": "Living room with a leather sofa, armchair, coffee table and TV at the foot of a wooden staircase"
                     },
                     {
                       "src": "/media/2020/10/skylark-bedroom.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Skylark bedroom"
+                      "alt": "Double bed with a dark headboard and oak bedside cabinets at the top of a staircase"
                     },
                     {
                       "src": "/media/2020/10/skylark-bedroom2.jpg",
                       "width": 1000,
                       "height": 700,
-                      "alt": "Skylark bedroom"
+                      "alt": "Mezzanine bedroom with a double bed, an oak chest of drawers and a wardrobe under a skylight"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     },
                     {
                       "src": "/media/2020/10/skylark-bath.jpg",
                       "width": 750,
                       "height": 1000,
-                      "alt": "Skylark bath"
+                      "alt": "Shower room with a glass shower cubicle, black tiles and a vanity basin"
                     }
                   ]
                 }
@@ -526,7 +526,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -597,31 +598,31 @@
             "src": "/media/2020/10/skylark-exterior.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Skylark exterior"
+            "alt": "Brick and timber cottage with a glazed frontage behind black railings and shrubs"
           },
           {
             "src": "/media/2020/10/skylark-living.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Skylark living"
+            "alt": "Living room with a leather sofa, armchair, coffee table and TV at the foot of a wooden staircase"
           },
           {
             "src": "/media/2020/10/skylark-bedroom.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Skylark bedroom"
+            "alt": "Double bed with a dark headboard and oak bedside cabinets at the top of a staircase"
           },
           {
             "src": "/media/2020/10/skylark-bedroom2.jpg",
             "width": 1000,
             "height": 700,
-            "alt": "Skylark bedroom"
+            "alt": "Mezzanine bedroom with a double bed, an oak chest of drawers and a wardrobe under a skylight"
           },
           {
             "src": "/media/2020/10/skylark-bath.jpg",
             "width": 750,
             "height": 1000,
-            "alt": "Skylark bath"
+            "alt": "Shower room with a glass shower cubicle, black tiles and a vanity basin"
           }
         ]
       }
@@ -630,7 +631,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -997,7 +998,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

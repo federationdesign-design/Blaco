@@ -38,7 +38,7 @@ export function HeroSlider({ slides }: { slides: Slide[] }) {
         {slides.map((slide, i) =>
           slide.image ? (
             <li key={slide.image.src} className={styles.sliderSlide} data-index={i} aria-roledescription="slide" aria-label={`${i + 1} of ${slides.length}`}>
-              <Image src={slide.image.src} alt="" fill sizes="100vw" priority={i === 0} />
+              <Image src={slide.image.src} alt={slide.image.alt} fill sizes="100vw" priority={i === 0} />
             </li>
           ) : null,
         )}

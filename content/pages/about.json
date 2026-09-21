@@ -95,7 +95,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">about</p> <h2>Blaco Hill Cottages</h2> <p>We are a family run business, offering a selection of 12 self catering properties on our working farm on the North Nottinghamshire, South Yorkshire border. From converted courtyard barns to old pigstys and stables each property is unique in character. Our selection of self-catering accommodation is fully equipped with everything that you will need during your stay.</p>"
+                  "html": "<p data-kicker=\"\">about</p> <h2>Blaco Hill Cottages</h2> <p>We are a family run business, offering a selection of eleven self catering properties on our working farm on the North Nottinghamshire, South Yorkshire border. From converted courtyard barns to old pigstys and stables each property is unique in character. Our selection of self-catering accommodation is fully equipped with everything that you will need during your stay.</p>"
                 }
               ]
             }
@@ -135,49 +135,49 @@
                       "src": "/media/2020/08/blaco-hill-farm.jpg",
                       "width": 1024,
                       "height": 768,
-                      "alt": "Blaco hill farm"
+                      "alt": "Aerial view of Blaco Hill Farm: whitewashed buildings with red pantile roofs around a courtyard garden, with fields beyond"
                     },
                     {
                       "src": "/media/2020/09/the-farm.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "The farm"
+                      "alt": "Sunset over rough meadow and hedgerows, seen through trees"
                     },
                     {
                       "src": "/media/2020/09/the-lake.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "The lake"
+                      "alt": "Lake fringed with reeds under a blue sky with white clouds"
                     },
                     {
                       "src": "/media/2020/09/the-pature.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "The pature"
+                      "alt": "Pasture with young trees in the foreground and patchwork fields and hedgerows beyond"
                     },
                     {
                       "src": "/media/2020/09/the-lake-view.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "The lake view"
+                      "alt": "Adult and small child at the edge of a lake beside a small boat, with cattle in the water on the far bank"
                     },
                     {
                       "src": "/media/2020/09/geese.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "Geese"
+                      "alt": "Greylag geese standing in a field of dry grass"
                     },
                     {
                       "src": "/media/2020/09/explore.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "Explore"
+                      "alt": "Two people walking through a field of tall wheat, one with arms outstretched"
                     },
                     {
                       "src": "/media/2020/09/the-view.jpg",
                       "width": 1600,
                       "height": 1200,
-                      "alt": "The view"
+                      "alt": "Summer view over hedgerows to golden fields and trees stretching to the horizon"
                     }
                   ]
                 }
@@ -241,7 +241,7 @@
                 {
                   "type": "toggle",
                   "title": "Are towels and linen provided?",
-                  "html": "<p>One bath sheet and hand towel is provided for each guest. But please bring your own baby towels. </p>"
+                  "html": "<p>Yes, All bed linen and one bath sheet and hand towel per guest is provided, EXCEPT where cots are requested, please bring all cot bedding and baby towels you require</p>"
                 },
                 {
                   "type": "toggle",
@@ -266,7 +266,7 @@
                 {
                   "type": "toggle",
                   "title": "Do you accept pets?",
-                  "html": "<p>We are happy to accept pets in some of our holiday cottages.</p>"
+                  "html": "<p>Yes, we welcome pets in all of our cottages except Cuckoo. Please let us know when you book if you will be bringing a pet.</p>"
                 },
                 {
                   "type": "toggle",
@@ -276,17 +276,17 @@
                 {
                   "type": "toggle",
                   "title": "Do you have wifi?",
-                  "html": "Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside."
+                  "html": "<p>Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Are your cottages child friendly?",
-                  "html": "Yes, growing up at Blaco ad now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection of toys and games for all ages."
+                  "html": "<p>Yes, growing up at Blaco and now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection of toys and games for all ages. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Where should I park?",
-                  "html": "We have a designated carpark for the cottages with some under cover parking close to all the cottages."
+                  "html": "<p>We have a designated carpark for the cottages with some under cover parking close to all the cottages. </p>"
                 },
                 {
                   "type": "toggle",
@@ -372,7 +372,7 @@
               "modules": [
                 {
                   "type": "counter",
-                  "number": "12",
+                  "number": "11",
                   "title": "Cottages"
                 }
               ]
@@ -457,7 +457,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

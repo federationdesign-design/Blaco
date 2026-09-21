@@ -122,55 +122,55 @@
                       "src": "/media/2020/09/swift-entrance.jpg",
                       "width": 1000,
                       "height": 655,
-                      "alt": "Swift entrance"
+                      "alt": "Whitewashed single-storey cottage with a red pantile roof, with lavender and a gravel path in front"
                     },
                     {
                       "src": "/media/2020/09/swift-lounge.jpg",
                       "width": 1000,
                       "height": 650,
-                      "alt": "Swift lounge"
+                      "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an electric fire under exposed beams"
                     },
                     {
                       "src": "/media/2020/09/swift-kitchen2.jpg",
                       "width": 1000,
                       "height": 650,
-                      "alt": "Swift kitchen"
+                      "alt": "Kitchen with oak units, an oven, a microwave and a trolley, with the dining table in the foreground"
                     },
                     {
                       "src": "/media/2020/09/swift-master.jpg",
                       "width": 1000,
                       "height": 655,
-                      "alt": "Swift master"
+                      "alt": "Double bedroom with a pine bed, bedside cabinets and a dressing table with a mirror"
                     },
                     {
                       "src": "/media/2020/09/swift-twin2.jpg",
                       "width": 1000,
                       "height": 650,
-                      "alt": "Swift twin"
+                      "alt": "Twin bedroom with two pine single beds with green and grey striped covers"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     },
                     {
                       "src": "/media/2020/09/swift-entrance2.jpg",
                       "width": 1000,
                       "height": 1159,
-                      "alt": "Swift entrance"
+                      "alt": "Lavender beds beside a gravel path leading to the cottage"
                     },
                     {
                       "src": "/media/2020/09/swift-bath.jpg",
                       "width": 1000,
                       "height": 1159,
-                      "alt": "Swift bath"
+                      "alt": "Bathroom with a bath and glass shower screen, pedestal basin, toilet and illuminated mirror"
                     },
                     {
                       "src": "/media/2020/09/swift-twin3.jpg",
                       "width": 1000,
                       "height": 1159,
-                      "alt": "Swift twin"
+                      "alt": "Twin bedroom with two single beds, a wicker armchair and a bedside cabinet with a lamp"
                     }
                   ]
                 }
@@ -544,7 +544,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -615,49 +616,49 @@
             "src": "/media/2020/09/swift-entrance.jpg",
             "width": 1000,
             "height": 655,
-            "alt": "Swift entrance"
+            "alt": "Whitewashed single-storey cottage with a red pantile roof, with lavender and a gravel path in front"
           },
           {
             "src": "/media/2020/09/swift-lounge.jpg",
             "width": 1000,
             "height": 650,
-            "alt": "Swift lounge"
+            "alt": "Sitting room with brown leather sofas, a coffee table, a TV and an electric fire under exposed beams"
           },
           {
             "src": "/media/2020/09/swift-kitchen2.jpg",
             "width": 1000,
             "height": 650,
-            "alt": "Swift kitchen"
+            "alt": "Kitchen with oak units, an oven, a microwave and a trolley, with the dining table in the foreground"
           },
           {
             "src": "/media/2020/09/swift-master.jpg",
             "width": 1000,
             "height": 655,
-            "alt": "Swift master"
+            "alt": "Double bedroom with a pine bed, bedside cabinets and a dressing table with a mirror"
           },
           {
             "src": "/media/2020/09/swift-twin2.jpg",
             "width": 1000,
             "height": 650,
-            "alt": "Swift twin"
+            "alt": "Twin bedroom with two pine single beds with green and grey striped covers"
           },
           {
             "src": "/media/2020/09/swift-entrance2.jpg",
             "width": 1000,
             "height": 1159,
-            "alt": "Swift entrance"
+            "alt": "Lavender beds beside a gravel path leading to the cottage"
           },
           {
             "src": "/media/2020/09/swift-bath.jpg",
             "width": 1000,
             "height": 1159,
-            "alt": "Swift bath"
+            "alt": "Bathroom with a bath and glass shower screen, pedestal basin, toilet and illuminated mirror"
           },
           {
             "src": "/media/2020/09/swift-twin3.jpg",
             "width": 1000,
             "height": 1159,
-            "alt": "Swift twin"
+            "alt": "Twin bedroom with two single beds, a wicker armchair and a bedside cabinet with a lamp"
           }
         ]
       }
@@ -666,7 +667,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -1033,7 +1034,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }

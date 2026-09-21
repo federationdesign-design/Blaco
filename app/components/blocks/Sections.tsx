@@ -246,15 +246,15 @@ export function ModuleView({ module, postsCategory }: { module: Module; postsCat
       return (
         <article className={styles.card}>
           {module.image && (
-            <Link href={module.href} className={styles.cardImage} tabIndex={-1} aria-hidden="true">
+            <figure className={styles.cardImage}>
               <Image
                 src={module.image.src}
-                alt=""
+                alt={module.image.alt}
                 width={module.image.width}
                 height={module.image.height}
                 sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
               />
-            </Link>
+            </figure>
           )}
           <RichText html={module.html} className={styles.cardBody} />
           <Link className={styles.button} href={module.href}>

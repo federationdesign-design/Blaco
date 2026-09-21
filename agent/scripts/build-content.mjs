@@ -27,18 +27,28 @@ const MAP = '/maps/cottage-map-2026.jpg';
 
 // ---------- decisions applied to copy ----------
 
-// Checkpoint 1 decision 6: typo fixes and the privacy email. Exact strings only.
+// Exact-string copy changes: [from, to, reason]. Every change is logged.
 const COPY_FIXES = {
   '/what-internet-speeds-can-i-expect': [
-    ['around the nations average', 'around the national average'],
-    ['It will supports streaming', 'It will support streaming'],
+    ['around the nations average', 'around the national average', 'Checkpoint 1 decision 6'],
+    ['It will supports streaming', 'It will support streaming', 'Checkpoint 1 decision 6'],
   ],
   '/what-is-your-cancellation-policy': [
-    ['<p>f you need to cancel', '<p>If you need to cancel'],
-    ['spending on the time between the cancelation', 'Depending on the time between the cancellation'],
-    ['result in yoru deposit', 'result in your deposit'],
+    ['<p>f you need to cancel', '<p>If you need to cancel', 'Checkpoint 1 decision 6'],
+    [
+      'spending on the time between the cancelation and the booking may result in yoru deposit being lost.',
+      'Depending on how close to your arrival date you cancel, you may lose your deposit.',
+      'Checkpoint 3 decision 4',
+    ],
   ],
-  '/privacy-policy-2': [['enquiries@blacohillcottages.co.uk', 'victoria@blacohillcottages.co.uk']],
+  '/privacy-policy-2': [['enquiries@blacohillcottages.co.uk', 'victoria@blacohillcottages.co.uk', 'Checkpoint 1 decision 6']],
+  '/': [[', DVD Player', '', 'Checkpoint 3 decision 2']],
+  '/accessibility-statement': [
+    [' &amp; DVD Player', '', 'Checkpoint 3 decision 2'],
+    [' &amp; DVD player', '', 'Checkpoint 3 decision 2'],
+    [', DVD Player', '', 'Checkpoint 3 decision 2'],
+  ],
+  '/about': [['a selection of 12 self catering properties', 'a selection of eleven self catering properties', 'Checkpoint 3 decision 3']],
 };
 
 // Checkpoint 1 decision 5: Swallow sleeps 5 everywhere.
@@ -60,7 +70,9 @@ const fixHref = (href, url) => {
 
 // ---------- helpers ----------
 
-const humanise = (s) => (s || '').replace(/\.[a-z0-9]+$/i, '').replace(/-scaled(-\d+)?$/, '').replace(/[-_]+/g, ' ').replace(/(\D)\d+$/, '$1').replace(/\s+\d+$/, '').trim().replace(/^./, (c) => c.toUpperCase());
+// Checkpoint 3 decision 5: alt text is written by looking at each image, kept in
+// content/alt-text.json keyed by path. It is never derived from file names.
+const ALT = JSON.parse(await readFile(join(repo, 'content', 'alt-text.json'), 'utf8'));
 
 const img = (srcPath, alt, title, url, decorative = false) => {
   if (!srcPath) return null;
@@ -68,7 +80,6 @@ const img = (srcPath, alt, title, url, decorative = false) => {
   let altText = alt;
   if (/\/cottage-map-[^/]+\.jpg$/i.test(path)) {
     path = MAP;
-    altText = 'Blaco Hill Farm Cottages site map';
     note(url, `Per-cottage map ${srcPath.split('/').pop()} replaced by the 2026 site map (decision 4)`);
   }
   const d = dims[path];
@@ -76,8 +87,11 @@ const img = (srcPath, alt, title, url, decorative = false) => {
     problems.push(`${url}: no local file for ${path}`);
     return null;
   }
-  if (!decorative && !altText) altText = humanise(title) || humanise(path.split('/').pop());
-  return { src: path, width: d.width, height: d.height, alt: decorative ? '' : altText };
+  if (!decorative) {
+    altText = ALT[path];
+    if (!altText) problems.push(`${url}: no reviewed alt text for ${path}`);
+  }
+  return { src: path, width: d.width, height: d.height, alt: decorative ? '' : altText ?? '' };
 };
 
 // Live gradients come in two families: a white wash (dark text) and a green
@@ -116,10 +130,10 @@ const clean = (html, url) => {
 
 const applyCopy = (html, url) => {
   let next = swallowFive(html, url);
-  for (const [from, to] of COPY_FIXES[url] ?? []) {
+  for (const [from, to, why] of COPY_FIXES[url] ?? []) {
     if (next.includes(from)) {
       next = next.split(from).join(to);
-      note(url, `Copy fix: "${from}" to "${to}" (decision 6)`);
+      note(url, to ? `Copy change: "${from}" to "${to}" (${why})` : `Copy change: "${from.trim()}" removed (${why})`);
     }
   }
   return next;
@@ -129,6 +143,15 @@ const ICONS = { e081: 'pin', e074: 'house', e08b: 'people', e090: 'phone', e076:
 const iconName = (icon) => (icon ? ICONS[[...icon].map((c) => c.codePointAt(0).toString(16)).join('')] ?? null : null);
 
 // ---------- module and section conversion ----------
+
+// Success messages set on the live Divi forms (success_message in the REST
+// shortcodes). Forms without one showed Divi's default.
+const pagesApi = JSON.parse(await readFile(join(repo, 'agent', 'extract', 'api', 'pages.json'), 'utf8'));
+const FORM_SUCCESS = { default: 'Thanks for contacting us' };
+for (const p of pagesApi) {
+  const m = p.content.rendered.match(/success_message=&#8221;(.*?)&#8221;/);
+  if (m) FORM_SUCCESS[new URL(p.link).pathname.replace(/\/$/, '') || '/'] = cheerio.load(m[1]).text();
+}
 
 const DEFAULT_BUTTON = { 'Request a booking': '/booking-request-form', 'Check Availability': '/calendar' };
 
@@ -140,6 +163,10 @@ const convertModule = (m, url) => {
     case 'image':
       return { type: 'image', image: img(m.src, m.alt, m.title, url), href: m.href && !m.href.startsWith('/media/') ? fixHref(m.href, url) : null };
     case 'blurb': {
+      if (m.title.trim() === 'DVD Player') {
+        note(url, 'Amenity "DVD Player" removed (Checkpoint 3 decision 2)');
+        return null;
+      }
       const icon = iconName(m.icon);
       let href = m.href ? fixHref(m.href, url) : null;
       // Rule 6: phone numbers and emails are links.
@@ -167,8 +194,13 @@ const convertModule = (m, url) => {
         title: m.title,
         fields: m.fields.map((f) => ({ name: f.name, label: f.label, type: f.tag === 'textarea' ? 'textarea' : f.fieldType === 'email' ? 'email' : f.name.includes('_tel_') ? 'tel' : 'text', required: f.required })),
         submit: m.submit || 'Submit',
+        success: FORM_SUCCESS[url] ?? FORM_SUCCESS.default,
       };
     case 'number_counter':
+      if (url === '/about' && m.title === 'Cottages' && m.number === '12') {
+        note(url, 'Cottages counter changed from 12 to 11 (Checkpoint 3 decision 3)');
+        return { type: 'counter', number: '11', title: m.title };
+      }
       return { type: 'counter', number: m.number, title: m.title };
     case 'gallery':
       return { type: 'gallery', images: m.images.map((i) => img(i.src, i.alt, i.title, url)).filter(Boolean) };
@@ -183,7 +215,7 @@ const convertModule = (m, url) => {
       return null;
     case 'fullwidth_slider':
     case 'slider':
-      return { type: 'slider', slides: m.slides.map((s) => ({ title: s.title, html: clean(s.html, url), image: s.background?.image ? img(s.background.image, '', '', url, true) : null })) };
+      return { type: 'slider', slides: m.slides.map((s) => ({ title: s.title, html: clean(s.html, url), image: s.background?.image ? img(s.background.image, '', '', url) : null })) };
     default:
       problems.push(`${url}: unhandled module ${m.type}`);
       return null;
@@ -348,6 +380,21 @@ for (const [url, page] of extracted) {
 
 moveSwallow(built);
 
+// Brief 6: new page on the general content template. Text to come from Steve.
+built.set('/modern-slavery', {
+  url: '/modern-slavery',
+  template: 'general',
+  title: 'Modern Slavery Statement',
+  absoluteTitle: null,
+  sections: [
+    {
+      kind: 'content',
+      background: null,
+      rows: [{ columns: [{ size: '4_4', modules: [{ type: 'text', html: '<h1>Modern Slavery Statement</h1> <p>[MODERN_SLAVERY_TEXT]</p>' }] }] }],
+    },
+  ],
+});
+
 // The accessibility statement puts "Sleeps 4" in a list under a separate Swallow heading.
 for (const section of built.get('/accessibility-statement').sections) {
   const modules = section.rows.flatMap((r) => r.columns.flatMap((c) => c.modules));
@@ -356,6 +403,25 @@ for (const section of built.get('/accessibility-statement').sections) {
     if (m.html?.includes('<li>Sleeps 4</li>')) {
       m.html = m.html.replace('<li>Sleeps 4</li>', '<li>Sleeps 5</li>');
       note('/accessibility-statement', 'Swallow shown as sleeping 5 (decision 5)');
+    }
+  }
+}
+
+// Checkpoint 3 decision 3: About page toggles give the same answers as the FAQ pages.
+{
+  const norm = (t) => t.toLowerCase().replace(/[^a-z]/g, '');
+  for (const section of built.get('/about').sections) {
+    for (const m of section.rows.flatMap((r) => r.columns.flatMap((c) => c.modules))) {
+      if (m.type !== 'toggle') continue;
+      const post = faqPosts.find((p) => norm(p.title) === norm(m.title));
+      if (!post) {
+        note('/about', `Toggle "${m.title}" kept as live: there is no FAQ page with this question`);
+        continue;
+      }
+      if (post.html !== m.html) {
+        m.html = post.html;
+        note('/about', `Toggle "${m.title}" now gives the answer from ${post.url} (Checkpoint 3 decision 3)`);
+      }
     }
   }
 }

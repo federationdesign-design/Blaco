@@ -1,0 +1,27 @@
+{
+  "url": "/modern-slavery",
+  "template": "general",
+  "title": "Modern Slavery Statement",
+  "absoluteTitle": null,
+  "sections": [
+    {
+      "kind": "content",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<h1>Modern Slavery Statement</h1> <p>[MODERN_SLAVERY_TEXT]</p>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

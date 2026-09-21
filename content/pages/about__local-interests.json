@@ -65,7 +65,7 @@
                     "src": "/media/2020/09/badger.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Badger"
+                    "alt": "Badger peering out of green undergrowth"
                   },
                   "href": null
                 },
@@ -84,7 +84,7 @@
                     "src": "/media/2020/09/Meet-Honey-and-Sunny-at-Sundown-Adventureland-this-Mothers-Day.jpg",
                     "width": 1200,
                     "height": 800,
-                    "alt": "Meet Honey and Sunny at Sundown Adventureland this Mothers Day"
+                    "alt": "Two costumed bear characters, one in blue dungarees and one in a pink dress, waving in the sunshine"
                   },
                   "href": null
                 },
@@ -103,7 +103,7 @@
                     "src": "/media/2020/09/lion-small.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Lion small"
+                    "alt": "Lion cub lying on the ground, looking up"
                   },
                   "href": null
                 },
@@ -126,7 +126,7 @@
                     "src": "/media/2020/09/paintball.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Paintball"
+                    "alt": "Paintball player in a mask taking aim from behind a paint-splattered barrel"
                   },
                   "href": null
                 },
@@ -145,7 +145,7 @@
                     "src": "/media/2020/09/horseracing.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Horseracing"
+                    "alt": "Two racehorses and their jockeys galloping past the rail"
                   },
                   "href": null
                 },
@@ -164,7 +164,7 @@
                     "src": "/media/2020/09/waterpark.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Waterpark"
+                    "alt": "Inflatable obstacle course floating on a lake"
                   },
                   "href": null
                 },
@@ -187,7 +187,7 @@
                     "src": "/media/2020/10/archery-target.jpg",
                     "width": 500,
                     "height": 333,
-                    "alt": "Archery target"
+                    "alt": "Arrows in the gold centre of an archery target"
                   },
                   "href": null
                 },
@@ -206,7 +206,7 @@
                     "src": "/media/2020/09/golf.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Golf"
+                    "alt": "Golfers on a sunny fairway with trees on the skyline"
                   },
                   "href": null
                 },
@@ -225,7 +225,7 @@
                     "src": "/media/2020/09/aqua-park.jpg",
                     "width": 500,
                     "height": 335,
-                    "alt": "Aqua park"
+                    "alt": "Child in goggles swimming underwater in a blue tiled pool"
                   },
                   "href": null
                 },
@@ -352,7 +352,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

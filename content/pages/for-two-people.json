@@ -99,7 +99,7 @@
                     "src": "/media/2020/09/nightingale.jpg",
                     "width": 1800,
                     "height": 1035,
-                    "alt": "Nightingale"
+                    "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
                   "html": "<h3>Nightingale - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/nightingale",
@@ -116,7 +116,7 @@
                     "src": "/media/2020/09/nightingale.jpg",
                     "width": 1800,
                     "height": 1035,
-                    "alt": "Nightingale"
+                    "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
                   "html": "<h3>Skylark - Sleeps 2</h3> <p>With a large glass window frontage this cottage offers bright open plan living downstairs with a master ensuite upstairs on a mezzanine floor.</p>",
                   "href": "/our-cottages/skylark",
@@ -133,7 +133,7 @@
                     "src": "/media/2020/09/nightingale.jpg",
                     "width": 1800,
                     "height": 1035,
-                    "alt": "Nightingale"
+                    "alt": "Single-storey cottage with a slate roof behind a gravel garden with lavender, shrubs, a standing stone and a lamp post"
                   },
                   "html": "<h3>Wren - Sleeps 2</h3> <p>Designed with accessibility in mind this level accessed cottage has an open plan kitchen dining living area, a master bedroom with king sized bed, TV and ensuite wet room.</p>",
                   "href": "/our-cottages/wren",
@@ -154,7 +154,7 @@
                     "src": "/media/2020/09/twin2.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Twin"
+                    "alt": "Twin bedroom with two single beds with green striped covers beneath a painting of a tree-lined path"
                   },
                   "html": "<h3>Grey Goose - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/grey-goose",
@@ -171,7 +171,7 @@
                     "src": "/media/2020/09/Pheasant-master1.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Pheasant master"
+                    "alt": "Double bed with leaf-patterned bedding and a wooden headboard, between white bedside tables with lamps"
                   },
                   "html": "<h3>Mallard - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/mallard",
@@ -188,7 +188,7 @@
                     "src": "/media/2020/09/Pheasant-twin.jpg",
                     "width": 1000,
                     "height": 628,
-                    "alt": "Pheasant twin"
+                    "alt": "Twin bedroom with two single beds with green striped covers under a sloping beamed ceiling with spotlights"
                   },
                   "html": "<h3>Woodcock - Sleeps 2</h3> <p>These studio stye cottages offer open plan living with high beamed ceilings and glass frontage providing plenty of light and character. A super king or twin beds can be made up. Ensuite with shower over bath. </p>",
                   "href": "/our-cottages/woodcock",
@@ -296,7 +296,7 @@
                     "src": "/media/2020/09/Chaffinch-bath.jpg",
                     "width": 805,
                     "height": 1000,
-                    "alt": "Chaffinch bath"
+                    "alt": "Shower room with a curved glass shower cubicle, toilet and basin"
                   },
                   "href": null
                 }
@@ -508,7 +508,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }

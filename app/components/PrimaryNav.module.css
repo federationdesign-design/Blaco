@@ -29,7 +29,6 @@
     min-height: var(--touch-target);
     padding-inline: var(--space-2xs);
     color: rgba(0, 0, 0, 0.6);
-    font-family: var(--font-serif);
     font-size: var(--step-0);
     font-weight: 600;
     text-decoration: none;

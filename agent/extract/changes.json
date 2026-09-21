@@ -1,6 +1,14 @@
 [
   {
     "url": "/about",
+    "what": "Copy change: \"a selection of 12 self catering properties\" to \"a selection of eleven self catering properties\" (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
+    "what": "Cottages counter changed from 12 to 11 (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
     "what": "Social media icons dropped: every link on live is \"#\""
   },
   {
@@ -22,6 +30,18 @@
   {
     "url": "/about/testimonials",
     "what": "Social media icons dropped: every link on live is \"#\""
+  },
+  {
+    "url": "/accessibility-statement",
+    "what": "Copy change: \"&amp; DVD Player\" removed (Checkpoint 3 decision 2)"
+  },
+  {
+    "url": "/accessibility-statement",
+    "what": "Copy change: \", DVD Player\" removed (Checkpoint 3 decision 2)"
+  },
+  {
+    "url": "/accessibility-statement",
+    "what": "Copy change: \"&amp; DVD player\" removed (Checkpoint 3 decision 2)"
   },
   {
     "url": "/checking-in-checkout-process",
@@ -69,11 +89,19 @@
   },
   {
     "url": "/",
+    "what": "Copy change: \", DVD Player\" removed (Checkpoint 3 decision 2)"
+  },
+  {
+    "url": "/",
     "what": "Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2"
   },
   {
     "url": "/",
     "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/",
+    "what": "Amenity \"DVD Player\" removed (Checkpoint 3 decision 2)"
   },
   {
     "url": "/",
@@ -181,7 +209,7 @@
   },
   {
     "url": "/privacy-policy-2",
-    "what": "Copy fix: \"enquiries@blacohillcottages.co.uk\" to \"victoria@blacohillcottages.co.uk\" (decision 6)"
+    "what": "Copy change: \"enquiries@blacohillcottages.co.uk\" to \"victoria@blacohillcottages.co.uk\" (Checkpoint 1 decision 6)"
   },
   {
     "url": "/privacy-policy-2",
@@ -189,23 +217,19 @@
   },
   {
     "url": "/what-internet-speeds-can-i-expect",
-    "what": "Copy fix: \"around the nations average\" to \"around the national average\" (decision 6)"
+    "what": "Copy change: \"around the nations average\" to \"around the national average\" (Checkpoint 1 decision 6)"
   },
   {
     "url": "/what-internet-speeds-can-i-expect",
-    "what": "Copy fix: \"It will supports streaming\" to \"It will support streaming\" (decision 6)"
+    "what": "Copy change: \"It will supports streaming\" to \"It will support streaming\" (Checkpoint 1 decision 6)"
   },
   {
     "url": "/what-is-your-cancellation-policy",
-    "what": "Copy fix: \"<p>f you need to cancel\" to \"<p>If you need to cancel\" (decision 6)"
+    "what": "Copy change: \"<p>f you need to cancel\" to \"<p>If you need to cancel\" (Checkpoint 1 decision 6)"
   },
   {
     "url": "/what-is-your-cancellation-policy",
-    "what": "Copy fix: \"spending on the time between the cancelation\" to \"Depending on the time between the cancellation\" (decision 6)"
-  },
-  {
-    "url": "/what-is-your-cancellation-policy",
-    "what": "Copy fix: \"result in yoru deposit\" to \"result in your deposit\" (decision 6)"
+    "what": "Copy change: \"spending on the time between the cancelation and the booking may result in yoru deposit being lost.\" to \"Depending on how close to your arrival date you cancel, you may lose your deposit.\" (Checkpoint 3 decision 4)"
   },
   {
     "url": "/for-four-people",
@@ -218,6 +242,30 @@
   {
     "url": "/accessibility-statement",
     "what": "Swallow shown as sleeping 5 (decision 5)"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Are towels and linen provided?\" now gives the answer from /are-towels-and-linen-provided (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Do you have parking on site?\" kept as live: there is no FAQ page with this question"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Do you accept pets?\" now gives the answer from /do-you-accept-pets (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Do you have wifi?\" now gives the answer from /do-you-have-wifi (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Are your cottages child friendly?\" now gives the answer from /are-your-cottages-child-friendly (Checkpoint 3 decision 3)"
+  },
+  {
+    "url": "/about",
+    "what": "Toggle \"Where should I park?\" now gives the answer from /where-should-i-park (Checkpoint 3 decision 3)"
   },
   {
     "url": "/about/faq",

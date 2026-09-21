@@ -122,37 +122,37 @@
                       "src": "/media/2020/09/Cuckoo-entrance.jpg",
                       "width": 1000,
                       "height": 632,
-                      "alt": "Cuckoo entrance"
+                      "alt": "Courtyard garden with gravel, a standing stone, shrubs and a lamp post in front of whitewashed cottages with red tiled roofs"
                     },
                     {
                       "src": "/media/2020/09/Cuckoo-bathroom.jpg",
                       "width": 1000,
                       "height": 632,
-                      "alt": "Cuckoo bathroom"
+                      "alt": "Bathroom with a bath and shower over, basin and toilet, with large grey wall tiles"
                     },
                     {
                       "src": "/media/2020/09/Cuckoo-master.jpg",
                       "width": 1000,
                       "height": 632,
-                      "alt": "Cuckoo master"
+                      "alt": "Bedroom with a large pine bed and striped bedding under exposed roof beams"
                     },
                     {
                       "src": "/media/2020/09/Cuckoo-lounge2.jpg",
                       "width": 1000,
                       "height": 632,
-                      "alt": "Cuckoo lounge"
+                      "alt": "Open-plan living area with two leather sofas and a coffee table, with the kitchen and dining table behind, under exposed beams"
                     },
                     {
                       "src": "/maps/cottage-map-2026.jpg",
                       "width": 3200,
                       "height": 2669,
-                      "alt": "Blaco Hill Farm Cottages site map"
+                      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
                     },
                     {
                       "src": "/media/2020/09/Cuckoo-twin.jpg",
                       "width": 1000,
                       "height": 1149,
-                      "alt": "Cuckoo twin"
+                      "alt": "Twin bedroom with two pine single beds and a bedside table with a lamp, under exposed roof beams"
                     }
                   ]
                 }
@@ -526,7 +526,8 @@
                       "required": true
                     }
                   ],
-                  "submit": "Submit"
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
                 }
               ]
             }
@@ -597,31 +598,31 @@
             "src": "/media/2020/09/Cuckoo-entrance.jpg",
             "width": 1000,
             "height": 632,
-            "alt": "Cuckoo entrance"
+            "alt": "Courtyard garden with gravel, a standing stone, shrubs and a lamp post in front of whitewashed cottages with red tiled roofs"
           },
           {
             "src": "/media/2020/09/Cuckoo-bathroom.jpg",
             "width": 1000,
             "height": 632,
-            "alt": "Cuckoo bathroom"
+            "alt": "Bathroom with a bath and shower over, basin and toilet, with large grey wall tiles"
           },
           {
             "src": "/media/2020/09/Cuckoo-master.jpg",
             "width": 1000,
             "height": 632,
-            "alt": "Cuckoo master"
+            "alt": "Bedroom with a large pine bed and striped bedding under exposed roof beams"
           },
           {
             "src": "/media/2020/09/Cuckoo-lounge2.jpg",
             "width": 1000,
             "height": 632,
-            "alt": "Cuckoo lounge"
+            "alt": "Open-plan living area with two leather sofas and a coffee table, with the kitchen and dining table behind, under exposed beams"
           },
           {
             "src": "/media/2020/09/Cuckoo-twin.jpg",
             "width": 1000,
             "height": 1149,
-            "alt": "Cuckoo twin"
+            "alt": "Twin bedroom with two pine single beds and a bedside table with a lamp, under exposed roof beams"
           }
         ]
       }
@@ -630,7 +631,7 @@
       "src": "/maps/cottage-map-2026.jpg",
       "width": 3200,
       "height": 2669,
-      "alt": "Blaco Hill Farm Cottages site map"
+      "alt": "Site map of Blaco Hill Farm Cottages showing the car park, car ports, games room, lawn, play area and dog area, with the eleven cottages numbered and named in a key"
     },
     "sections": [
       {
@@ -997,7 +998,8 @@
                         "required": true
                       }
                     ],
-                    "submit": "Submit"
+                    "submit": "Submit",
+                    "success": "Thanks for contacting us"
                   }
                 ]
               }
