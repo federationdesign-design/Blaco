@@ -38,6 +38,7 @@
                   "type": "blurb",
                   "title": "Nottinghamshire & Yorkshire border",
                   "icon": "pin",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -51,6 +52,7 @@
                   "type": "blurb",
                   "title": "Eleven Unique Cottages",
                   "icon": "house",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -64,6 +66,7 @@
                   "type": "blurb",
                   "title": "Accommodating between two - six",
                   "icon": "people",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -161,7 +164,8 @@
                 {
                   "type": "counter",
                   "number": "6",
-                  "title": "One Bedroom"
+                  "title": "One Bedroom",
+                  "sans": true
                 }
               ]
             },
@@ -171,7 +175,8 @@
                 {
                   "type": "counter",
                   "number": "3",
-                  "title": "Two Bedroom"
+                  "title": "Two Bedroom",
+                  "sans": true
                 }
               ]
             },
@@ -181,7 +186,8 @@
                 {
                   "type": "counter",
                   "number": "2",
-                  "title": "Three Bedroom"
+                  "title": "Three Bedroom",
+                  "sans": true
                 }
               ]
             }
@@ -373,6 +379,7 @@
                   "type": "blurb",
                   "title": "07718 762 845",
                   "icon": "phone",
+                  "sans": true,
                   "image": null,
                   "href": "tel:+447718762845",
                   "html": ""
@@ -386,6 +393,7 @@
                   "type": "blurb",
                   "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                   "icon": "pin",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -399,6 +407,7 @@
                   "type": "blurb",
                   "title": "Victoria@blacohillcottages.co.uk",
                   "icon": "mail",
+                  "sans": true,
                   "image": null,
                   "href": "mailto:victoria@blacohillcottages.co.uk",
                   "html": ""

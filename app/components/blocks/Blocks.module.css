@@ -481,13 +481,29 @@
   text-decoration: none;
 }
 
+/* Labels that are Raleway on the live site (read per module from the live CSS:
+   amenity items and contact details). Headings stay Baskervville. */
+.blurb[data-font='sans'] .blurbTitle {
+  color: var(--colour-heading);
+  font-family: var(--font-sans);
+  font-weight: 600;
+}
+
+/* Amenities: live filled lime circle with a white tick. */
 .section[data-kind='amenities'] .blurb {
   align-items: center;
 }
 
+.section[data-kind='amenities'] .blurbIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0;
+  color: var(--colour-lime);
+}
+
 .section[data-kind='amenities'] .blurbTitle {
-  font-size: var(--step-0);
-  font-weight: 600;
+  font-size: var(--step-1);
+  line-height: 1.2;
 }
 
 .section[data-kind='contact'] .row[data-shape='blurbs'] .blurb {
@@ -495,19 +511,20 @@
 }
 
 .section[data-kind='contact'] .row[data-shape='blurbs'] .blurbTitle {
-  font-family: var(--font-sans);
   font-size: var(--step-0);
 }
 
 /* ---------- toggles ---------- */
 
+/* As live: light grey fill with no visible border when closed; white with a
+   light grey outline when open. Filled green circle icon, plus or minus. */
 .toggle {
   border: 2px solid var(--colour-mist);
-  background: var(--colour-white);
+  background: var(--colour-mist);
 }
 
 .toggle[open] {
-  background: var(--colour-mist);
+  background: var(--colour-white);
 }
 
 .toggleTitle {
@@ -516,34 +533,44 @@
   justify-content: space-between;
   gap: var(--space-s);
   min-height: var(--touch-target);
-  padding: var(--space-xs) var(--space-s);
+  padding: var(--space-s) var(--space-m);
   color: var(--colour-heading);
-  font-size: var(--step-1);
+  font-size: var(--step-0);
   font-weight: 700;
-  line-height: var(--leading-tight);
+  line-height: 1.4;
   cursor: pointer;
   list-style: none;
+}
+
+.toggle[data-font='sans'] .toggleTitle {
+  color: var(--colour-ink);
+  font-family: var(--font-sans);
+  font-weight: 600;
 }
 
 .toggleTitle::-webkit-details-marker {
   display: none;
 }
 
-.toggleTitle::after {
-  content: '+';
+.toggleIconClosed,
+.toggleIconOpen {
   flex: none;
-  color: var(--colour-green-dark);
-  font-family: var(--font-sans);
-  font-size: 1.5em;
-  line-height: 1;
+  width: 1.25rem;
+  height: 1.25rem;
+  color: var(--colour-green);
 }
 
-.toggle[open] > .toggleTitle::after {
-  content: '\2212';
+.toggleIconOpen,
+.toggle[open] .toggleIconClosed {
+  display: none;
+}
+
+.toggle[open] .toggleIconOpen {
+  display: block;
 }
 
 .toggleBody {
-  padding: 0 var(--space-s) var(--space-s);
+  padding: 0 var(--space-m) var(--space-m);
 }
 
 /* ---------- reviews ---------- */
@@ -596,6 +623,11 @@
   font-size: var(--step-4);
   font-weight: 700;
   line-height: 1;
+}
+
+/* Live counter numbers are Raleway bold. */
+.counter[data-font='sans'] .counterNumber {
+  font-family: var(--font-sans);
 }
 
 .section[data-overlay='green'] .counterNumber {

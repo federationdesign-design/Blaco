@@ -38,6 +38,7 @@
                   "type": "blurb",
                   "title": "Nottinghamshire & Yorkshire border",
                   "icon": "pin",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -51,6 +52,7 @@
                   "type": "blurb",
                   "title": "Eleven Unique Cottages",
                   "icon": "house",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -64,6 +66,7 @@
                   "type": "blurb",
                   "title": "Each accommodates between 2 - 6 people",
                   "icon": "people",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""

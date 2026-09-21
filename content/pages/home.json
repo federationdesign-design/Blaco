@@ -67,6 +67,7 @@
                   "type": "blurb",
                   "title": "Nottinghamshire & Yorkshire border",
                   "icon": "pin",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -80,6 +81,7 @@
                   "type": "blurb",
                   "title": "Eleven Unique Cottages",
                   "icon": "house",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -93,6 +95,7 @@
                   "type": "blurb",
                   "title": "Accommodating between two - six",
                   "icon": "people",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -435,6 +438,7 @@
                   "type": "blurb",
                   "title": "Electric cooker & hotplates",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -448,6 +452,7 @@
                   "type": "blurb",
                   "title": "Fridge with icebox or Freezer",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -461,6 +466,7 @@
                   "type": "blurb",
                   "title": "Patio Furniture",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -474,6 +480,7 @@
                   "type": "blurb",
                   "title": "Dishwasher",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -487,6 +494,7 @@
                   "type": "blurb",
                   "title": "Smart TVs",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -500,6 +508,7 @@
                   "type": "blurb",
                   "title": "Shared BBQ",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -513,6 +522,7 @@
                   "type": "blurb",
                   "title": "Microwave",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -526,6 +536,7 @@
                   "type": "blurb",
                   "title": "Gas Central Heating",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -539,6 +550,7 @@
                   "type": "blurb",
                   "title": "Laundry room",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -552,6 +564,7 @@
                   "type": "blurb",
                   "title": "Childrens play area",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -565,6 +578,7 @@
                   "type": "blurb",
                   "title": "Large carpark",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -685,16 +699,19 @@
                 {
                   "type": "toggle",
                   "title": "Food & Drink",
+                  "sans": true,
                   "html": "The local towns of Bawtry and Retford offer plenty of choice for restaurants and takeaways from Indian, to Chinese to Italian and more. <p>King William Scaftworth – Gastro Pub<br> The Sun Inn Everton – family pub<br> The Bluebell Lound – family pub<br> Torworth Grange – Farmshop &amp; Cafe<br> Cow Shack Scaftworth – Ice cream parlour.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Nature & Wildlife",
+                  "sans": true,
                   "html": "<p>Idle Valley Nature Reserve located just a couple of miles south of Blaco Hill, this spectacular wetland site covers an area of 450 hectares following the River Idle northwards. The size of 600 football pitches, it is one of the largest sites for nature conservation in the East Midlands.</p> <p>Yorkshire Wildlife Park is South Yorkshire’s newest attraction. Situated just outside Doncaster, the park occupies 70 acres of a 260 acre site, offering a unique view into the world of animals including lions, tigers, leopards, girraffes and baboons.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Arts & Culture",
+                  "sans": true,
                   "html": "<p>With Art Galleries and Museums, there is plenty to of places to visit along with English Heritidge and National Trust Properties</p> <ul> <li>Welbeck Abbey Gallery</li> <li>Bassetlaw Museum Retford</li> <li>Thoresby Park – Military Museum</li> <li>Clumber Park – National Trust</li> <li>Nostell Priory – National Trust</li> <li>Brodsworth Hall And Gardens – English Heritage</li> <li>Cusworth Hall – Museum</li> </ul>"
                 }
               ]
@@ -705,16 +722,19 @@
                 {
                   "type": "toggle",
                   "title": "Kids / Adventure",
+                  "sans": true,
                   "html": "<p>Hatfield Outdoor Activity Centre is a fantastic facility for outdoor enthusiastics and novices alike. Set against an idyllic woodland backdrop, the activity centre offers a range of water-based and land-based activities for all ages and abilities.</p> <p>Bawtry Paintball and Laser Fields Europe’s Largest Paintball and outdoor Laser Combat Centre.Voted Britain’s Best Paintball Venue – 5 years running. Bawtry Paintball is a family run outdoor experience spanning across 352 acres of woodland.</p> <p>The Doncaster Superbowl is the hottest Tenpin bowling centre around with fantastic facilities in a family friendly environment. The Superbowl features 24 brand new air conditioned lanes with the latest scoring system, mouth-watering food menu as well as a fully licensed modern bar. Not to forget an exciting amusements arcade area. Book online</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Day Trips",
+                  "sans": true,
                   "html": "<p>The historic towns of Lincoln and York are 40minutes and 60 minutes away respectfully</p> <p>Yorkshire Sculpture Park in Wakefield is fantastic for families. You can explore and play together in 500 acres of beautiful landscape with contemporary sculpture throughout.</p> <p>Cleethropes beach with famous Papa’s fish and chips is just over an hour away.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Golf",
+                  "sans": true,
                   "html": "<p>Rated as one of the best all season golf courses in Yorkshire, Bawtry Golf and Country Club is a ‘must play’ course for all golfers who want to combine challenging golf with a friendly and welcoming 19th!</p>"
                 }
               ]
@@ -773,6 +793,7 @@
                   "type": "blurb",
                   "title": "07718 762 845",
                   "icon": "phone",
+                  "sans": true,
                   "image": null,
                   "href": "tel:+447718762845",
                   "html": ""
@@ -786,6 +807,7 @@
                   "type": "blurb",
                   "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                   "icon": "pin",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -799,6 +821,7 @@
                   "type": "blurb",
                   "title": "victoria@blacohillcottages.co.uk",
                   "icon": "mail",
+                  "sans": true,
                   "image": null,
                   "href": "mailto:victoria@blacohillcottages.co.uk",
                   "html": ""

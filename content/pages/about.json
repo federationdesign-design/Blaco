@@ -38,6 +38,7 @@
                   "type": "blurb",
                   "title": "Nottinghamshire & Yorkshire border",
                   "icon": "pin",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -51,6 +52,7 @@
                   "type": "blurb",
                   "title": "Eleven Unique Cottages",
                   "icon": "house",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -64,6 +66,7 @@
                   "type": "blurb",
                   "title": "Accommodating between two - six",
                   "icon": "people",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -231,31 +234,37 @@
                 {
                   "type": "toggle",
                   "title": "Are these holiday lets suitable for families?",
+                  "sans": false,
                   "html": "<p>Yes, we welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Are longer-term lets available?",
+                  "sans": false,
                   "html": "<p>Yes. Please just ask and we can discuss your needs accordingly.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Are towels and linen provided?",
+                  "sans": false,
                   "html": "<p>Yes, All bed linen and one bath sheet and hand towel per guest is provided, EXCEPT where cots are requested, please bring all cot bedding and baby towels you require</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Do you have parking on site?",
+                  "sans": false,
                   "html": "<p>Yes, there is parking for up to 10 cars on site next to the cottages. If you are bringing more than one car please let us know in advance.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "I am disabled. Are your properties suitable for me?",
+                  "sans": false,
                   "html": "<p>We do everything we can to accommodate everyone. Please read our <a href=\"/accessibility-statement\">access statement</a> for further details.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Do you have any laundry facilities we can use?",
+                  "sans": false,
                   "html": "<p>There is a communal laundry room which guests are welcome to use. It includes 2 washing machines, a tumble dryer and ironing equipment.</p>"
                 }
               ]
@@ -266,36 +275,43 @@
                 {
                   "type": "toggle",
                   "title": "Do you accept pets?",
+                  "sans": false,
                   "html": "<p>Yes, we welcome pets in all of our cottages except Cuckoo. Please let us know when you book if you will be bringing a pet.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?",
+                  "sans": false,
                   "html": "<p>Cottages are available from 3pm on the day of arrival and we ask that guests vacate by 10am on the day of departure. We can be flexible so please let us know if you have different requirements.</p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Do you have wifi?",
+                  "sans": false,
                   "html": "<p>Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Are your cottages child friendly?",
+                  "sans": false,
                   "html": "<p>Yes, growing up at Blaco and now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection of toys and games for all ages. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "Where should I park?",
+                  "sans": false,
                   "html": "<p>We have a designated carpark for the cottages with some under cover parking close to all the cottages. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "What length of stays do you offer?",
+                  "sans": false,
                   "html": "<p>We are completely flexible with length of stays, from one night to long term lets we can offer accommodation to meet your needs. </p>"
                 },
                 {
                   "type": "toggle",
                   "title": "How do I pay?",
+                  "sans": false,
                   "html": "<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>"
                 }
               ]
@@ -311,6 +327,7 @@
                   "type": "blurb",
                   "title": "Checking in & Checkout Process",
                   "icon": null,
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": "<ul> <li>Self check in is available from 15.00, unless prior arrangements have been agreed otherwise.</li> <li>On day of departure please vacate your cottage by 10.00am leaving the key in the door.</li> <li>Everything you need to know is detailed in your correspondence with us upon booking</li> </ul>"
@@ -324,6 +341,7 @@
                   "type": "blurb",
                   "title": "Cancellation Policy",
                   "icon": null,
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": "<p>Any cancellation for whatever reason, except in instances of a force majeure, should be made in writing via email. On receipt of notice of cancellation, Blaco Hill Farm Cottages will seek to re-let the property for the period of booking.</p> <p>If Blaco Hill Farm Cottages is unable to re-let the property at all then all monies paid by the Client shall be forfeit to Blaco Hill Farm Cottages. Blaco Hill Farm Cottages strongly recommends Clients to take out Cancellation Insurance.</p>"
@@ -363,7 +381,8 @@
                 {
                   "type": "counter",
                   "number": "1",
-                  "title": "Games Room"
+                  "title": "Games Room",
+                  "sans": true
                 }
               ]
             },
@@ -373,7 +392,8 @@
                 {
                   "type": "counter",
                   "number": "11",
-                  "title": "Cottages"
+                  "title": "Cottages",
+                  "sans": true
                 }
               ]
             }
@@ -394,6 +414,7 @@
                   "type": "blurb",
                   "title": "07718 762 845",
                   "icon": "phone",
+                  "sans": true,
                   "image": null,
                   "href": "tel:+447718762845",
                   "html": ""
@@ -407,6 +428,7 @@
                   "type": "blurb",
                   "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                   "icon": "pin",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -420,6 +442,7 @@
                   "type": "blurb",
                   "title": "Victoria@blacohillcottages.co.uk",
                   "icon": "mail",
+                  "sans": true,
                   "image": null,
                   "href": "mailto:victoria@blacohillcottages.co.uk",
                   "html": ""

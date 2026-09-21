@@ -38,6 +38,7 @@
                   "type": "blurb",
                   "title": "Kitchen Dining Area & Large Sitting Room",
                   "icon": "house",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -51,6 +52,7 @@
                   "type": "blurb",
                   "title": "Master and 2 twins",
                   "icon": "bed",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -64,6 +66,7 @@
                   "type": "blurb",
                   "title": "Sleeps six people",
                   "icon": "people",
+                  "sans": false,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -243,6 +246,7 @@
                   "type": "blurb",
                   "title": "Electric cooker & hotplates",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -256,6 +260,7 @@
                   "type": "blurb",
                   "title": "Fridge with icebox or Freezer",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -269,6 +274,7 @@
                   "type": "blurb",
                   "title": "Patio Furniture",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -282,6 +288,7 @@
                   "type": "blurb",
                   "title": "Dishwasher",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -295,6 +302,7 @@
                   "type": "blurb",
                   "title": "Smart Television",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -308,6 +316,7 @@
                   "type": "blurb",
                   "title": "Shared BBQ",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -321,6 +330,7 @@
                   "type": "blurb",
                   "title": "Microwave",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -334,6 +344,7 @@
                   "type": "blurb",
                   "title": "Childrens play area",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -347,6 +358,7 @@
                   "type": "blurb",
                   "title": "Gas Central Heating",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -360,6 +372,7 @@
                   "type": "blurb",
                   "title": "Laundry room",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -373,6 +386,7 @@
                   "type": "blurb",
                   "title": "Large carpark",
                   "icon": "check",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -481,6 +495,7 @@
                   "type": "blurb",
                   "title": "07718 762 845",
                   "icon": "phone",
+                  "sans": true,
                   "image": null,
                   "href": "tel:+447718762845",
                   "html": ""
@@ -494,6 +509,7 @@
                   "type": "blurb",
                   "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                   "icon": "pin",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -507,6 +523,7 @@
                   "type": "blurb",
                   "title": "Victoria@blacohillcottages.co.uk",
                   "icon": "mail",
+                  "sans": true,
                   "image": null,
                   "href": "mailto:victoria@blacohillcottages.co.uk",
                   "html": ""
@@ -570,6 +587,7 @@
         "type": "blurb",
         "title": "Kitchen Dining Area & Large Sitting Room",
         "icon": "house",
+        "sans": false,
         "image": null,
         "href": null,
         "html": ""
@@ -578,6 +596,7 @@
         "type": "blurb",
         "title": "Master and 2 twins",
         "icon": "bed",
+        "sans": false,
         "image": null,
         "href": null,
         "html": ""
@@ -586,6 +605,7 @@
         "type": "blurb",
         "title": "Sleeps six people",
         "icon": "people",
+        "sans": false,
         "image": null,
         "href": null,
         "html": ""
@@ -733,6 +753,7 @@
                     "type": "blurb",
                     "title": "Electric cooker & hotplates",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -746,6 +767,7 @@
                     "type": "blurb",
                     "title": "Fridge with icebox or Freezer",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -759,6 +781,7 @@
                     "type": "blurb",
                     "title": "Patio Furniture",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -772,6 +795,7 @@
                     "type": "blurb",
                     "title": "Dishwasher",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -785,6 +809,7 @@
                     "type": "blurb",
                     "title": "Smart Television",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -798,6 +823,7 @@
                     "type": "blurb",
                     "title": "Shared BBQ",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -811,6 +837,7 @@
                     "type": "blurb",
                     "title": "Microwave",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -824,6 +851,7 @@
                     "type": "blurb",
                     "title": "Childrens play area",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -837,6 +865,7 @@
                     "type": "blurb",
                     "title": "Gas Central Heating",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -850,6 +879,7 @@
                     "type": "blurb",
                     "title": "Laundry room",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -863,6 +893,7 @@
                     "type": "blurb",
                     "title": "Large carpark",
                     "icon": "check",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -971,6 +1002,7 @@
                     "type": "blurb",
                     "title": "07718 762 845",
                     "icon": "phone",
+                    "sans": true,
                     "image": null,
                     "href": "tel:+447718762845",
                     "html": ""
@@ -984,6 +1016,7 @@
                     "type": "blurb",
                     "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                     "icon": "pin",
+                    "sans": true,
                     "image": null,
                     "href": null,
                     "html": ""
@@ -997,6 +1030,7 @@
                     "type": "blurb",
                     "title": "Victoria@blacohillcottages.co.uk",
                     "icon": "mail",
+                    "sans": true,
                     "image": null,
                     "href": "mailto:victoria@blacohillcottages.co.uk",
                     "html": ""

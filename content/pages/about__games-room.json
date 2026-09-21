@@ -56,7 +56,8 @@
                 {
                   "type": "counter",
                   "number": "1",
-                  "title": "Snooker Table"
+                  "title": "Snooker Table",
+                  "sans": true
                 }
               ]
             },
@@ -66,7 +67,8 @@
                 {
                   "type": "counter",
                   "number": "1",
-                  "title": "Table Tennis"
+                  "title": "Table Tennis",
+                  "sans": true
                 }
               ]
             },
@@ -76,7 +78,8 @@
                 {
                   "type": "counter",
                   "number": "1",
-                  "title": "Table Football"
+                  "title": "Table Football",
+                  "sans": true
                 }
               ]
             }
@@ -178,6 +181,7 @@
                   "type": "blurb",
                   "title": "07718 762 845",
                   "icon": "phone",
+                  "sans": true,
                   "image": null,
                   "href": "tel:+447718762845",
                   "html": ""
@@ -191,6 +195,7 @@
                   "type": "blurb",
                   "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
                   "icon": "pin",
+                  "sans": true,
                   "image": null,
                   "href": null,
                   "html": ""
@@ -204,6 +209,7 @@
                   "type": "blurb",
                   "title": "Victoria@blacohillcottages.co.uk",
                   "icon": "mail",
+                  "sans": true,
                   "image": null,
                   "href": "mailto:victoria@blacohillcottages.co.uk",
                   "html": ""

@@ -172,7 +172,7 @@ const convertModule = (m, url) => {
       // Rule 6: phone numbers and emails are links.
       if (icon === 'phone') href = `tel:+44${m.title.replace(/\D/g, '').replace(/^0/, '')}`;
       if (icon === 'mail') href = `mailto:${m.title.toLowerCase()}`;
-      return { type: 'blurb', title: applyCopy(m.title, url), icon, image: m.image ? img(m.image.src, m.image.alt, '', url) : null, href, html: html(m.html) };
+      return { type: 'blurb', title: applyCopy(m.title, url), icon, sans: Boolean(m.sans), image: m.image ? img(m.image.src, m.image.alt, '', url) : null, href, html: html(m.html) };
     }
     case 'button': {
       let href = m.href;
@@ -184,7 +184,7 @@ const convertModule = (m, url) => {
     }
     case 'toggle':
     case 'accordion_item':
-      return { type: 'toggle', title: m.title, html: html(m.html) };
+      return { type: 'toggle', title: m.title, sans: Boolean(m.sans), html: html(m.html) };
     case 'testimonial':
       return { type: 'testimonial', author: m.author, html: html(m.html), portrait: m.portrait ? img(m.portrait, '', '', url, true) : null };
     case 'contact_form':
@@ -199,9 +199,9 @@ const convertModule = (m, url) => {
     case 'number_counter':
       if (url === '/about' && m.title === 'Cottages' && m.number === '12') {
         note(url, 'Cottages counter changed from 12 to 11 (Checkpoint 3 decision 3)');
-        return { type: 'counter', number: '11', title: m.title };
+        return { type: 'counter', number: '11', title: m.title, sans: Boolean(m.sans) };
       }
-      return { type: 'counter', number: m.number, title: m.title };
+      return { type: 'counter', number: m.number, title: m.title, sans: Boolean(m.sans) };
     case 'gallery':
       return { type: 'gallery', images: m.images.map((i) => img(i.src, i.alt, i.title, url)).filter(Boolean) };
     case 'divider':

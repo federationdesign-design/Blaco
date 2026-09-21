@@ -75,18 +75,40 @@ export function PeopleIcon({ className }: IconProps) {
   );
 }
 
-export function CheckIcon({ className }: IconProps) {
-  return (
-    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
-      <path fill="currentColor" d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" />
-    </svg>
-  );
-}
 
 export function BedIcon({ className }: IconProps) {
   return (
     <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
       <path fill="currentColor" d="M7 13a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9a4 4 0 0 0-4-4z" />
+    </svg>
+  );
+}
+
+// Filled circle with a white mark, as Divi's check, plus and minus icons render
+// on the live site. The circle takes currentColor.
+export function CheckCircleIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="12" fill="currentColor" />
+      <path fill="#ffffff" d="M10.2 16.6 5.9 12.3l1.5-1.5 2.8 2.8 6.4-6.4 1.5 1.5z" />
+    </svg>
+  );
+}
+
+export function PlusCircleIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="12" fill="currentColor" />
+      <path fill="#ffffff" d="M11 6.5h2v4.5h4.5v2H13v4.5h-2V13H6.5v-2H11z" />
+    </svg>
+  );
+}
+
+export function MinusCircleIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <circle cx="12" cy="12" r="12" fill="currentColor" />
+      <path fill="#ffffff" d="M6.5 11h11v2h-11z" />
     </svg>
   );
 }

@@ -14,7 +14,8 @@ export type FormField = { name: string; label: string; type: 'text' | 'email' | 
 
 export type TextModule = { type: 'text'; html: string };
 export type ButtonModule = { type: 'button'; label: string; href: string };
-export type BlurbModule = { type: 'blurb'; title: string; icon: IconName | null; image: Img | null; href: string | null; html: string };
+// sans: the live label is Raleway (read from the live page CSS), not Baskervville.
+export type BlurbModule = { type: 'blurb'; title: string; icon: IconName | null; sans: boolean; image: Img | null; href: string | null; html: string };
 export type TestimonialModule = { type: 'testimonial'; author: string; html: string; portrait: Img | null };
 export type FormModule = { type: 'form'; variant: 'quick' | 'full'; title: string; fields: FormField[]; submit: string; success: string };
 export type Slide = { title: string; html: string; image: Img | null };
@@ -26,8 +27,8 @@ export type Module =
   | TestimonialModule
   | FormModule
   | { type: 'image'; image: Img | null; href: string | null }
-  | { type: 'toggle'; title: string; html: string }
-  | { type: 'counter'; number: string; title: string }
+  | { type: 'toggle'; title: string; sans: boolean; html: string }
+  | { type: 'counter'; number: string; title: string; sans: boolean }
   | { type: 'gallery'; images: Img[] }
   | { type: 'divider' }
   | { type: 'map'; title: string; lat: number; lng: number }

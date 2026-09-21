@@ -7,6 +7,7 @@ import { Gallery } from './Gallery';
 import { HeroSlider } from './HeroSlider';
 import { EnquiryForm } from './EnquiryForm';
 import { PostList } from './PostList';
+import { MinusCircleIcon, PlusCircleIcon } from '../Icons';
 import { columnSizes, fitProps } from '../../lib/image-fit';
 import type { Background, BlurbModule, ButtonModule, Column, Module, Row, Section } from '../../lib/content';
 
@@ -195,7 +196,7 @@ export function ModuleView({
     case 'blurb': {
       const title = module.href ? <a href={module.href}>{module.title}</a> : module.title;
       return (
-        <div className={styles.blurb} data-icon={module.icon ?? undefined}>
+        <div className={styles.blurb} data-icon={module.icon ?? undefined} data-font={module.sans ? 'sans' : undefined}>
           {module.icon && <BlockIcon name={module.icon} className={styles.blurbIcon} />}
           <div className={styles.blurbBody}>
             <h3 className={styles.blurbTitle}>{title}</h3>
@@ -206,8 +207,12 @@ export function ModuleView({
     }
     case 'toggle':
       return (
-        <details className={styles.toggle}>
-          <summary className={styles.toggleTitle}>{module.title}</summary>
+        <details className={styles.toggle} data-font={module.sans ? 'sans' : undefined}>
+          <summary className={styles.toggleTitle}>
+            <span>{module.title}</span>
+            <PlusCircleIcon className={styles.toggleIconClosed} />
+            <MinusCircleIcon className={styles.toggleIconOpen} />
+          </summary>
           <RichText html={module.html} className={styles.toggleBody} />
         </details>
       );
@@ -235,7 +240,7 @@ export function ModuleView({
       return <EnquiryForm module={module} />;
     case 'counter':
       return (
-        <div className={styles.counter}>
+        <div className={styles.counter} data-font={module.sans ? 'sans' : undefined}>
           <span className={styles.counterNumber}>{module.number}</span>
           <h3 className={styles.counterTitle}>{module.title}</h3>
         </div>

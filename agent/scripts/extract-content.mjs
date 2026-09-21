@@ -86,6 +86,15 @@ const bgFromCss = (css, cls) => {
   return found[0] ?? null;
 };
 
+// True when the live page CSS sets Raleway on this module's label (the part
+// selected by partRe), e.g. blurb titles, toggle titles or counter numbers.
+const ralewayOn = (css, id, partRe) =>
+  Boolean(id) &&
+  css.split('}').some((rule) => {
+    const [sel, body = ''] = rule.split('{');
+    return new RegExp(`\\.${id}(?![0-9_])`).test(sel) && partRe.test(sel) && /Raleway/.test(body);
+  });
+
 const KNOWN = ['text', 'image', 'blurb', 'button', 'toggle', 'accordion_item', 'testimonial', 'contact_form', 'number_counter', 'social_media_follow', 'map', 'gallery', 'fullwidth_slider', 'slider', 'divider', 'cta', 'fullwidth_header', 'code', 'video'];
 
 const parseModule = ($, el) => {
@@ -108,6 +117,7 @@ const parseModule = ($, el) => {
       return {
         ...base,
         title: text($, $m.find('.et_pb_module_header')),
+        sans: ralewayOn(CSS, base.id, /module_header/),
         image: img.length ? { src: localMedia(img.attr('src')), alt: img.attr('alt') ?? '', width: Number(img.attr('width')) || null, height: Number(img.attr('height')) || null } : null,
         icon: icon.length ? icon.text().trim() : null,
         href: localHref(a.attr('href')) || null,
@@ -120,7 +130,7 @@ const parseModule = ($, el) => {
     }
     case 'toggle':
     case 'accordion_item':
-      return { ...base, title: text($, $m.find('.et_pb_toggle_title')), html: cleanHtml($, $m.find('.et_pb_toggle_content').first()) };
+      return { ...base, title: text($, $m.find('.et_pb_toggle_title')), sans: ralewayOn(CSS, base.id, /toggle_title| h5/), html: cleanHtml($, $m.find('.et_pb_toggle_content').first()) };
     case 'testimonial': {
       const portrait = $m.find('.et_pb_testimonial_portrait').attr('style')?.match(/url\(([^)]+)\)/)?.[1];
       return {
@@ -149,7 +159,7 @@ const parseModule = ($, el) => {
         email: $m.attr('data-email') ?? null,
       };
     case 'number_counter':
-      return { ...base, number: $m.attr('data-number-value') ?? '', title: text($, $m.find('.title')) };
+      return { ...base, number: $m.attr('data-number-value') ?? '', title: text($, $m.find('.title')), sans: ralewayOn(CSS, base.id, /percent/) };
     case 'social_media_follow':
       return { ...base, links: $m.find('a').toArray().map((a) => ({ href: $(a).attr('href'), label: $(a).attr('title') || text($, a) })).filter((l, i, arr) => arr.findIndex((x) => x.href === l.href) === i) };
     case 'map':
