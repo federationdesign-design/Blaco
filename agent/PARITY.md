@@ -38,11 +38,11 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 | `/are-your-cottages-child-friendly` | post | 200 | 70 | 71 | 0 | 1 | 0 | 0 |
 | `/do-you-have-wifi` | post | 200 | 26 | 27 | 0 | 1 | 0 | 0 |
 | `/what-internet-speeds-can-i-expect` | post | 200 | 45 | 46 | 0 | 5 | 0 | 0 |
-| `/what-is-your-cancellation-policy` | post | 200 | 54 | 55 | 0 | 9 | 0 | 0 |
+| `/what-is-your-cancellation-policy` | post | 200 | 54 | 53 | 0 | 9 | 0 | 0 |
 | `/will-i-receive-a-refund-if-i-cancel` | post | 200 | 41 | 42 | 0 | 1 | 0 | 0 |
 | `/do-i-need-travel-insurance` | post | 200 | 46 | 47 | 0 | 1 | 0 | 0 |
-| `/` | home | 200 | 1448 | 1426 | 0 | 3 | 0 | 0 |
-| `/about` | general | 200 | 871 | 873 | 0 | 2 | 0 | 0 |
+| `/` | home | 200 | 1448 | 1422 | 0 | 5 | 0 | 0 |
+| `/about` | general | 200 | 871 | 898 | 0 | 20 | 0 | 0 |
 | `/our-cottages/chaffinch-2` | cottage | 200 | 368 | 368 | 0 | 0 | 1 | 0 |
 | `/our-cottages` | listing | 200 | 908 | 911 | 0 | 5 | 0 | 0 |
 | `/our-cottages/cuckoo` | cottage | 200 | 376 | 376 | 0 | 0 | 1 | 0 |
@@ -55,10 +55,10 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 | `/our-cottages/woodcock` | cottage | 200 | 342 | 342 | 0 | 0 | 1 | 0 |
 | `/our-cottages/mallard` | cottage | 200 | 341 | 341 | 0 | 0 | 1 | 0 |
 | `/our-cottages/grey-goose` | cottage | 200 | 341 | 341 | 0 | 0 | 1 | 0 |
-| `/about/faq` | faq-index | 200 | 978 | 645 | 0 | 15 | 0 | 0 |
+| `/about/faq` | faq-index | 200 | 978 | 643 | 0 | 15 | 0 | 0 |
 | `/about/games-room` | general | 200 | 102 | 105 | 0 | 3 | 0 | 0 |
 | `/about/local-interests` | general | 200 | 466 | 466 | 0 | 0 | 0 | 0 |
-| `/accessibility-statement` | accessibility | 200 | 1807 | 1807 | 0 | 2 | 0 | 0 |
+| `/accessibility-statement` | accessibility | 200 | 1807 | 1787 | 0 | 12 | 0 | 0 |
 | `/checking-in-checkout-process` | general | 200 | 100 | 100 | 0 | 0 | 0 | 0 |
 | `/about/testimonials` | testimonial-index | 200 | 1297 | 1298 | 0 | 2 | 0 | 0 |
 | `/cookies` | policy | 200 | 219 | 219 | 0 | 0 | 0 | 0 |
@@ -174,8 +174,8 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 
 Deliberate changes made by the port:
 
-- Copy fix: "around the nations average" to "around the national average" (decision 6)
-- Copy fix: "It will supports streaming" to "It will support streaming" (decision 6)
+- Copy change: "around the nations average" to "around the national average" (Checkpoint 1 decision 6)
+- Copy change: "It will supports streaming" to "It will support streaming" (Checkpoint 1 decision 6)
 
 - **Intended:** "nations" (Typo fix (decision 6))
 - **Intended:** "supports" (Typo fix (decision 6))
@@ -187,19 +187,18 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
-- Copy fix: "<p>f you need to cancel" to "<p>If you need to cancel" (decision 6)
-- Copy fix: "spending on the time between the cancelation" to "Depending on the time between the cancellation" (decision 6)
-- Copy fix: "result in yoru deposit" to "result in your deposit" (decision 6)
+- Copy change: "<p>f you need to cancel" to "<p>If you need to cancel" (Checkpoint 1 decision 6)
+- Copy change: "spending on the time between the cancelation and the booking may result in yoru deposit being lost." to "Depending on how close to your arrival date you cancel, you may lose your deposit." (Checkpoint 3 decision 4)
 
 - **Intended:** "f" (Typo fix (decision 6))
 - **Intended:** "spending" (Typo fix (decision 6))
-- **Intended:** "cancelation" (Typo fix (decision 6))
-- **Intended:** "yoru" (Typo fix (decision 6))
+- **Intended:** "the time between the cancelation and the booking" (Typo fix (decision 6))
+- **Intended:** "result in yoru deposit being lost." (Typo fix (decision 6))
 - **Intended:** "FAQ" (Post pages link back to their index)
 - **Intended:** "If" (Typo fix (decision 6))
 - **Intended:** "Depending" (Typo fix (decision 6))
-- **Intended:** "cancellation" (Typo fix (decision 6))
-- **Intended:** "your" (Typo fix (decision 6))
+- **Intended:** "how close to your arrival date you cancel, you" (Typo fix (decision 6))
+- **Intended:** "lose your deposit." (Typo fix (decision 6))
 
 ### `/will-i-receive-a-refund-if-i-cancel`
 
@@ -213,22 +212,52 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
+- Copy change: ", DVD Player" removed (Checkpoint 3 decision 2)
 - Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2
 - Swallow shown as sleeping 5 (decision 5)
+- Amenity "DVD Player" removed (Checkpoint 3 decision 2)
 - Social media icons dropped: every link on live is "#"
 
 - **Intended:** "A warm welcome from Victoria and Thomas Blaco Hill Farm Cottages A warm welcome from Victoria and Thomas Blaco Hill Farm Cottages" (The three live slides repeat one heading; the port shows it once over swipeable photos)
+- **Intended:** "DVD Player," (DVD Player removed (Checkpoint 3 decision 2))
 - **Intended:** "4" (Swallow sleeps 5 (decision 5))
+- **Intended:** "DVD Player" (DVD Player removed (Checkpoint 3 decision 2))
 - **Intended:** "5" (Counter value: live animates it in with JavaScript from the same number)
 
 ### `/about`
 
 Deliberate changes made by the port:
 
+- Copy change: "a selection of 12 self catering properties" to "a selection of eleven self catering properties" (Checkpoint 3 decision 3)
+- Cottages counter changed from 12 to 11 (Checkpoint 3 decision 3)
 - Social media icons dropped: every link on live is "#"
+- Toggle "Are towels and linen provided?" now gives the answer from /are-towels-and-linen-provided (Checkpoint 3 decision 3)
+- Toggle "Do you have parking on site?" kept as live: there is no FAQ page with this question
+- Toggle "Do you accept pets?" now gives the answer from /do-you-accept-pets (Checkpoint 3 decision 3)
+- Toggle "Do you have wifi?" now gives the answer from /do-you-have-wifi (Checkpoint 3 decision 3)
+- Toggle "Are your cottages child friendly?" now gives the answer from /are-your-cottages-child-friendly (Checkpoint 3 decision 3)
+- Toggle "Where should I park?" now gives the answer from /where-should-i-park (Checkpoint 3 decision 3)
 
+- **Intended:** "12" (Cottages counter 12 to 11 (Checkpoint 3 decision 3))
+- **Intended:** "One" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "provided for each guest. But" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "your own" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "towels." (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "We are happy to accept" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "some" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "holiday cottages." (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "ad" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "eleven" ("12 self catering properties" to eleven (Checkpoint 3 decision 3))
+- **Intended:** "Yes, All bed linen and one" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "per guest" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "provided, EXCEPT where cots are requested," (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "all cot bedding and" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "towels you require" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "all" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "cottages except Cuckoo. Please let us know when you book if you will be bringing a pet." (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
+- **Intended:** "and" (About toggle aligned to its FAQ page (Checkpoint 3 decision 3))
 - **Intended:** "1" (Counter value: live animates it in with JavaScript from the same number)
-- **Intended:** "12" (Counter value: live animates it in with JavaScript from the same number)
+- **Intended:** "11" (Counter value: live animates it in with JavaScript from the same number)
 
 ### `/our-cottages/chaffinch-2`
 
@@ -341,8 +370,8 @@ Deliberate changes made by the port:
 
 - **Intended:** "f" (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "victoria@blacohillcottages.co.uk. spending" (Typo fix in the listed FAQ answer (decision 6))
-- **Intended:** "cancelation" (Typo fix in the listed FAQ answer (decision 6))
-- **Intended:** "yoru" (Typo fix in the listed FAQ answer (decision 6))
+- **Intended:** "the time between the cancelation and the booking" (Typo fix in the listed FAQ answer (decision 6))
+- **Intended:** "result in yoru deposit being lost." (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "nations" (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "supports" (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "Weekend away - Rebecca P Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn't feel cramped. Fantastic girls weekend - Pho3nix1705" (Testimonials removed from the FAQ index (the live blog module was unfiltered))
@@ -350,8 +379,8 @@ Deliberate changes made by the port:
 - **Intended:** "located on a working farm and the games room was a great place to relax and play a few games! Highly recommend to anyone looking for a break away from busy life - fantastic location, charming cottages and friendly owners! Family weekend away - Deborah W Just got back from a gorgeous weekend a blacoh" (Testimonials removed from the FAQ index (the live blog module was unfiltered))
 - **Intended:** "If" (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "victoria@blacohillcottages.co.uk . Depending" (Typo fix in the listed FAQ answer (decision 6))
-- **Intended:** "cancellation" (Typo fix in the listed FAQ answer (decision 6))
-- **Intended:** "your" (Typo fix in the listed FAQ answer (decision 6))
+- **Intended:** "how close to your arrival date you cancel, you" (Typo fix in the listed FAQ answer (decision 6))
+- **Intended:** "lose your deposit." (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "national" (Typo fix in the listed FAQ answer (decision 6))
 - **Intended:** "support" (Typo fix in the listed FAQ answer (decision 6))
 
@@ -377,10 +406,23 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
+- Copy change: "&amp; DVD Player" removed (Checkpoint 3 decision 2)
+- Copy change: ", DVD Player" removed (Checkpoint 3 decision 2)
+- Copy change: "&amp; DVD player" removed (Checkpoint 3 decision 2)
 - Swallow shown as sleeping 5 (decision 5)
 
+- **Intended:** "& DVD Player" (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "TV, DVD Player" (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "& DVD player" (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "TV & DVD player." (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "& DVD Player" (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "& DVD Player" (DVD Player removed (Checkpoint 3 decision 2))
 - **Intended:** "4" (Swallow sleeps 5 (decision 5))
+- **Intended:** "TV & DVD player," (DVD Player removed (Checkpoint 3 decision 2))
+- **Intended:** "TV" (DVD Player removed after "Digital TV" (Checkpoint 3 decision 2))
+- **Intended:** "TV." (DVD Player removed after "Digital TV" (Checkpoint 3 decision 2))
 - **Intended:** "5" (Counter value: live animates it in with JavaScript from the same number)
+- **Intended:** "TV," (DVD Player removed after "Digital TV" (Checkpoint 3 decision 2))
 
 ### `/checking-in-checkout-process`
 
@@ -448,7 +490,7 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
-- Copy fix: "enquiries@blacohillcottages.co.uk" to "victoria@blacohillcottages.co.uk" (decision 6)
+- Copy change: "enquiries@blacohillcottages.co.uk" to "victoria@blacohillcottages.co.uk" (Checkpoint 1 decision 6)
 - Social media icons dropped: every link on live is "#"
 
 - **Intended:** "enquiries@blacohillcottages.co.uk" (enquiries@ to victoria@ (decision 6))

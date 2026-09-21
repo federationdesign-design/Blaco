@@ -30,13 +30,19 @@ const SHOTS = [
   ['general-gallery', '/about/games-room'],
   ['policy', '/privacy-policy-2'],
   ['accessibility', '/accessibility-statement'],
+  ['modern-slavery', '/modern-slavery'],
 ];
+
+// Page screenshots and layout checks run with a stored consent choice, so the
+// cookie banner does not cover content. The banner has its own shots below.
+const CONSENT = JSON.stringify({ version: 1, categories: { necessary: true, analytics: false, marketing: false }, timestamp: '2026-09-21T00:00:00.000Z' });
 
 const browser = await chromium.launch();
 const problems = [];
 
-const open = async (width, url, height = 900) => {
+const open = async (width, url, height = 900, { consent = true } = {}) => {
   const context = await browser.newContext({ viewport: { width, height }, deviceScaleFactor: width > 1000 ? 1 : 2 });
+  if (consent) await context.addInitScript((value) => window.localStorage.setItem('blaco-cookie-consent', value), CONSENT);
   const page = await context.newPage();
   const res = await page.goto(`${BASE}${url}`, { waitUntil: 'load' });
   await page.evaluate(() => document.fonts.ready);
@@ -87,11 +93,66 @@ for (const [name, url] of SHOTS) {
   }
 }
 
+const shot = (page, name) => page.screenshot({ path: join(out, `${name}.jpg`), type: 'jpeg', quality: 80 });
+
+// Touch targets inside the cookie banner.
+const bannerTargets = async (page, width, label) => {
+  const small = await page.evaluate(() =>
+    [...document.querySelectorAll('[aria-label="Cookie preferences"] a, [aria-label="Cookie preferences"] button, [aria-label="Cookie preferences"] label')]
+      .filter((el) => !el.closest('p'))
+      .map((el) => ({ el, r: el.getBoundingClientRect() }))
+      .filter(({ r }) => r.width < 44 || r.height < 44)
+      .map(({ el, r }) => `${el.tagName.toLowerCase()} "${el.textContent.trim().slice(0, 30)}" ${Math.round(r.width)}x${Math.round(r.height)}`),
+  );
+  small.forEach((s) => problems.push(`cookie banner (${label}): touch target under 44px at ${width}px: ${s}`));
+};
+
 // Interaction states.
 {
   const { page, context } = await open(390, '/', 844);
   await page.getByRole('button', { name: 'Menu' }).click();
-  await page.screenshot({ path: join(out, 'shell-390-menu-open.jpg'), type: 'jpeg', quality: 80 });
+  await shot(page, 'shell-390-menu-open');
+  await context.close();
+}
+
+// Cookie banner: first visit, then preferences, at both widths.
+for (const width of [390, 1280]) {
+  const { page, context } = await open(width, '/', width === 390 ? 844 : 900, { consent: false });
+  await page.getByRole('button', { name: 'Accept all' }).waitFor();
+  await bannerTargets(page, width, 'first visit');
+  await shot(page, `cookie-banner-${width}`);
+  await page.getByRole('button', { name: 'Manage preferences' }).click();
+  await bannerTargets(page, width, 'preferences');
+  await shot(page, `cookie-preferences-${width}`);
+  await context.close();
+}
+
+// Enquiry form states at 390px: validation errors, then a sent message
+// (the send is stubbed here; the route itself is exercised in phase4-checks.mjs).
+{
+  const { page, context } = await open(390, '/booking-request-form', 844);
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await page.locator('#enquiry').scrollIntoViewIfNeeded();
+  await shot(page, 'form-390-errors');
+  await page.route('**/api/enquiry', (route) => route.fulfill({ json: { ok: true } }));
+  await page.getByLabel('Name').fill('Test Guest');
+  await page.getByLabel('Telephone').fill('07700 900123');
+  await page.getByLabel('Email Address').fill('guest@example.com');
+  await page.getByLabel('Message').fill('Do you have availability in October?');
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await page.getByRole('status').waitFor();
+  await shot(page, 'form-390-sent');
+  await page.unroute('**/api/enquiry');
+  await page.route('**/api/enquiry', (route) => route.fulfill({ status: 502, json: { ok: false, message: 'send-failed' } }));
+  await page.reload();
+  await page.getByLabel('Name').fill('Test Guest');
+  await page.getByLabel('Telephone').fill('07700 900123');
+  await page.getByLabel('Email Address').fill('guest@example.com');
+  await page.getByLabel('Message').fill('Do you have availability in October?');
+  await page.getByRole('button', { name: 'Submit' }).click();
+  await page.getByRole('alert').waitFor();
+  await page.locator('#enquiry').scrollIntoViewIfNeeded();
+  await shot(page, 'form-390-error');
   await context.close();
 }
 

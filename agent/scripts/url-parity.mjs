@@ -19,7 +19,10 @@ const REDIRECTS = {
   '/our-cottages/chaffinch': '/our-cottages/chaffinch-2',
 };
 
-const checks = [...urls.map((u) => u.url), ...Object.keys(REDIRECTS)].filter((u, i, a) => a.indexOf(u) === i);
+// New in the rebuild (brief 4 and 6).
+const NEW = ['/modern-slavery', '/sitemap.xml', '/robots.txt'];
+
+const checks = [...urls.map((u) => u.url), ...NEW, ...Object.keys(REDIRECTS)].filter((u, i, a) => a.indexOf(u) === i);
 const failures = [];
 let pages = 0;
 let redirects = 0;

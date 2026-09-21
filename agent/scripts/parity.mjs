@@ -38,6 +38,11 @@ const INTENDED = [
   { page: '*', side: 'added', match: /^(FAQ|Testimonials)$/, why: 'Post pages link back to their index' },
   { page: '/', side: 'missing', match: /^(A warm welcome from Victoria and Thomas Blaco Hill Farm Cottages ?)+$/, why: 'The three live slides repeat one heading; the port shows it once over swipeable photos' },
   { page: '*', side: 'missing', match: /^[A-Z][a-z]{2} \d{1,2}, \d{4}$/, why: 'Post date (moved into the post header)' },
+  { page: '/', side: 'missing', match: /DVD Player/, why: 'DVD Player removed (Checkpoint 3 decision 2)' },
+  { page: '/accessibility-statement', side: 'missing', match: /DVD [Pp]layer/, why: 'DVD Player removed (Checkpoint 3 decision 2)' },
+  { page: '/accessibility-statement', side: 'added', match: /^TV[.,]?$/, why: 'DVD Player removed after "Digital TV" (Checkpoint 3 decision 2)' },
+  { page: '/about', side: 'missing', match: /^12$/, why: 'Cottages counter 12 to 11 (Checkpoint 3 decision 3)' },
+  { page: '/about', side: 'added', match: /^eleven$/, why: '"12 self catering properties" to eleven (Checkpoint 3 decision 3)' },
 ];
 
 const normalise = (s) =>
@@ -79,6 +84,12 @@ const tokens = (s) => s.split(/\s+/).filter(Boolean);
 
 const posts = JSON.parse(await readFile(join(repo, 'content', 'posts.json'), 'utf8'));
 const testimonialText = normalise(posts.testimonial.map((p) => cheerio.load(p.html).text()).join(' '));
+
+const faqText = normalise(posts.faq.map((p) => cheerio.load(p.html).text()).join(' '));
+const aboutLive = JSON.parse(await readFile(join(extract, 'content', 'about.json'), 'utf8'));
+const aboutOldAnswers = normalise(
+  aboutLive.sections.flatMap((sec) => sec.rows.flatMap((r) => r.columns.flatMap((c) => c.modules))).filter((m) => m.type === 'toggle').map((m) => cheerio.load(m.html).text()).join(' '),
+);
 
 const rows = [];
 const details = [];
@@ -122,6 +133,12 @@ for (const { url, file } of urls) {
       x.kind = 'intended';
       x.why = 'Testimonial removed from the FAQ index (the live blog module was unfiltered)';
     }
+  }
+  // Checkpoint 3 decision 3: About toggles now give the FAQ pages' answers. Only
+  // words from the old toggle answers may go, and only words from the FAQ pages may arrive.
+  if (url === '/about') {
+    for (const x of m) if (x.kind === 'missing' && aboutOldAnswers.includes(x.run)) Object.assign(x, { kind: 'intended', why: 'About toggle aligned to its FAQ page (Checkpoint 3 decision 3)' });
+    for (const x of ad) if (x.kind === 'added' && faqText.includes(x.run)) Object.assign(x, { kind: 'intended', why: 'About toggle aligned to its FAQ page (Checkpoint 3 decision 3)' });
   }
   // A removed run replaced by the same words with different spacing.
   for (let i = 0; i < parts.length - 1; i++) {
