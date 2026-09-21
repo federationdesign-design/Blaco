@@ -47,3 +47,46 @@ export function MailIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+export function PinIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z" />
+    </svg>
+  );
+}
+
+export function HouseIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M12 3 2 12h3v8h5v-6h4v6h5v-8h3z" />
+    </svg>
+  );
+}
+
+export function PeopleIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path
+        fill="currentColor"
+        d="M16 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm-8 0a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5C15 14.17 10.33 13 8 13zm8 0c-.29 0-.62.02-.97.05A4.22 4.22 0 0 1 17 16.5V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+      />
+    </svg>
+  );
+}
+
+export function CheckIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M9 16.2 4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4z" />
+    </svg>
+  );
+}
+
+export function BedIcon({ className }: IconProps) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false">
+      <path fill="currentColor" d="M7 13a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm12-6h-8v7H3V5H1v15h2v-3h18v3h2v-9a4 4 0 0 0-4-4z" />
+    </svg>
+  );
+}
