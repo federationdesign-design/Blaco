@@ -65,7 +65,8 @@ export const FOOTER_LEGAL_NAV: NavItem[] = [
 export const FOOTER_STRAPLINE =
   'We welcome all people - families, friends, large groups exclusively, business users, moving house/ longer term lets.';
 
-export const COPYRIGHT = 'Copyright © 2020 - Blaco Hill Farm Cottages';
+// Checkpoint 2 decision 7: the year updates automatically (set at build time).
+export const copyright = () => `Copyright © ${new Date().getFullYear()} - ${SITE_NAME}`;
 
 export const LOGO = {
   src: '/media/2020/08/BHF-logoicon.svg',

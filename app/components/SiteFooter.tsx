@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './SiteFooter.module.css';
+import { MailIcon, PhoneIcon } from './Icons';
 import {
-  COPYRIGHT,
+  CONTACT,
+  copyright,
   FOOTER_INFO_NAV,
   FOOTER_LEGAL_NAV,
   FOOTER_STRAPLINE,
@@ -45,12 +47,27 @@ export function SiteFooter() {
 
         <p className={styles.strapline}>{FOOTER_STRAPLINE}</p>
 
+        <ul className={styles.contact}>
+          <li>
+            <a href={CONTACT.phoneHref} className={styles.contactLink}>
+              <PhoneIcon className={styles.contactIcon} />
+              {CONTACT.phoneDisplay}
+            </a>
+          </li>
+          <li>
+            <a href={CONTACT.emailHref} className={styles.contactLink}>
+              <MailIcon className={styles.contactIcon} />
+              {CONTACT.email}
+            </a>
+          </li>
+        </ul>
+
         <FooterMenu items={FOOTER_INFO_NAV} label="Information" />
         <hr className={styles.rule} />
         <FooterMenu items={FOOTER_LEGAL_NAV} label="Legal" variant="small" />
         <hr className={styles.rule} />
 
-        <p className={styles.copyright}>{COPYRIGHT}</p>
+        <p className={styles.copyright}>{copyright()}</p>
       </div>
     </footer>
   );
