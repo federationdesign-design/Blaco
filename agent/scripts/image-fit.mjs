@@ -31,6 +31,9 @@ const FLOW = new Set(['figure', 'map']); // width follows the column; others cro
 // are shown at natural size. Anything over 1.02x at 2800px (sub-pixel rounding
 // aside) is still listed as undersized so larger originals can be supplied.
 const TOLERANCE = 1.25;
+// Home page decision 1: hero slides always fill the full width; they get no
+// fallback but are still reported so larger originals can be supplied.
+const EXEMPT = new Set(['slider']);
 const UNDERSIZED = 1.02;
 
 const browser = await chromium.launch();
@@ -77,7 +80,7 @@ const fit = {};
 const report = [];
 for (const [key, e] of seen) {
   const s = e.at2800?.scale ?? 1;
-  if (e.firstStretch !== null) {
+  if (e.firstStretch !== null && !EXEMPT.has(e.role)) {
     const i = WIDTHS.indexOf(e.firstStretch);
     fit[key] = i === 0 ? 0 : WIDTHS[i - 1];
   }
@@ -87,6 +90,7 @@ for (const [key, e] of seen) {
     src: e.src,
     natural: `${e.natural.width} x ${e.natural.height}`,
     fitFrom: fit[key] ?? null,
+    exempt: EXEMPT.has(e.role),
     boxAt2800: e.at2800 ? `${e.at2800.boxW} x ${e.at2800.boxH}` : null,
     enlargementAt2800: s,
     neededOriginal: `${Math.ceil(e.natural.width * s)} x ${Math.ceil(e.natural.height * s)}`,

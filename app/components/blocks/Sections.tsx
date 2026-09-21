@@ -7,9 +7,13 @@ import { Gallery } from './Gallery';
 import { HeroSlider } from './HeroSlider';
 import { EnquiryForm } from './EnquiryForm';
 import { PostList } from './PostList';
+import { BackgroundImage } from './BackgroundImage';
+import { ParallaxStrip } from './ParallaxStrip';
+
+export { BackgroundImage };
 import { MinusCircleIcon, PlusCircleIcon } from '../Icons';
 import { columnSizes, fitProps } from '../../lib/image-fit';
-import type { Background, BlurbModule, ButtonModule, Column, Module, Row, Section } from '../../lib/content';
+import type { BlurbModule, ButtonModule, Column, Module, Row, Section } from '../../lib/content';
 
 // Renders the sections of a ported page. Each section kind has its own
 // mobile-first layout; columns stack on phones and take their live widths
@@ -25,21 +29,6 @@ export function Sections({ sections, postsCategory }: { sections: Section[]; pos
   );
 }
 
-export function BackgroundImage({ background, priority }: { background: Background | null; priority?: boolean }) {
-  if (!background?.image) return null;
-  return (
-    <Image
-      className={styles.bgImage}
-      src={background.image.src}
-      alt=""
-      fill
-      sizes="100vw"
-      priority={priority}
-      {...fitProps('background', background.image.src)}
-    />
-  );
-}
-
 function SectionView({ section, postsCategory, priority }: { section: Section; postsCategory?: 'faq' | 'testimonial'; priority: boolean }) {
   if (section.kind === 'slider') {
     const slider = section.rows[0]?.columns[0]?.modules[0];
@@ -48,9 +37,7 @@ function SectionView({ section, postsCategory, priority }: { section: Section; p
 
   if (section.kind === 'parallax') {
     return (
-      <div className={styles.parallax} aria-hidden="true">
-        <BackgroundImage background={section.background} />
-      </div>
+      <ParallaxStrip background={section.background} />
     );
   }
 

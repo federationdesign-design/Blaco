@@ -81,3 +81,10 @@ Approved by Steve, 2026-09-21. This corrects two earlier instructions ("semibold
 2. **Weights** follow live. The amenity and Near by labels are Raleway bold.
 3. **Counter numbers** stay green (live's light grey fails contrast).
 4. **Hero and contact icons** stay green.
+
+## Home page
+
+Approved by Steve, 2026-09-21.
+
+1. **Hero slides fill the full width** of the screen at every width, with no side bars or letterboxing. The hero may be made taller if needed. This overrides the 1.25× enlargement limit (Checkpoint 5 decision 1) for the hero slides only, and the hero photos are listed in `agent/CHECKPOINT-5.md` as needing larger originals. The heading, the large green line and the dots stay where they are over the photo.
+2. **Landscape strip** further down the home page is 1.5 times its previous height and has a parallax effect. It is transform based (not `background-attachment: fixed`, which iPhone Safari ignores) and is switched off for visitors who have reduced motion set.

@@ -10,7 +10,12 @@ export type ImageRole = 'background' | 'slider' | 'gallery' | 'card' | 'figure' 
 
 type FitProps = { 'data-img': ImageRole; 'data-fit-from'?: number; unoptimized?: boolean };
 
+// Home page decision 1: hero slides always cover the full width, so they are
+// exempt from the natural-size fallback and may be enlarged beyond 1.25x.
+const EXEMPT: ImageRole[] = ['slider'];
+
 export function fitProps(role: ImageRole, src: string): FitProps {
+  if (EXEMPT.includes(role)) return { 'data-img': role };
   const from = (FIT as Record<string, number>)[`${role}|${src}`];
   return from === undefined ? { 'data-img': role } : { 'data-img': role, 'data-fit-from': from, unoptimized: true };
 }

@@ -250,13 +250,31 @@
 
 /* ---------- parallax strip (home) ---------- */
 
+/* Home page decision 2: 1.5 times the previous clamp(12rem, 50vw, 28rem). The
+   image layer overhangs the strip by 15% of its height top and bottom, which
+   ParallaxStrip uses as the travel. With reduced motion the layer simply
+   fills the strip. */
 .parallax {
   position: relative;
-  height: clamp(12rem, 50vw, 28rem);
+  height: clamp(18rem, 75vw, 42rem);
+  overflow: hidden;
+}
+
+.parallaxLayer {
+  position: absolute;
+  inset: -15% 0;
+  will-change: transform;
 }
 
 .parallax .bgImage {
   z-index: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .parallaxLayer {
+    inset: 0;
+    will-change: auto;
+  }
 }
 
 /* ---------- rows and columns ---------- */
