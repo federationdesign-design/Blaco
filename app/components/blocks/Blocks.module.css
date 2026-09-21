@@ -173,7 +173,10 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 0.6) 100%);
+  /* The top 30% of each photo is untouched. The darkening sits behind the text:
+     measured, the green line has at least 3:1 contrast with the median of the
+     photo behind it on all three slides at 390px and 1280px. */
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.8) 100%);
   pointer-events: none;
 }
 
