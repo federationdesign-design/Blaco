@@ -192,6 +192,16 @@
   font-size: var(--step-4);
 }
 
+/* Live home slide title: Raleway bold, uppercase, 20px with 5px tracking at
+   desktop. Here: 16px at 390px rising to 20px at 1440px, then growing with
+   the root size like every other size above 1440px. */
+.sliderTitle[data-font='sans'] {
+  font-size: clamp(1rem, 0.9071rem + 0.381vw, 1.25rem);
+  letter-spacing: 0.25em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .sliderSub {
   font-family: var(--font-sans);
   font-size: var(--step-0);
