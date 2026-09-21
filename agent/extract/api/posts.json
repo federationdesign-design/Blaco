@@ -1,0 +1,2888 @@
+[
+  {
+    "id": 1796,
+    "date": "2026-09-21T09:09:42",
+    "date_gmt": "2026-09-21T09:09:42",
+    "guid": {
+      "rendered": "https://blacohillcottages.co.uk/?p=1796"
+    },
+    "modified": "2026-09-21T09:09:42",
+    "modified_gmt": "2026-09-21T09:09:42",
+    "slug": "do-i-need-travel-insurance",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/do-i-need-travel-insurance",
+    "title": {
+      "rendered": "Do I need travel insurance?"
+    },
+    "content": {
+      "rendered": "\n<p>We strongly recommend taking out travel insurance, including cancellation cover, at the time you book. This protects you should something unforeseen, such as illness, prevent you from travelling, as any refund for a cancellation is at our discretion.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We strongly recommend taking out travel insurance, including cancellation cover, at the time you book. This protects you should something unforeseen, such as illness, prevent you from travelling, as any refund for a cancellation is at our discretion.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1796"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=1796"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1796/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1797,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1796/revisions/1797"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=1796"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=1796"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=1796"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1794,
+    "date": "2026-09-21T08:59:41",
+    "date_gmt": "2026-09-21T08:59:41",
+    "guid": {
+      "rendered": "https://blacohillcottages.co.uk/?p=1794"
+    },
+    "modified": "2026-09-21T08:59:41",
+    "modified_gmt": "2026-09-21T08:59:41",
+    "slug": "will-i-receive-a-refund-if-i-cancel",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/will-i-receive-a-refund-if-i-cancel",
+    "title": {
+      "rendered": "Will I receive a refund if I cancel?"
+    },
+    "content": {
+      "rendered": "\n<p>Refunds are made at our discretion and each case is considered individually. We always aim to be fair, so please get in touch and talk to us about your circumstances.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Refunds are made at our discretion and each case is considered individually. We always aim to be fair, so please get in touch and talk to us about your circumstances.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1794"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=1794"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1794/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1795,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1794/revisions/1795"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=1794"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=1794"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=1794"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1792,
+    "date": "2026-09-21T08:59:27",
+    "date_gmt": "2026-09-21T08:59:27",
+    "guid": {
+      "rendered": "https://blacohillcottages.co.uk/?p=1792"
+    },
+    "modified": "2026-09-21T08:59:29",
+    "modified_gmt": "2026-09-21T08:59:29",
+    "slug": "what-is-your-cancellation-policy",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/what-is-your-cancellation-policy",
+    "title": {
+      "rendered": "What is your cancellation policy?"
+    },
+    "content": {
+      "rendered": "\n<p>f you need to cancel your booking, please let us know as soon as possible by emailing <a href=\"mailto:victoria@blacohillcottages.co.uk\">victoria@blacohillcottages.co.uk</a>. spending on the time between the cancelation and the booking may result in yoru deposit being lost. Make sure you let us know with plenty of time.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>f you need to cancel your booking, please let us know as soon as possible by emailing victoria@blacohillcottages.co.uk. spending on the time between the cancelation and the booking may result in yoru deposit being lost. Make sure you let us know with plenty of time.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1792"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=1792"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1792/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1793,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1792/revisions/1793"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=1792"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=1792"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=1792"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1789,
+    "date": "2026-09-21T08:57:33",
+    "date_gmt": "2026-09-21T08:57:33",
+    "guid": {
+      "rendered": "https://blacohillcottages.co.uk/?p=1789"
+    },
+    "modified": "2026-09-21T09:09:51",
+    "modified_gmt": "2026-09-21T09:09:51",
+    "slug": "what-internet-speeds-can-i-expect",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/what-internet-speeds-can-i-expect",
+    "title": {
+      "rendered": "What internet speeds can I expect?"
+    },
+    "content": {
+      "rendered": "\n<p>Our broadband provides download and upload speeds of around the nations average. It will supports streaming, video calls and working from home. Speeds may vary slightly depending on how many devices are connected at the time.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Our broadband provides download and upload speeds of around the nations average. It will supports streaming, video calls and working from home. Speeds may vary slightly depending on how many devices are connected at the time.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1789"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=1789"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 2,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1789/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1798,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/1789/revisions/1798"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=1789"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=1789"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=1789"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 850,
+    "date": "2020-09-21T10:14:21",
+    "date_gmt": "2020-09-21T10:14:21",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=850"
+    },
+    "modified": "2020-09-21T10:14:21",
+    "modified_gmt": "2020-09-21T10:14:21",
+    "slug": "do-you-have-wifi",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/do-you-have-wifi",
+    "title": {
+      "rendered": "Do you have wifi?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside.  </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes! We have wifi in all properties and in our Games Room. And signal is also good when outside.  </p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/850"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=850"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/850/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=850"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=850"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=850"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 848,
+    "date": "2020-09-21T10:13:36",
+    "date_gmt": "2020-09-21T10:13:36",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=848"
+    },
+    "modified": "2020-09-21T10:13:36",
+    "modified_gmt": "2020-09-21T10:13:36",
+    "slug": "are-your-cottages-child-friendly",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/are-your-cottages-child-friendly",
+    "title": {
+      "rendered": "Are your cottages child friendly?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes, growing up at Blaco and now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection of toys and games for all ages. </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes, growing up at Blaco and now having children of our own we know how important this is. Stair gates, Ikea highchairs and travel cots can all be requested free of charge and we have plenty of open space to run around, with a woodland children play area and indoor games room with a selection [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/848"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=848"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/848/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=848"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=848"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=848"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 846,
+    "date": "2020-09-21T10:13:10",
+    "date_gmt": "2020-09-21T10:13:10",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=846"
+    },
+    "modified": "2020-09-21T10:13:10",
+    "modified_gmt": "2020-09-21T10:13:10",
+    "slug": "where-should-i-park",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/where-should-i-park",
+    "title": {
+      "rendered": "Where should I park?"
+    },
+    "content": {
+      "rendered": "\n<p>We have a designated carpark for the cottages with some under cover parking close to all the cottages. </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We have a designated carpark for the cottages with some under cover parking close to all the cottages. </p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/846"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=846"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/846/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=846"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=846"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=846"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 844,
+    "date": "2020-09-21T10:12:43",
+    "date_gmt": "2020-09-21T10:12:43",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=844"
+    },
+    "modified": "2020-09-21T10:12:43",
+    "modified_gmt": "2020-09-21T10:12:43",
+    "slug": "what-length-of-stays-do-you-offer",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/what-length-of-stays-do-you-offer",
+    "title": {
+      "rendered": "What length of stays do you offer?"
+    },
+    "content": {
+      "rendered": "\n<p>We are completely flexible with length of stays, from one night to long term lets we can offer accommodation to meet your needs. </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We are completely flexible with length of stays, from one night to long term lets we can offer accommodation to meet your needs. </p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/844"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=844"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/844/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=844"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=844"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=844"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 842,
+    "date": "2020-09-21T10:12:14",
+    "date_gmt": "2020-09-21T10:12:14",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=842"
+    },
+    "modified": "2020-09-21T10:12:14",
+    "modified_gmt": "2020-09-21T10:12:14",
+    "slug": "how-do-i-pay",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/how-do-i-pay",
+    "title": {
+      "rendered": "How do I pay?"
+    },
+    "content": {
+      "rendered": "\n<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/842"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=842"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/842/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=842"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=842"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=842"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 433,
+    "date": "2020-09-04T10:08:52",
+    "date_gmt": "2020-09-04T10:08:52",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=433"
+    },
+    "modified": "2020-09-04T10:08:52",
+    "modified_gmt": "2020-09-04T10:08:52",
+    "slug": "what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "title": {
+      "rendered": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?"
+    },
+    "content": {
+      "rendered": "\n<p>Cottages are available from 3pm on the day of arrival and we ask that guests vacate by 10am on the day of departure. We can be flexible so please let us know if you have different requirements.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Cottages are available from 3pm on the day of arrival and we ask that guests vacate by 10am on the day of departure. We can be flexible so please let us know if you have different requirements.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/433"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=433"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/433/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=433"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=433"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=433"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 431,
+    "date": "2020-09-04T10:08:25",
+    "date_gmt": "2020-09-04T10:08:25",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=431"
+    },
+    "modified": "2026-09-21T08:57:55",
+    "modified_gmt": "2026-09-21T08:57:55",
+    "slug": "do-you-accept-pets",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/do-you-accept-pets",
+    "title": {
+      "rendered": "Do you accept pets?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes, we welcome pets in all of our cottages except Cuckoo. Please let us know when you book if you will be bringing a pet.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes, we welcome pets in all of our cottages except Cuckoo. Please let us know when you book if you will be bringing a pet.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/431"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=431"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 1,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/431/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 1791,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/431/revisions/1791"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=431"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=431"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=431"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 429,
+    "date": "2020-09-04T10:07:51",
+    "date_gmt": "2020-09-04T10:07:51",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=429"
+    },
+    "modified": "2020-09-04T10:07:51",
+    "modified_gmt": "2020-09-04T10:07:51",
+    "slug": "do-you-have-any-laundry-facilities-we-can-use",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/do-you-have-any-laundry-facilities-we-can-use",
+    "title": {
+      "rendered": "Do you have any laundry facilities we can use?"
+    },
+    "content": {
+      "rendered": "\n<p>There is a communal laundry room which guests are welcome to use. It includes 2 washing machines, a tumble dryer and ironing equipment.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>There is a communal laundry room which guests are welcome to use. It includes 2 washing machines, a tumble dryer and ironing equipment.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/429"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=429"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/429/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=429"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=429"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=429"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 427,
+    "date": "2020-09-04T10:06:50",
+    "date_gmt": "2020-09-04T10:06:50",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=427"
+    },
+    "modified": "2020-09-04T10:06:50",
+    "modified_gmt": "2020-09-04T10:06:50",
+    "slug": "i-am-disabled-are-your-properties-suitable-for-me",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/i-am-disabled-are-your-properties-suitable-for-me",
+    "title": {
+      "rendered": "I am disabled. Are your properties suitable for me?"
+    },
+    "content": {
+      "rendered": "\n<p>We do everything we can to accommodate everyone. Please read our&nbsp;<a href=\"/accessibility-statement\">access statement</a> for further details.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We do everything we can to accommodate everyone. Please read our&nbsp;<a href=\"/accessibility-statement\">access statement</a> for further details.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/427"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=427"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/427/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=427"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=427"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=427"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 423,
+    "date": "2020-09-04T10:05:23",
+    "date_gmt": "2020-09-04T10:05:23",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=423"
+    },
+    "modified": "2020-09-04T10:05:23",
+    "modified_gmt": "2020-09-04T10:05:23",
+    "slug": "are-towels-and-linen-provided",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/are-towels-and-linen-provided",
+    "title": {
+      "rendered": "Are towels and linen provided?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes, All bed linen and one bath sheet and hand towel per guest is provided, EXCEPT where cots are requested, please bring all cot bedding and baby towels you require</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes, All bed linen and one bath sheet and hand towel per guest is provided, EXCEPT where cots are requested, please bring all cot bedding and baby towels you require</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/423"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=423"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/423/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=423"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=423"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=423"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 421,
+    "date": "2020-09-04T10:04:18",
+    "date_gmt": "2020-09-04T10:04:18",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=421"
+    },
+    "modified": "2020-09-04T10:04:18",
+    "modified_gmt": "2020-09-04T10:04:18",
+    "slug": "are-longer-term-lets-available",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/are-longer-term-lets-available",
+    "title": {
+      "rendered": "Are longer-term lets available?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes. Please just ask and we can discuss your needs accordingly.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes. Please just ask and we can discuss your needs accordingly.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/421"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=421"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/421/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=421"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=421"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=421"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 416,
+    "date": "2020-09-04T10:01:56",
+    "date_gmt": "2020-09-04T10:01:56",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=416"
+    },
+    "modified": "2020-09-04T10:01:56",
+    "modified_gmt": "2020-09-04T10:01:56",
+    "slug": "are-these-holiday-lets-suitable-for-families",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/are-these-holiday-lets-suitable-for-families",
+    "title": {
+      "rendered": "Are these holiday lets suitable for families?"
+    },
+    "content": {
+      "rendered": "\n<p>Yes, we welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Yes, we welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      2
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/416"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=416"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/416/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=416"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=416"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=416"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 647,
+    "date": "2019-06-16T10:40:17",
+    "date_gmt": "2019-06-16T10:40:17",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=647"
+    },
+    "modified": "2019-06-16T10:40:17",
+    "modified_gmt": "2019-06-16T10:40:17",
+    "slug": "weekend-away-rebecca-p",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/weekend-away-rebecca-p",
+    "title": {
+      "rendered": "Weekend away &#8211; Rebecca P"
+    },
+    "content": {
+      "rendered": "\n<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/647"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=647"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/647/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=647"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=647"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=647"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 597,
+    "date": "2019-04-16T10:13:00",
+    "date_gmt": "2019-04-16T10:13:00",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=597"
+    },
+    "modified": "2019-04-16T10:13:00",
+    "modified_gmt": "2019-04-16T10:13:00",
+    "slug": "fantastic-girls-weekend",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/fantastic-girls-weekend",
+    "title": {
+      "rendered": "Fantastic girls weekend &#8211; Pho3nix1705"
+    },
+    "content": {
+      "rendered": "\n<p>We spent a lovely weekend in Swallow cottage. Just perfect for a group of friends looking for some time in the country to relax and catch up.</p>\n\n\n\n<p>We arrived to a very warm welcome from Liz and were shown to our cottage which was comfy, clean and tidy. Cottages are located on a working farm and the games room was a great place to relax and play a few games!</p>\n\n\n\n<p>Highly recommend to anyone looking for a break away from busy life &#8211; fantastic location, charming cottages and friendly owners!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We spent a lovely weekend in Swallow cottage. Just perfect for a group of friends looking for some time in the country to relax and catch up. We arrived to a very warm welcome from Liz and were shown to our cottage which was comfy, clean and tidy. Cottages are located on a working farm [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/597"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=597"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/597/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=597"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=597"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=597"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 599,
+    "date": "2018-05-16T10:14:25",
+    "date_gmt": "2018-05-16T10:14:25",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=599"
+    },
+    "modified": "2018-05-16T10:14:25",
+    "modified_gmt": "2018-05-16T10:14:25",
+    "slug": "family-weekend-away",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/family-weekend-away",
+    "title": {
+      "rendered": "Family weekend away &#8211; Deborah W"
+    },
+    "content": {
+      "rendered": "\n<p>Just got back from a gorgeous weekend a blacohill farm. We had 7 cottages between 24 of us and couldn&#8217;t of asked for anything better. All the cottages were clean and very well equipped with everything you could think of in the kitchens. The games room was just perfect for us all to meet in after a day out/meal out. Brilliant for both kids and adults. Lovely grasses area which entertained the kids for hours with a football and scooters etc. Fantastic communication from start to finish. Can&#8217;t wait to go back</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Just got back from a gorgeous weekend a blacohill farm. We had 7 cottages between 24 of us and couldn&#8217;t of asked for anything better. All the cottages were clean and very well equipped with everything you could think of in the kitchens. The games room was just perfect for us all to meet in [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/599"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=599"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/599/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=599"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=599"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=599"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 601,
+    "date": "2017-09-16T10:15:00",
+    "date_gmt": "2017-09-16T10:15:00",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=601"
+    },
+    "modified": "2017-09-16T10:15:00",
+    "modified_gmt": "2017-09-16T10:15:00",
+    "slug": "amazing-family-get-together",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/amazing-family-get-together",
+    "title": {
+      "rendered": "Amazing family get together &#8211; Charris-ment"
+    },
+    "content": {
+      "rendered": "\n<p>We stayed here this weekend as a large group of 21 for a family get together and all had a brilliant time. From point of booking, with our numerous questions before we arrived, Liz and Alastair replied promptly and did everything they could to ensure we had a great time. The best part for me was the games room with the large seating area upstairs which meant we could all be together on the evenings and the table tennis and pool table kept us all entertained. A beautiful place, lovely and quiet with gorgeous views and a lake nearby, but with pubs, shops etc within a short drive away. Would highly recommend and we will hopefully be back soon</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We stayed here this weekend as a large group of 21 for a family get together and all had a brilliant time. From point of booking, with our numerous questions before we arrived, Liz and Alastair replied promptly and did everything they could to ensure we had a great time. The best part for me [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/601"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=601"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/601/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=601"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=601"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=601"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 603,
+    "date": "2016-10-16T10:16:00",
+    "date_gmt": "2016-10-16T10:16:00",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=603"
+    },
+    "modified": "2016-10-16T10:16:00",
+    "modified_gmt": "2016-10-16T10:16:00",
+    "slug": "very-good-value-for-money",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/very-good-value-for-money",
+    "title": {
+      "rendered": "Very good value for money &#8211; Pip W"
+    },
+    "content": {
+      "rendered": "\n<p><q>Good place to get together with a group friends as lots of separate cottages. Great ensuite rooms with good showers. Nicely furnished but kitchen equipment needed sorting out a bit.&nbsp;One niggle was a very strong smell of moth balls or similar in one room which we could not track down the source of and think it just have been in the carpet, that was a shame as it meant the occupant of that room didn&#8217;t sleep very well.</q></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Good place to get together with a group friends as lots of separate cottages. Great ensuite rooms with good showers. Nicely furnished but kitchen equipment needed sorting out a bit.&nbsp;One niggle was a very strong smell of moth balls or similar in one room which we could not track down the source of and think [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/603"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=603"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/603/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=603"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=603"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=603"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 605,
+    "date": "2016-05-16T10:16:33",
+    "date_gmt": "2016-05-16T10:16:33",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=605"
+    },
+    "modified": "2016-05-16T10:16:33",
+    "modified_gmt": "2016-05-16T10:16:33",
+    "slug": "excellent-and-great-location",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/excellent-and-great-location",
+    "title": {
+      "rendered": "Excellent and great location &#8211; Mrs G Dundee"
+    },
+    "content": {
+      "rendered": "\n<p>Stayed here for 2 nights as husband had a course nearby and we chose this for convenience. The property is dog friendly and lots of grounds to explore. Cottage is perfect for needs, basic but more than ample&#8230; Also very reasonable price. Great location for nearby towns and local pubs&#8230;.would recommend The Sun Inn in Everton.. Excellent pub food and very reasonable. We will definitely return in the future and would like to stay longer.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Stayed here for 2 nights as husband had a course nearby and we chose this for convenience. The property is dog friendly and lots of grounds to explore. Cottage is perfect for needs, basic but more than ample&#8230; Also very reasonable price. Great location for nearby towns and local pubs&#8230;.would recommend The Sun Inn in [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/605"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=605"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/605/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=605"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=605"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=605"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 607,
+    "date": "2014-10-16T10:17:03",
+    "date_gmt": "2014-10-16T10:17:03",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=607"
+    },
+    "modified": "2014-10-16T10:17:03",
+    "modified_gmt": "2014-10-16T10:17:03",
+    "slug": "brilliant-place-to-stay",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/brilliant-place-to-stay",
+    "title": {
+      "rendered": "Brilliant place to stay! &#8211; dollyface99"
+    },
+    "content": {
+      "rendered": "\n<p>Just wanted to write another quick review for this place. We stayed here for the first time about a year ago under sad circunstances followng the illness and death of my father in law. Since then we have stayed here many times more (every other month or so while visiting mother in law) and we can still say without doubt this is a fab place to stay! They bend over backwards to look after you, are very flexible and friendly. Its great if you have a dog as the cottages are dog friendly and there are lots of lovely walks too! Its a very reasonable cost and the shower is great- really powerful!! If you looking for somewhere quiet and peaceful to stay, then look no further!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>Just wanted to write another quick review for this place. We stayed here for the first time about a year ago under sad circunstances followng the illness and death of my father in law. Since then we have stayed here many times more (every other month or so while visiting mother in law) and we [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/607"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=607"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/607/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=607"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=607"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=607"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 609,
+    "date": "2013-12-16T10:17:38",
+    "date_gmt": "2013-12-16T10:17:38",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=609"
+    },
+    "modified": "2013-12-16T10:17:38",
+    "modified_gmt": "2013-12-16T10:17:38",
+    "slug": "perfect-highly-recommended",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/perfect-highly-recommended",
+    "title": {
+      "rendered": "Perfect-highly recommended! &#8211; dollyface99"
+    },
+    "content": {
+      "rendered": "\n<p>I have never written a review before but felt the need to this time. We have been staying here while visiting family (under sad circumstances unfortunately) and we couldnt have chosen a better place. Its gorgeous- the photos dont do it justice! We stayed in Skylark and it was huge, quiet and kitted out with everything you need. The bed was mega comfy and the shower was really powerful!!Lovely underfloor heating made it so cosy but reckon it would be cool in the hot summer months too. The games room was out of this world- although we didnt use it we had a peek- it has snooker, table tennis, table football, darts, tv, computer games, boards games, millions of books&#8230;..all in an amzing barn building. And the views were spectacular! The owners have been great- really accomodating and helpful which was excatly what we needed- we have been staying there on and off for the last month. And some of the cottages allow dogs too- some lovely walks around that our dog loved! We cant recomend this place, or the owners, enough. Great for romantic getaways, holidays with friends, business stays etc. We will definitely be back for a holiday in the future!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>I have never written a review before but felt the need to this time. We have been staying here while visiting family (under sad circumstances unfortunately) and we couldnt have chosen a better place. Its gorgeous- the photos dont do it justice! We stayed in Skylark and it was huge, quiet and kitted out with [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/609"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=609"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/609/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=609"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=609"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=609"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 611,
+    "date": "2013-10-16T10:18:00",
+    "date_gmt": "2013-10-16T10:18:00",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=611"
+    },
+    "modified": "2013-10-16T10:18:00",
+    "modified_gmt": "2013-10-16T10:18:00",
+    "slug": "wonderful",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/wonderful",
+    "title": {
+      "rendered": "Wonderful &#8211; Lorraine D"
+    },
+    "content": {
+      "rendered": "\n<p>We stayed here whilst trading at Osberton Horse trials. It was so lovely to come back to each evening. Very comfortable and cosy. The underfloor heating was great. I forgot my books which was for me a disaster but a quick trip to the games room provided me with enough to keep me going. Would really like to come back for a holiday and explore.</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We stayed here whilst trading at Osberton Horse trials. It was so lovely to come back to each evening. Very comfortable and cosy. The underfloor heating was great. I forgot my books which was for me a disaster but a quick trip to the games room provided me with enough to keep me going. Would [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/611"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=611"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/611/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=611"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=611"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=611"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 613,
+    "date": "2013-07-29T10:18:42",
+    "date_gmt": "2013-07-29T10:18:42",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=613"
+    },
+    "modified": "2013-07-29T10:18:42",
+    "modified_gmt": "2013-07-29T10:18:42",
+    "slug": "highly-recommended",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/highly-recommended",
+    "title": {
+      "rendered": "Highly recommended! &#8211; Burl Brown"
+    },
+    "content": {
+      "rendered": "\n<p>We stayed here whilst visiting family in the area and couldn&#8217;t have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We stayed here whilst visiting family in the area and couldn&#8217;t have asked for more. They are beautifully converted cottages, with everything you could need amongst stunning countryside. Great routes for walks or runs in the countryside, perfect for building up an appetite. Will definitely be back!</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/613"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=613"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/613/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=613"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=613"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=613"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 615,
+    "date": "2012-09-16T10:19:19",
+    "date_gmt": "2012-09-16T10:19:19",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=615"
+    },
+    "modified": "2012-09-16T10:19:19",
+    "modified_gmt": "2012-09-16T10:19:19",
+    "slug": "perfect-countryside-retreat",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/perfect-countryside-retreat",
+    "title": {
+      "rendered": "Perfect countryside retreat &#8211; Alex Smith"
+    },
+    "content": {
+      "rendered": "\n<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can&#8217;t fault the cottage as modern, clean and has everything you need. Did struggle to find you in the dark though!</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can&#8217;t fault the cottage as modern, clean and has everything you need. Did struggle to find you in the dark though!</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/615"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=615"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/615/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=615"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=615"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=615"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 617,
+    "date": "2010-01-10T10:20:11",
+    "date_gmt": "2010-01-10T10:20:11",
+    "guid": {
+      "rendered": "http://dev.blacohillcottages.co.uk/?p=617"
+    },
+    "modified": "2010-01-10T10:20:11",
+    "modified_gmt": "2010-01-10T10:20:11",
+    "slug": "wonderful-country-views-in-cosy-newly-converted-barns",
+    "status": "publish",
+    "type": "post",
+    "link": "https://blacohillcottages.co.uk/wonderful-country-views-in-cosy-newly-converted-barns",
+    "title": {
+      "rendered": "Wonderful country views in cosy newly converted barns &#8211; Sue and John"
+    },
+    "content": {
+      "rendered": "\n<p>We stayed here while visiting friends and what an absolute gem! On arriving quite late we received a warm welcome from Liz and were delighted with our cottage. Our room had a mezzanine floor for the bedroom with very comfy bed and ensuite with decent shower.&nbsp;</p>\n\n\n\n<p>These are newly converted farm buildings which have been built to an excellent standard on a working arable farm on top of a hill. There are lovely views and excellent opportunities for walks to local pubs, lakes for bird watching and we found a ruin of an abbey nearby too! Bring your walking boots and work up an appetite then cook yourselves or wander alongside the gravel lakes and river Idle enroute to the pub and eat there, we did both.</p>\n\n\n\n<p>If you forget your book then there are some to borrow and board games and also a FULL size snooker table , ping pong and table football. A truly great place to stay, its like having your own private hill to live on! We will return!<br>Sue and John</p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>We stayed here while visiting friends and what an absolute gem! On arriving quite late we received a warm welcome from Liz and were delighted with our cottage. Our room had a mezzanine floor for the bedroom with very comfy bed and ensuite with decent shower.&nbsp; These are newly converted farm buildings which have been [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_et_pb_use_builder": "",
+      "_et_pb_old_content": "",
+      "_et_gb_content_width": "",
+      "inline_featured_image": false,
+      "footnotes": ""
+    },
+    "categories": [
+      3
+    ],
+    "tags": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/617"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/users/1"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/comments?post=617"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/posts/617/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/media?parent=617"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/categories?post=617"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://blacohillcottages.co.uk/wp-json/wp/v2/tags?post=617"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

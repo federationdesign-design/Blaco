@@ -1,0 +1,322 @@
+[
+  {
+    "url": "/are-these-holiday-lets-suitable-for-families",
+    "file": "are-these-holiday-lets-suitable-for-families.html",
+    "status": 200
+  },
+  {
+    "url": "/are-longer-term-lets-available",
+    "file": "are-longer-term-lets-available.html",
+    "status": 200
+  },
+  {
+    "url": "/are-towels-and-linen-provided",
+    "file": "are-towels-and-linen-provided.html",
+    "status": 200
+  },
+  {
+    "url": "/i-am-disabled-are-your-properties-suitable-for-me",
+    "file": "i-am-disabled-are-your-properties-suitable-for-me.html",
+    "status": 200
+  },
+  {
+    "url": "/do-you-have-any-laundry-facilities-we-can-use",
+    "file": "do-you-have-any-laundry-facilities-we-can-use.html",
+    "status": 200
+  },
+  {
+    "url": "/do-you-accept-pets",
+    "file": "do-you-accept-pets.html",
+    "status": 200
+  },
+  {
+    "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "file": "what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure.html",
+    "status": 200
+  },
+  {
+    "url": "/fantastic-girls-weekend",
+    "file": "fantastic-girls-weekend.html",
+    "status": 200
+  },
+  {
+    "url": "/family-weekend-away",
+    "file": "family-weekend-away.html",
+    "status": 200
+  },
+  {
+    "url": "/amazing-family-get-together",
+    "file": "amazing-family-get-together.html",
+    "status": 200
+  },
+  {
+    "url": "/very-good-value-for-money",
+    "file": "very-good-value-for-money.html",
+    "status": 200
+  },
+  {
+    "url": "/excellent-and-great-location",
+    "file": "excellent-and-great-location.html",
+    "status": 200
+  },
+  {
+    "url": "/brilliant-place-to-stay",
+    "file": "brilliant-place-to-stay.html",
+    "status": 200
+  },
+  {
+    "url": "/perfect-highly-recommended",
+    "file": "perfect-highly-recommended.html",
+    "status": 200
+  },
+  {
+    "url": "/wonderful",
+    "file": "wonderful.html",
+    "status": 200
+  },
+  {
+    "url": "/highly-recommended",
+    "file": "highly-recommended.html",
+    "status": 200
+  },
+  {
+    "url": "/perfect-countryside-retreat",
+    "file": "perfect-countryside-retreat.html",
+    "status": 200
+  },
+  {
+    "url": "/wonderful-country-views-in-cosy-newly-converted-barns",
+    "file": "wonderful-country-views-in-cosy-newly-converted-barns.html",
+    "status": 200
+  },
+  {
+    "url": "/weekend-away-rebecca-p",
+    "file": "weekend-away-rebecca-p.html",
+    "status": 200
+  },
+  {
+    "url": "/how-do-i-pay",
+    "file": "how-do-i-pay.html",
+    "status": 200
+  },
+  {
+    "url": "/what-length-of-stays-do-you-offer",
+    "file": "what-length-of-stays-do-you-offer.html",
+    "status": 200
+  },
+  {
+    "url": "/where-should-i-park",
+    "file": "where-should-i-park.html",
+    "status": 200
+  },
+  {
+    "url": "/are-your-cottages-child-friendly",
+    "file": "are-your-cottages-child-friendly.html",
+    "status": 200
+  },
+  {
+    "url": "/do-you-have-wifi",
+    "file": "do-you-have-wifi.html",
+    "status": 200
+  },
+  {
+    "url": "/what-internet-speeds-can-i-expect",
+    "file": "what-internet-speeds-can-i-expect.html",
+    "status": 200
+  },
+  {
+    "url": "/what-is-your-cancellation-policy",
+    "file": "what-is-your-cancellation-policy.html",
+    "status": 200
+  },
+  {
+    "url": "/will-i-receive-a-refund-if-i-cancel",
+    "file": "will-i-receive-a-refund-if-i-cancel.html",
+    "status": 200
+  },
+  {
+    "url": "/do-i-need-travel-insurance",
+    "file": "do-i-need-travel-insurance.html",
+    "status": 200
+  },
+  {
+    "url": "/sample-page",
+    "file": "sample-page.html",
+    "status": 200
+  },
+  {
+    "url": "/",
+    "file": "home.html",
+    "status": 200
+  },
+  {
+    "url": "/about",
+    "file": "about.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/chaffinch-2",
+    "file": "our-cottages__chaffinch-2.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages",
+    "file": "our-cottages.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/cuckoo",
+    "file": "our-cottages__cuckoo.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/swift",
+    "file": "our-cottages__swift.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/swallow",
+    "file": "our-cottages__swallow.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/nightingale",
+    "file": "our-cottages__nightingale.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/wren",
+    "file": "our-cottages__wren.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/skylark",
+    "file": "our-cottages__skylark.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/partridge",
+    "file": "our-cottages__partridge.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/woodcock",
+    "file": "our-cottages__woodcock.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/mallard",
+    "file": "our-cottages__mallard.html",
+    "status": 200
+  },
+  {
+    "url": "/our-cottages/grey-goose",
+    "file": "our-cottages__grey-goose.html",
+    "status": 200
+  },
+  {
+    "url": "/about/faq",
+    "file": "about__faq.html",
+    "status": 200
+  },
+  {
+    "url": "/about/games-room",
+    "file": "about__games-room.html",
+    "status": 200
+  },
+  {
+    "url": "/about/local-interests",
+    "file": "about__local-interests.html",
+    "status": 200
+  },
+  {
+    "url": "/accessibility-statement",
+    "file": "accessibility-statement.html",
+    "status": 200
+  },
+  {
+    "url": "/checking-in-checkout-process",
+    "file": "checking-in-checkout-process.html",
+    "status": 200
+  },
+  {
+    "url": "/about/testimonials",
+    "file": "about__testimonials.html",
+    "status": 200
+  },
+  {
+    "url": "/cookies",
+    "file": "cookies.html",
+    "status": 200
+  },
+  {
+    "url": "/disclaimer",
+    "file": "disclaimer.html",
+    "status": 200
+  },
+  {
+    "url": "/contact-us",
+    "file": "contact-us.html",
+    "status": 200
+  },
+  {
+    "url": "/booking-request-form",
+    "file": "booking-request-form.html",
+    "status": 200
+  },
+  {
+    "url": "/calendar",
+    "file": "calendar.html",
+    "status": 200
+  },
+  {
+    "url": "/ask-us-a-question",
+    "file": "ask-us-a-question.html",
+    "status": 200
+  },
+  {
+    "url": "/for-four-people",
+    "file": "for-four-people.html",
+    "status": 200
+  },
+  {
+    "url": "/for-two-people",
+    "file": "for-two-people.html",
+    "status": 200
+  },
+  {
+    "url": "/privacy-policy-2",
+    "file": "privacy-policy-2.html",
+    "status": 200
+  },
+  {
+    "url": "/booking-test",
+    "file": "booking-test.html",
+    "status": 200
+  },
+  {
+    "url": "/for-six-people",
+    "file": "for-six-people.html",
+    "status": 200
+  },
+  {
+    "url": "/category/uncategorized",
+    "file": "category__uncategorized.html",
+    "status": 200
+  },
+  {
+    "url": "/category/faq",
+    "file": "category__faq.html",
+    "status": 200
+  },
+  {
+    "url": "/category/testimonial",
+    "file": "category__testimonial.html",
+    "status": 200
+  },
+  {
+    "url": "/category/faq/page/2",
+    "file": "category__faq__page__2.html",
+    "status": 200
+  }
+]

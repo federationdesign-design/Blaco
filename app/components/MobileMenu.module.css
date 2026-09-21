@@ -1,0 +1,126 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--touch-target);
+  height: var(--touch-target);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--colour-ink);
+  cursor: pointer;
+}
+
+.icon {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.panel {
+  position: fixed;
+  inset: var(--header-height) 0 0;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-l);
+  padding: var(--space-m) var(--gutter) var(--space-xl);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--colour-white);
+  border-top: 3px solid var(--colour-green);
+}
+
+.panel[hidden] {
+  display: none;
+}
+
+.list,
+.sublist {
+  padding: 0;
+  list-style: none;
+}
+
+.item + .item {
+  border-top: 1px solid var(--colour-mist);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  min-height: 3.5rem;
+  color: var(--colour-heading);
+  font-size: var(--step-2);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.sublist {
+  padding-bottom: var(--space-xs);
+}
+
+.sublink {
+  display: flex;
+  align-items: center;
+  min-height: var(--touch-target);
+  padding-left: var(--space-s);
+  color: var(--colour-text);
+  font-size: var(--step-0);
+  text-decoration: none;
+}
+
+.link[aria-current='page'],
+.sublink[aria-current='page'] {
+  color: var(--colour-green-dark);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2xs);
+}
+
+.enquire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.25rem;
+  margin-bottom: var(--space-2xs);
+  background: var(--colour-green-dark);
+  color: var(--colour-white);
+  font-family: var(--font-sans);
+  font-size: var(--step-0);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  min-height: var(--touch-target);
+  color: var(--colour-green-dark);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.contactIcon {
+  flex: none;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .panel {
+    padding-inline: calc(var(--gutter) * 2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .button,
+  .panel {
+    display: none;
+  }
+}

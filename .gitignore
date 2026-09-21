@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+.DS_Store
+.vercel
+
+# Re-creatable with agent/scripts/fetch-raw.mjs and extract-media.mjs
+agent/extract/raw/
+agent/extract/css/

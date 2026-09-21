@@ -1,0 +1,146 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--colour-white);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.skipLink {
+  position: absolute;
+  left: var(--gutter);
+  top: 0;
+  z-index: 60;
+  padding: var(--space-2xs) var(--space-s);
+  background: var(--colour-ink);
+  color: var(--colour-white);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+  transform: translateY(-120%);
+}
+
+.skipLink:focus-visible {
+  transform: translateY(var(--space-2xs));
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  min-height: var(--header-height);
+  max-width: var(--content-max);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex: 0 1 9.5rem;
+  min-width: 7rem;
+  min-height: var(--touch-target);
+  margin-right: auto;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3xs);
+}
+
+.call,
+.enquire {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  min-width: var(--touch-target);
+  min-height: var(--touch-target);
+  font-family: var(--font-sans);
+  font-size: var(--step--1);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.call {
+  color: var(--colour-green-dark);
+}
+
+.callIcon {
+  width: 1.375rem;
+  height: 1.375rem;
+}
+
+.callLabel,
+.callNumber {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.enquire {
+  padding-inline: var(--space-s);
+  background: var(--colour-green-dark);
+  color: var(--colour-white);
+}
+
+.enquire:active {
+  background: var(--colour-ink);
+}
+
+@media (min-width: 768px) {
+  .inner {
+    gap: var(--space-s);
+  }
+
+  .logo {
+    flex-basis: 12rem;
+  }
+
+  .actions {
+    gap: var(--space-s);
+  }
+
+  .call {
+    padding-inline: var(--space-2xs);
+  }
+
+  .callNumber {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .inner {
+    gap: var(--space-m);
+  }
+
+  .logo {
+    flex-basis: 14rem;
+    margin-right: 0;
+  }
+}
+
+@media (hover: hover) {
+  .call:hover {
+    color: var(--colour-ink);
+  }
+
+  .enquire:hover {
+    background: var(--colour-ink);
+  }
+}

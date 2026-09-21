@@ -1,0 +1,190 @@
+/*
+  Blaco Hill Farm Cottages design tokens and base styles.
+
+  Colours and fonts are extracted from the live Divi theme (see agent/DECISIONS.md, Checkpoint 2).
+  Mobile first: base styles target 390px. Larger screens use min-width queries only.
+  Breakpoints (custom properties cannot be used in media queries, so these are for reference):
+    768px   tablet
+    1024px  desktop, inline navigation
+    1440px  wide
+*/
+
+:root {
+  /* Brand colours */
+  --colour-green: #00a86b; /* Divi accent. 3.1:1 on white, so large text and decoration only */
+  --colour-green-dark: #008454; /* Same hue at 4.7:1 on white: links, buttons and small text */
+  --colour-lime: #7cda24; /* Secondary accent used in the theme builder */
+  --colour-ink: #212121; /* Footer background and dark text */
+  --colour-heading: #333333; /* Divi default heading colour */
+  --colour-text: #666666; /* Divi default body copy, 5.7:1 on white */
+  --colour-grey: #b2b9c4;
+  --colour-mist: #f5f5f5; /* Panel and toggle backgrounds */
+  --colour-white: #ffffff;
+  --colour-black: #000000;
+
+  /* Overlays taken from the live section backgrounds */
+  --gradient-green-hero: linear-gradient(150deg, var(--colour-green) 25%, rgba(38, 46, 53, 0) 100%);
+  --gradient-green-panel: linear-gradient(335deg, var(--colour-green) 16%, rgba(47, 58, 68, 0.68) 100%);
+
+  /* Fonts: loaded with next/font in app/layout.tsx */
+  --font-serif: var(--font-baskervville), Georgia, 'Times New Roman', serif;
+  --font-sans: var(--font-raleway), Helvetica, Arial, sans-serif;
+
+  /* Liquid type scale, 390px to 1440px */
+  --step--1: clamp(0.875rem, 0.84rem + 0.15vw, 0.95rem);
+  --step-0: clamp(1rem, 0.95rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.11rem + 0.38vw, 1.45rem);
+  --step-2: clamp(1.44rem, 1.26rem + 0.75vw, 1.95rem);
+  --step-3: clamp(1.73rem, 1.41rem + 1.3vw, 2.6rem);
+  --step-4: clamp(2.07rem, 1.65rem + 1.75vw, 3.125rem);
+
+  --leading-tight: 1.2;
+  --leading-body: 1.7;
+
+  /* Spacing */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: clamp(2rem, 1.6rem + 1.6vw, 3rem);
+  --space-xl: clamp(3rem, 2.3rem + 2.8vw, 4.5rem);
+
+  /* Layout */
+  --gutter: clamp(1rem, 0.5rem + 2.5vw, 2.5rem);
+  --content-max: 80rem;
+  --measure: 68ch;
+  --header-height: 4rem;
+  --touch-target: 44px;
+  --radius: 0;
+
+  --focus-ring: 3px solid var(--colour-green);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --header-height: 5.5rem;
+  }
+}
+
+/* Set by MobileMenu while the full-screen menu is open. */
+html[data-menu-open] {
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-height) + var(--space-s));
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: clip;
+  background: var(--colour-white);
+  color: var(--colour-text);
+  font-family: var(--font-serif);
+  font-size: var(--step-0);
+  line-height: var(--leading-body);
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: var(--colour-heading);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: var(--leading-tight);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--step-4);
+}
+
+h2 {
+  font-size: var(--step-3);
+}
+
+h3 {
+  font-size: var(--step-2);
+}
+
+h4 {
+  font-size: var(--step-1);
+}
+
+h5,
+h6 {
+  font-size: var(--step-0);
+}
+
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+a {
+  color: var(--colour-green-dark);
+}
+
+img,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
