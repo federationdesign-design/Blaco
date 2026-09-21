@@ -31,3 +31,9 @@
 .date {
   font-size: var(--step--1);
 }
+
+/* FAQ and testimonial detail pages are text heavy: the header and the answer
+   keep to the reading measure (Checkpoint 5 decision 2). */
+.post > * {
+  max-width: var(--measure);
+}

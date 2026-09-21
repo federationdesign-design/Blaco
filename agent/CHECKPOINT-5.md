@@ -1,5 +1,7 @@
 # Checkpoint 5: liquid, full-width layout
 
+> **Updated at Checkpoint 6.** Images may now be enlarged up to 1.25× (Checkpoint 5 decision 1). The section "Please look at this first" further down describes the earlier strict rule; the table at the end reflects the new limit. See `agent/CHECKPOINT-6.md`.
+
 Recorded in `agent/DECISIONS.md` (Checkpoint 4, "Liquid, full-width layout"). It overrides every earlier max-width rule. Also recorded: "Modern Slavery Statement" is kept, and the About page FAQs stay as they are.
 
 ## What changed
@@ -50,69 +52,69 @@ The rest hold until 1600px or wider (see the "from" column). If you would rather
 
 ## Images smaller than their display size at 2800px
 
-59 files, 62 uses (one file can appear in more than one role). "Original needed" is the smallest size, at the same proportions, that fills the box at 2800px without enlargement; supply at least this, ideally double for high-density screens. Sorted by how much enlargement they would need.
+59 files, 62 uses (one file can appear in more than one role). Updated for the 1.25× limit: 27 uses are enlarged by no more than 1.25× and still fill their box, and 35 uses would need more, so they fill their box up to the width shown and appear at natural size above it. "Original needed" is the smallest size, at the same proportions, that fills the box at 2800px without any enlargement; supply at least this, ideally double for high-density screens. Sorted by how much enlargement they would need.
 
-| Image (under `public/media/`) | Original | Used as | Box at 2800px | Enlargement needed | Original needed | Shown at natural size from | Pages |
+| Image (under `public/media/`) | Original | Used as | Box at 2800px | Enlargement needed at 2800px | How it shows now | Original needed | Pages |
 |---|---|---|---|---|---|---|---|
-| `2020/10/wren-exterior.jpg` | 1000×700 | Section or hero background | 2800×933 | 2.8× | 2800×1960 | 768px | `/our-cottages/wren` |
-| `2021/02/blaco-hill-farm.jpg` | 1024×768 | Home hero slide | 2800×800 | 2.73× | 2796×2097 | 1024px | `/` |
-| `2020/08/blaco-hill-farm.jpg` | 1024×768 | Section or hero background | 2800×933 | 2.73× | 2796×2097 | 1024px | `/contact-us` |
-| `2025/05/Partridge-new-image.jpg` | 1512×915 | Section or hero background | 2800×933 | 1.85× | 2798×1693 | 1440px | `/our-cottages/partridge` |
-| `2020/09/badger.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/lion-small.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/paintball.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/horseracing.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/waterpark.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/10/archery-target.jpg` | 500×333 | Content image | 788×525 | 1.58× | 790×527 | 1600px | `/about/local-interests` |
-| `2020/09/golf.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/aqua-park.jpg` | 500×335 | Content image | 788×528 | 1.58× | 790×530 | 1600px | `/about/local-interests` |
-| `2020/09/arrive.jpg` | 500×327 | Content image | 788×515 | 1.58× | 790×517 | 1600px | `/checking-in-checkout-process` |
-| `2020/09/leave.jpg` | 500×333 | Content image | 788×525 | 1.58× | 790×527 | 1600px | `/checking-in-checkout-process` |
-| `2020/09/literature.jpg` | 500×333 | Content image | 788×525 | 1.58× | 790×527 | 1600px | `/checking-in-checkout-process` |
-| `2020/09/landscape-e1600776204814.jpg` | 1795×1190 | Section or hero background | 2800×871 | 1.56× | 2801×1857 | 1600px | `/` |
-| `2020/08/main-image-test.jpg` | 1800×885 | Section or hero background | 2800×933 | 1.56× | 2808×1381 | 1600px | `/about` |
-| `2020/09/TOWELS.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | 2808×1872 | 1600px | `/about/faq` |
-| `2020/09/table-football.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | 2808×1872 | 1600px | `/about/games-room` |
-| `2020/08/family.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | 2808×1872 | 1600px | `/about/testimonials` |
-| `2020/09/swallow-master.jpg` | 1800×1032 | Section or hero background | 2800×933 | 1.56× | 2808×1610 | 1600px | `/for-four-people`, `/for-six-people`, `/for-two-people` and 2 more |
-| `2020/09/Chaffinch-bath.jpg` | 805×1000 | Content image | 1252×1556 | 1.56× | 1256×1560 | 1600px | `/for-four-people`, `/for-six-people`, `/for-two-people`, `/our-cottages` |
-| `2020/09/Chaffinch-lounge.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | 2808×1620 | 1600px | `/our-cottages/chaffinch-2` |
-| `2020/09/Cuckoo-lounge-flipped.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | 2808×1620 | 1600px | `/our-cottages/cuckoo` |
-| `2020/09/Pheasant-etc.jpg` | 1800×1078 | Section or hero background | 2800×933 | 1.56× | 2808×1682 | 1600px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/nightingale.jpg` | 1800×1035 | Section or hero background | 2800×933 | 1.56× | 2808×1615 | 1600px | `/our-cottages/nightingale` |
-| `2020/10/skylark-main-1.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | 2808×1620 | 1600px | `/our-cottages/skylark` |
-| `2020/09/swift-kitchen.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | 2808×1620 | 1600px | `/our-cottages/swift` |
-| `2020/08/bed-and-breakfast-15.jpg` | 1920×1441 | Section or hero background | 2800×593 | 1.46× | 2804×2104 | 1920px | `/`, `/about/faq`, `/about/games-room` and 23 more |
-| `2020/08/bed-and-breakfast-18.jpg` | 1920×1329 | Section or hero background | 2800×578 | 1.46× | 2804×1941 | 1920px | `/about` |
-| `2020/08/bed-and-breakfast-25.jpg` | 1920×970 | Section or hero background | 2800×587 | 1.46× | 2804×1417 | 1920px | `/about` |
-| `2025/05/IMG_0222.jpg` | 690×1000 | Gallery photo | 871×653 | 1.26× | 870×1260 | 2240px | `/our-cottages/partridge` |
-| `2020/09/swift-entrance.jpg` | 1000×655 | Content image | 1252×820 | 1.25× | 1250×819 | 2240px | `/accessibility-statement` |
-| `2020/09/Cuckoo-entrance.jpg` | 1000×632 | Content image | 1252×791 | 1.25× | 1250×790 | 2240px | `/accessibility-statement` |
-| `2020/09/Pheasant-exterior2.jpg` | 1000×628 | Content image | 1252×786 | 1.25× | 1250×785 | 2240px | `/accessibility-statement` |
-| `2020/08/blaco-hill-farm.jpg` | 1024×768 | Content image | 1252×939 | 1.22× | 1250×937 | 2240px | `/` |
-| `2025/05/IMG_0227.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | 870×1160 | 2240px | `/our-cottages/partridge` |
-| `2025/05/IMG_0225.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | 870×1160 | 2240px | `/our-cottages/partridge` |
-| `2025/05/IMG_0226.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | 870×1160 | 2240px | `/our-cottages/partridge` |
-| `2025/05/IMG_0224.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | 870×1160 | 2240px | `/our-cottages/partridge` |
-| `2020/10/skylark-bath.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | 870×1160 | 2240px | `/our-cottages/skylark` |
-| `2021/02/IMG_4081-scaled.jpg` | 2560×1920 | Home hero slide | 2800×800 | 1.09× | 2791×2093 | 2560px | `/` |
-| `2021/02/IMG_8747-scaled.jpg` | 2560×1920 | Home hero slide | 2800×800 | 1.09× | 2791×2093 | 2560px | `/` |
-| `2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | 2560×1707 | Section or hero background | 2800×1435 | 1.09× | 2791×1861 | 2560px | `/`, `/ask-us-a-question`, `/booking-request-form` and 11 more |
-| `2020/09/a-lion-cub-panthera-leo-lies-on-the-ground-and-loo-L9RVWV8-scaled-1.jpg` | 2560×1707 | Section or hero background | 2800×933 | 1.09× | 2791×1861 | 2560px | `/about/local-interests` |
-| `2020/09/Pheasant-kitchen.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-master1.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-twin.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-dining.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-lounge.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-exterior2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-twin2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Pheasant-lounge2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | 1040×654 | 2560px | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
-| `2020/09/Chaffinch-master.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | 1030×656 | 2560px | `/our-cottages/chaffinch-2` |
-| `2020/09/Chaffinch-kitchen2.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | 1030×656 | 2560px | `/our-cottages/chaffinch-2` |
-| `2020/09/Chaffinch-twin.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | 1030×656 | 2560px | `/our-cottages/chaffinch-2` |
-| `2020/09/Chaffinch-dining.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | 1030×656 | 2560px | `/our-cottages/chaffinch-2` |
-| `2020/09/Cuckoo-entrance.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | 1030×651 | 2560px | `/our-cottages/cuckoo` |
-| `2020/09/Cuckoo-bathroom.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | 1030×651 | 2560px | `/our-cottages/cuckoo` |
-| `2020/09/Cuckoo-master.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | 1030×651 | 2560px | `/our-cottages/cuckoo` |
-| `2020/09/Cuckoo-lounge2.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | 1030×651 | 2560px | `/our-cottages/cuckoo` |
-| `2020/10/wren-master.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | 1030×651 | 2560px | `/our-cottages/wren` |
+| `2020/10/wren-exterior.jpg` | 1000×700 | Section or hero background | 2800×933 | 2.8× | Fills up to 1152px, natural size above | 2800×1960 | `/our-cottages/wren` |
+| `2021/02/blaco-hill-farm.jpg` | 1024×768 | Home hero slide | 2800×800 | 2.73× | Fills up to 1280px, natural size above | 2796×2097 | `/` |
+| `2020/08/blaco-hill-farm.jpg` | 1024×768 | Section or hero background | 2800×933 | 2.73× | Fills up to 1280px, natural size above | 2796×2097 | `/contact-us` |
+| `2025/05/Partridge-new-image.jpg` | 1512×915 | Section or hero background | 2800×933 | 1.85× | Fills up to 1760px, natural size above | 2798×1693 | `/our-cottages/partridge` |
+| `2020/09/badger.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/lion-small.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/paintball.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/horseracing.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/waterpark.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/10/archery-target.jpg` | 500×333 | Content image | 788×525 | 1.58× | Fills up to 2080px, natural size above | 790×527 | `/about/local-interests` |
+| `2020/09/golf.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/aqua-park.jpg` | 500×335 | Content image | 788×528 | 1.58× | Fills up to 2080px, natural size above | 790×530 | `/about/local-interests` |
+| `2020/09/arrive.jpg` | 500×327 | Content image | 788×515 | 1.58× | Fills up to 2080px, natural size above | 790×517 | `/checking-in-checkout-process` |
+| `2020/09/leave.jpg` | 500×333 | Content image | 788×525 | 1.58× | Fills up to 2080px, natural size above | 790×527 | `/checking-in-checkout-process` |
+| `2020/09/literature.jpg` | 500×333 | Content image | 788×525 | 1.58× | Fills up to 2080px, natural size above | 790×527 | `/checking-in-checkout-process` |
+| `2020/09/landscape-e1600776204814.jpg` | 1795×1190 | Section or hero background | 2800×871 | 1.56× | Fills up to 2240px, natural size above | 2801×1857 | `/` |
+| `2020/08/main-image-test.jpg` | 1800×885 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1381 | `/about` |
+| `2020/09/TOWELS.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1872 | `/about/faq` |
+| `2020/09/table-football.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1872 | `/about/games-room` |
+| `2020/08/family.jpg` | 1800×1200 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1872 | `/about/testimonials` |
+| `2020/09/swallow-master.jpg` | 1800×1032 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1610 | `/for-four-people`, `/for-six-people`, `/for-two-people` and 2 more |
+| `2020/09/Chaffinch-bath.jpg` | 805×1000 | Content image | 1252×1556 | 1.56× | Fills up to 2240px, natural size above | 1256×1560 | `/for-four-people`, `/for-six-people`, `/for-two-people`, `/our-cottages` |
+| `2020/09/Chaffinch-lounge.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1620 | `/our-cottages/chaffinch-2` |
+| `2020/09/Cuckoo-lounge-flipped.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1620 | `/our-cottages/cuckoo` |
+| `2020/09/Pheasant-etc.jpg` | 1800×1078 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1682 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/nightingale.jpg` | 1800×1035 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1615 | `/our-cottages/nightingale` |
+| `2020/10/skylark-main-1.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1620 | `/our-cottages/skylark` |
+| `2020/09/swift-kitchen.jpg` | 1800×1038 | Section or hero background | 2800×933 | 1.56× | Fills up to 2240px, natural size above | 2808×1620 | `/our-cottages/swift` |
+| `2020/08/bed-and-breakfast-15.jpg` | 1920×1441 | Section or hero background | 2800×593 | 1.46× | Fills up to 2400px, natural size above | 2804×2104 | `/`, `/about/faq`, `/about/games-room` and 23 more |
+| `2020/08/bed-and-breakfast-18.jpg` | 1920×1329 | Section or hero background | 2800×578 | 1.46× | Fills up to 2400px, natural size above | 2804×1941 | `/about` |
+| `2020/08/bed-and-breakfast-25.jpg` | 1920×970 | Section or hero background | 2800×587 | 1.46× | Fills up to 2400px, natural size above | 2804×1417 | `/about` |
+| `2025/05/IMG_0222.jpg` | 690×1000 | Gallery photo | 871×653 | 1.26× | Fills up to 2720px, natural size above | 870×1260 | `/our-cottages/partridge` |
+| `2020/09/swift-entrance.jpg` | 1000×655 | Content image | 1252×820 | 1.25× | Fills up to 2720px, natural size above | 1250×819 | `/accessibility-statement` |
+| `2020/09/Cuckoo-entrance.jpg` | 1000×632 | Content image | 1252×791 | 1.25× | Fills up to 2720px, natural size above | 1250×790 | `/accessibility-statement` |
+| `2020/09/Pheasant-exterior2.jpg` | 1000×628 | Content image | 1252×786 | 1.25× | Fills up to 2720px, natural size above | 1250×785 | `/accessibility-statement` |
+| `2020/08/blaco-hill-farm.jpg` | 1024×768 | Content image | 1252×939 | 1.22× | Enlarged 1.22× (within the limit) | 1250×937 | `/` |
+| `2025/05/IMG_0227.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | Enlarged 1.16× (within the limit) | 870×1160 | `/our-cottages/partridge` |
+| `2025/05/IMG_0225.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | Enlarged 1.16× (within the limit) | 870×1160 | `/our-cottages/partridge` |
+| `2025/05/IMG_0226.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | Enlarged 1.16× (within the limit) | 870×1160 | `/our-cottages/partridge` |
+| `2025/05/IMG_0224.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | Enlarged 1.16× (within the limit) | 870×1160 | `/our-cottages/partridge` |
+| `2020/10/skylark-bath.jpg` | 750×1000 | Gallery photo | 871×653 | 1.16× | Enlarged 1.16× (within the limit) | 870×1160 | `/our-cottages/skylark` |
+| `2021/02/IMG_4081-scaled.jpg` | 2560×1920 | Home hero slide | 2800×800 | 1.09× | Enlarged 1.09× (within the limit) | 2791×2093 | `/` |
+| `2021/02/IMG_8747-scaled.jpg` | 2560×1920 | Home hero slide | 2800×800 | 1.09× | Enlarged 1.09× (within the limit) | 2791×2093 | `/` |
+| `2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | 2560×1707 | Section or hero background | 2800×1435 | 1.09× | Enlarged 1.09× (within the limit) | 2791×1861 | `/`, `/ask-us-a-question`, `/booking-request-form` and 11 more |
+| `2020/09/a-lion-cub-panthera-leo-lies-on-the-ground-and-loo-L9RVWV8-scaled-1.jpg` | 2560×1707 | Section or hero background | 2800×933 | 1.09× | Enlarged 1.09× (within the limit) | 2791×1861 | `/about/local-interests` |
+| `2020/09/Pheasant-kitchen.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-master1.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-twin.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-dining.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-lounge.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-exterior2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-twin2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Pheasant-lounge2.jpg` | 1000×628 | Gallery photo | 871×653 | 1.04× | Enlarged 1.04× (within the limit) | 1040×654 | `/our-cottages/grey-goose`, `/our-cottages/mallard`, `/our-cottages/woodcock` |
+| `2020/09/Chaffinch-master.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×656 | `/our-cottages/chaffinch-2` |
+| `2020/09/Chaffinch-kitchen2.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×656 | `/our-cottages/chaffinch-2` |
+| `2020/09/Chaffinch-twin.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×656 | `/our-cottages/chaffinch-2` |
+| `2020/09/Chaffinch-dining.jpg` | 1000×636 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×656 | `/our-cottages/chaffinch-2` |
+| `2020/09/Cuckoo-entrance.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×651 | `/our-cottages/cuckoo` |
+| `2020/09/Cuckoo-bathroom.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×651 | `/our-cottages/cuckoo` |
+| `2020/09/Cuckoo-master.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×651 | `/our-cottages/cuckoo` |
+| `2020/09/Cuckoo-lounge2.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×651 | `/our-cottages/cuckoo` |
+| `2020/10/wren-master.jpg` | 1000×632 | Gallery photo | 871×653 | 1.03× | Enlarged 1.03× (within the limit) | 1030×651 | `/our-cottages/wren` |

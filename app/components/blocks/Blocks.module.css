@@ -356,6 +356,16 @@
   overflow-x: auto;
 }
 
+/*
+  Reading measure for text-heavy pages (Checkpoint 5 decision 2). The limit is
+  in ch, so it scales with the type and stays about 75 characters per line at
+  every width. Only text is limited: sections, backgrounds and images stay
+  full width.
+*/
+.measured .prose {
+  max-width: var(--measure);
+}
+
 /* ---------- buttons ---------- */
 
 .button {

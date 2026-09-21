@@ -1,10 +1,11 @@
-// Liquid layout, decision 5. Renders every page at widths from 390px to 2800px
+// Liquid layout decision 5, as amended at Checkpoint 5. Renders every page at widths from 390px to 2800px
 // and works out, for each image in each role, whether its original file has
 // enough pixels for the box it fills. Writes:
 //   content/image-fit.json              role|src -> viewport width from which the
 //                                        image is shown at natural size instead of
-//                                        being enlarged (read by app/lib/image-fit.ts)
-//   agent/extract/image-fit-report.json the images that are too small at 2800px,
+//                                        being enlarged more than 1.25x (read by
+//                                        app/lib/image-fit.ts)
+//   agent/extract/image-fit-report.json every image that is undersized at 2800px,
 //                                        with the size needed (for CHECKPOINT-5.md)
 // Run against a build: BASE_URL=http://localhost:3106 node agent/scripts/image-fit.mjs
 // Box sizes do not depend on the fit rules, so re-running on a fitted build
@@ -19,9 +20,18 @@ const repo = join(dirname(fileURLToPath(import.meta.url)), '..', '..');
 const index = JSON.parse(await readFile(join(repo, 'content', 'index.json'), 'utf8'));
 const media = JSON.parse(await readFile(join(repo, 'content', 'media.json'), 'utf8'));
 
-const WIDTHS = [390, 768, 1024, 1280, 1440, 1600, 1920, 2240, 2560, 2800];
+// A fine grid, so an image fills its box for as long as the limit allows. Every
+// width except 390 needs a matching rule in app/globals.css (checked below).
+const WIDTHS = [390, 768, 1024, 1152, 1280, 1360, 1440, 1520, 1600, 1760, 1920, 2080, 2240, 2400, 2560, 2720, 2800];
+const css = await readFile(join(repo, 'app', 'globals.css'), 'utf8');
+const missing = WIDTHS.slice(1).filter((w) => !css.includes(`img[data-img][data-fit-from='${w}']`));
+if (missing.length) throw new Error(`app/globals.css has no fit rule for: ${missing.join(', ')}`);
 const FLOW = new Set(['figure', 'map']); // width follows the column; others crop to a box
-const TOLERANCE = 1.02; // ignore sub-pixel rounding
+// Checkpoint 5 decision 1: images may be enlarged up to 1.25x; beyond that they
+// are shown at natural size. Anything over 1.02x at 2800px (sub-pixel rounding
+// aside) is still listed as undersized so larger originals can be supplied.
+const TOLERANCE = 1.25;
+const UNDERSIZED = 1.02;
 
 const browser = await chromium.launch();
 const seen = new Map(); // key -> { role, src, firstStretch, pages, at2800 }
@@ -60,20 +70,23 @@ for (const { url } of index) {
 }
 await browser.close();
 
-// Show at natural size from the last measured width that still fitted, so the
-// image is never enlarged between measurements.
+// Record the last measured width that is within the limit; globals.css shows
+// the image at natural size from 1px above it, so it fills its box at every
+// measured width within the limit and never passes 1.25x between measurements.
 const fit = {};
 const report = [];
 for (const [key, e] of seen) {
-  if (e.firstStretch === null) continue;
-  const i = WIDTHS.indexOf(e.firstStretch);
-  fit[key] = i === 0 ? 0 : WIDTHS[i - 1];
   const s = e.at2800?.scale ?? 1;
+  if (e.firstStretch !== null) {
+    const i = WIDTHS.indexOf(e.firstStretch);
+    fit[key] = i === 0 ? 0 : WIDTHS[i - 1];
+  }
+  if (e.firstStretch === null && s <= UNDERSIZED) continue;
   report.push({
     role: e.role,
     src: e.src,
     natural: `${e.natural.width} x ${e.natural.height}`,
-    fitFrom: fit[key],
+    fitFrom: fit[key] ?? null,
     boxAt2800: e.at2800 ? `${e.at2800.boxW} x ${e.at2800.boxH}` : null,
     enlargementAt2800: s,
     neededOriginal: `${Math.ceil(e.natural.width * s)} x ${Math.ceil(e.natural.height * s)}`,
@@ -83,4 +96,4 @@ for (const [key, e] of seen) {
 report.sort((a, b) => b.enlargementAt2800 - a.enlargementAt2800);
 await writeFile(join(repo, 'content', 'image-fit.json'), JSON.stringify(Object.fromEntries(Object.entries(fit).sort()), null, 2) + '\n');
 await writeFile(join(repo, 'agent', 'extract', 'image-fit-report.json'), JSON.stringify(report, null, 2));
-console.log(`\nimage uses measured: ${seen.size}, too small somewhere up to 2800px: ${report.length}`);
+console.log(`\nimage uses measured: ${seen.size}, undersized at 2800px: ${report.length}, shown at natural size somewhere: ${Object.keys(fit).length}`);

@@ -1,9 +1,9 @@
-// Liquid layout, decision 5: an image is never enlarged beyond its original
-// pixels. content/image-fit.json is written by agent/scripts/image-fit.mjs,
+// Liquid layout decision 5, as amended at Checkpoint 5: an image is never
+// enlarged more than 1.25x its original pixels. content/image-fit.json is written by agent/scripts/image-fit.mjs,
 // which renders every page from 390px to 2800px and records, for each image in
-// each role, the viewport width from which it would have to be enlarged. From
-// that width the image is served as its original file (no srcset, so its
-// intrinsic size is its true size) and globals.css shows it at natural size.
+// each role, the last viewport width at which it is within that limit. Such an
+// image is served as its original file (no srcset, so its intrinsic size is its
+// true size), and above that width globals.css shows it at natural size.
 import FIT from '../../content/image-fit.json';
 
 export type ImageRole = 'background' | 'slider' | 'gallery' | 'card' | 'figure' | 'map' | 'portrait';

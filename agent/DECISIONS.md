@@ -65,3 +65,10 @@ This overrides every max-width rule in `BRIEF.md` and earlier decisions.
 4. Images, galleries, hero slides and cards scale up with the width, and every `next/image` `sizes` attribute serves files large enough for large screens.
 5. An image whose original is smaller than its display size at 2800px is never stretched into blur. Such images are listed with their original sizes in `agent/CHECKPOINT-5.md` so Steve can supply larger versions.
 6. Column counts per breakpoint stay as they are; cards grow rather than multiply.
+
+## Checkpoint 5
+
+Approved by Steve, 2026-09-21.
+
+1. **Image enlargement.** Images may be enlarged up to 1.25× anywhere (`TOLERANCE` in `agent/scripts/image-fit.mjs`). Beyond that they fall back to natural size. `agent/CHECKPOINT-5.md` keeps the table of undersized images, updated for this limit, so larger originals can be supplied later.
+2. **Reading measure.** On text-heavy pages only (the policy pages, the accessibility statement, the modern slavery page, and the FAQ and testimonial detail pages), the text column is limited to a comfortable measure of around 75 characters. The limit is in `ch`, so it scales with the type and stays about 75 characters at every width. Page layout, backgrounds and images stay full width. This is the one exception to the no-cap rule in the Checkpoint 4 liquid layout decision.

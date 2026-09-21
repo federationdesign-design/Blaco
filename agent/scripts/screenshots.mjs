@@ -69,7 +69,7 @@ for (const { url } of index) {
     if (status !== 200) problems.push(`${url} returned ${status}`);
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     if (overflow > 0) problems.push(`${url}: horizontal overflow of ${overflow}px at ${width}px`);
-    // Liquid layout, decision 5: no image may render larger than its original.
+    // No image may render more than 1.25x its original (Checkpoint 5 decision 1).
     if (width >= 1280) {
       const stretched = await page.evaluate((media) =>
         [...document.querySelectorAll('img[data-img]')]
@@ -81,7 +81,8 @@ for (const { url } of index) {
             if (!nat || r.width < 1) return null;
             const fit = getComputedStyle(img).objectFit;
             const scale = fit === 'none' ? 1 : fit === 'cover' ? Math.max(r.width / nat.width, r.height / nat.height) : r.width / nat.width;
-            return scale > 1.02 ? `${img.dataset.img} ${src} x${scale.toFixed(2)}` : null;
+            // Checkpoint 5 decision 1: up to 1.25x is allowed (plus rounding).
+            return scale > 1.255 ? `${img.dataset.img} ${src} x${scale.toFixed(2)}` : null;
           })
           .filter(Boolean),
       MEDIA);
