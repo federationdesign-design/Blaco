@@ -204,18 +204,33 @@ Cottages". All 59 H1s are now distinct.
 
 ### GA4 fires only after consent: confirmed
 
-Verified three ways:
+The measurement ID now comes from `NEXT_PUBLIC_GA_ID` rather than being written
+into the code, so preview and local builds no longer report into the live
+property. The consent gating is unchanged, and was re-verified with the ID both
+set and unset.
+
+Verified four ways:
 
 1. `app/components/cookies/Analytics.tsx` returns `null` when
    `consent?.analytics` is not true. The `<Script>` tags are not rendered at
    all, rather than rendered and held back, so no request to
    `googletagmanager.com` is made and no GA cookie is set before opt-in.
-2. Consent starts as `null` and is only read from `localStorage` after mount
+2. A second guard returns `null` when `NEXT_PUBLIC_GA_ID` is unset, so a build
+   with no ID loads no analytics at all. It sits after the consent check, so it
+   can only ever withhold analytics, never grant them.
+3. Consent starts as `null` and is only read from `localStorage` after mount
    (`CookieConsentProvider.tsx`), so the first paint is always unconsented.
    `null` is treated as "not chosen", not as consent, and the banner shows.
-3. Grepping all 59 built HTML files for `googletagmanager`, `gtag` and
-   `G-TN54HGV0ME` returns nothing. The measurement ID is not in the shipped
-   HTML at all.
+4. Built both ways and run against each build. With the ID set, GA loads only
+   after Accept all and never before or after Reject all. With it unset, GA
+   never loads at all. The ID is never in the served HTML in either build,
+   because nothing renders until the visitor consents; when set, it is inlined
+   into one client chunk.
+
+`agent/scripts/phase4-checks.mjs` detects whether the build under test has an
+ID by looking in the client bundle, not by reading its own environment, and
+asserts the right thing either way. So the check cannot quietly pass because a
+variable happened to be missing.
 
 Withdrawing consent also calls `clearAnalyticsCookies()`, which expires `_ga`,
 `_ga_*`, `_gid` and `_gat*` on the host and the registrable domain rather than
@@ -223,7 +238,9 @@ waiting them out. Reject is presented as an equal action to accept, per brief 6.
 
 ### The sitemap uses the live domain: confirmed
 
-`app/sitemap.ts` hardcodes `https://blacohillcottages.co.uk`. Every one of the
+The domain is declared once, as `SITE_URL` in `app/lib/site.ts`. `sitemap.ts`,
+`robots.ts`, `layout.tsx` (`metadataBase`), `metadata.ts` and
+`StructuredData.tsx` all import it, so they cannot drift apart. Every one of the
 59 `<loc>` values is on that origin. No `vercel.app` preview URL, no
 `dev.blacohillcottages.co.uk`, no `localhost`, and no `http://` entry. Both the
 canonical tags and `metadataBase` in `app/layout.tsx` use the same origin, so

@@ -5,7 +5,7 @@
 //  - sitemap.xml, robots.txt and /modern-slavery
 // Usage: BASE_URL=http://localhost:3105 node agent/scripts/phase4-checks.mjs
 import { chromium } from '@playwright/test';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -15,7 +15,24 @@ const results = [];
 const check = (name, pass, detail = '') => results.push({ name, pass, detail });
 
 // ---------- consent and GA4 ----------
+// The measurement ID is per environment (NEXT_PUBLIC_GA_ID) and is inlined into
+// the bundle at build time, so what matters is what the BUILD under test was
+// given, not what is in this process. Detect it from the served page instead of
+// reading the variable here, and assert the right thing either way: with an ID,
+// GA must load after consent and never before; without one, it must never load
+// at all. Run the build with NEXT_PUBLIC_GA_ID set to exercise the full path.
 const browser = await chromium.launch();
+// The ID is not in the served HTML, because the component renders nothing until
+// the visitor consents. It is inlined into the client bundle, so look there.
+const gaConfigured = await (async () => {
+  const dir = join(repo, '.next', 'static');
+  const files = await readdir(dir, { recursive: true }).catch(() => []);
+  for (const file of files) {
+    if (!file.endsWith('.js')) continue;
+    if (/G-[A-Z0-9]{6,}/.test(await readFile(join(dir, file), 'utf8').catch(() => ''))) return true;
+  }
+  return false;
+})();
 const gaRequests = async (action) => {
   const context = await browser.newContext();
   const page = await context.newPage();
@@ -42,7 +59,13 @@ const gaRequests = async (action) => {
 const untouched = await gaRequests(null);
 check('GA4: no request before a choice', untouched.before === 0 && untouched.after === 0 && untouched.scriptsBefore === 0);
 const accepted = await gaRequests('Accept all');
-check('GA4: loads after Accept all', accepted.before === 0 && accepted.after > 0, `${accepted.after} request(s) to googletagmanager after accepting`);
+check(
+  gaConfigured ? 'GA4: loads after Accept all' : 'GA4: stays off entirely when NEXT_PUBLIC_GA_ID is unset',
+  gaConfigured ? accepted.before === 0 && accepted.after > 0 : accepted.after === 0,
+  gaConfigured
+    ? `${accepted.after} request(s) to googletagmanager after accepting`
+    : 'no measurement ID in the build, so the component renders nothing'
+);
 check('Consent: Accept all is stored and closes the banner', accepted.bannerGone && JSON.parse(accepted.stored).categories.analytics === true);
 const rejected = await gaRequests('Reject all');
 check('GA4: never loads after Reject all', rejected.after === 0 && !rejected.cookies.some((c) => c.startsWith('_ga')));

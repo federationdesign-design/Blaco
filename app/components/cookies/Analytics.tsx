@@ -8,13 +8,17 @@
 import Script from 'next/script';
 import { useCookieConsent } from './CookieConsentProvider';
 
-// Brief 6: the site's GA4 measurement ID.
-const GA_ID = 'G-TN54HGV0ME';
+// Brief 6: the site's GA4 measurement ID, set per environment so preview and
+// local builds do not report into the live property. It is NEXT_PUBLIC_ because
+// this is a client component, which means it is inlined at build time: changing
+// it in Vercel needs a redeploy, not just a restart. Unset means no analytics.
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export function Analytics() {
   const { consent } = useCookieConsent();
 
   if (!consent?.analytics) return null; // not consented (or not chosen yet)
+  if (!GA_ID) return null; // no measurement ID configured for this environment
 
   return (
     <>

@@ -44,7 +44,7 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 | `/` | home | 200 | 1448 | 1422 | 0 | 5 | 0 | 0 |
 | `/about` | general | 200 | 871 | 899 | 0 | 20 | 0 | 1 |
 | `/our-cottages/chaffinch-2` | cottage | 200 | 368 | 368 | 0 | 0 | 1 | 0 |
-| `/our-cottages` | listing | 200 | 908 | 911 | 0 | 5 | 0 | 0 |
+| `/our-cottages` | listing | 200 | 908 | 910 | 0 | 5 | 1 | 1 |
 | `/our-cottages/cuckoo` | cottage | 200 | 376 | 376 | 0 | 0 | 1 | 0 |
 | `/our-cottages/swift` | cottage | 200 | 388 | 388 | 0 | 0 | 1 | 0 |
 | `/our-cottages/swallow` | cottage | 200 | 353 | 353 | 0 | 0 | 1 | 0 |
@@ -283,6 +283,7 @@ Deliberate changes made by the port:
 - Social media icons dropped: every link on live is "#"
 
 - **Intended:** "4" (Swallow sleeps 5 (decision 5))
+- **Added:** "Our Eleven"
 - **Intended:** "5" (Counter value: live animates it in with JavaScript from the same number)
 - **Intended:** "6" (Counter value: live animates it in with JavaScript from the same number)
 - **Intended:** "3" (Counter value: live animates it in with JavaScript from the same number)

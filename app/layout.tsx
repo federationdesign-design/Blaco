@@ -3,7 +3,7 @@ import { Baskervville, Raleway } from 'next/font/google';
 import './globals.css';
 import { SiteHeader } from './components/SiteHeader';
 import { SiteFooter } from './components/SiteFooter';
-import { SITE_NAME, TITLE_SUFFIX } from './lib/site';
+import { SITE_NAME, SITE_URL, TITLE_SUFFIX } from './lib/site';
 import { CookieConsentProvider } from './components/cookies/CookieConsentProvider';
 import { CookieBanner } from './components/cookies/CookieBanner';
 import { Analytics } from './components/cookies/Analytics';
@@ -26,7 +26,7 @@ const raleway = Raleway({
 
 // Live site has no meta descriptions, so none are set here.
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blacohillcottages.co.uk'),
+  metadataBase: new URL(SITE_URL),
   title: {
     default: `${SITE_NAME} | Holiday Rentals`,
     template: `%s | ${TITLE_SUFFIX}`,
