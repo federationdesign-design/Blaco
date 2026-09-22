@@ -55,6 +55,9 @@ const COPY_FIXES = {
     // it is the page the word "About" already introduces.
     ['<h1>Blaco Hill Farm Cottages</h1>', '<h1>About Blaco Hill Farm Cottages</h1>', 'agent/SEO.md: the two H1s were identical'],
   ],
+  // agent/SEO.md: the listing page had the bare brand name as its H1, which it
+  // shared with /about. Eleven is the cottage count the About page already gives.
+  '/our-cottages': [['<h1>Blaco Hill Farm Cottages</h1>', '<h1>Our Eleven Cottages</h1>', 'agent/SEO.md: a listing page needs a heading of its own']],
   // agent/SEO.md: the page started at H2, so it had no H1. Same wording.
   '/calendar': [['<h2>Cottage Availability</h2>', '<h1>Cottage Availability</h1>', 'agent/SEO.md: the page had no H1']],
 };
@@ -63,27 +66,6 @@ const COPY_FIXES = {
 // top-level heading on the page, so it becomes the H1. No wording changes.
 const FORM_H1 = new Set(['/ask-us-a-question', '/booking-request-form']);
 
-// agent/SEO.md: the 14 titles that ran past the ~60 characters Google shows,
-// shortened to fit with the " | Blaco Hill Farm Cottages" suffix. This is the
-// <title> only. The visible H1 and the FAQ and testimonial listings keep the
-// full live wording, so no page copy changes. Reviewer handles are dropped
-// from the testimonial titles; the page itself still credits them.
-const TITLE_OVERRIDES = {
-  '/amazing-family-get-together': 'Amazing family get together',
-  '/are-these-holiday-lets-suitable-for-families': 'Suitable for families?',
-  '/brilliant-place-to-stay': 'Brilliant place to stay!',
-  '/do-you-have-any-laundry-facilities-we-can-use': 'Are there laundry facilities?',
-  '/excellent-and-great-location': 'Excellent and great location',
-  '/fantastic-girls-weekend': 'Fantastic girls weekend',
-  '/i-am-disabled-are-your-properties-suitable-for-me': 'Are your cottages accessible?',
-  '/perfect-countryside-retreat': 'Perfect countryside retreat',
-  '/perfect-highly-recommended': 'Perfect-highly recommended!',
-  '/what-internet-speeds-can-i-expect': 'What internet speed can I expect?',
-  '/what-length-of-stays-do-you-offer': 'How long can I stay?',
-  '/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure': 'Check-in and checkout times',
-  '/will-i-receive-a-refund-if-i-cancel': 'Will I get a refund if I cancel?',
-  '/wonderful-country-views-in-cosy-newly-converted-barns': 'Wonderful country views',
-};
 
 // Checkpoint 1 decision 5: Swallow sleeps 5 everywhere.
 const swallowFive = (html, url) => {
@@ -415,9 +397,10 @@ const built = new Map();
 for (const [url, page] of extracted) {
   if (DROPPED.has(url)) continue;
   const template = templateFor(url);
-  const live = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
-  const title = TITLE_OVERRIDES[url] ?? live;
-  if (title !== live) note(url, `Title shortened for search results: "${live}" to "${title}" (agent/SEO.md). The H1 is unchanged.`);
+  // Titles are the live ones. They fit in a search result because the brand
+  // suffix is the short " | Blaco Hill" (app/layout.tsx), not the live site's
+  // " | Blaco Hill Farm Cottages".
+  const title = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
   const doc = { url, template, title, absoluteTitle: url === '/' ? page.title : null };
   if (template === 'post') {
     const apiPost = posts.find((p) => p.link.replace(/\/$/, '').endsWith(url));

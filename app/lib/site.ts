@@ -2,6 +2,12 @@
 
 export const SITE_NAME = 'Blaco Hill Farm Cottages';
 
+// The brand suffix on every page title. It is deliberately shorter than
+// SITE_NAME: Google shows about 60 characters, and the full name spent 27 of
+// them, which forced the longer FAQ and testimonial titles to be paraphrased.
+// With this the live wording fits (agent/SEO.md).
+export const TITLE_SUFFIX = 'Blaco Hill';
+
 export const CONTACT = {
   phoneDisplay: '07718 762 845',
   phoneHref: 'tel:+447718762845',

@@ -76,10 +76,6 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 
 ### `/are-these-holiday-lets-suitable-for-families`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Are these holiday lets suitable for families?" to "Suitable for families?" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "FAQ" (Post pages link back to their index)
 
 ### `/are-longer-term-lets-available`
@@ -92,17 +88,9 @@ Deliberate changes made by the port:
 
 ### `/i-am-disabled-are-your-properties-suitable-for-me`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "I am disabled. Are your properties suitable for me?" to "Are your cottages accessible?" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "FAQ" (Post pages link back to their index)
 
 ### `/do-you-have-any-laundry-facilities-we-can-use`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Do you have any laundry facilities we can use?" to "Are there laundry facilities?" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "FAQ" (Post pages link back to their index)
 
@@ -112,17 +100,9 @@ Deliberate changes made by the port:
 
 ### `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "What time can I check in on arrival and what time do I have to vacate the property by on my departure?" to "Check-in and checkout times" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "FAQ" (Post pages link back to their index)
 
 ### `/fantastic-girls-weekend`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Fantastic girls weekend – Pho3nix1705" to "Fantastic girls weekend" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
@@ -132,10 +112,6 @@ Deliberate changes made by the port:
 
 ### `/amazing-family-get-together`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Amazing family get together – Charris-ment" to "Amazing family get together" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
 ### `/very-good-value-for-money`
@@ -144,25 +120,13 @@ Deliberate changes made by the port:
 
 ### `/excellent-and-great-location`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Excellent and great location – Mrs G Dundee" to "Excellent and great location" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
 ### `/brilliant-place-to-stay`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Brilliant place to stay! – dollyface99" to "Brilliant place to stay!" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
 ### `/perfect-highly-recommended`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Perfect-highly recommended! – dollyface99" to "Perfect-highly recommended!" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
@@ -176,17 +140,9 @@ Deliberate changes made by the port:
 
 ### `/perfect-countryside-retreat`
 
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Perfect countryside retreat – Alex Smith" to "Perfect countryside retreat" (agent/SEO.md). The H1 is unchanged.
-
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
 ### `/wonderful-country-views-in-cosy-newly-converted-barns`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Wonderful country views in cosy newly converted barns – Sue and John" to "Wonderful country views" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "Testimonials" (Post pages link back to their index)
 
@@ -199,10 +155,6 @@ Deliberate changes made by the port:
 - **Intended:** "FAQ" (Post pages link back to their index)
 
 ### `/what-length-of-stays-do-you-offer`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "What length of stays do you offer?" to "How long can I stay?" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "FAQ" (Post pages link back to their index)
 
@@ -222,7 +174,6 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
-- Title shortened for search results: "What internet speeds can I expect?" to "What internet speed can I expect?" (agent/SEO.md). The H1 is unchanged.
 - Copy change: "around the nations average" to "around the national average" (Checkpoint 1 decision 6)
 - Copy change: "It will supports streaming" to "It will support streaming" (Checkpoint 1 decision 6)
 
@@ -250,10 +201,6 @@ Deliberate changes made by the port:
 - **Intended:** "lose your deposit." (Typo fix (decision 6))
 
 ### `/will-i-receive-a-refund-if-i-cancel`
-
-Deliberate changes made by the port:
-
-- Title shortened for search results: "Will I receive a refund if I cancel?" to "Will I get a refund if I cancel?" (agent/SEO.md). The H1 is unchanged.
 
 - **Intended:** "FAQ" (Post pages link back to their index)
 
@@ -326,6 +273,7 @@ Deliberate changes made by the port:
 
 Deliberate changes made by the port:
 
+- Copy change: "<h1>Blaco Hill Farm Cottages</h1>" to "<h1>Our Eleven Cottages</h1>" (agent/SEO.md: a listing page needs a heading of its own)
 - Link to /our-cottages/chaffinch (a 404 on live) points to /our-cottages/chaffinch-2
 - Swallow shown as sleeping 5 (decision 5)
 - Social media icons dropped: every link on live is "#"

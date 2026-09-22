@@ -48,24 +48,12 @@
     "what": "Copy change: \"&amp; DVD player\" removed (Checkpoint 3 decision 2)"
   },
   {
-    "url": "/amazing-family-get-together",
-    "what": "Title shortened for search results: \"Amazing family get together – Charris-ment\" to \"Amazing family get together\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/are-these-holiday-lets-suitable-for-families",
-    "what": "Title shortened for search results: \"Are these holiday lets suitable for families?\" to \"Suitable for families?\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
     "url": "/ask-us-a-question",
     "what": "Form title \"Ask us a Question\" is the page's H1 rather than an H2 (agent/SEO.md). Same wording."
   },
   {
     "url": "/booking-request-form",
     "what": "Form title \"Request a booking form\" is the page's H1 rather than an H2 (agent/SEO.md). Same wording."
-  },
-  {
-    "url": "/brilliant-place-to-stay",
-    "what": "Title shortened for search results: \"Brilliant place to stay! – dollyface99\" to \"Brilliant place to stay!\" (agent/SEO.md). The H1 is unchanged."
   },
   {
     "url": "/calendar",
@@ -90,18 +78,6 @@
   {
     "url": "/disclaimer",
     "what": "Social media icons dropped: every link on live is \"#\""
-  },
-  {
-    "url": "/do-you-have-any-laundry-facilities-we-can-use",
-    "what": "Title shortened for search results: \"Do you have any laundry facilities we can use?\" to \"Are there laundry facilities?\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/excellent-and-great-location",
-    "what": "Title shortened for search results: \"Excellent and great location – Mrs G Dundee\" to \"Excellent and great location\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/fantastic-girls-weekend",
-    "what": "Title shortened for search results: \"Fantastic girls weekend – Pho3nix1705\" to \"Fantastic girls weekend\" (agent/SEO.md). The H1 is unchanged."
   },
   {
     "url": "/for-four-people",
@@ -148,8 +124,8 @@
     "what": "Social media icons dropped: every link on live is \"#\""
   },
   {
-    "url": "/i-am-disabled-are-your-properties-suitable-for-me",
-    "what": "Title shortened for search results: \"I am disabled. Are your properties suitable for me?\" to \"Are your cottages accessible?\" (agent/SEO.md). The H1 is unchanged."
+    "url": "/our-cottages",
+    "what": "Copy change: \"<h1>Blaco Hill Farm Cottages</h1>\" to \"<h1>Our Eleven Cottages</h1>\" (agent/SEO.md: a listing page needs a heading of its own)"
   },
   {
     "url": "/our-cottages",
@@ -252,24 +228,12 @@
     "what": "Social media icons dropped: every link on live is \"#\""
   },
   {
-    "url": "/perfect-countryside-retreat",
-    "what": "Title shortened for search results: \"Perfect countryside retreat – Alex Smith\" to \"Perfect countryside retreat\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/perfect-highly-recommended",
-    "what": "Title shortened for search results: \"Perfect-highly recommended! – dollyface99\" to \"Perfect-highly recommended!\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
     "url": "/privacy-policy-2",
     "what": "Copy change: \"enquiries@blacohillcottages.co.uk\" to \"victoria@blacohillcottages.co.uk\" (Checkpoint 1 decision 6)"
   },
   {
     "url": "/privacy-policy-2",
     "what": "Social media icons dropped: every link on live is \"#\""
-  },
-  {
-    "url": "/what-internet-speeds-can-i-expect",
-    "what": "Title shortened for search results: \"What internet speeds can I expect?\" to \"What internet speed can I expect?\" (agent/SEO.md). The H1 is unchanged."
   },
   {
     "url": "/what-internet-speeds-can-i-expect",
@@ -286,22 +250,6 @@
   {
     "url": "/what-is-your-cancellation-policy",
     "what": "Copy change: \"spending on the time between the cancelation and the booking may result in yoru deposit being lost.\" to \"Depending on how close to your arrival date you cancel, you may lose your deposit.\" (Checkpoint 3 decision 4)"
-  },
-  {
-    "url": "/what-length-of-stays-do-you-offer",
-    "what": "Title shortened for search results: \"What length of stays do you offer?\" to \"How long can I stay?\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
-    "what": "Title shortened for search results: \"What time can I check in on arrival and what time do I have to vacate the property by on my departure?\" to \"Check-in and checkout times\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/will-i-receive-a-refund-if-i-cancel",
-    "what": "Title shortened for search results: \"Will I receive a refund if I cancel?\" to \"Will I get a refund if I cancel?\" (agent/SEO.md). The H1 is unchanged."
-  },
-  {
-    "url": "/wonderful-country-views-in-cosy-newly-converted-barns",
-    "what": "Title shortened for search results: \"Wonderful country views in cosy newly converted barns – Sue and John\" to \"Wonderful country views\" (agent/SEO.md). The H1 is unchanged."
   },
   {
     "url": "/for-four-people",
