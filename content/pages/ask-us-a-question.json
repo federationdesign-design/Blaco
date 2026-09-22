@@ -18,6 +18,7 @@
                   "variant": "full",
                   "title": "Ask us a Question",
                   "titleSans": false,
+                  "heading": "h1",
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

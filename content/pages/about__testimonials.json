@@ -146,6 +146,7 @@
                   "variant": "quick",
                   "title": "",
                   "titleSans": true,
+                  "heading": "h2",
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

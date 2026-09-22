@@ -1,5 +1,6 @@
 import blocks from '../blocks/Blocks.module.css';
 import { Sections } from '../blocks/Sections';
+import { FaqIndexSchema } from '../StructuredData';
 import type { Page } from '../../lib/content';
 
 // Home, listing, general content, policy, accessibility, contact and the two
@@ -12,6 +13,7 @@ export function StandardTemplate({ page }: { page: Page }) {
   const textHeavy = page.template === 'policy' || page.template === 'accessibility' || page.url === '/modern-slavery';
   return (
     <div data-template={page.template} className={textHeavy ? blocks.measured : undefined}>
+      {page.template === 'faq-index' && <FaqIndexSchema />}
       <Sections sections={page.sections ?? []} postsCategory={postsCategory} />
     </div>
   );

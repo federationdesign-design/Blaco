@@ -1,26 +1,28 @@
 # SEO readiness report
 
-Branch `rebuild`, at commit `b9e8b12`. Measured on 2026-09-22 by parsing the
+Branch `rebuild`. First measured at commit `b9e8b12` on 2026-09-22, then
+remeasured after the fixes in "What was applied" below. Measured by parsing the
 prerendered HTML in `.next/server/app/` after a clean `npm run build`
 (`tsc --noEmit` clean, 59 pages), together with the generated `robots.txt` and
 `sitemap.xml`. Nothing here is inferred from source alone: every title,
 canonical and heading below was read out of the built page.
 
-This report lists what is missing. It does not write the missing copy, because
-titles and descriptions are Steve's to supply (brief 11).
+It lists what is missing and, in "What was applied", what has since been
+fixed. No meta descriptions or Open Graph copy are written here: those are
+Steve's to supply (brief 11).
 
 ## Summary
 
 | Check | Result |
 |---|---|
 | Pages built | 59, matching `content/index.json` and the sitemap |
-| Titles | Present on all 59, all unique |
+| Titles | Present on all 59, all unique, none over 60 characters |
 | Meta descriptions | **None on any page** |
 | Canonical URLs | Present and correct on all 59 |
-| H1 | Present on 56, **missing on 3**, never more than one |
+| H1 | Present on all 59, exactly one each, all distinct |
 | Open Graph | **None on any page** |
 | Twitter cards | **None on any page** |
-| Structured data | **None on any page** |
+| Structured data | `LodgingBusiness` sitewide, `FAQPage` on the 17 FAQ pages |
 | `sitemap.ts` | 59 URLs, live domain, no redirected or missing URLs |
 | `robots.ts` | Correct, live domain, sitemap declared |
 | `noindex` | None. No page carries a robots meta tag |
@@ -28,9 +30,95 @@ titles and descriptions are Steve's to supply (brief 11).
 | `lang` | `en-GB` on every page |
 | Favicon | `/media/2020/11/cropped-bird.png`, plus apple-touch-icon |
 
-## What is missing
+## What was applied
 
-These are the gaps, in the order I would fix them.
+Steve asked for four changes on 2026-09-22. All four are in, and the audit
+below was re-run against the rebuilt site.
+
+1. **The three pages with no H1 now have one.** `/calendar`'s "Cottage
+   Availability" H2 became an H1; on `/ask-us-a-question` and
+   `/booking-request-form` the form title is now the H1. No wording changed,
+   and `.formTitle` sets the size, so nothing looks different.
+2. **Structured data added.** `LodgingBusiness` in `app/layout.tsx`, so every
+   page carries it, and `FAQPage` on `/about/faq` (all 16 questions) and on
+   each of the 16 FAQ detail pages. Built only from `app/lib/site.ts`, the
+   ported contact and privacy pages and `content/posts.json`. No ratings: the
+   ported testimonials carry none.
+3. **The 14 long titles are shortened** and `/about` and `/our-cottages` no
+   longer share an H1. Details and caveats below.
+4. **`lastmod` stays out of the sitemap.**
+
+The heading and title changes are made in `agent/scripts/build-content.mjs`,
+not in the generated JSON, and each one is logged to
+`agent/extract/changes.json` so the parity report counts it as intended.
+
+Verified after the changes: `tsc --noEmit` clean, `npm run build` succeeds (59
+pages), content parity 0 unexplained differences across 58 live pages, URL
+parity 68 of 68, all 16 Phase 4 checks pass, `:global` audit clean.
+
+### What the titles became
+
+The `<title>` only. The visible H1, and the FAQ and testimonial listings, keep
+the full live wording, so no page copy changed. The suffix
+` | Blaco Hill Farm Cottages` is 27 characters, which leaves 33 for the page,
+so these are short.
+
+| URL | Was | Now |
+|---|---|---|
+| `/what-time-can-i-check-in-...-on-my-departure` | What time can I check in on arrival and what time do I have to vacate the property by on my departure? | Check-in and checkout times |
+| `/wonderful-country-views-in-cosy-newly-converted-barns` | Wonderful country views in cosy newly converted barns – Sue and John | Wonderful country views |
+| `/i-am-disabled-are-your-properties-suitable-for-me` | I am disabled. Are your properties suitable for me? | Are your cottages accessible? |
+| `/do-you-have-any-laundry-facilities-we-can-use` | Do you have any laundry facilities we can use? | Are there laundry facilities? |
+| `/are-these-holiday-lets-suitable-for-families` | Are these holiday lets suitable for families? | Suitable for families? |
+| `/excellent-and-great-location` | Excellent and great location – Mrs G Dundee | Excellent and great location |
+| `/amazing-family-get-together` | Amazing family get together – Charris-ment | Amazing family get together |
+| `/perfect-highly-recommended` | Perfect-highly recommended! – dollyface99 | Perfect-highly recommended! |
+| `/perfect-countryside-retreat` | Perfect countryside retreat – Alex Smith | Perfect countryside retreat |
+| `/brilliant-place-to-stay` | Brilliant place to stay! – dollyface99 | Brilliant place to stay! |
+| `/fantastic-girls-weekend` | Fantastic girls weekend – Pho3nix1705 | Fantastic girls weekend |
+| `/will-i-receive-a-refund-if-i-cancel` | Will I receive a refund if I cancel? | Will I get a refund if I cancel? |
+| `/what-internet-speeds-can-i-expect` | What internet speeds can I expect? | What internet speed can I expect? |
+| `/what-length-of-stays-do-you-offer` | What length of stays do you offer? | How long can I stay? |
+
+Two things to check, because they are judgement calls rather than mechanical
+shortening:
+
+- **The six testimonial titles drop the reviewer's handle** (`– dollyface99`,
+  `– Pho3nix1705`, `– Mrs G Dundee` and so on). The handle is what pushed each
+  one past the limit and it carries no search value, but the credit does
+  disappear from the search result. The page itself still shows it in the H1
+  and the testimonials listing still links by the full title.
+- **Four FAQ titles are paraphrased**, not just trimmed: the check-in one, the
+  accessibility one, the laundry one and the length-of-stay one. The meaning
+  holds and the H1 still asks the question in the guest's own words, but the
+  wording in search results is now mine rather than live's.
+
+### The two identical H1s
+
+Only `/about` changed, from "Blaco Hill Farm Cottages" to "About Blaco Hill
+Farm Cottages". That is enough to tell the pair apart, and it is the smaller
+edit to ported copy.
+
+`/our-cottages` therefore still has the bare brand name as its H1, under the
+kicker "our cottages". It is no longer a duplicate, but for a listing page it
+is a weak heading. Changing it to something like "Our Eleven Cottages" would
+read better, and I have not done it because it is new wording rather than a
+shortening. Say the word if you want it.
+
+### A caveat on FAQPage
+
+The markup is valid and correct, but Google restricted FAQ rich results in
+2023 to government and health sites, so it is unlikely to draw the expandable
+questions into the search result. It still helps machines read the pages, and
+it costs nothing.
+
+The same 16 questions are marked up twice, once on `/about/faq` and once on
+each detail page. That is normal and Google keys on the URL, so it is not
+treated as duplication.
+
+## What is still missing
+
+These are the remaining gaps, in the order I would fix them.
 
 ### 1. No meta descriptions (59 pages)
 
@@ -64,21 +152,10 @@ wording, and it can reuse the meta description once that exists.
 **Needed from Steve:** approval to add them, and a decision on the fallback
 share image for pages with no hero.
 
-### 3. Three pages have no H1
+### 3. Fixed: the three pages with no H1
 
-| URL | Template | Highest heading present |
-|---|---|---|
-| `/ask-us-a-question` | contact | H2 "Ask us a Question" |
-| `/booking-request-form` | contact | H2 "Request a booking form" |
-| `/calendar` | contact | H2 "Cottage Availability" |
-
-Each starts at H2, so the document outline has no top level. This is inherited
-from the live pages, where those headings are also H2: no template emits an H1
-of its own, they come through in the ported rich text. `/contact-us`, on the
-same template, does have one.
-
-The fix is to promote the first H2 to an H1 on those three pages, which changes
-no wording. **Needed from Steve:** approval, since it edits ported markup.
+`/ask-us-a-question`, `/booking-request-form` and `/calendar` each have one
+now, in the live wording. Nothing left to do.
 
 ### 4. Three cottage H1s do not name the cottage
 
@@ -95,38 +172,25 @@ Mattersey" lands on a page whose only H1 says "Old Cart Shed D".
 **Needed from Steve:** whether these are the intended names. I have not changed
 them.
 
-### 5. No structured data
+### 5. Partly fixed: structured data
 
-No `application/ld+json` on any page. Nothing is broken without it, but for
-this site it is the clearest win after Open Graph, because it feeds Google's
-rich results:
+`LodgingBusiness` and `FAQPage` are in. Not added, and worth considering later:
 
-- `LodgingBusiness` on the home page: name, address (Mattersey, Doncaster, DN10
-  5HQ), phone, email, photo. All of it already exists in `app/lib/site.ts` and
-  `agent/INVENTORY.md`.
-- `FAQPage` on `/about/faq` and on each of the 16 FAQ detail pages. The
-  questions and answers are already in `content/posts.json`.
-- `Review` on the 12 testimonial pages. The author and text are already ported,
-  though **no star ratings exist**, and I will not invent them.
+- `Review` on the 12 testimonial pages. Held back only because **no star
+  ratings exist** and I will not invent them. Schema.org allows a review with
+  no rating, so this can go in whenever you want it.
+- Per-cottage `Accommodation` or `LodgingBusiness` markup, with sleeps and
+  amenities. The data is already in the cottage JSON.
 
-All of this can be built from content already in the repo. **Needed from
-Steve:** approval, plus a decision on whether to ask guests for ratings.
+### 6. Fixed: titles over 60 characters
 
-### 6. Minor: 14 titles run past 60 characters
+All 59 titles now fit, and all are still unique. See "What the titles became"
+above for the two judgement calls in it.
 
-Google truncates around 60. The longest is 129 characters:
+### 7. Fixed: the two identical H1s
 
-`What time can I check in on arrival and what time do I have to vacate the property by on my departure? | Blaco Hill Farm Cottages`
-
-The others are the longer FAQ questions and the testimonial titles, which carry
-the guest's name. All are ported live titles, and all are unique, so this is
-cosmetic in search results rather than a ranking problem. **Needed from
-Steve:** shorter titles, if he wants them. I have not shortened any.
-
-### 7. Minor: two pages share an H1
-
-`/about` and `/our-cottages` both use the H1 "Blaco Hill Farm Cottages". Their
-titles differ, so search results still distinguish them. Ported as live.
+`/about` was changed. See above for why `/our-cottages` is still worth a
+second look.
 
 ## Confirmations you asked for
 
@@ -180,80 +244,87 @@ Two things the sitemap does not carry, both optional:
 
 ## Every page
 
-`Desc`, `OG`, `Twitter` and `Structured data` are absent on all 59, so those
-columns are omitted rather than repeated. No page carries a robots meta tag, so
-nothing is `noindex`. Titles use the `%s | Blaco Hill Farm Cottages` template
-from `app/layout.tsx`, except the home page, which sets its own absolute title.
+`Desc`, `OG` and `Twitter` are absent on all 59, so those columns are omitted
+rather than repeated. No page carries a robots meta tag, so nothing is
+`noindex`. Titles use the `%s | Blaco Hill Farm Cottages` template from
+`app/layout.tsx`, except the home page, which sets its own absolute title.
 
-| URL | Template | Title | Canonical | H1 |
-|---|---|---|---|---|
-| `/` | home | Blaco Hill Farm Cottages \| Holiday Rentals | https://blacohillcottages.co.uk | A warm welcome from Victoria and Thomas |
-| `/about` | general | About \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about | Blaco Hill Farm Cottages |
-| `/about/faq` | faq-index | FAQ \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/faq | Questions |
-| `/about/games-room` | general | Games Room \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/games-room | The Games Room |
-| `/about/local-interests` | general | Local Interests \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/local-interests | Local Attractions |
-| `/about/testimonials` | testimonial-index | Testimonials \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/testimonials | Testimonials |
-| `/accessibility-statement` | accessibility | Accessibility Statement \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/accessibility-statement | Access statement for Blaco Hill Farm Cottages |
-| `/amazing-family-get-together` | post | Amazing family get together – Charris-ment \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/amazing-family-get-together | Amazing family get together – Charris-ment |
-| `/are-longer-term-lets-available` | post | Are longer-term lets available? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-longer-term-lets-available | Are longer-term lets available? |
-| `/are-these-holiday-lets-suitable-for-families` | post | Are these holiday lets suitable for families? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-these-holiday-lets-suitable-for-families | Are these holiday lets suitable for families? |
-| `/are-towels-and-linen-provided` | post | Are towels and linen provided? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-towels-and-linen-provided | Are towels and linen provided? |
-| `/are-your-cottages-child-friendly` | post | Are your cottages child friendly? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-your-cottages-child-friendly | Are your cottages child friendly? |
-| `/ask-us-a-question` | contact | Ask us a question \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/ask-us-a-question | **none** |
-| `/booking-request-form` | contact | Booking request form \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/booking-request-form | **none** |
-| `/brilliant-place-to-stay` | post | Brilliant place to stay! – dollyface99 \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/brilliant-place-to-stay | Brilliant place to stay! – dollyface99 |
-| `/calendar` | contact | Cottage Availability \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/calendar | **none** |
-| `/checking-in-checkout-process` | general | Checking in & Checkout Process \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/checking-in-checkout-process | Checking in & Checkout Process |
-| `/contact-us` | contact | Contact us \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/contact-us | Contact Us |
-| `/cookies` | policy | Cookies \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/cookies | Cookies Policy |
-| `/disclaimer` | policy | Disclaimer \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/disclaimer | Disclaimer |
-| `/do-i-need-travel-insurance` | post | Do I need travel insurance? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-i-need-travel-insurance | Do I need travel insurance? |
-| `/do-you-accept-pets` | post | Do you accept pets? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-accept-pets | Do you accept pets? |
-| `/do-you-have-any-laundry-facilities-we-can-use` | post | Do you have any laundry facilities we can use? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-have-any-laundry-facilities-we-can-use | Do you have any laundry facilities we can use? |
-| `/do-you-have-wifi` | post | Do you have wifi? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-have-wifi | Do you have wifi? |
-| `/excellent-and-great-location` | post | Excellent and great location – Mrs G Dundee \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/excellent-and-great-location | Excellent and great location – Mrs G Dundee |
-| `/family-weekend-away` | post | Family weekend away – Deborah W \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/family-weekend-away | Family weekend away – Deborah W |
-| `/fantastic-girls-weekend` | post | Fantastic girls weekend – Pho3nix1705 \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/fantastic-girls-weekend | Fantastic girls weekend – Pho3nix1705 |
-| `/for-four-people` | listing | For four people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-four-people | For four people |
-| `/for-six-people` | listing | For six people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-six-people | For six people |
-| `/for-two-people` | listing | For two people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-two-people | For two people |
-| `/highly-recommended` | post | Highly recommended! – Burl Brown \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/highly-recommended | Highly recommended! – Burl Brown |
-| `/how-do-i-pay` | post | How do I pay? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/how-do-i-pay | How do I pay? |
-| `/i-am-disabled-are-your-properties-suitable-for-me` | post | I am disabled. Are your properties suitable for me? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/i-am-disabled-are-your-properties-suitable-for-me | I am disabled. Are your properties suitable for me? |
-| `/modern-slavery` | general | Modern Slavery Statement \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/modern-slavery | Modern Slavery Statement |
-| `/our-cottages` | listing | Our Cottages \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages | Blaco Hill Farm Cottages |
-| `/our-cottages/chaffinch-2` | cottage | Chaffinch \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/chaffinch-2 | Chaffinch |
-| `/our-cottages/cuckoo` | cottage | Cuckoo \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/cuckoo | Cuckoo |
-| `/our-cottages/grey-goose` | cottage | Greygoose \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/grey-goose | Old Cart Shed D |
-| `/our-cottages/mallard` | cottage | Mallard \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/mallard | Old Cart Shed C |
-| `/our-cottages/nightingale` | cottage | Nightingale \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/nightingale | Nightingale |
-| `/our-cottages/partridge` | cottage | Partridge \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/partridge | Partridge |
-| `/our-cottages/skylark` | cottage | Skylark \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/skylark | Skylark |
-| `/our-cottages/swallow` | cottage | Swallow \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/swallow | Swallow |
-| `/our-cottages/swift` | cottage | Swift \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/swift | Swift |
-| `/our-cottages/woodcock` | cottage | Woodcock \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/woodcock | Old Cart Shed E |
-| `/our-cottages/wren` | cottage | Wren \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/wren | Wren |
-| `/perfect-countryside-retreat` | post | Perfect countryside retreat – Alex Smith \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/perfect-countryside-retreat | Perfect countryside retreat – Alex Smith |
-| `/perfect-highly-recommended` | post | Perfect-highly recommended! – dollyface99 \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/perfect-highly-recommended | Perfect-highly recommended! – dollyface99 |
-| `/privacy-policy-2` | policy | Privacy Policy \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/privacy-policy-2 | Privacy Policy |
-| `/very-good-value-for-money` | post | Very good value for money – Pip W \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/very-good-value-for-money | Very good value for money – Pip W |
-| `/weekend-away-rebecca-p` | post | Weekend away – Rebecca P \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/weekend-away-rebecca-p | Weekend away – Rebecca P |
-| `/what-internet-speeds-can-i-expect` | post | What internet speeds can I expect? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-internet-speeds-can-i-expect | What internet speeds can I expect? |
-| `/what-is-your-cancellation-policy` | post | What is your cancellation policy? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-is-your-cancellation-policy | What is your cancellation policy? |
-| `/what-length-of-stays-do-you-offer` | post | What length of stays do you offer? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-length-of-stays-do-you-offer | What length of stays do you offer? |
-| `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure` | post | What time can I check in on arrival and what time do I have to vacate the property by on my departure? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure | What time can I check in on arrival and what time do I have to vacate the property by on my departure? |
-| `/where-should-i-park` | post | Where should I park? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/where-should-i-park | Where should I park? |
-| `/will-i-receive-a-refund-if-i-cancel` | post | Will I receive a refund if I cancel? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/will-i-receive-a-refund-if-i-cancel | Will I receive a refund if I cancel? |
-| `/wonderful` | post | Wonderful – Lorraine D \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/wonderful | Wonderful – Lorraine D |
-| `/wonderful-country-views-in-cosy-newly-converted-barns` | post | Wonderful country views in cosy newly converted barns – Sue and John \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/wonderful-country-views-in-cosy-newly-converted-barns | Wonderful country views in cosy newly converted barns – Sue and John |
+| URL | Template | Title | Canonical | H1 | Structured data |
+|---|---|---|---|---|---|
+| `/` | home | Blaco Hill Farm Cottages \| Holiday Rentals | https://blacohillcottages.co.uk | A warm welcome from Victoria and Thomas | LodgingBusiness |
+| `/about` | general | About \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about | About Blaco Hill Farm Cottages | LodgingBusiness |
+| `/about/faq` | faq-index | FAQ \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/faq | Questions | LodgingBusiness, FAQPage |
+| `/about/games-room` | general | Games Room \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/games-room | The Games Room | LodgingBusiness |
+| `/about/local-interests` | general | Local Interests \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/local-interests | Local Attractions | LodgingBusiness |
+| `/about/testimonials` | testimonial-index | Testimonials \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/about/testimonials | Testimonials | LodgingBusiness |
+| `/accessibility-statement` | accessibility | Accessibility Statement \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/accessibility-statement | Access statement for Blaco Hill Farm Cottages | LodgingBusiness |
+| `/amazing-family-get-together` | post | Amazing family get together \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/amazing-family-get-together | Amazing family get together – Charris-ment | LodgingBusiness |
+| `/are-longer-term-lets-available` | post | Are longer-term lets available? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-longer-term-lets-available | Are longer-term lets available? | LodgingBusiness, FAQPage |
+| `/are-these-holiday-lets-suitable-for-families` | post | Suitable for families? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-these-holiday-lets-suitable-for-families | Are these holiday lets suitable for families? | LodgingBusiness, FAQPage |
+| `/are-towels-and-linen-provided` | post | Are towels and linen provided? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-towels-and-linen-provided | Are towels and linen provided? | LodgingBusiness, FAQPage |
+| `/are-your-cottages-child-friendly` | post | Are your cottages child friendly? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/are-your-cottages-child-friendly | Are your cottages child friendly? | LodgingBusiness, FAQPage |
+| `/ask-us-a-question` | contact | Ask us a question \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/ask-us-a-question | Ask us a Question | LodgingBusiness |
+| `/booking-request-form` | contact | Booking request form \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/booking-request-form | Request a booking form | LodgingBusiness |
+| `/brilliant-place-to-stay` | post | Brilliant place to stay! \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/brilliant-place-to-stay | Brilliant place to stay! – dollyface99 | LodgingBusiness |
+| `/calendar` | contact | Cottage Availability \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/calendar | Cottage Availability | LodgingBusiness |
+| `/checking-in-checkout-process` | general | Checking in & Checkout Process \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/checking-in-checkout-process | Checking in & Checkout Process | LodgingBusiness |
+| `/contact-us` | contact | Contact us \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/contact-us | Contact Us | LodgingBusiness |
+| `/cookies` | policy | Cookies \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/cookies | Cookies Policy | LodgingBusiness |
+| `/disclaimer` | policy | Disclaimer \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/disclaimer | Disclaimer | LodgingBusiness |
+| `/do-i-need-travel-insurance` | post | Do I need travel insurance? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-i-need-travel-insurance | Do I need travel insurance? | LodgingBusiness, FAQPage |
+| `/do-you-accept-pets` | post | Do you accept pets? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-accept-pets | Do you accept pets? | LodgingBusiness, FAQPage |
+| `/do-you-have-any-laundry-facilities-we-can-use` | post | Are there laundry facilities? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-have-any-laundry-facilities-we-can-use | Do you have any laundry facilities we can use? | LodgingBusiness, FAQPage |
+| `/do-you-have-wifi` | post | Do you have wifi? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/do-you-have-wifi | Do you have wifi? | LodgingBusiness, FAQPage |
+| `/excellent-and-great-location` | post | Excellent and great location \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/excellent-and-great-location | Excellent and great location – Mrs G Dundee | LodgingBusiness |
+| `/family-weekend-away` | post | Family weekend away – Deborah W \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/family-weekend-away | Family weekend away – Deborah W | LodgingBusiness |
+| `/fantastic-girls-weekend` | post | Fantastic girls weekend \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/fantastic-girls-weekend | Fantastic girls weekend – Pho3nix1705 | LodgingBusiness |
+| `/for-four-people` | listing | For four people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-four-people | For four people | LodgingBusiness |
+| `/for-six-people` | listing | For six people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-six-people | For six people | LodgingBusiness |
+| `/for-two-people` | listing | For two people \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/for-two-people | For two people | LodgingBusiness |
+| `/highly-recommended` | post | Highly recommended! – Burl Brown \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/highly-recommended | Highly recommended! – Burl Brown | LodgingBusiness |
+| `/how-do-i-pay` | post | How do I pay? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/how-do-i-pay | How do I pay? | LodgingBusiness, FAQPage |
+| `/i-am-disabled-are-your-properties-suitable-for-me` | post | Are your cottages accessible? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/i-am-disabled-are-your-properties-suitable-for-me | I am disabled. Are your properties suitable for me? | LodgingBusiness, FAQPage |
+| `/modern-slavery` | general | Modern Slavery Statement \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/modern-slavery | Modern Slavery Statement | LodgingBusiness |
+| `/our-cottages` | listing | Our Cottages \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages | Blaco Hill Farm Cottages | LodgingBusiness |
+| `/our-cottages/chaffinch-2` | cottage | Chaffinch \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/chaffinch-2 | Chaffinch | LodgingBusiness |
+| `/our-cottages/cuckoo` | cottage | Cuckoo \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/cuckoo | Cuckoo | LodgingBusiness |
+| `/our-cottages/grey-goose` | cottage | Greygoose \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/grey-goose | Old Cart Shed D | LodgingBusiness |
+| `/our-cottages/mallard` | cottage | Mallard \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/mallard | Old Cart Shed C | LodgingBusiness |
+| `/our-cottages/nightingale` | cottage | Nightingale \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/nightingale | Nightingale | LodgingBusiness |
+| `/our-cottages/partridge` | cottage | Partridge \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/partridge | Partridge | LodgingBusiness |
+| `/our-cottages/skylark` | cottage | Skylark \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/skylark | Skylark | LodgingBusiness |
+| `/our-cottages/swallow` | cottage | Swallow \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/swallow | Swallow | LodgingBusiness |
+| `/our-cottages/swift` | cottage | Swift \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/swift | Swift | LodgingBusiness |
+| `/our-cottages/woodcock` | cottage | Woodcock \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/woodcock | Old Cart Shed E | LodgingBusiness |
+| `/our-cottages/wren` | cottage | Wren \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/our-cottages/wren | Wren | LodgingBusiness |
+| `/perfect-countryside-retreat` | post | Perfect countryside retreat \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/perfect-countryside-retreat | Perfect countryside retreat – Alex Smith | LodgingBusiness |
+| `/perfect-highly-recommended` | post | Perfect-highly recommended! \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/perfect-highly-recommended | Perfect-highly recommended! – dollyface99 | LodgingBusiness |
+| `/privacy-policy-2` | policy | Privacy Policy \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/privacy-policy-2 | Privacy Policy | LodgingBusiness |
+| `/very-good-value-for-money` | post | Very good value for money – Pip W \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/very-good-value-for-money | Very good value for money – Pip W | LodgingBusiness |
+| `/weekend-away-rebecca-p` | post | Weekend away – Rebecca P \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/weekend-away-rebecca-p | Weekend away – Rebecca P | LodgingBusiness |
+| `/what-internet-speeds-can-i-expect` | post | What internet speed can I expect? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-internet-speeds-can-i-expect | What internet speeds can I expect? | LodgingBusiness, FAQPage |
+| `/what-is-your-cancellation-policy` | post | What is your cancellation policy? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-is-your-cancellation-policy | What is your cancellation policy? | LodgingBusiness, FAQPage |
+| `/what-length-of-stays-do-you-offer` | post | How long can I stay? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-length-of-stays-do-you-offer | What length of stays do you offer? | LodgingBusiness, FAQPage |
+| `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure` | post | Check-in and checkout times \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure | What time can I check in on arrival and what time do I have to vacate the property by on my departure? | LodgingBusiness, FAQPage |
+| `/where-should-i-park` | post | Where should I park? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/where-should-i-park | Where should I park? | LodgingBusiness, FAQPage |
+| `/will-i-receive-a-refund-if-i-cancel` | post | Will I get a refund if I cancel? \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/will-i-receive-a-refund-if-i-cancel | Will I receive a refund if I cancel? | LodgingBusiness, FAQPage |
+| `/wonderful` | post | Wonderful – Lorraine D \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/wonderful | Wonderful – Lorraine D | LodgingBusiness |
+| `/wonderful-country-views-in-cosy-newly-converted-barns` | post | Wonderful country views \| Blaco Hill Farm Cottages | https://blacohillcottages.co.uk/wonderful-country-views-in-cosy-newly-converted-barns | Wonderful country views in cosy newly converted barns – Sue and John | LodgingBusiness |
+
 ## How to reproduce
 
 ```
 npm run build
-node agent/scripts/seo-audit.mjs
+node agent/scripts/seo-audit.mjs   # the findings above
+node agent/scripts/seo-copy.mjs    # rewrites agent/seo-copy.csv
 ```
 
 The audit script parses every file in `.next/server/app/` with cheerio and
 reports titles, descriptions, canonicals, Open Graph and Twitter tags,
 JSON-LD, robots meta and heading levels, then cross-checks the set against
 `content/index.json` and the generated sitemap.
+
+`agent/seo-copy.csv` is the worksheet for writing the missing descriptions:
+one row per page with the URL, the title, the H1 and the first 300 characters
+of the page's body text. It is regenerated from the built site, so it shows
+the shortened titles and the new H1s, not the ones they replaced.

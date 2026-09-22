@@ -17,7 +17,9 @@ export type ButtonModule = { type: 'button'; label: string; href: string };
 // sans: the live label is Raleway (read from the live page CSS), not Baskervville.
 export type BlurbModule = { type: 'blurb'; title: string; icon: IconName | null; sans: boolean; image: Img | null; href: string | null; html: string };
 export type TestimonialModule = { type: 'testimonial'; author: string; html: string; portrait: Img | null };
-export type FormModule = { type: 'form'; variant: 'quick' | 'full'; title: string; titleSans: boolean; fields: FormField[]; submit: string; success: string };
+// heading: the level of the form's title. It is 'h1' on the two pages whose
+// only top-level heading is the form title (agent/SEO.md), 'h2' everywhere else.
+export type FormModule = { type: 'form'; variant: 'quick' | 'full'; title: string; titleSans: boolean; heading: 'h1' | 'h2'; fields: FormField[]; submit: string; success: string };
 export type Slide = { title: string; titleSans: boolean; html: string; image: Img | null };
 
 export type Module =

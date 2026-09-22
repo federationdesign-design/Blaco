@@ -48,7 +48,41 @@ const COPY_FIXES = {
     [' &amp; DVD player', '', 'Checkpoint 3 decision 2'],
     [', DVD Player', '', 'Checkpoint 3 decision 2'],
   ],
-  '/about': [['a selection of 12 self catering properties', 'a selection of eleven self catering properties', 'Checkpoint 3 decision 3']],
+  '/about': [
+    ['a selection of 12 self catering properties', 'a selection of eleven self catering properties', 'Checkpoint 3 decision 3'],
+    // agent/SEO.md: /about and /our-cottages both had the H1 "Blaco Hill Farm
+    // Cottages". Only /about changes, which is enough to tell them apart, and
+    // it is the page the word "About" already introduces.
+    ['<h1>Blaco Hill Farm Cottages</h1>', '<h1>About Blaco Hill Farm Cottages</h1>', 'agent/SEO.md: the two H1s were identical'],
+  ],
+  // agent/SEO.md: the page started at H2, so it had no H1. Same wording.
+  '/calendar': [['<h2>Cottage Availability</h2>', '<h1>Cottage Availability</h1>', 'agent/SEO.md: the page had no H1']],
+};
+
+// agent/SEO.md: these two pages had no H1 either. Their form title is the only
+// top-level heading on the page, so it becomes the H1. No wording changes.
+const FORM_H1 = new Set(['/ask-us-a-question', '/booking-request-form']);
+
+// agent/SEO.md: the 14 titles that ran past the ~60 characters Google shows,
+// shortened to fit with the " | Blaco Hill Farm Cottages" suffix. This is the
+// <title> only. The visible H1 and the FAQ and testimonial listings keep the
+// full live wording, so no page copy changes. Reviewer handles are dropped
+// from the testimonial titles; the page itself still credits them.
+const TITLE_OVERRIDES = {
+  '/amazing-family-get-together': 'Amazing family get together',
+  '/are-these-holiday-lets-suitable-for-families': 'Suitable for families?',
+  '/brilliant-place-to-stay': 'Brilliant place to stay!',
+  '/do-you-have-any-laundry-facilities-we-can-use': 'Are there laundry facilities?',
+  '/excellent-and-great-location': 'Excellent and great location',
+  '/fantastic-girls-weekend': 'Fantastic girls weekend',
+  '/i-am-disabled-are-your-properties-suitable-for-me': 'Are your cottages accessible?',
+  '/perfect-countryside-retreat': 'Perfect countryside retreat',
+  '/perfect-highly-recommended': 'Perfect-highly recommended!',
+  '/what-internet-speeds-can-i-expect': 'What internet speed can I expect?',
+  '/what-length-of-stays-do-you-offer': 'How long can I stay?',
+  '/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure': 'Check-in and checkout times',
+  '/will-i-receive-a-refund-if-i-cancel': 'Will I get a refund if I cancel?',
+  '/wonderful-country-views-in-cosy-newly-converted-barns': 'Wonderful country views',
 };
 
 // Checkpoint 1 decision 5: Swallow sleeps 5 everywhere.
@@ -201,11 +235,13 @@ const convertModule = (m, url) => {
     case 'testimonial':
       return { type: 'testimonial', author: m.author, html: html(m.html), portrait: m.portrait ? img(m.portrait, '', '', url, true) : null };
     case 'contact_form':
+      if (FORM_H1.has(url)) note(url, `Form title "${m.title}" is the page's H1 rather than an H2 (agent/SEO.md). Same wording.`);
       return {
         type: 'form',
         variant: m.fields.some((f) => f.name?.includes('_tel_')) ? 'full' : 'quick',
         title: m.title,
         titleSans: Boolean(m.titleSans),
+        heading: FORM_H1.has(url) ? 'h1' : 'h2',
         fields: m.fields.map((f) => ({ name: f.name, label: f.label, type: f.tag === 'textarea' ? 'textarea' : f.fieldType === 'email' ? 'email' : f.name.includes('_tel_') ? 'tel' : 'text', required: f.required })),
         submit: m.submit || 'Submit',
         success: FORM_SUCCESS[url] ?? FORM_SUCCESS.default,
@@ -379,7 +415,9 @@ const built = new Map();
 for (const [url, page] of extracted) {
   if (DROPPED.has(url)) continue;
   const template = templateFor(url);
-  const title = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
+  const live = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
+  const title = TITLE_OVERRIDES[url] ?? live;
+  if (title !== live) note(url, `Title shortened for search results: "${live}" to "${title}" (agent/SEO.md). The H1 is unchanged.`);
   const doc = { url, template, title, absoluteTitle: url === '/' ? page.title : null };
   if (template === 'post') {
     const apiPost = posts.find((p) => p.link.replace(/\/$/, '').endsWith(url));

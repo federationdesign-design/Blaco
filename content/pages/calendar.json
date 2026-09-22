@@ -15,7 +15,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<h2>Cottage Availability</h2> <p>Our Cottages do become booked at short notice so if you have some dates in mind, please contact us on the form to find out the availability and our best prices.</p>"
+                  "html": "<h1>Cottage Availability</h1> <p>Our Cottages do become booked at short notice so if you have some dates in mind, please contact us on the form to find out the availability and our best prices.</p>"
                 }
               ]
             }
@@ -31,6 +31,7 @@
                   "variant": "quick",
                   "title": "Contact Us",
                   "titleSans": false,
+                  "heading": "h2",
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

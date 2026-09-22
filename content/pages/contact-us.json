@@ -135,6 +135,7 @@
                   "variant": "full",
                   "title": "Send us a message",
                   "titleSans": false,
+                  "heading": "h2",
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",

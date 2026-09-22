@@ -61,13 +61,18 @@ export function EnquiryForm({ module }: { module: FormModule }) {
     }
   }
 
+  // agent/SEO.md: on the two pages whose only top-level heading is the form
+  // title, that title is the H1. .formTitle sets the size, so this changes the
+  // outline, not the look.
+  const Title = module.heading;
+
   if (status === 'sent') {
     return (
       <div id="enquiry" className={styles.formStatus} data-state="sent" role="status" tabIndex={-1} ref={statusRef}>
         {module.title && (
-          <h2 className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
+          <Title className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
             {module.title}
-          </h2>
+          </Title>
         )}
         <p>{module.success}</p>
       </div>
@@ -85,9 +90,9 @@ export function EnquiryForm({ module }: { module: FormModule }) {
       onSubmit={onSubmit}
     >
       {module.title && (
-        <h2 className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
+        <Title className={styles.formTitle} data-font={module.titleSans ? 'sans' : undefined}>
           {module.title}
-        </h2>
+        </Title>
       )}
       <input type="hidden" name="form" value={module.variant} />
       <input type="hidden" name="page" value={page} />

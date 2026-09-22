@@ -45,7 +45,7 @@
     "url": "/amazing-family-get-together",
     "file": "amazing-family-get-together",
     "template": "post",
-    "title": "Amazing family get together – Charris-ment"
+    "title": "Amazing family get together"
   },
   {
     "url": "/are-longer-term-lets-available",
@@ -57,7 +57,7 @@
     "url": "/are-these-holiday-lets-suitable-for-families",
     "file": "are-these-holiday-lets-suitable-for-families",
     "template": "post",
-    "title": "Are these holiday lets suitable for families?"
+    "title": "Suitable for families?"
   },
   {
     "url": "/are-towels-and-linen-provided",
@@ -87,7 +87,7 @@
     "url": "/brilliant-place-to-stay",
     "file": "brilliant-place-to-stay",
     "template": "post",
-    "title": "Brilliant place to stay! – dollyface99"
+    "title": "Brilliant place to stay!"
   },
   {
     "url": "/calendar",
@@ -135,7 +135,7 @@
     "url": "/do-you-have-any-laundry-facilities-we-can-use",
     "file": "do-you-have-any-laundry-facilities-we-can-use",
     "template": "post",
-    "title": "Do you have any laundry facilities we can use?"
+    "title": "Are there laundry facilities?"
   },
   {
     "url": "/do-you-have-wifi",
@@ -147,7 +147,7 @@
     "url": "/excellent-and-great-location",
     "file": "excellent-and-great-location",
     "template": "post",
-    "title": "Excellent and great location – Mrs G Dundee"
+    "title": "Excellent and great location"
   },
   {
     "url": "/family-weekend-away",
@@ -159,7 +159,7 @@
     "url": "/fantastic-girls-weekend",
     "file": "fantastic-girls-weekend",
     "template": "post",
-    "title": "Fantastic girls weekend – Pho3nix1705"
+    "title": "Fantastic girls weekend"
   },
   {
     "url": "/for-four-people",
@@ -195,7 +195,7 @@
     "url": "/i-am-disabled-are-your-properties-suitable-for-me",
     "file": "i-am-disabled-are-your-properties-suitable-for-me",
     "template": "post",
-    "title": "I am disabled. Are your properties suitable for me?"
+    "title": "Are your cottages accessible?"
   },
   {
     "url": "/modern-slavery",
@@ -279,13 +279,13 @@
     "url": "/perfect-countryside-retreat",
     "file": "perfect-countryside-retreat",
     "template": "post",
-    "title": "Perfect countryside retreat – Alex Smith"
+    "title": "Perfect countryside retreat"
   },
   {
     "url": "/perfect-highly-recommended",
     "file": "perfect-highly-recommended",
     "template": "post",
-    "title": "Perfect-highly recommended! – dollyface99"
+    "title": "Perfect-highly recommended!"
   },
   {
     "url": "/privacy-policy-2",
@@ -309,7 +309,7 @@
     "url": "/what-internet-speeds-can-i-expect",
     "file": "what-internet-speeds-can-i-expect",
     "template": "post",
-    "title": "What internet speeds can I expect?"
+    "title": "What internet speed can I expect?"
   },
   {
     "url": "/what-is-your-cancellation-policy",
@@ -321,13 +321,13 @@
     "url": "/what-length-of-stays-do-you-offer",
     "file": "what-length-of-stays-do-you-offer",
     "template": "post",
-    "title": "What length of stays do you offer?"
+    "title": "How long can I stay?"
   },
   {
     "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
     "file": "what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
     "template": "post",
-    "title": "What time can I check in on arrival and what time do I have to vacate the property by on my departure?"
+    "title": "Check-in and checkout times"
   },
   {
     "url": "/where-should-i-park",
@@ -339,7 +339,7 @@
     "url": "/will-i-receive-a-refund-if-i-cancel",
     "file": "will-i-receive-a-refund-if-i-cancel",
     "template": "post",
-    "title": "Will I receive a refund if I cancel?"
+    "title": "Will I get a refund if I cancel?"
   },
   {
     "url": "/wonderful",
@@ -351,6 +351,6 @@
     "url": "/wonderful-country-views-in-cosy-newly-converted-barns",
     "file": "wonderful-country-views-in-cosy-newly-converted-barns",
     "template": "post",
-    "title": "Wonderful country views in cosy newly converted barns – Sue and John"
+    "title": "Wonderful country views"
   }
 ]

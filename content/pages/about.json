@@ -23,7 +23,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">ABout</p> <h1>Blaco Hill Farm Cottages</h1>"
+                  "html": "<p data-kicker=\"\">ABout</p> <h1>About Blaco Hill Farm Cottages</h1>"
                 }
               ]
             }
@@ -461,6 +461,7 @@
                   "variant": "quick",
                   "title": "",
                   "titleSans": true,
+                  "heading": "h2",
                   "fields": [
                     {
                       "name": "et_pb_contact_name_0",
