@@ -252,6 +252,10 @@
     "what": "Copy change: \"spending on the time between the cancelation and the booking may result in yoru deposit being lost.\" to \"Depending on how close to your arrival date you cancel, you may lose your deposit.\" (Checkpoint 3 decision 4)"
   },
   {
+    "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
+    "what": "Title shortened for search results: \"What time can I check in on arrival and what time do I have to vacate the property by on my departure?\" to \"Check-in and checkout times\" (agent/SEO.md). The H1 is unchanged."
+  },
+  {
     "url": "/for-four-people",
     "what": "Swallow card moved to /for-six-people (decision 5)"
   },

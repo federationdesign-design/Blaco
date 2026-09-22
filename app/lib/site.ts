@@ -2,6 +2,9 @@
 
 export const SITE_NAME = 'Blaco Hill Farm Cottages';
 
+// The live domain. Canonicals, the sitemap, og:url and og:image all use it.
+export const SITE_URL = 'https://blacohillcottages.co.uk';
+
 // The brand suffix on every page title. It is deliberately shorter than
 // SITE_NAME: Google shows about 60 characters, and the full name spent 27 of
 // them, which forced the longer FAQ and testimonial titles to be paraphrased.

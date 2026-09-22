@@ -8,5 +8,12 @@
     "date": "Sep 21, 2026",
     "category": "faq",
     "html": "<p>Our broadband provides download and upload speeds of around the national average. It will support streaming, video calls and working from home. Speeds may vary slightly depending on how many devices are connected at the time.</p>"
+  },
+  "description": "Our broadband runs at around the national average and supports streaming, video calls and working from home.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

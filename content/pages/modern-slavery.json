@@ -23,5 +23,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "The modern slavery statement for Blaco Hill Farm Cottages.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

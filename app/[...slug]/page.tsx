@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getIndex, getPage } from '../lib/content';
+import { pageMetadata } from '../lib/metadata';
 import { PageView } from '../components/templates/PageView';
 
 // Every ported URL except the home page, including root-level FAQ and
@@ -18,8 +19,7 @@ export function generateStaticParams(): Params[] {
 export async function generateMetadata({ params }: { params: Promise<Params> }): Promise<Metadata> {
   const { slug } = await params;
   const page = getPage(`/${slug.join('/')}`);
-  if (!page) return {};
-  return { title: page.title, alternates: { canonical: page.url } };
+  return page ? pageMetadata(page) : {};
 }
 
 export default async function Page({ params }: { params: Promise<Params> }) {

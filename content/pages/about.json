@@ -491,5 +491,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "A family-run working farm with eleven self-catering cottages, converted from courtyard barns and old farm buildings around a shared courtyard.",
+  "share": {
+    "src": "/media/2020/08/main-image-test.jpg",
+    "width": 1800,
+    "height": 885,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

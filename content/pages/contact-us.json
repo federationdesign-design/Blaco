@@ -249,5 +249,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Get in touch with Blaco Hill Farm Cottages near Mattersey, on the Nottinghamshire and South Yorkshire border, with directions and contact details.",
+  "share": {
+    "src": "/media/2020/08/blaco-hill-farm.jpg",
+    "width": 1024,
+    "height": 768,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

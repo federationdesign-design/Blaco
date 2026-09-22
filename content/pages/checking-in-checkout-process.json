@@ -211,5 +211,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Self check-in is available from 3pm, and we ask guests to vacate by 10am leaving the key in the door. Full details come with your booking.",
+  "share": {
+    "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+    "width": 1920,
+    "height": 1441,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

@@ -8,5 +8,12 @@
     "date": "Sep 4, 2020",
     "category": "faq",
     "html": "<p>There is a communal laundry room which guests are welcome to use. It includes 2 washing machines, a tumble dryer and ironing equipment.</p>"
+  },
+  "description": "Guests are welcome to use the communal laundry room, with two washing machines, a tumble dryer and ironing equipment.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

@@ -640,5 +640,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Eleven individual self-catering cottages sleeping two to six, sympathetically converted from farm buildings around a shared courtyard.",
+  "share": {
+    "src": "/media/2020/09/swallow-master.jpg",
+    "width": 1800,
+    "height": 1032,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

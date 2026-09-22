@@ -873,5 +873,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Eleven self-catering holiday cottages on a working family farm near Mattersey, on the Nottinghamshire and South Yorkshire border. Sleeping two to six.",
+  "share": {
+    "src": "/media/2021/02/blaco-hill-farm.jpg",
+    "width": 1024,
+    "height": 768,
+    "alt": "Aerial view of Blaco Hill Farm: whitewashed buildings with red pantile roofs around a courtyard garden, with fields beyond"
+  }
 }

@@ -8,5 +8,12 @@
     "date": "Sep 16, 2012",
     "category": "testimonial",
     "html": "<p>We stayed here after getting married at the secret garden in gringley. It was so tranquil and peaceful. Really beautiful surroundings just wish we had spent more time at the cottage. Can’t fault the cottage as modern, clean and has everything you need. Did struggle to find you in the dark though!</p>"
+  },
+  "description": "A guest review of a tranquil, peaceful stay in beautiful surroundings, in a modern and spotless cottage.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

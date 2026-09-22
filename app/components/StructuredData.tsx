@@ -1,4 +1,4 @@
-import { SITE_NAME, CONTACT, LOGO } from '../lib/site';
+import { SITE_NAME, SITE_URL, CONTACT, LOGO } from '../lib/site';
 import { getPosts } from '../lib/content';
 
 // JSON-LD for search engines (agent/SEO.md). Everything here is built from
@@ -6,8 +6,6 @@ import { getPosts } from '../lib/content';
 // and the ported contact and privacy pages, and the questions and answers come
 // from content/posts.json. Nothing is invented, and there are no ratings,
 // because the ported testimonials carry no star ratings.
-
-export const SITE_URL = 'https://blacohillcottages.co.uk';
 
 // Schema.org ids, so the graph can be joined up across pages rather than
 // repeating the business on every one.

@@ -528,5 +528,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Our self-catering cottages for two, with bright open-plan living, en-suite master bedrooms and private patios.",
+  "share": {
+    "src": "/media/2020/09/swallow-master.jpg",
+    "width": 1800,
+    "height": 1032,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

@@ -456,5 +456,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Our self-catering cottages sleeping four, with en-suite bedrooms, open-plan living and views across the farm.",
+  "share": {
+    "src": "/media/2020/09/swallow-master.jpg",
+    "width": 1800,
+    "height": 1032,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

@@ -8,5 +8,12 @@
     "date": "Sep 21, 2020",
     "category": "faq",
     "html": "<p>Our preferred method of payment is by bank transfer but we can also take payment by cheques or PayPal. All details will be given in your correspondence with us. </p>"
+  },
+  "description": "We prefer payment by bank transfer, and can also take cheques or PayPal. Full details come with your booking correspondence.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

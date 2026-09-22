@@ -8,5 +8,12 @@
     "date": "Sep 4, 2020",
     "category": "faq",
     "html": "<p>Yes, we welcome pets in all of our cottages except Cuckoo. Please let us know when you book if you will be bringing a pet.</p>"
+  },
+  "description": "Yes. Pets are welcome in all of our cottages except Cuckoo. Just let us know when you book that you are bringing one.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

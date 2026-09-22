@@ -61,5 +61,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Check availability at Blaco Hill Farm Cottages. Cottages book at short notice, so send us your dates for availability and our best prices.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

@@ -8,5 +8,12 @@
     "date": "Sep 4, 2020",
     "category": "faq",
     "html": "<p>Yes, we welcome families at our holiday cottages. We have a children’s play area which is a favourite among many of our younger guests. We also provide travel cots, highchairs and stair gates for use within our properties.</p>"
+  },
+  "description": "Yes. Families are welcome, with a children's play area, and travel cots, highchairs and stair gates available in our cottages.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

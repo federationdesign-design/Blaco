@@ -8,5 +8,12 @@
     "date": "Jun 16, 2019",
     "category": "testimonial",
     "html": "<p>Fab little find. Lovely cottage with everything you need for a weekend get away. Games room an added bonus and cottage kitted out for all your needs. Clean with linen provided, plenty of room for 6 of us and didn’t feel cramped.</p>"
+  },
+  "description": "A guest review of a weekend away for six, with a well-equipped cottage, linen provided and the games room as a bonus.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

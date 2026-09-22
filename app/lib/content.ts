@@ -76,6 +76,11 @@ export type Page = {
   template: Template;
   title: string;
   absoluteTitle: string | null;
+  // Approved wording from agent/blaco_seo_descriptions.csv, used as written for
+  // both the meta description and og:description.
+  description: string;
+  // og:image: the page's hero photo, or the logo where the page has none.
+  share: Img;
   sections?: Section[];
   cottage?: Cottage | null;
   post?: Post;

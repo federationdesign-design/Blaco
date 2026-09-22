@@ -176,5 +176,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Answers to common questions about staying with us: pets, wifi, parking, check-in times, linen, cancellations and travel insurance.",
+  "share": {
+    "src": "/media/2020/09/TOWELS.jpg",
+    "width": 1800,
+    "height": 1200,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

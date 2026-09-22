@@ -473,5 +473,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Our self-catering cottages sleeping six, with open-plan living, fully equipped kitchens and large dining tables for the whole party.",
+  "share": {
+    "src": "/media/2020/09/swallow-master.jpg",
+    "width": 1800,
+    "height": 1032,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

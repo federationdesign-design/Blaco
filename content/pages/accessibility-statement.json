@@ -1014,5 +1014,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Detailed access information for our converted farm cottages, covering parking, entrances, bathrooms and the shared courtyard. Do call with any questions.",
+  "share": {
+    "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+    "width": 1920,
+    "height": 1441,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

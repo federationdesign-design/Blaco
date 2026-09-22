@@ -8,5 +8,12 @@
     "date": "Sep 4, 2020",
     "category": "faq",
     "html": "<p>We do everything we can to accommodate everyone. Please read our <a href=\"/accessibility-statement\">access statement</a> for further details.</p>"
+  },
+  "description": "We do everything we can to accommodate everyone. Read our access statement for detailed information, or call us to talk it through.",
+  "share": {
+    "src": "/media/2020/11/cropped-bird.png",
+    "width": 512,
+    "height": 512,
+    "alt": "Blaco Hill Farm Cottages"
   }
 }

@@ -22,6 +22,34 @@ const problems = [];
 const note = (url, what) => changes.push({ url, what });
 
 const SUFFIX = ' | Blaco Hill Farm Cottages';
+
+// Meta and og:description for every page, approved by Steve and used exactly as
+// written (agent/blaco_seo_descriptions.csv). Never edited or generated here.
+const parseCsv = (text) => {
+  const rows = [];
+  let row = [];
+  let cell = '';
+  let quoted = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (quoted) {
+      if (c !== '"') cell += c;
+      else if (text[i + 1] === '"') (cell += '"'), i++;
+      else quoted = false;
+    } else if (c === '"') quoted = true;
+    else if (c === ',') (row.push(cell), (cell = ''));
+    else if (c === '\n') (row.push(cell), rows.push(row), (row = []), (cell = ''));
+    else if (c !== '\r') cell += c;
+  }
+  if (cell || row.length) (row.push(cell), rows.push(row));
+  return rows;
+};
+const DESCRIPTIONS = Object.fromEntries(
+  parseCsv(await readFile(join(repo, 'agent', 'blaco_seo_descriptions.csv'), 'utf8'))
+    .slice(1)
+    .filter((r) => r[0])
+    .map((r) => [r[0], r[1]])
+);
 const DROPPED = new Set(['/sample-page', '/booking-test', '/category/faq', '/category/faq/page/2', '/category/testimonial', '/category/uncategorized']);
 const MAP = '/maps/cottage-map-2026.jpg';
 
@@ -60,6 +88,13 @@ const COPY_FIXES = {
   '/our-cottages': [['<h1>Blaco Hill Farm Cottages</h1>', '<h1>Our Eleven Cottages</h1>', 'agent/SEO.md: a listing page needs a heading of its own']],
   // agent/SEO.md: the page started at H2, so it had no H1. Same wording.
   '/calendar': [['<h2>Cottage Availability</h2>', '<h1>Cottage Availability</h1>', 'agent/SEO.md: the page had no H1']],
+};
+
+// agent/SEO.md: the one title still too long to be useful in a search result.
+// The live question runs to 102 characters, so the result showed nothing but
+// the question's first half. The H1 keeps the guest's own wording.
+const TITLE_OVERRIDES = {
+  '/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure': 'Check-in and checkout times',
 };
 
 // agent/SEO.md: these two pages had no H1 either. Their form title is the only
@@ -397,10 +432,12 @@ const built = new Map();
 for (const [url, page] of extracted) {
   if (DROPPED.has(url)) continue;
   const template = templateFor(url);
-  // Titles are the live ones. They fit in a search result because the brand
-  // suffix is the short " | Blaco Hill" (app/layout.tsx), not the live site's
-  // " | Blaco Hill Farm Cottages".
-  const title = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
+  // Titles are the live ones, bar the one override above. They fit in a search
+  // result because the brand suffix is the short " | Blaco Hill"
+  // (app/layout.tsx), not the live site's " | Blaco Hill Farm Cottages".
+  const live = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
+  const title = TITLE_OVERRIDES[url] ?? live;
+  if (title !== live) note(url, `Title shortened for search results: "${live}" to "${title}" (agent/SEO.md). The H1 is unchanged.`);
   const doc = { url, template, title, absoluteTitle: url === '/' ? page.title : null };
   if (template === 'post') {
     const apiPost = posts.find((p) => p.link.replace(/\/$/, '').endsWith(url));
@@ -461,8 +498,31 @@ for (const section of built.get('/accessibility-statement').sections) {
   }
 }
 
+// og:image (agent/SEO.md). The page's own hero photo, which is the first
+// background image the page shows: a cottage header, a hero or slider section,
+// or failing those any section background. Pages with no photo at all (the FAQ
+// and testimonial details, /calendar and /modern-slavery) fall back to the
+// logo, which is the only mark the repo holds for them.
+const SHARE_FALLBACK = { src: '/media/2020/11/cropped-bird.png', alt: 'Blaco Hill Farm Cottages' };
+const heroImage = (doc) => {
+  if (doc.cottage?.background?.image) return doc.cottage.background.image;
+  for (const s of doc.sections ?? []) {
+    if (s.kind === 'slider') {
+      const slider = s.rows[0]?.columns[0]?.modules[0];
+      if (slider?.slides?.[0]?.image) return slider.slides[0].image;
+    }
+    if (s.kind === 'hero' && s.background?.image) return s.background.image;
+  }
+  for (const s of doc.sections ?? []) if (s.background?.image) return s.background.image;
+  return null;
+};
+
 for (const [url, doc] of built) {
   if (doc.template === 'cottage') doc.cottage = cottageParts(doc.sections, url);
+  doc.description = DESCRIPTIONS[url];
+  if (!doc.description) problems.push(`${url}: no approved description in agent/blaco_seo_descriptions.csv`);
+  const share = heroImage(doc) ?? { ...SHARE_FALLBACK, ...dims[SHARE_FALLBACK.src] };
+  doc.share = { src: share.src, width: share.width, height: share.height, alt: share.alt || SHARE_FALLBACK.alt };
   if (doc.template === 'faq-index') note(url, 'Lists the 16 FAQs only. The live Divi blog module also listed the first 4 testimonials.');
   const file = url === '/' ? 'home' : url.slice(1).replace(/\//g, '__');
   await writeFile(join(out, `${file}.json`), JSON.stringify(doc, null, 2));

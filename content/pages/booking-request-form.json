@@ -139,5 +139,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Request a booking form for Blaco Hill Farm Cottages. Tell us your dates and party size and we will come back to you with availability and prices.",
+  "share": {
+    "src": "/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg",
+    "width": 2560,
+    "height": 1707,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

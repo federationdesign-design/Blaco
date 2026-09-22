@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getPage } from './lib/content';
+import { pageMetadata } from './lib/metadata';
 import { PageView } from './components/templates/PageView';
 
-export const metadata: Metadata = {
-  title: { absolute: 'Blaco Hill Farm Cottages | Holiday Rentals' },
-  alternates: { canonical: '/' },
-};
+const home = getPage('/');
+
+export const metadata: Metadata = home ? pageMetadata(home) : {};
 
 export default function Home() {
   const page = getPage('/');

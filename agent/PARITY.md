@@ -100,6 +100,10 @@ Compares the visible text of each live WordPress page (raw HTML saved by `fetch-
 
 ### `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure`
 
+Deliberate changes made by the port:
+
+- Title shortened for search results: "What time can I check in on arrival and what time do I have to vacate the property by on my departure?" to "Check-in and checkout times" (agent/SEO.md). The H1 is unchanged.
+
 - **Intended:** "FAQ" (Post pages link back to their index)
 
 ### `/fantastic-girls-weekend`

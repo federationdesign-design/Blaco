@@ -16,12 +16,12 @@ Steve's to supply (brief 11).
 | Check | Result |
 |---|---|
 | Pages built | 59, matching `content/index.json` and the sitemap |
-| Titles | Present on all 59, all unique, all in the live wording. 3 over 60 characters |
-| Meta descriptions | **None on any page** |
+| Titles | Present on all 59, all unique. 2 over 60 characters |
+| Meta descriptions | All 59, the approved wording, used exactly as written |
 | Canonical URLs | Present and correct on all 59 |
 | H1 | Present on all 59, exactly one each, all distinct |
-| Open Graph | **None on any page** |
-| Twitter cards | **None on any page** |
+| Open Graph | All 59: title, description, url, type, site_name, locale, image |
+| Twitter cards | All 59, `summary_large_image` |
 | Structured data | `LodgingBusiness` sitewide, `FAQPage` on the 17 FAQ pages |
 | `sitemap.ts` | 59 URLs, live domain, no redirected or missing URLs |
 | `robots.ts` | Correct, live domain, sitemap declared |
@@ -95,41 +95,67 @@ Verified after both rounds: `tsc --noEmit` clean, `npm run build` succeeds (59
 pages), content parity 0 unexplained differences across 58 live pages, URL
 parity 68 of 68, all 16 Phase 4 checks pass, `:global` audit clean.
 
-## What is still missing
+### Round 3: descriptions, Open Graph and Twitter
 
-These are the remaining gaps, in the order I would fix them.
+1. **Steve's approved descriptions are in**, from
+   `agent/blaco_seo_descriptions.csv`, as both the meta description and
+   `og:description`. They are used **exactly as written**: the build script
+   reads the CSV and never edits or generates a word, and the audit compares
+   every rendered description against the CSV and fails on any difference. The
+   file covers all 59 URLs, none empty, none over 160 characters.
+2. **Open Graph and Twitter on every page.** `og:title` is the whole document
+   title, suffix included, so a shared link reads the same as the browser tab.
+   `og:url` is the canonical. `og:type` is `website`, `og:site_name` is
+   "Blaco Hill Farm Cottages", and `og:locale` is `en_GB` (not asked for, but
+   free and correct). `twitter:card` is `summary_large_image`.
+3. **`og:image` is the page's own hero photo**, absolute on the live domain,
+   with `og:image:width` and `og:image:height` set. The audit checks the file
+   actually exists in `public/`, so no preview points at a 404.
+4. **One more title shortened.** `/what-time-can-i-check-in-...` is
+   "Check-in and checkout times | Blaco Hill" in the title tag. Its H1 still
+   asks the guest's full question. The other two long titles are left alone.
 
-### 1. No meta descriptions (59 pages)
+All of this is built in one place, `app/lib/metadata.ts`, so a page's title,
+canonical, description and social tags cannot drift apart.
 
-No page has a `<meta name="description">`. This is faithful: the live
-WordPress site has none either (`agent/INVENTORY.md`, site-wide facts, and the
-note in `app/layout.tsx`), and it is already logged in `PLACEHOLDERS.md`.
+### The share image on 30 pages
 
-Porting faithfully therefore means porting nothing, so this is a decision
-rather than a defect. Google will write its own snippet from the page copy in
-the meantime. **Needed from Steve:** one description per page, or a decision to
-leave them out. I have not written any.
+Half the site has no photo of its own: the 28 FAQ and testimonial detail pages,
+`/calendar` and `/modern-slavery`. Those fall back to the logo, as Steve asked.
 
-### 2. No Open Graph or Twitter tags (59 pages)
+**This needs a decision before launch.** The only raster logo in the repo is
+`/media/2020/11/cropped-bird.png`, the 512x512 bird mark used as the site icon.
+The other two logo files are SVGs, and an SVG `og:image` renders in nothing:
+not Facebook, X, LinkedIn, WhatsApp or iMessage. So the bird is the only
+working choice, and it is what those 30 pages use.
 
-There is no `og:title`, `og:description`, `og:image`, `og:url`, `og:type`,
-`og:locale`, `og:site_name`, `twitter:card` or any other social tag anywhere.
-The live site has none either, so again this is a port-faithful outcome rather
-than a regression.
+It works, but it is not good. At 512x512 it is square, while
+`summary_large_image` wants roughly 1.91:1, so it is cropped top and bottom and
+shown small. Every FAQ and every guest review shared on WhatsApp gets the same
+cropped bird.
 
-The practical effect: a link to any page shared on Facebook, WhatsApp, iMessage
-or LinkedIn shows the bare URL with no photo. For a holiday-let site, where
-guests forward cottage pages to the rest of the party, that is the most
-valuable thing on this list.
+Two ways out, neither invented here:
 
-Most of it can be generated with no new copy at all: `og:title` from the
-existing title, `og:url` from the existing canonical, `og:type`, `og:locale`
-(`en_GB`) and `og:site_name` are constants, and `og:image` can be each page's
-hero photo, which is already in the content JSON. Only `og:description` needs
-wording, and it can reuse the meta description once that exists.
+- **A proper share image**, 1200x630, made from an existing farm photo. One
+  file, used on the 30 pages with no hero of their own.
+- **Or give the detail pages a photo**, so a shared FAQ shows the farm rather
+  than a mark.
 
-**Needed from Steve:** approval to add them, and a decision on the fallback
-share image for pages with no hero.
+Until then the tags are correct and complete, and nothing is broken.
+
+## Item by item
+
+Where each of the original seven findings stands.
+
+### 1. Fixed: meta descriptions
+
+All 59 carry Steve's approved wording, verified against the CSV on every audit
+run.
+
+### 2. Fixed: Open Graph and Twitter tags
+
+All 59 carry the full set. The one open question is the share image on the 30
+pages with no hero, above.
 
 ### 3. Fixed: the three pages with no H1
 
@@ -164,7 +190,10 @@ them.
 ### 6. Fixed: titles over 60 characters
 
 The shorter brand suffix brought 11 of the 14 under the limit in their own live
-wording. The remaining three are listed above and are a deliberate trade.
+wording, and `/what-time-can-i-check-in-...` is now "Check-in and checkout
+times". Two remain over, both keeping the live wording on purpose:
+`/wonderful-country-views-in-cosy-newly-converted-barns` at 81 and
+`/i-am-disabled-are-your-properties-suitable-for-me` at 64.
 
 ### 7. Fixed: the two identical H1s
 
@@ -223,72 +252,79 @@ Two things the sitemap does not carry, both optional:
 
 ## Every page
 
-`Desc`, `OG` and `Twitter` are absent on all 59, so those columns are omitted
-rather than repeated. No page carries a robots meta tag, so nothing is
-`noindex`. Titles use the `%s | Blaco Hill` template from `app/layout.tsx`,
-except the home page, which keeps its own absolute live title.
+Every page also carries its approved description as both the meta description
+and `og:description`, `og:title` equal to the title, `og:url` equal to the
+canonical, `og:type` `website`, `og:site_name`, `og:locale` `en_GB` and
+`twitter:card` `summary_large_image`, so those columns are omitted rather than
+repeated 59 times. The canonical is the live domain plus the URL in column one.
+No page carries a robots meta tag, so nothing is `noindex`. Titles use the
+`%s | Blaco Hill` template from `app/layout.tsx`, except the home page, which
+keeps its own absolute live title.
 
-| URL | Template | Title | Canonical | H1 | Structured data |
+`og:image` is shown relative for width; each one ships as an absolute URL on
+`https://blacohillcottages.co.uk` with its width and height.
+
+| URL | Template | Title | H1 | og:image | Structured data |
 |---|---|---|---|---|---|
-| `/` | home | Blaco Hill Farm Cottages \| Holiday Rentals | https://blacohillcottages.co.uk | A warm welcome from Victoria and Thomas | LodgingBusiness |
-| `/about` | general | About \| Blaco Hill | https://blacohillcottages.co.uk/about | About Blaco Hill Farm Cottages | LodgingBusiness |
-| `/about/faq` | faq-index | FAQ \| Blaco Hill | https://blacohillcottages.co.uk/about/faq | Questions | LodgingBusiness, FAQPage |
-| `/about/games-room` | general | Games Room \| Blaco Hill | https://blacohillcottages.co.uk/about/games-room | The Games Room | LodgingBusiness |
-| `/about/local-interests` | general | Local Interests \| Blaco Hill | https://blacohillcottages.co.uk/about/local-interests | Local Attractions | LodgingBusiness |
-| `/about/testimonials` | testimonial-index | Testimonials \| Blaco Hill | https://blacohillcottages.co.uk/about/testimonials | Testimonials | LodgingBusiness |
-| `/accessibility-statement` | accessibility | Accessibility Statement \| Blaco Hill | https://blacohillcottages.co.uk/accessibility-statement | Access statement for Blaco Hill Farm Cottages | LodgingBusiness |
-| `/amazing-family-get-together` | post | Amazing family get together – Charris-ment \| Blaco Hill | https://blacohillcottages.co.uk/amazing-family-get-together | Amazing family get together – Charris-ment | LodgingBusiness |
-| `/are-longer-term-lets-available` | post | Are longer-term lets available? \| Blaco Hill | https://blacohillcottages.co.uk/are-longer-term-lets-available | Are longer-term lets available? | LodgingBusiness, FAQPage |
-| `/are-these-holiday-lets-suitable-for-families` | post | Are these holiday lets suitable for families? \| Blaco Hill | https://blacohillcottages.co.uk/are-these-holiday-lets-suitable-for-families | Are these holiday lets suitable for families? | LodgingBusiness, FAQPage |
-| `/are-towels-and-linen-provided` | post | Are towels and linen provided? \| Blaco Hill | https://blacohillcottages.co.uk/are-towels-and-linen-provided | Are towels and linen provided? | LodgingBusiness, FAQPage |
-| `/are-your-cottages-child-friendly` | post | Are your cottages child friendly? \| Blaco Hill | https://blacohillcottages.co.uk/are-your-cottages-child-friendly | Are your cottages child friendly? | LodgingBusiness, FAQPage |
-| `/ask-us-a-question` | contact | Ask us a question \| Blaco Hill | https://blacohillcottages.co.uk/ask-us-a-question | Ask us a Question | LodgingBusiness |
-| `/booking-request-form` | contact | Booking request form \| Blaco Hill | https://blacohillcottages.co.uk/booking-request-form | Request a booking form | LodgingBusiness |
-| `/brilliant-place-to-stay` | post | Brilliant place to stay! – dollyface99 \| Blaco Hill | https://blacohillcottages.co.uk/brilliant-place-to-stay | Brilliant place to stay! – dollyface99 | LodgingBusiness |
-| `/calendar` | contact | Cottage Availability \| Blaco Hill | https://blacohillcottages.co.uk/calendar | Cottage Availability | LodgingBusiness |
-| `/checking-in-checkout-process` | general | Checking in & Checkout Process \| Blaco Hill | https://blacohillcottages.co.uk/checking-in-checkout-process | Checking in & Checkout Process | LodgingBusiness |
-| `/contact-us` | contact | Contact us \| Blaco Hill | https://blacohillcottages.co.uk/contact-us | Contact Us | LodgingBusiness |
-| `/cookies` | policy | Cookies \| Blaco Hill | https://blacohillcottages.co.uk/cookies | Cookies Policy | LodgingBusiness |
-| `/disclaimer` | policy | Disclaimer \| Blaco Hill | https://blacohillcottages.co.uk/disclaimer | Disclaimer | LodgingBusiness |
-| `/do-i-need-travel-insurance` | post | Do I need travel insurance? \| Blaco Hill | https://blacohillcottages.co.uk/do-i-need-travel-insurance | Do I need travel insurance? | LodgingBusiness, FAQPage |
-| `/do-you-accept-pets` | post | Do you accept pets? \| Blaco Hill | https://blacohillcottages.co.uk/do-you-accept-pets | Do you accept pets? | LodgingBusiness, FAQPage |
-| `/do-you-have-any-laundry-facilities-we-can-use` | post | Do you have any laundry facilities we can use? \| Blaco Hill | https://blacohillcottages.co.uk/do-you-have-any-laundry-facilities-we-can-use | Do you have any laundry facilities we can use? | LodgingBusiness, FAQPage |
-| `/do-you-have-wifi` | post | Do you have wifi? \| Blaco Hill | https://blacohillcottages.co.uk/do-you-have-wifi | Do you have wifi? | LodgingBusiness, FAQPage |
-| `/excellent-and-great-location` | post | Excellent and great location – Mrs G Dundee \| Blaco Hill | https://blacohillcottages.co.uk/excellent-and-great-location | Excellent and great location – Mrs G Dundee | LodgingBusiness |
-| `/family-weekend-away` | post | Family weekend away – Deborah W \| Blaco Hill | https://blacohillcottages.co.uk/family-weekend-away | Family weekend away – Deborah W | LodgingBusiness |
-| `/fantastic-girls-weekend` | post | Fantastic girls weekend – Pho3nix1705 \| Blaco Hill | https://blacohillcottages.co.uk/fantastic-girls-weekend | Fantastic girls weekend – Pho3nix1705 | LodgingBusiness |
-| `/for-four-people` | listing | For four people \| Blaco Hill | https://blacohillcottages.co.uk/for-four-people | For four people | LodgingBusiness |
-| `/for-six-people` | listing | For six people \| Blaco Hill | https://blacohillcottages.co.uk/for-six-people | For six people | LodgingBusiness |
-| `/for-two-people` | listing | For two people \| Blaco Hill | https://blacohillcottages.co.uk/for-two-people | For two people | LodgingBusiness |
-| `/highly-recommended` | post | Highly recommended! – Burl Brown \| Blaco Hill | https://blacohillcottages.co.uk/highly-recommended | Highly recommended! – Burl Brown | LodgingBusiness |
-| `/how-do-i-pay` | post | How do I pay? \| Blaco Hill | https://blacohillcottages.co.uk/how-do-i-pay | How do I pay? | LodgingBusiness, FAQPage |
-| `/i-am-disabled-are-your-properties-suitable-for-me` | post | I am disabled. Are your properties suitable for me? \| Blaco Hill | https://blacohillcottages.co.uk/i-am-disabled-are-your-properties-suitable-for-me | I am disabled. Are your properties suitable for me? | LodgingBusiness, FAQPage |
-| `/modern-slavery` | general | Modern Slavery Statement \| Blaco Hill | https://blacohillcottages.co.uk/modern-slavery | Modern Slavery Statement | LodgingBusiness |
-| `/our-cottages` | listing | Our Cottages \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages | Our Eleven Cottages | LodgingBusiness |
-| `/our-cottages/chaffinch-2` | cottage | Chaffinch \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/chaffinch-2 | Chaffinch | LodgingBusiness |
-| `/our-cottages/cuckoo` | cottage | Cuckoo \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/cuckoo | Cuckoo | LodgingBusiness |
-| `/our-cottages/grey-goose` | cottage | Greygoose \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/grey-goose | Old Cart Shed D | LodgingBusiness |
-| `/our-cottages/mallard` | cottage | Mallard \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/mallard | Old Cart Shed C | LodgingBusiness |
-| `/our-cottages/nightingale` | cottage | Nightingale \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/nightingale | Nightingale | LodgingBusiness |
-| `/our-cottages/partridge` | cottage | Partridge \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/partridge | Partridge | LodgingBusiness |
-| `/our-cottages/skylark` | cottage | Skylark \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/skylark | Skylark | LodgingBusiness |
-| `/our-cottages/swallow` | cottage | Swallow \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/swallow | Swallow | LodgingBusiness |
-| `/our-cottages/swift` | cottage | Swift \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/swift | Swift | LodgingBusiness |
-| `/our-cottages/woodcock` | cottage | Woodcock \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/woodcock | Old Cart Shed E | LodgingBusiness |
-| `/our-cottages/wren` | cottage | Wren \| Blaco Hill | https://blacohillcottages.co.uk/our-cottages/wren | Wren | LodgingBusiness |
-| `/perfect-countryside-retreat` | post | Perfect countryside retreat – Alex Smith \| Blaco Hill | https://blacohillcottages.co.uk/perfect-countryside-retreat | Perfect countryside retreat – Alex Smith | LodgingBusiness |
-| `/perfect-highly-recommended` | post | Perfect-highly recommended! – dollyface99 \| Blaco Hill | https://blacohillcottages.co.uk/perfect-highly-recommended | Perfect-highly recommended! – dollyface99 | LodgingBusiness |
-| `/privacy-policy-2` | policy | Privacy Policy \| Blaco Hill | https://blacohillcottages.co.uk/privacy-policy-2 | Privacy Policy | LodgingBusiness |
-| `/very-good-value-for-money` | post | Very good value for money – Pip W \| Blaco Hill | https://blacohillcottages.co.uk/very-good-value-for-money | Very good value for money – Pip W | LodgingBusiness |
-| `/weekend-away-rebecca-p` | post | Weekend away – Rebecca P \| Blaco Hill | https://blacohillcottages.co.uk/weekend-away-rebecca-p | Weekend away – Rebecca P | LodgingBusiness |
-| `/what-internet-speeds-can-i-expect` | post | What internet speeds can I expect? \| Blaco Hill | https://blacohillcottages.co.uk/what-internet-speeds-can-i-expect | What internet speeds can I expect? | LodgingBusiness, FAQPage |
-| `/what-is-your-cancellation-policy` | post | What is your cancellation policy? \| Blaco Hill | https://blacohillcottages.co.uk/what-is-your-cancellation-policy | What is your cancellation policy? | LodgingBusiness, FAQPage |
-| `/what-length-of-stays-do-you-offer` | post | What length of stays do you offer? \| Blaco Hill | https://blacohillcottages.co.uk/what-length-of-stays-do-you-offer | What length of stays do you offer? | LodgingBusiness, FAQPage |
-| `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure` | post | What time can I check in on arrival and what time do I have to vacate the property by on my departure? \| Blaco Hill | https://blacohillcottages.co.uk/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure | What time can I check in on arrival and what time do I have to vacate the property by on my departure? | LodgingBusiness, FAQPage |
-| `/where-should-i-park` | post | Where should I park? \| Blaco Hill | https://blacohillcottages.co.uk/where-should-i-park | Where should I park? | LodgingBusiness, FAQPage |
-| `/will-i-receive-a-refund-if-i-cancel` | post | Will I receive a refund if I cancel? \| Blaco Hill | https://blacohillcottages.co.uk/will-i-receive-a-refund-if-i-cancel | Will I receive a refund if I cancel? | LodgingBusiness, FAQPage |
-| `/wonderful` | post | Wonderful – Lorraine D \| Blaco Hill | https://blacohillcottages.co.uk/wonderful | Wonderful – Lorraine D | LodgingBusiness |
-| `/wonderful-country-views-in-cosy-newly-converted-barns` | post | Wonderful country views in cosy newly converted barns – Sue and John \| Blaco Hill | https://blacohillcottages.co.uk/wonderful-country-views-in-cosy-newly-converted-barns | Wonderful country views in cosy newly converted barns – Sue and John | LodgingBusiness |
+| `/` | home | Blaco Hill Farm Cottages \| Holiday Rentals | A warm welcome from Victoria and Thomas | `/media/2021/02/blaco-hill-farm.jpg` | LodgingBusiness |
+| `/about` | general | About \| Blaco Hill | About Blaco Hill Farm Cottages | `/media/2020/08/main-image-test.jpg` | LodgingBusiness |
+| `/about/faq` | faq-index | FAQ \| Blaco Hill | Questions | `/media/2020/09/TOWELS.jpg` | LodgingBusiness, FAQPage |
+| `/about/games-room` | general | Games Room \| Blaco Hill | The Games Room | `/media/2020/09/table-football.jpg` | LodgingBusiness |
+| `/about/local-interests` | general | Local Interests \| Blaco Hill | Local Attractions | `/media/2020/09/a-lion-cub-panthera-leo-lies-on-the-ground-and-loo-L9RVWV8-scaled-1.jpg` | LodgingBusiness |
+| `/about/testimonials` | testimonial-index | Testimonials \| Blaco Hill | Testimonials | `/media/2020/08/family.jpg` | LodgingBusiness |
+| `/accessibility-statement` | accessibility | Accessibility Statement \| Blaco Hill | Access statement for Blaco Hill Farm Cottages | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
+| `/amazing-family-get-together` | post | Amazing family get together – Charris-ment \| Blaco Hill | Amazing family get together – Charris-ment | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/are-longer-term-lets-available` | post | Are longer-term lets available? \| Blaco Hill | Are longer-term lets available? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/are-these-holiday-lets-suitable-for-families` | post | Are these holiday lets suitable for families? \| Blaco Hill | Are these holiday lets suitable for families? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/are-towels-and-linen-provided` | post | Are towels and linen provided? \| Blaco Hill | Are towels and linen provided? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/are-your-cottages-child-friendly` | post | Are your cottages child friendly? \| Blaco Hill | Are your cottages child friendly? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/ask-us-a-question` | contact | Ask us a question \| Blaco Hill | Ask us a Question | `/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | LodgingBusiness |
+| `/booking-request-form` | contact | Booking request form \| Blaco Hill | Request a booking form | `/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | LodgingBusiness |
+| `/brilliant-place-to-stay` | post | Brilliant place to stay! – dollyface99 \| Blaco Hill | Brilliant place to stay! – dollyface99 | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/calendar` | contact | Cottage Availability \| Blaco Hill | Cottage Availability | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/checking-in-checkout-process` | general | Checking in & Checkout Process \| Blaco Hill | Checking in & Checkout Process | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
+| `/contact-us` | contact | Contact us \| Blaco Hill | Contact Us | `/media/2020/08/blaco-hill-farm.jpg` | LodgingBusiness |
+| `/cookies` | policy | Cookies \| Blaco Hill | Cookies Policy | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
+| `/disclaimer` | policy | Disclaimer \| Blaco Hill | Disclaimer | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
+| `/do-i-need-travel-insurance` | post | Do I need travel insurance? \| Blaco Hill | Do I need travel insurance? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/do-you-accept-pets` | post | Do you accept pets? \| Blaco Hill | Do you accept pets? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/do-you-have-any-laundry-facilities-we-can-use` | post | Do you have any laundry facilities we can use? \| Blaco Hill | Do you have any laundry facilities we can use? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/do-you-have-wifi` | post | Do you have wifi? \| Blaco Hill | Do you have wifi? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/excellent-and-great-location` | post | Excellent and great location – Mrs G Dundee \| Blaco Hill | Excellent and great location – Mrs G Dundee | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/family-weekend-away` | post | Family weekend away – Deborah W \| Blaco Hill | Family weekend away – Deborah W | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/fantastic-girls-weekend` | post | Fantastic girls weekend – Pho3nix1705 \| Blaco Hill | Fantastic girls weekend – Pho3nix1705 | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/for-four-people` | listing | For four people \| Blaco Hill | For four people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/for-six-people` | listing | For six people \| Blaco Hill | For six people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/for-two-people` | listing | For two people \| Blaco Hill | For two people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/highly-recommended` | post | Highly recommended! – Burl Brown \| Blaco Hill | Highly recommended! – Burl Brown | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/how-do-i-pay` | post | How do I pay? \| Blaco Hill | How do I pay? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/i-am-disabled-are-your-properties-suitable-for-me` | post | I am disabled. Are your properties suitable for me? \| Blaco Hill | I am disabled. Are your properties suitable for me? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/modern-slavery` | general | Modern Slavery Statement \| Blaco Hill | Modern Slavery Statement | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/our-cottages` | listing | Our Cottages \| Blaco Hill | Our Eleven Cottages | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/our-cottages/chaffinch-2` | cottage | Chaffinch \| Blaco Hill | Chaffinch | `/media/2020/09/Chaffinch-lounge.jpg` | LodgingBusiness |
+| `/our-cottages/cuckoo` | cottage | Cuckoo \| Blaco Hill | Cuckoo | `/media/2020/09/Cuckoo-lounge-flipped.jpg` | LodgingBusiness |
+| `/our-cottages/grey-goose` | cottage | Greygoose \| Blaco Hill | Old Cart Shed D | `/media/2020/09/Pheasant-etc.jpg` | LodgingBusiness |
+| `/our-cottages/mallard` | cottage | Mallard \| Blaco Hill | Old Cart Shed C | `/media/2020/09/Pheasant-etc.jpg` | LodgingBusiness |
+| `/our-cottages/nightingale` | cottage | Nightingale \| Blaco Hill | Nightingale | `/media/2020/09/nightingale.jpg` | LodgingBusiness |
+| `/our-cottages/partridge` | cottage | Partridge \| Blaco Hill | Partridge | `/media/2025/05/Partridge-new-image.jpg` | LodgingBusiness |
+| `/our-cottages/skylark` | cottage | Skylark \| Blaco Hill | Skylark | `/media/2020/10/skylark-main-1.jpg` | LodgingBusiness |
+| `/our-cottages/swallow` | cottage | Swallow \| Blaco Hill | Swallow | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/our-cottages/swift` | cottage | Swift \| Blaco Hill | Swift | `/media/2020/09/swift-kitchen.jpg` | LodgingBusiness |
+| `/our-cottages/woodcock` | cottage | Woodcock \| Blaco Hill | Old Cart Shed E | `/media/2020/09/Pheasant-etc.jpg` | LodgingBusiness |
+| `/our-cottages/wren` | cottage | Wren \| Blaco Hill | Wren | `/media/2020/10/wren-exterior.jpg` | LodgingBusiness |
+| `/perfect-countryside-retreat` | post | Perfect countryside retreat – Alex Smith \| Blaco Hill | Perfect countryside retreat – Alex Smith | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/perfect-highly-recommended` | post | Perfect-highly recommended! – dollyface99 \| Blaco Hill | Perfect-highly recommended! – dollyface99 | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/privacy-policy-2` | policy | Privacy Policy \| Blaco Hill | Privacy Policy | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
+| `/very-good-value-for-money` | post | Very good value for money – Pip W \| Blaco Hill | Very good value for money – Pip W | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/weekend-away-rebecca-p` | post | Weekend away – Rebecca P \| Blaco Hill | Weekend away – Rebecca P | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/what-internet-speeds-can-i-expect` | post | What internet speeds can I expect? \| Blaco Hill | What internet speeds can I expect? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/what-is-your-cancellation-policy` | post | What is your cancellation policy? \| Blaco Hill | What is your cancellation policy? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/what-length-of-stays-do-you-offer` | post | What length of stays do you offer? \| Blaco Hill | What length of stays do you offer? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure` | post | Check-in and checkout times \| Blaco Hill | What time can I check in on arrival and what time do I have to vacate the property by on my departure? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/where-should-i-park` | post | Where should I park? \| Blaco Hill | Where should I park? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/will-i-receive-a-refund-if-i-cancel` | post | Will I receive a refund if I cancel? \| Blaco Hill | Will I receive a refund if I cancel? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
+| `/wonderful` | post | Wonderful – Lorraine D \| Blaco Hill | Wonderful – Lorraine D | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/wonderful-country-views-in-cosy-newly-converted-barns` | post | Wonderful country views in cosy newly converted barns – Sue and John \| Blaco Hill | Wonderful country views in cosy newly converted barns – Sue and John | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
 
 ## How to reproduce
 
@@ -301,7 +337,11 @@ node agent/scripts/seo-copy.mjs    # rewrites agent/seo-copy.csv
 The audit script parses every file in `.next/server/app/` with cheerio and
 reports titles, descriptions, canonicals, Open Graph and Twitter tags,
 JSON-LD, robots meta and heading levels, then cross-checks the set against
-`content/index.json` and the generated sitemap.
+`content/index.json` and the generated sitemap. It also proves the things that
+are easy to get quietly wrong: that every rendered description is byte for byte
+the approved one, that `og:title` matches the title and `og:url` the canonical,
+and that every `og:image` is absolute, carries its width and height, and points
+at a file that exists in `public/`.
 
 `agent/seo-copy.csv` is the worksheet for writing the missing descriptions:
 one row per page with the URL, the title, the H1 and the first 300 characters

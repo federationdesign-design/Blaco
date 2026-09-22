@@ -258,5 +258,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Our games room has a full size snooker table, board games and a library, free for guests to use all year round.",
+  "share": {
+    "src": "/media/2020/09/table-football.jpg",
+    "width": 1800,
+    "height": 1200,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }

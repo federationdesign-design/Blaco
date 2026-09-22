@@ -176,5 +176,12 @@
         }
       ]
     }
-  ]
+  ],
+  "description": "Read what guests say about their stays with us, from family get-togethers and weekends with friends to quiet countryside breaks.",
+  "share": {
+    "src": "/media/2020/08/family.jpg",
+    "width": 1800,
+    "height": 1200,
+    "alt": "Blaco Hill Farm Cottages"
+  }
 }
