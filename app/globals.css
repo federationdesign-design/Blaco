@@ -59,9 +59,11 @@
   --gutter: clamp(1rem, 0.4429rem + 2.286vw, 2.5rem);
   --header-height: 4rem;
   --touch-target: 44px;
-  /* Reading measure on text-heavy pages only (Checkpoint 5 decision 2). In ch,
-     so it scales with the type; tuned so a line holds about 75 characters. */
-  --measure: 73ch;
+  /* Reading measure on text-heavy pages only (Checkpoint 5 decision 2, widened
+     from 73ch on 2026-09-23). In ch, so it scales with the type. A Baskervville
+     0 is wider than the average character, so a line holds a little more than
+     90 characters. */
+  --measure: 90ch;
   --radius: 0;
 
   --focus-ring: 3px solid var(--colour-green);

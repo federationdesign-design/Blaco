@@ -401,24 +401,23 @@
 
 /*
   Reading measure for text-heavy pages (Checkpoint 5 decision 2). The limit is
-  in ch, so it scales with the type and stays about 75 characters per line at
-  every width. Only text is limited: sections, backgrounds and images stay
-  full width.
+  in ch, so it scales with the type and holds the same characters per line at
+  every width. Only text is limited: backgrounds and images stay full width.
 */
 .measured .prose {
   max-width: var(--measure);
 }
 
 /*
-  The text column is centred in the page, not left against the gutter. Only in
-  content sections: the green band and the contact block keep their layout. Not
-  on the accessibility statement, whose full-width headings sit over rows of
-  two to four list columns that span the page, so it has no single column to
-  centre. width: 100% stops the column shrinking to its content, as a flex item
-  with auto margins otherwise would, so it holds the full measure.
+  The content sections of these pages form one text column, centred in the
+  page rather than left against the gutter. The whole block is limited, so on
+  the accessibility statement the rows of two to four list columns sit inside
+  the same column as the headings above them. The gutters are padding inside
+  .inner, so they are added to the measure rather than taken out of it. The
+  green band and the contact block keep their full-width layout.
 */
-.measured:not([data-template='accessibility']) .section[data-kind='content'] .column[data-size='4_4'] > .prose {
-  width: 100%;
+.measured .section[data-kind='content'] > .inner {
+  max-width: calc(var(--measure) + 2 * var(--gutter));
   margin-inline: auto;
 }
 

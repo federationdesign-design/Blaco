@@ -101,9 +101,9 @@ Requested by the client, 2026-09-23.
    - It exists only in the rebuild, not on the WordPress site, so it is added in `build-content.mjs` rather than extracted. The About page FAQ toggles stay as they are (Checkpoint 4 decision 2).
 2. **"For six people" becomes "For five or six people"**, because Swallow sleeps five (Checkpoint 1 decision 5). The label changes in the navigation, the listing page's title and H1, and anywhere else it appears. The URL stays `/for-six-people`, so no link or search result breaks.
 
-## Reading measure centred
+## Reading measure widened and centred
 
-Requested by Steve, 2026-09-23.
+Requested by Steve, 2026-09-23. This updates Checkpoint 5 decision 2.
 
-1. **The text column is centred** on the text-heavy pages that have a single column: the policy pages, the modern slavery page, and the FAQ and testimonial detail pages. The measure itself is unchanged (73ch, about 78 characters per line from 768px to 2800px). The green band and contact block below stay full width.
-2. **The accessibility statement is not centred.** Its full-width headings sit over rows of two to four list columns that span the page, so it has no single column to centre.
+1. **The measure is 90ch**, widened from 73ch. A Baskervville `0` (which sets the `ch` unit) is wider than the average character, so full-width text runs at a median of 95 to 101 characters per line, the same at every width from 1280px to 2800px.
+2. **The text column is centred** in the page on every text-heavy page: the policy pages, the accessibility statement, the modern slavery page, and the FAQ and testimonial detail pages. On the standard templates the whole content block is limited and centred, so the accessibility statement's rows of two to four list columns sit inside the same column as its headings, keeping their column counts (Checkpoint 4 decision 6). The green band and contact block below stay full width.
