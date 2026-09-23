@@ -1,8 +1,11 @@
+/* FAQ and testimonial detail pages are text heavy: the text column is 90% of
+   the page width and centred, with 5% either side (agent/DECISIONS.md, "Text
+   column: 90% of the page width"). The percentage is of the page width. */
 .post {
   display: flex;
   flex-direction: column;
   gap: var(--space-m);
-  padding: var(--space-xl) var(--gutter);
+  padding: var(--space-xl) 5%;
 }
 
 .header {
@@ -32,12 +35,3 @@
   font-size: var(--step--1);
 }
 
-/* FAQ and testimonial detail pages are text heavy: the header and the answer
-   keep to the reading measure (Checkpoint 5 decision 2), centred in the page.
-   width: 100% stops a flex item with auto margins shrinking to its content, so
-   the header and the answer share one column. */
-.post > * {
-  width: 100%;
-  max-width: var(--measure);
-  margin-inline: auto;
-}

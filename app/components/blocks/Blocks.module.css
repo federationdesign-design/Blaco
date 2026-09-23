@@ -400,36 +400,14 @@
 }
 
 /*
-  Reading measure for text-heavy pages (Checkpoint 5 decision 2). The limit is
-  in ch, so it scales with the type and holds the same characters per line at
-  every width. Only text is limited: backgrounds and images stay full width.
+  Text-heavy pages (agent/DECISIONS.md, "Text column: 90% of the page width"):
+  the content sections form one text column, 90% of the page width and
+  centred, with 5% either side. Percentage padding is taken from the width of
+  the section, which spans the page, so the column scales with it at every
+  width. The green band and the contact block keep their own layout.
 */
-.measured .prose {
-  max-width: var(--measure);
-}
-
-/*
-  The content sections of these pages form one text column, centred in the
-  page rather than left against the gutter. The whole block is limited. The
-  gutters are padding inside .inner, so they are added to the measure rather
-  than taken out of it. The green band and the contact block keep their
-  full-width layout.
-*/
-.measured:not([data-template='accessibility']) .section[data-kind='content'] > .inner {
-  max-width: calc(var(--measure) + 2 * var(--gutter));
-  margin-inline: auto;
-}
-
-/*
-  The accessibility statement's rows of two to four list columns run the full
-  width of the page, as squeezed into the measure they wrapped every few words.
-  Only its full-width text, the intro and the cottage headings, keeps to the
-  centred measure. width: 100% stops a flex item with auto margins shrinking to
-  its content, so the text holds the full measure.
-*/
-.measured[data-template='accessibility'] .section[data-kind='content'] .column[data-size='4_4'] > .prose {
-  width: 100%;
-  margin-inline: auto;
+.textHeavy .section[data-kind='content'] > .inner {
+  padding-inline: 5%;
 }
 
 /* ---------- buttons ---------- */

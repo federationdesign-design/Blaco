@@ -103,8 +103,18 @@ Requested by the client, 2026-09-23.
 
 ## Reading measure widened and centred
 
-Requested by Steve, 2026-09-23. This updates Checkpoint 5 decision 2.
+Requested by Steve, 2026-09-23. This updates Checkpoint 5 decision 2. **Superseded on 2026-09-24 by "Text column: 90% of the page width" below.**
 
 1. **The measure is 90 characters per line**, widened from about 75. It is set as `--measure: 83ch`, found by counting characters on full rendered lines (Steve, 2026-09-24). A Baskervville `0`, which sets the `ch` unit, is narrower than the average character of running text, so `90ch` itself held a median of 98. At 83ch the text-heavy pages hold a median of 90 at every width from 768px to 2800px, in Chromium, WebKit and Firefox.
 2. **The text column is centred** in the page on every text-heavy page: the policy pages, the accessibility statement, the modern slavery page, and the FAQ and testimonial detail pages. On the standard templates the whole content block is limited and centred. The green band and contact block below stay full width.
 3. **The accessibility statement's list rows run full width** (Steve, 2026-09-24). Its rows of two to four list columns, and the dividers between them, span the page as before, keeping their column counts (Checkpoint 4 decision 6). Only its full-width text, the intro and the cottage headings, sits in the centred measure. Squeezed into the measure, the list columns had wrapped at about 15 characters per line and broken "Washhandbasin" mid-word.
+
+## Text column: 90% of the page width
+
+Requested by Steve, 2026-09-24. This replaces the reading measure entirely: Checkpoint 5 decision 2 and "Reading measure widened and centred" above.
+
+1. **On every text-heavy page** (the policy pages, the accessibility statement, the modern slavery page, and the FAQ and testimonial detail pages) the text column is 90% of the page width, centred, with 5% either side. It is not a character count, a `ch` value or a maximum width in pixels.
+2. **The `--measure` variable and every rule based on it are removed.** The 5% is padding on the full-width content section, so the column scales with the page at every width, phones included.
+3. **On the accessibility statement** the headings, intro and list rows all sit in the same 90% column, so they line up again. This replaces the exception that let its list rows run full width.
+4. **The green band and the contact block** below the text keep their own full-width layout, as on every other page.
+5. **No cap remains.** A 90% column scales with the page, so the Checkpoint 4 liquid layout rule (no container or text block capped at any width) now holds on these pages too, with no exception.

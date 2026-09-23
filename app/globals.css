@@ -59,13 +59,6 @@
   --gutter: clamp(1rem, 0.4429rem + 2.286vw, 2.5rem);
   --header-height: 4rem;
   --touch-target: 44px;
-  /* Reading measure on text-heavy pages only (Checkpoint 5 decision 2): 90
-     characters per line. 1ch is the width of a Baskervville 0, which is
-     narrower than the average character of running text, so 90ch held 98.
-     83ch was found by counting the characters on full rendered lines of the
-     text-heavy pages: a median of 90 at every width, as ch and the type
-     scale together. */
-  --measure: 83ch;
   --radius: 0;
 
   --focus-ring: 3px solid var(--colour-green);
