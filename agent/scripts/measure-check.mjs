@@ -25,9 +25,17 @@ for (const width of WIDTHS) {
         const block = p.closest('[class*="prose"]') ?? p.parentElement;
         const limit = parseFloat(getComputedStyle(block).maxWidth);
         if (!limit || block.getBoundingClientRect().width < limit - 1) continue;
-        const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
-        const byTop = new Map();
+        // A <br> ends a line early, like the end of a paragraph, so the line
+        // before it is not a full line either. Each run between breaks is
+        // counted on its own.
+        const walker = document.createTreeWalker(p, NodeFilter.SHOW_TEXT | NodeFilter.SHOW_ELEMENT);
+        const runs = [new Map()];
         for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            if (node.tagName === 'BR') runs.push(new Map());
+            continue;
+          }
+          const byTop = runs.at(-1);
           const text = node.textContent;
           for (let i = 0; i < text.length; i++) {
             const range = document.createRange();
@@ -39,8 +47,10 @@ for (const width of WIDTHS) {
             byTop.set(top, (byTop.get(top) ?? 0) + 1);
           }
         }
-        const counts = [...byTop.entries()].sort((a, b) => a[0] - b[0]).map(([, n]) => n);
-        out.push(...counts.slice(0, -1)); // full lines only
+        for (const byTop of runs) {
+          const counts = [...byTop.entries()].sort((a, b) => a[0] - b[0]).map(([, n]) => n);
+          out.push(...counts.slice(0, -1)); // full lines only
+        }
       }
       return out;
     });
