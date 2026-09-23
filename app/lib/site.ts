@@ -47,7 +47,7 @@ export const PRIMARY_NAV: NavItem[] = [
     label: 'Our Cottages',
     href: '/our-cottages',
     children: [
-      { label: 'For six people', href: '/for-six-people' },
+      { label: 'For five or six people', href: '/for-six-people' },
       { label: 'For four people', href: '/for-four-people' },
       { label: 'For two people', href: '/for-two-people' },
       { label: 'All Cottages', href: '/our-cottages' },

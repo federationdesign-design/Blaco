@@ -1,7 +1,7 @@
 {
   "url": "/for-six-people",
   "template": "listing",
-  "title": "For six people",
+  "title": "For five or six people",
   "absoluteTitle": null,
   "sections": [
     {
@@ -23,7 +23,7 @@
               "modules": [
                 {
                   "type": "text",
-                  "html": "<p data-kicker=\"\">Our cottages</p> <h1>For six people</h1>"
+                  "html": "<p data-kicker=\"\">Our cottages</p> <h1>For five or six people</h1>"
                 }
               ]
             }
@@ -474,7 +474,7 @@
       ]
     }
   ],
-  "description": "Our self-catering cottages sleeping six, with open-plan living, fully equipped kitchens and large dining tables for the whole party.",
+  "description": "Our self-catering cottages sleeping five or six, with open-plan living, fully equipped kitchens and large dining tables for the whole party.",
   "share": {
     "src": "/media/2020/09/swallow-master.jpg",
     "width": 1800,

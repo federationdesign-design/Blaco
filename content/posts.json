@@ -1,6 +1,12 @@
 {
   "faq": [
     {
+      "url": "/can-we-all-eat-together-if-we-book-the-whole-site",
+      "title": "Can we all eat together if we book the whole site?",
+      "html": "<p>Yes. If you have booked all of the cottages, the games room has a fully equipped kitchen along with tables and chairs to seat every guest, so you can cook and dine together in one place.</p>",
+      "date": "2026-09-23T00:00:00"
+    },
+    {
       "url": "/do-i-need-travel-insurance",
       "title": "Do I need travel insurance?",
       "html": "<p>We strongly recommend taking out travel insurance, including cancellation cover, at the time you book. This protects you should something unforeseen, such as illness, prevent you from travelling, as any refund for a cancellation is at our discretion.</p>",

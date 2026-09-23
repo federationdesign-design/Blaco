@@ -93,6 +93,14 @@
   },
   {
     "url": "/for-six-people",
+    "what": "Title changed from \"For six people\" to \"For five or six people\": renamed because Swallow sleeps five (client change 2)."
+  },
+  {
+    "url": "/for-six-people",
+    "what": "Copy change: \"<h1>For six people</h1>\" to \"<h1>For five or six people</h1>\" (Client change 2)"
+  },
+  {
+    "url": "/for-six-people",
     "what": "Card image linked to /our-cottages/swallow on live; now links to /our-cottages/swift like its button"
   },
   {
@@ -253,7 +261,7 @@
   },
   {
     "url": "/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure",
-    "what": "Title shortened for search results: \"What time can I check in on arrival and what time do I have to vacate the property by on my departure?\" to \"Check-in and checkout times\" (agent/SEO.md). The H1 is unchanged."
+    "what": "Title changed from \"What time can I check in on arrival and what time do I have to vacate the property by on my departure?\" to \"Check-in and checkout times\": shortened for search results (agent/SEO.md). The H1 is unchanged."
   },
   {
     "url": "/for-four-people",
@@ -262,6 +270,14 @@
   {
     "url": "/for-six-people",
     "what": "Swallow card added from /for-four-people, showing Sleeps 5 (decision 5)"
+  },
+  {
+    "url": "/can-we-all-eat-together-if-we-book-the-whole-site",
+    "what": "New FAQ, not on the live site (client change 1)"
+  },
+  {
+    "url": "/about/faq",
+    "what": "Lists the new FAQ /can-we-all-eat-together-if-we-book-the-whole-site (client change 1)"
   },
   {
     "url": "/accessibility-statement",
@@ -293,6 +309,6 @@
   },
   {
     "url": "/about/faq",
-    "what": "Lists the 16 FAQs only. The live Divi blog module also listed the first 4 testimonials."
+    "what": "Lists the 17 FAQs only. The live Divi blog module also listed the first 4 testimonials."
   }
 ]

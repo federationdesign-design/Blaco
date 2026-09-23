@@ -89,3 +89,14 @@ Approved by Steve, 2026-09-21.
 1. **Hero slides fill the full width** of the screen at every width, with no side bars or letterboxing. The hero may be made taller if needed. This overrides the 1.25× enlargement limit (Checkpoint 5 decision 1) for the hero slides only, and the hero photos are listed in `agent/CHECKPOINT-5.md` as needing larger originals. The heading, the large green line and the dots stay where they are over the photo.
 2. **Landscape strip** further down the home page is 1.5 times its previous height and has a parallax effect. It is transform based (not `background-attachment: fixed`, which iPhone Safari ignores) and is switched off for visitors who have reduced motion set.
 3. **Every page hero follows the home hero rule** (approved by Steve, 2026-09-21): on every page with a hero, including Contact, About, the cottages and the listings, the hero photo fills the full width at every size, cropped to cover, and is exempt from the 1.25× enlargement limit. Newly exempted photos are listed in `agent/CHECKPOINT-5.md` as needing larger originals. Other section backgrounds (the green bands, the reviews band and the landscape strip) still follow the 1.25× rule.
+
+## Client changes after launch
+
+Requested by the client, 2026-09-23.
+
+1. **New FAQ: eating together.** A new FAQ page at `/can-we-all-eat-together-if-we-book-the-whole-site`, built like the existing FAQ pages (same detail template, URL pattern, title and metadata). It is listed on `/about/faq`, in the sitemap and in the `FAQPage` structured data. The question and answer are the client's wording, used exactly:
+   - Question: "Can we all eat together if we book the whole site?"
+   - Answer: "Yes. If you have booked all of the cottages, the games room has a fully equipped kitchen along with tables and chairs to seat every guest, so you can cook and dine together in one place."
+   - Its meta description and `og:description` are written in the style of the others and added to `agent/blaco_seo_descriptions.csv`.
+   - It exists only in the rebuild, not on the WordPress site, so it is added in `build-content.mjs` rather than extracted. The About page FAQ toggles stay as they are (Checkpoint 4 decision 2).
+2. **"For six people" becomes "For five or six people"**, because Swallow sleeps five (Checkpoint 1 decision 5). The label changes in the navigation, the listing page's title and H1, and anywhere else it appears. The URL stays `/for-six-people`, so no link or search result breaks.

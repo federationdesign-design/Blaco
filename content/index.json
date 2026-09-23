@@ -96,6 +96,12 @@
     "title": "Cottage Availability"
   },
   {
+    "url": "/can-we-all-eat-together-if-we-book-the-whole-site",
+    "file": "can-we-all-eat-together-if-we-book-the-whole-site",
+    "template": "post",
+    "title": "Can we all eat together if we book the whole site?"
+  },
+  {
     "url": "/checking-in-checkout-process",
     "file": "checking-in-checkout-process",
     "template": "general",
@@ -171,7 +177,7 @@
     "url": "/for-six-people",
     "file": "for-six-people",
     "template": "listing",
-    "title": "For six people"
+    "title": "For five or six people"
   },
   {
     "url": "/for-two-people",

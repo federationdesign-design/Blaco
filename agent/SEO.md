@@ -15,15 +15,15 @@ Steve's to supply (brief 11).
 
 | Check | Result |
 |---|---|
-| Pages built | 59, matching `content/index.json` and the sitemap |
-| Titles | Present on all 59, all unique. 2 over 60 characters |
-| Meta descriptions | All 59, the approved wording, used exactly as written |
-| Canonical URLs | Present and correct on all 59 |
-| H1 | Present on all 59, exactly one each, all distinct |
-| Open Graph | All 59: title, description, url, type, site_name, locale, image |
-| Twitter cards | All 59, `summary_large_image` |
-| Structured data | `LodgingBusiness` sitewide, `FAQPage` on the 17 FAQ pages |
-| `sitemap.ts` | 59 URLs, live domain, no redirected or missing URLs |
+| Pages built | 60, matching `content/index.json` and the sitemap |
+| Titles | Present on all 60, all unique. 3 over 60 characters |
+| Meta descriptions | All 60, the approved wording, used exactly as written |
+| Canonical URLs | Present and correct on all 60 |
+| H1 | Present on all 60, exactly one each, all distinct |
+| Open Graph | All 60: title, description, url, type, site_name, locale, image |
+| Twitter cards | All 60, `summary_large_image` |
+| Structured data | `LodgingBusiness` sitewide, `FAQPage` on the 18 FAQ pages (the index and 17 questions) |
+| `sitemap.ts` | 60 URLs, live domain, no redirected or missing URLs |
 | `robots.ts` | Correct, live domain, sitemap declared |
 | `noindex` | None. No page carries a robots meta tag |
 | GA4 | Fires only after analytics consent (verified) |
@@ -142,6 +142,30 @@ Two ways out, neither invented here:
   than a mark.
 
 Until then the tags are correct and complete, and nothing is broken.
+
+### Round 4: client changes (2026-09-23)
+
+Recorded in `agent/DECISIONS.md` under "Client changes after launch".
+
+1. **New FAQ** at `/can-we-all-eat-together-if-we-book-the-whole-site`, on the
+   FAQ detail template, listed first on `/about/faq` (newest first, like the
+   others), in the sitemap, and in both `FAQPage` blocks: its own page and the
+   index, which now carries 17 questions. The question and answer are the
+   client's wording. Its description was written in the style of the others and
+   added to `agent/blaco_seo_descriptions.csv`. Like the other FAQ pages it has
+   no photo, so its `og:image` is the bird logo (now 31 pages).
+2. **Its title is 63 characters** with the suffix, so it joins the two titles
+   that run past 60. It keeps the full question, as the other FAQ titles do.
+3. **"For six people" is now "For five or six people"** in the menu, the
+   listing page's title and its H1. The URL stays `/for-six-people`. Its
+   description said "sleeping six", which stopped being true when Swallow
+   (sleeps five) joined the page, so it now says "sleeping five or six". That
+   is the only change to an existing approved description.
+
+Verified: `tsc --noEmit` clean, `npm run build` succeeds (60 pages), SEO audit
+clean apart from the three long titles, content parity 0 unexplained
+differences across 58 live pages, URL parity 69 of 69, all Phase 4 checks
+pass, `:global` audit clean.
 
 ## Item by item
 
@@ -298,6 +322,7 @@ keeps its own absolute live title.
 | `/ask-us-a-question` | contact | Ask us a question \| Blaco Hill | Ask us a Question | `/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | LodgingBusiness |
 | `/booking-request-form` | contact | Booking request form \| Blaco Hill | Request a booking form | `/media/2020/08/family-celebration-or-a-garden-party-outside-in-th-PGN6JPD-scaled-1.jpg` | LodgingBusiness |
 | `/brilliant-place-to-stay` | post | Brilliant place to stay! – dollyface99 \| Blaco Hill | Brilliant place to stay! – dollyface99 | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
+| `/can-we-all-eat-together-if-we-book-the-whole-site` | post | Can we all eat together if we book the whole site? \| Blaco Hill | Can we all eat together if we book the whole site? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |
 | `/calendar` | contact | Cottage Availability \| Blaco Hill | Cottage Availability | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
 | `/checking-in-checkout-process` | general | Checking in & Checkout Process \| Blaco Hill | Checking in & Checkout Process | `/media/2020/08/bed-and-breakfast-15.jpg` | LodgingBusiness |
 | `/contact-us` | contact | Contact us \| Blaco Hill | Contact Us | `/media/2020/08/blaco-hill-farm.jpg` | LodgingBusiness |
@@ -311,7 +336,7 @@ keeps its own absolute live title.
 | `/family-weekend-away` | post | Family weekend away – Deborah W \| Blaco Hill | Family weekend away – Deborah W | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
 | `/fantastic-girls-weekend` | post | Fantastic girls weekend – Pho3nix1705 \| Blaco Hill | Fantastic girls weekend – Pho3nix1705 | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
 | `/for-four-people` | listing | For four people \| Blaco Hill | For four people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
-| `/for-six-people` | listing | For six people \| Blaco Hill | For six people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
+| `/for-six-people` | listing | For five or six people \| Blaco Hill | For five or six people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
 | `/for-two-people` | listing | For two people \| Blaco Hill | For two people | `/media/2020/09/swallow-master.jpg` | LodgingBusiness |
 | `/highly-recommended` | post | Highly recommended! – Burl Brown \| Blaco Hill | Highly recommended! – Burl Brown | `/media/2020/11/cropped-bird.png` | LodgingBusiness |
 | `/how-do-i-pay` | post | How do I pay? \| Blaco Hill | How do I pay? | `/media/2020/11/cropped-bird.png` | LodgingBusiness, FAQPage |

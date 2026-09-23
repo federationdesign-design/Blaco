@@ -71,7 +71,7 @@ const faqPage = (entries: { title: string; html: string }[], url: string) => ({
   })),
 });
 
-// The FAQ index at /about/faq: all 16 questions, in the order the page lists them.
+// The FAQ index at /about/faq: every question, in the order the page lists them.
 export function FaqIndexSchema() {
   return <JsonLd data={faqPage(getPosts().faq, '/about/faq')} />;
 }

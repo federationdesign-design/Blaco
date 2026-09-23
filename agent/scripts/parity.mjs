@@ -21,6 +21,9 @@ const changes = JSON.parse(await readFile(join(extract, 'changes.json'), 'utf8')
 const INTENDED = [
   { page: '*', side: 'missing', match: /^(Name|Email Address|Message|Telephone|Submit)( (Name|Email Address|Message|Telephone|Submit))*$/, why: 'Form labels: live repeats them as hidden labels and placeholders; the port shows each once as a visible label' },
   { page: '*', side: 'added', match: /^(Name|Email Address|Message|Telephone|\*)( (Name|Email Address|Message|Telephone|\*))*$/, why: 'Form labels shown as visible labels with a required marker' },
+  // Client change 1: listed before the typo rule, whose "your" also matches it.
+  { page: '/about/faq', side: 'added', match: /^Can we all eat together if we book the whole site\?/, why: 'New FAQ listed on the index (client change 1)' },
+  { page: '/for-six-people', side: 'added', match: /^five or$/, why: '"For six people" renamed "For five or six people" (client change 2)' },
   { page: '/about/faq', side: 'missing', match: /nations|supports|\bf\b|spending|cancelation|yoru/, why: 'Typo fix in the listed FAQ answer (decision 6)' },
   { page: '/about/faq', side: 'added', match: /national|support\b|\bIf\b|Depending|cancellation|your/, why: 'Typo fix in the listed FAQ answer (decision 6)' },
   { page: '*', side: 'added', match: /^\d{1,2}$/, why: 'Counter value: live animates it in with JavaScript from the same number', counter: true },

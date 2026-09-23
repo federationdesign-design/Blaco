@@ -88,13 +88,21 @@ const COPY_FIXES = {
   '/our-cottages': [['<h1>Blaco Hill Farm Cottages</h1>', '<h1>Our Eleven Cottages</h1>', 'agent/SEO.md: a listing page needs a heading of its own']],
   // agent/SEO.md: the page started at H2, so it had no H1. Same wording.
   '/calendar': [['<h2>Cottage Availability</h2>', '<h1>Cottage Availability</h1>', 'agent/SEO.md: the page had no H1']],
+  // Client change 2: Swallow sleeps five, so the group is renamed. Same URL.
+  '/for-six-people': [['<h1>For six people</h1>', '<h1>For five or six people</h1>', 'Client change 2']],
 };
 
-// agent/SEO.md: the one title still too long to be useful in a search result.
-// The live question runs to 102 characters, so the result showed nothing but
-// the question's first half. The H1 keeps the guest's own wording.
+// Titles that differ from live: [title, reason].
 const TITLE_OVERRIDES = {
-  '/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure': 'Check-in and checkout times',
+  // agent/SEO.md: the one title still too long to be useful in a search result.
+  // The live question runs to 102 characters, so the result showed nothing but
+  // the question's first half. The H1 keeps the guest's own wording.
+  '/what-time-can-i-check-in-on-arrival-and-what-time-do-i-have-to-vacate-the-property-by-on-my-departure': [
+    'Check-in and checkout times',
+    'shortened for search results (agent/SEO.md). The H1 is unchanged.',
+  ],
+  // Client change 2: Swallow sleeps five. The H1 changes with it (COPY_FIXES).
+  '/for-six-people': ['For five or six people', 'renamed because Swallow sleeps five (client change 2).'],
 };
 
 // agent/SEO.md: these two pages had no H1 either. Their form title is the only
@@ -436,8 +444,8 @@ for (const [url, page] of extracted) {
   // result because the brand suffix is the short " | Blaco Hill"
   // (app/layout.tsx), not the live site's " | Blaco Hill Farm Cottages".
   const live = page.title.endsWith(SUFFIX) ? page.title.slice(0, -SUFFIX.length) : page.title;
-  const title = TITLE_OVERRIDES[url] ?? live;
-  if (title !== live) note(url, `Title shortened for search results: "${live}" to "${title}" (agent/SEO.md). The H1 is unchanged.`);
+  const [title, why] = TITLE_OVERRIDES[url] ?? [live];
+  if (title !== live) note(url, `Title changed from "${live}" to "${title}": ${why}`);
   const doc = { url, template, title, absoluteTitle: url === '/' ? page.title : null };
   if (template === 'post') {
     const apiPost = posts.find((p) => p.link.replace(/\/$/, '').endsWith(url));
@@ -466,6 +474,19 @@ built.set('/modern-slavery', {
     },
   ],
 });
+
+// Client change 1: a new FAQ, in the client's own words. It is not on the
+// WordPress site, so it is added here rather than extracted.
+{
+  const url = '/can-we-all-eat-together-if-we-book-the-whole-site';
+  const title = 'Can we all eat together if we book the whole site?';
+  const html =
+    '<p>Yes. If you have booked all of the cottages, the games room has a fully equipped kitchen along with tables and chairs to seat every guest, so you can cook and dine together in one place.</p>';
+  built.set(url, { url, template: 'post', title, absoluteTitle: null, post: { title, date: 'Sep 23, 2026', category: 'faq', html } });
+  faqPosts.push({ url, title, html, date: '2026-09-23T00:00:00' });
+  note(url, 'New FAQ, not on the live site (client change 1)');
+  note('/about/faq', `Lists the new FAQ ${url} (client change 1)`);
+}
 
 // The accessibility statement puts "Sleeps 4" in a list under a separate Swallow heading.
 for (const section of built.get('/accessibility-statement').sections) {
@@ -523,7 +544,7 @@ for (const [url, doc] of built) {
   if (!doc.description) problems.push(`${url}: no approved description in agent/blaco_seo_descriptions.csv`);
   const share = heroImage(doc) ?? { ...SHARE_FALLBACK, ...dims[SHARE_FALLBACK.src] };
   doc.share = { src: share.src, width: share.width, height: share.height, alt: share.alt || SHARE_FALLBACK.alt };
-  if (doc.template === 'faq-index') note(url, 'Lists the 16 FAQs only. The live Divi blog module also listed the first 4 testimonials.');
+  if (doc.template === 'faq-index') note(url, `Lists the ${faqPosts.length} FAQs only. The live Divi blog module also listed the first 4 testimonials.`);
   const file = url === '/' ? 'home' : url.slice(1).replace(/\//g, '__');
   await writeFile(join(out, `${file}.json`), JSON.stringify(doc, null, 2));
   index.push({ url, file, template: doc.template, title: doc.title });

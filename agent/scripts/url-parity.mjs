@@ -19,8 +19,8 @@ const REDIRECTS = {
   '/our-cottages/chaffinch': '/our-cottages/chaffinch-2',
 };
 
-// New in the rebuild (brief 4 and 6).
-const NEW = ['/modern-slavery', '/sitemap.xml', '/robots.txt'];
+// New in the rebuild (brief 4 and 6, and client change 1).
+const NEW = ['/modern-slavery', '/can-we-all-eat-together-if-we-book-the-whole-site', '/sitemap.xml', '/robots.txt'];
 
 const checks = [...urls.map((u) => u.url), ...NEW, ...Object.keys(REDIRECTS)].filter((u, i, a) => a.indexOf(u) === i);
 const failures = [];
