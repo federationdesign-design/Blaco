@@ -22,13 +22,140 @@
           ]
         }
       ]
+    },
+    {
+      "kind": "band",
+      "background": {
+        "image": {
+          "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+          "width": 1920,
+          "height": 1441,
+          "alt": ""
+        },
+        "overlay": "green"
+      },
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "text",
+                  "html": "<p data-kicker=\"\">We are open year round</p> <h2 data-font=\"sans\">We have availability </h2> <p>We do hope you find Blaco Hill Farm Cottages a relaxing, care-free environment and hopefully we will have the pleasure of your company in the near future</p>"
+                }
+              ]
+            },
+            {
+              "size": "1_2",
+              "modules": [
+                {
+                  "type": "button",
+                  "label": "Request a booking",
+                  "href": "/booking-request-form"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "contact",
+      "background": null,
+      "rows": [
+        {
+          "columns": [
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "07718 762 845",
+                  "icon": "phone",
+                  "sans": true,
+                  "image": null,
+                  "href": "tel:+447718762845",
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Mattersey, Doncaster, South Yorkshire DN10 5HQ",
+                  "icon": "pin",
+                  "sans": true,
+                  "image": null,
+                  "href": null,
+                  "html": ""
+                }
+              ]
+            },
+            {
+              "size": "1_3",
+              "modules": [
+                {
+                  "type": "blurb",
+                  "title": "Victoria@blacohillcottages.co.uk",
+                  "icon": "mail",
+                  "sans": true,
+                  "image": null,
+                  "href": "mailto:victoria@blacohillcottages.co.uk",
+                  "html": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "columns": [
+            {
+              "size": "4_4",
+              "modules": [
+                {
+                  "type": "form",
+                  "variant": "quick",
+                  "title": "",
+                  "titleSans": true,
+                  "heading": "h2",
+                  "fields": [
+                    {
+                      "name": "et_pb_contact_name_0",
+                      "label": "Name",
+                      "type": "text",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_email_0",
+                      "label": "Email Address",
+                      "type": "email",
+                      "required": true
+                    },
+                    {
+                      "name": "et_pb_contact_message_0",
+                      "label": "Message",
+                      "type": "textarea",
+                      "required": true
+                    }
+                  ],
+                  "submit": "Submit",
+                  "success": "Thanks for contacting us"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "description": "How Blaco Hill Farm Cottages works to prevent modern slavery and human trafficking in our business and supply chain, and how to raise a concern.",
   "share": {
-    "src": "/media/2020/11/cropped-bird.png",
-    "width": 512,
-    "height": 512,
+    "src": "/media/2020/08/bed-and-breakfast-15.jpg",
+    "width": 1920,
+    "height": 1441,
     "alt": "Blaco Hill Farm Cottages"
   }
 }

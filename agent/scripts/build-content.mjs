@@ -494,6 +494,10 @@ built.set('/modern-slavery', {
       background: null,
       rows: [{ columns: [{ size: '4_4', modules: [{ type: 'text', html: statementHtml(await readFile(join(repo, 'agent', 'blaco_modern_slavery_statement.md'), 'utf8')) }] }] }],
     },
+    // It ends like the policy pages: the green "We have availability" band, then
+    // the contact details and quick enquiry form. Copied from the ported privacy
+    // policy (the three policy pages share one), so they cannot drift apart.
+    ...structuredClone(built.get('/privacy-policy-2').sections.filter((s) => s.kind === 'band' || s.kind === 'contact')),
   ],
 });
 
@@ -543,9 +547,10 @@ for (const section of built.get('/accessibility-statement').sections) {
 
 // og:image (agent/SEO.md). The page's own hero photo, which is the first
 // background image the page shows: a cottage header, a hero or slider section,
-// or failing those any section background. Pages with no photo at all (the FAQ
-// and testimonial details, /calendar and /modern-slavery) fall back to the
-// logo, which is the only mark the repo holds for them.
+// or failing those any section background (so /modern-slavery shares the policy
+// pages' band photo). Pages with no photo at all (the FAQ and testimonial
+// details and /calendar) fall back to the logo, which is the only mark the repo
+// holds for them.
 const SHARE_FALLBACK = { src: '/media/2020/11/cropped-bird.png', alt: 'Blaco Hill Farm Cottages' };
 const heroImage = (doc) => {
   if (doc.cottage?.background?.image) return doc.cottage.background.image;

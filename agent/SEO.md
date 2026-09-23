@@ -176,8 +176,10 @@ four approval details (`[FINANCIAL_YEAR_END]`, `[NAME]`, `[POSITION]`,
 `[DATE]`) stay in square brackets until the client supplies them. Its
 description in `agent/blaco_seo_descriptions.csv` is new: "How Blaco Hill Farm
 Cottages works to prevent modern slavery and human trafficking in our business
-and supply chain, and how to raise a concern." The page still has no photo, so
-its `og:image` is the logo.
+and supply chain, and how to raise a concern." Like the policy pages, it ends
+with the green "We have availability" band and the contact details and form,
+so its `og:image` is their band photo, `/media/2020/08/bed-and-breakfast-15.jpg`,
+and the logo fallback is down to 30 pages.
 
 ## Item by item
 
