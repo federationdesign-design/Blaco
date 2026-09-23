@@ -33,7 +33,11 @@
 }
 
 /* FAQ and testimonial detail pages are text heavy: the header and the answer
-   keep to the reading measure (Checkpoint 5 decision 2). */
+   keep to the reading measure (Checkpoint 5 decision 2), centred in the page.
+   width: 100% stops a flex item with auto margins shrinking to its content, so
+   the header and the answer share one column. */
 .post > * {
+  width: 100%;
   max-width: var(--measure);
+  margin-inline: auto;
 }

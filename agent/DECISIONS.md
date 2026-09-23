@@ -100,3 +100,10 @@ Requested by the client, 2026-09-23.
    - Its meta description and `og:description` are written in the style of the others and added to `agent/blaco_seo_descriptions.csv`.
    - It exists only in the rebuild, not on the WordPress site, so it is added in `build-content.mjs` rather than extracted. The About page FAQ toggles stay as they are (Checkpoint 4 decision 2).
 2. **"For six people" becomes "For five or six people"**, because Swallow sleeps five (Checkpoint 1 decision 5). The label changes in the navigation, the listing page's title and H1, and anywhere else it appears. The URL stays `/for-six-people`, so no link or search result breaks.
+
+## Reading measure centred
+
+Requested by Steve, 2026-09-23.
+
+1. **The text column is centred** on the text-heavy pages that have a single column: the policy pages, the modern slavery page, and the FAQ and testimonial detail pages. The measure itself is unchanged (73ch, about 78 characters per line from 768px to 2800px). The green band and contact block below stay full width.
+2. **The accessibility statement is not centred.** Its full-width headings sit over rows of two to four list columns that span the page, so it has no single column to centre.

@@ -409,6 +409,19 @@
   max-width: var(--measure);
 }
 
+/*
+  The text column is centred in the page, not left against the gutter. Only in
+  content sections: the green band and the contact block keep their layout. Not
+  on the accessibility statement, whose full-width headings sit over rows of
+  two to four list columns that span the page, so it has no single column to
+  centre. width: 100% stops the column shrinking to its content, as a flex item
+  with auto margins otherwise would, so it holds the full measure.
+*/
+.measured:not([data-template='accessibility']) .section[data-kind='content'] .column[data-size='4_4'] > .prose {
+  width: 100%;
+  margin-inline: auto;
+}
+
 /* ---------- buttons ---------- */
 
 .button {
