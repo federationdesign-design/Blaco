@@ -410,14 +410,25 @@
 
 /*
   The content sections of these pages form one text column, centred in the
-  page rather than left against the gutter. The whole block is limited, so on
-  the accessibility statement the rows of two to four list columns sit inside
-  the same column as the headings above them. The gutters are padding inside
-  .inner, so they are added to the measure rather than taken out of it. The
-  green band and the contact block keep their full-width layout.
+  page rather than left against the gutter. The whole block is limited. The
+  gutters are padding inside .inner, so they are added to the measure rather
+  than taken out of it. The green band and the contact block keep their
+  full-width layout.
 */
-.measured .section[data-kind='content'] > .inner {
+.measured:not([data-template='accessibility']) .section[data-kind='content'] > .inner {
   max-width: calc(var(--measure) + 2 * var(--gutter));
+  margin-inline: auto;
+}
+
+/*
+  The accessibility statement's rows of two to four list columns run the full
+  width of the page, as squeezed into the measure they wrapped every few words.
+  Only its full-width text, the intro and the cottage headings, keeps to the
+  centred measure. width: 100% stops a flex item with auto margins shrinking to
+  its content, so the text holds the full measure.
+*/
+.measured[data-template='accessibility'] .section[data-kind='content'] .column[data-size='4_4'] > .prose {
+  width: 100%;
   margin-inline: auto;
 }
 
