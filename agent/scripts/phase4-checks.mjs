@@ -127,7 +127,13 @@ const post = (body, headers = { 'content-type': 'application/json' }) =>
   check('robots.txt allows crawling and points to the sitemap', /Allow: \//.test(robots) && robots.includes('Sitemap: https://blacohillcottages.co.uk/sitemap.xml'));
   const ms = await fetch(`${BASE}/modern-slavery`);
   const html = await ms.text();
-  check('/modern-slavery returns the placeholder page', ms.status === 200 && html.includes('[MODERN_SLAVERY_TEXT]'));
+  // The statement is in, but its approval details are still the client's to supply.
+  const pending = ['[FINANCIAL_YEAR_END]', '[NAME]', '[POSITION]', '[DATE]'].filter((p) => html.includes(p));
+  check(
+    '/modern-slavery shows the statement',
+    ms.status === 200 && html.includes('<h2>Raising a concern</h2>') && !html.includes('[MODERN_SLAVERY_TEXT]'),
+    pending.length ? `still to supply: ${pending.join(', ')}` : 'all details filled in',
+  );
   const home = await (await fetch(`${BASE}/`)).text();
   check('Footer links to /modern-slavery', home.includes('href="/modern-slavery"'));
 }

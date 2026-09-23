@@ -2,7 +2,7 @@
 
 | Placeholder | Where | Needed from Steve |
 |---|---|---|
-| `[MODERN_SLAVERY_TEXT]` | `/modern-slavery` | Modern slavery page content (page and footer link are live, titled "Modern Slavery Statement") |
+| `[FINANCIAL_YEAR_END]`, `[NAME]`, `[POSITION]`, `[DATE]` | `/modern-slavery` | The statement's approval details. The statement itself is in (`agent/blaco_modern_slavery_statement.md`); these four values are shown in square brackets until supplied. Remove this row once they are filled in. |
 | Cookie policy text | `/cookies` | Updated wording (existing page ported as is until then) |
 | Privacy policy text | `/privacy-policy-2` | Updated wording (existing page ported as is until then) |
 | `RESEND_API_KEY`, `RESEND_FROM` | Vercel environment (placeholders in `.env.example`) | Set once Resend is configured. `RESEND_FROM` must be on a domain verified in Resend. Until then, forms show their error state. |

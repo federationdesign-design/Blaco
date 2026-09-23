@@ -460,7 +460,29 @@ for (const [url, page] of extracted) {
 
 moveSwallow(built);
 
-// Brief 6: new page on the general content template. Text to come from Steve.
+// Brief 6: new page on the general content template, with the statement Steve
+// supplied in agent/blaco_modern_slavery_statement.md. Its bracketed values
+// ([NAME] and so on) are the client's to fill in and are kept exactly as written.
+// The markdown holds only headings, paragraphs and one list, so this converts
+// just those and stops on anything else rather than guess.
+const statementHtml = (md) => {
+  const esc = (t) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  // Brief 5.6: email addresses and phone numbers are links.
+  const inline = (t) =>
+    esc(t)
+      .replace(/\b([a-z]+@blacohillcottages\.co\.uk)\b/g, '<a href="mailto:$1">$1</a>')
+      .replace(/\b0(\d{4}) (\d{3}) (\d{3})\b/g, '<a href="tel:+44$1$2$3">0$1 $2 $3</a>');
+  const out = [];
+  for (const block of md.trim().split(/\n\s*\n/)) {
+    const lines = block.split('\n');
+    const heading = block.match(/^(#{1,2}) (.+)$/);
+    if (heading) out.push(`<h${heading[1].length}>${inline(heading[2])}</h${heading[1].length}>`);
+    else if (lines.every((l) => l.startsWith('- '))) out.push(`<ul>${lines.map((l) => `<li>${inline(l.slice(2))}</li>`).join(' ')}</ul>`);
+    else if (!/^([#>*|`]|\d+\.|- )/m.test(block)) out.push(`<p>${inline(lines.join(' '))}</p>`);
+    else throw new Error(`Modern slavery statement: unsupported markdown in "${block.slice(0, 60)}"`);
+  }
+  return out.join(' ');
+};
 built.set('/modern-slavery', {
   url: '/modern-slavery',
   template: 'general',
@@ -470,7 +492,7 @@ built.set('/modern-slavery', {
     {
       kind: 'content',
       background: null,
-      rows: [{ columns: [{ size: '4_4', modules: [{ type: 'text', html: '<h1>Modern Slavery Statement</h1> <p>[MODERN_SLAVERY_TEXT]</p>' }] }] }],
+      rows: [{ columns: [{ size: '4_4', modules: [{ type: 'text', html: statementHtml(await readFile(join(repo, 'agent', 'blaco_modern_slavery_statement.md'), 'utf8')) }] }] }],
     },
   ],
 });

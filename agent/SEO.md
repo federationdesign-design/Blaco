@@ -167,6 +167,18 @@ clean apart from the three long titles, content parity 0 unexplained
 differences across 58 live pages, URL parity 69 of 69, all Phase 4 checks
 pass, `:global` audit clean.
 
+### Round 5: modern slavery statement (2026-09-23)
+
+`/modern-slavery` now shows the statement from
+`agent/blaco_modern_slavery_statement.md` in place of `[MODERN_SLAVERY_TEXT]`,
+on the general content template with the policy pages' reading measure. Its
+four approval details (`[FINANCIAL_YEAR_END]`, `[NAME]`, `[POSITION]`,
+`[DATE]`) stay in square brackets until the client supplies them. Its
+description in `agent/blaco_seo_descriptions.csv` is new: "How Blaco Hill Farm
+Cottages works to prevent modern slavery and human trafficking in our business
+and supply chain, and how to raise a concern." The page still has no photo, so
+its `og:image` is the logo.
+
 ## Item by item
 
 Where each of the original seven findings stands.
